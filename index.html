@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celpip Passage Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<header class="topbar">
+  <div class="topbar__brand">
+    <span class="topbar__title footer__divider">Celpip Trainer</span>
+  </div>
+  <div class="topbar__meta">
+    <span class="topbar__label">Question</span>
+    <span id="progressCounter" class="topbar__value">1 / 1</span>
+  </div>
+</header>
+
+  <main class="card">
+
+    <div id="quizContent">
+
+      <section class="text-block">
+        <h2 id="textTitle" class="text-block__title"></h2>
+        <div id="textBody" class="text-block__body"></div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="question-block">
+        <div class="question-block__head">
+          <span class="q-eyebrow">Question</span>
+          <!-- "Memory ring" — dots show which of this text's questions
+               were used recently, so it's visible that none will repeat right away -->
+          <div id="memoryRing" class="memory-ring" title="Recently asked questions for this text"></div>
+        </div>
+        <p id="questionText" class="question-block__text"></p>
+        <div id="options" class="options"></div>
+      </section>
+
+      <div class="feedback" id="feedback" aria-live="polite"></div>
+
+      <button id="nextBtn" class="next-btn" disabled>Next →</button>
+
+    </div>
+
+    <section id="resultScreen" class="result-screen hidden">
+      <span class="q-eyebrow">Quiz Result</span>
+      <div id="resultGrade" class="result-grade">-</div>
+      <div class="result-scale">on a 12-point scale</div>
+      <p id="resultDetails" class="result-details"></p>
+      <button id="restartBtn" class="next-btn">Take Again</button>
+    </section>
+
+  </main>
+
+  <footer class="hint">
+    Questions never repeat right away — each text has its own queue of 5
+    questions, which is only reshuffled once all of them have been shown.
+    The order of the texts is randomized every round as well.
+  </footer>
+  <footer class="hint">
+  <div class="footer__info">
+    <span class="footer__text">Built with</span>
+    <span class="footer__badge">ChatGPT</span>
+    <span class="footer__divider">by tromp86 </span>
+    <span class="footer__model">v.1 2026 3 passages</span>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
