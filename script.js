@@ -206,6 +206,71 @@ Ultimately, the researchers concluded that informed shoppers evaluate both the q
     }
   ]
 },
+{
+  id: "t4",
+  title: "Why Waiting Can Improve Decisions",
+  body: `People often believe that making decisions quickly is a sign of confidence and competence. In fast-moving workplaces, employees who respond immediately are frequently viewed as decisive leaders, while those who hesitate may be perceived as uncertain. However, psychologists argue that this assumption can be misleading.
+
+In one experiment, participants were asked to solve a series of business problems. Half of them were required to submit an answer within thirty seconds, whereas the remaining participants were instructed to spend at least three minutes considering the available information before making a decision. Although the second group completed fewer tasks, they consistently made more accurate judgments, particularly when the problems contained information that appeared relevant but was actually intended to distract them.
+
+Researchers believe that rapid decisions rely heavily on mental shortcuts, known as heuristics. These shortcuts are useful because they reduce the effort required to process information. Nevertheless, they can also cause people to ignore evidence that contradicts their initial impressions. Once an individual forms an early opinion, there is a natural tendency to search for information that confirms it rather than information that challenges it.
+
+Interestingly, delaying a decision does not always produce better results. The researchers observed that excessive analysis occasionally led participants to become less confident, even when they had already identified the correct solution. In these cases, additional thinking introduced unnecessary doubt instead of improving accuracy. Consequently, the relationship between decision time and decision quality proved to be more complex than the researchers had originally expected.
+
+The researchers concluded that effective decision-makers are not simply those who think the fastest or the longest. Rather, they recognize when a situation requires immediate action and when it is worthwhile to pause, reconsider the evidence, and question their own assumptions. According to the report, this ability distinguishes experienced professionals from individuals who merely appear confident.`,
+  questions: [
+    {
+      q: "The word 'heuristics' in the third paragraph is closest in meaning to:",
+      options: [
+        "Scientific experiments",
+        "Mental shortcuts used to make decisions",
+        "Business strategies",
+        "Research errors"
+      ],
+      correct: 1
+    },
+    {
+      q: "What can reasonably be inferred about the business problems used in the experiment?",
+      options: [
+        "They were designed so that answering quickly was always the best strategy.",
+        "Some included misleading information that could influence participants.",
+        "Only experienced managers were able to solve them.",
+        "Every participant received different questions."
+      ],
+      correct: 1
+    },
+    {
+      q: "In the third paragraph, what does the word 'they' refer to in the sentence 'Nevertheless, they can also cause people to ignore evidence...?'",
+      options: [
+        "Researchers",
+        "Participants",
+        "Mental shortcuts (heuristics)",
+        "Business problems"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement is NOT supported by the passage?",
+      options: [
+        "Spending more time on a decision always leads to better outcomes.",
+        "People often seek information that supports their first impression.",
+        "Quick decisions can be influenced by mental shortcuts.",
+        "Too much analysis can reduce confidence."
+      ],
+      correct: 0
+    },
+    {
+      q: "Which statement best summarizes the author's main idea?",
+      options: [
+        "Fast decisions are always superior in professional environments.",
+        "Successful decision-making depends on choosing the appropriate amount of reflection for each situation.",
+        "Employees should avoid making decisions under time pressure.",
+        "Confidence is the most important quality of an effective leader."
+      ],
+      correct: 1
+    }
+  ]
+},
 ];
 
 /* =========================================================

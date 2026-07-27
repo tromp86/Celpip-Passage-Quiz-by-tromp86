@@ -288,7 +288,7 @@ body{
 .footer__divider {
   color: #ff5151;
   font-weight: 400;
-  background: linear-gradient(90deg, #ff5151, #ffaae4, #cf0fff, #ff5151);
+  background: linear-gradient(90deg, #ffeaea, #aac9ff, #ffeaa4, #e0b7ff, #ffeaea);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
