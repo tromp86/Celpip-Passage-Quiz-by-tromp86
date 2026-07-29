@@ -271,6 +271,71 @@ The researchers concluded that effective decision-makers are not simply those wh
     }
   ]
 },
+{
+  id: "t5",
+  title: "The Hidden Cost of Multitasking",
+  body: `Many employees pride themselves on their ability to multitask. Answering emails while attending virtual meetings, replying to text messages during presentations, and switching between several projects in a single hour are often viewed as signs of efficiency. However, cognitive scientists argue that what people commonly describe as multitasking is usually rapid task-switching rather than performing multiple complex activities simultaneously.
+
+To investigate this idea, researchers recruited office workers and assigned them two sets of tasks. The first group completed one assignment before moving to the next. The second group was instructed to switch tasks whenever they received a notification. Although both groups spent the same amount of time working, the task-switching group made nearly 40% more errors and required considerably more time to correct them. Surprisingly, many participants believed they had been equally productive despite objective evidence to the contrary.
+
+The researchers explained that each interruption carries a hidden cost. Before resuming a task, the brain must reconstruct information that was temporarily pushed aside. This process may take only a few seconds, but when interruptions occur dozens of times throughout the day, those seconds accumulate into a significant loss of productive time. Consequently, workers often underestimate how much their concentration has been disrupted.
+
+Not all interruptions, however, are avoidable. Emergency situations, urgent customer requests, and technical failures require immediate attention. The researchers therefore emphasized that the goal is not to eliminate interruptions entirely but to distinguish between those that are genuinely important and those that merely create the illusion of urgency. They also suggested scheduling specific times to check email instead of reacting to every notification as soon as it appears.
+
+Ultimately, the study concluded that productivity depends less on how many tasks people begin than on how consistently they finish them. Individuals who deliberately protect periods of uninterrupted focus generally accomplish more work than those who constantly divide their attention, even if the latter appear busier throughout the day.`,
+  questions: [
+    {
+      q: "The word 'accumulate' in the third paragraph is closest in meaning to:",
+      options: [
+        "Disappear gradually",
+        "Increase over time",
+        "Become less important",
+        "Happen unexpectedly"
+      ],
+      correct: 1
+    },
+    {
+      q: "What can reasonably be inferred about the participants in the task-switching group?",
+      options: [
+        "They accurately recognized how much their performance had declined.",
+        "They believed they were more productive than the evidence suggested.",
+        "They completed significantly more assignments than the first group.",
+        "They ignored most of the notifications they received."
+      ],
+      correct: 1
+    },
+    {
+      q: "In the fourth paragraph, what does the word 'those' refer to in the phrase 'those that merely create the illusion of urgency'?",
+      options: [
+        "Researchers",
+        "Goals",
+        "Interruptions",
+        "Email notifications"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement is best supported by the passage?",
+      options: [
+        "Checking email immediately always improves productivity.",
+        "Every interruption should be avoided whenever possible.",
+        "Some interruptions are necessary, but many can be managed more effectively.",
+        "Multitasking allows employees to complete more work in less time."
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement best expresses the author's central message?",
+      options: [
+        "People become productive by working on as many tasks as possible at once.",
+        "Productivity is improved by protecting focused work rather than constantly switching between tasks.",
+        "Modern technology is the primary reason employees perform poorly.",
+        "Notifications should be permanently disabled in every workplace."
+      ],
+      correct: 1
+    }
+  ]
+},
 ];
 
 /* =========================================================
