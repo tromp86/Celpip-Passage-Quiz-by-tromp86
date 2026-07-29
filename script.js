@@ -336,6 +336,71 @@ Ultimately, the study concluded that productivity depends less on how many tasks
     }
   ]
 },
+{
+  id: "t6",
+  title: "Choosing the Best Time to Shop",
+  body: `Many people believe that shopping on weekends is the most convenient option because they have more free time. However, convenience does not always mean a better shopping experience. Retail experts say that the time and day people choose to shop can affect prices, product availability, and the amount of time they spend in stores.
+
+Large supermarkets are usually busiest on Saturday afternoons and Sunday mornings. During these periods, customers may need to wait longer at checkout lines, and popular products are more likely to sell out. In contrast, weekday mornings are often quieter, making it easier to compare products and receive assistance from store employees.
+
+Some shoppers also believe that stores lower their prices at the end of each day. While this may be true for certain fresh foods, such as bakery items or prepared meals, it does not apply to most products. Electronics, clothing, and household items are typically discounted according to planned sales rather than the time of day. As a result, customers who wait until the evening may not save as much money as they expect.
+
+Another common mistake is shopping without a list. Researchers found that people who plan their purchases before arriving at the store spend less money and finish shopping more quickly. They are also less likely to buy products they did not originally intend to purchase.
+
+Experts recommend choosing a shopping time that matches your priorities. If saving time is your main goal, visiting during quiet hours may be the best option. If you are looking for special discounts, paying attention to weekly sales is usually more effective than simply shopping late in the day.`,
+  questions: [
+    {
+      q: "According to the passage, why do some people prefer shopping on weekends?",
+      options: [
+        "Stores always offer lower prices.",
+        "They usually have more free time.",
+        "More products are available.",
+        "Checkout lines are shorter."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'availability' in the first paragraph is closest in meaning to:",
+      options: [
+        "Popularity",
+        "Quality",
+        "Whether something can be found",
+        "Price"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement is supported by the passage?",
+      options: [
+        "All products become cheaper in the evening.",
+        "Weekday mornings are often less crowded than weekends.",
+        "Electronics are discounted every evening.",
+        "Most customers enjoy waiting in long checkout lines."
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the word 'They' in the fourth paragraph refer to?",
+      options: [
+        "Researchers",
+        "Store employees",
+        "People who plan their purchases before shopping",
+        "Special discounts"
+      ],
+      correct: 2
+    },
+    {
+      q: "What is the main purpose of the passage?",
+      options: [
+        "To explain how shopping at the right time and planning ahead can improve the shopping experience.",
+        "To convince readers to shop only on weekends.",
+        "To describe how supermarkets choose their prices.",
+        "To explain why stores should stay open later."
+      ],
+      correct: 0
+    }
+  ]
+},
 ];
 
 /* =========================================================
@@ -526,14 +591,14 @@ function handleAnswer(selectedIdx, btn, question) {
 
   if (selectedIdx === question.correct) {
     correctCount++;
-    btn.classList.add("correct");
+    // btn.classList.add("correct");
     els.feedback.textContent = "Correct!";
-    els.feedback.classList.add("ok");
+    // els.feedback.classList.add("ok");
   } else {
     btn.classList.add("wrong");
-    buttons[question.correct].classList.add("correct");
+    // buttons[question.correct].classList.add("correct");
     els.feedback.textContent = "Incorrect.";
-    els.feedback.classList.add("err");
+    // els.feedback.classList.add("err");
   }
 
   els.nextBtn.disabled = false;
