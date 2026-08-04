@@ -59,7 +59,7 @@
       <p id="resultDetails" class="result-details"></p>
       <button id="restartBtn" class="next-btn">Take Again</button>
     </section>
-
+  <button id="switchTextBtn" class="switch-btn">↻ Switch to another text</button>
   </main>
 
   <footer class="hint">
@@ -67,16 +67,16 @@
 <details class="algo-info">
   <summary class="algo-info__summary">How are questions &amp; texts picked?</summary>
   <div class="algo-info__body">
-    <p>The texts here are written at a <strong>CELPIP 7–9 level</strong> — a good challenge if you want to sharpen your reading and push your score higher.</p>
-    <p>For each text we keep our own queue of indices into its 5 questions, shuffled randomly. Every time a question for that text is needed, we take the next item from its queue. Once the queue runs out (all 5 shown), it's reshuffled, but with one rule: the first question of the new queue can't be the same as the last question of the previous queue.</p>
-    <p>The same idea is used for the order of the texts: instead of always starting at text 1, we shuffle the order of all texts into a queue and pull from it round after round, with the same no-repeat-at-the-boundary rule.</p>
-    <p>As a result:</p>
-    <ul>
-      <li>A given text's question never repeats until the other 4 have all been shown.</li>
-      <li>The same question never appears twice in a row, even across a reshuffle boundary.</li>
-      <li>The order the texts appear in is randomized every round, and never repeats the same text back-to-back.</li>
-    </ul>
-  </div>
+  <p>The texts here are written at a <strong>CELPIP 7–9 level</strong> — a good challenge if you want to sharpen your reading and push your score higher.</p>
+  <p>One text is active at a time. Its 5 questions are put into a shuffled queue, and each "Next" pulls the next item from that queue — so within a single run, no question repeats until all 5 have been asked.</p>
+  <p>When a run finishes (or you hit "Switch to another text"), a new text is chosen from a separate shuffled queue of all the texts, with one rule: it can't be the same text that was just active. If that text comes up again later, its first question also won't repeat the one it ended on last time.</p>
+  <p>As a result:</p>
+  <ul>
+    <li>All 5 questions of a text are asked once each, in a random order, before you see the score.</li>
+    <li>The next text is always different from the one you just finished — never back-to-back.</li>
+    <li>You can abandon a text early with the switch button, and pick up a different one immediately.</li>
+  </ul>
+</div>
 </details>
 
     Questions never repeat right away — each text has its own queue of 5
@@ -88,11 +88,11 @@
     <span class="footer__text">Built with</span>
     <span class="footer__badge">ChatGPT</span>
     <span class="footer__divider__tromp86">by tromp86 </span>
-    <span class="footer__model">v.1.11 2026 / 6 passages</span>
+    <span class="footer__model">v.1.21 Switchback 2026 / 6 passages</span>
   </div>
 </footer>
 
-
+<script src="texts.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
