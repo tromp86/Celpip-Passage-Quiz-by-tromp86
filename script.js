@@ -128,7 +128,7 @@ function startNewText() {
 
 function showQuestion() {
   const text = TEXTS[currentTextIdx];
-
+document.getElementById("passageCount").textContent = TEXTS.length;
   els.progressCounter.textContent = `${answeredCount + 1} / ${totalQuestions}`;
   els.textTitle.textContent = text.title;
   renderParagraphs(els.textBody, text.body);
