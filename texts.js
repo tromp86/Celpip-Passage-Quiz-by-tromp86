@@ -76,71 +76,71 @@ Experts generally agree that flexible workspaces are most successful when organi
     }
   ]
 },
- {
-  id: "t2",
-  title: "The City's New Library Policy",
-  body: `For many years, the downtown public library was known as one of the quietest places in the city. Students often spent entire afternoons preparing for exams, while researchers appreciated the peaceful environment. However, as the number of visitors increased, library staff noticed that people's expectations had begun to change.
+//  {
+//   id: "t2",
+//   title: "The City's New Library Policy",
+//   body: `For many years, the downtown public library was known as one of the quietest places in the city. Students often spent entire afternoons preparing for exams, while researchers appreciated the peaceful environment. However, as the number of visitors increased, library staff noticed that people's expectations had begun to change.
 
-Instead of using the library only to borrow books, many visitors wanted spaces where they could work together on school assignments, attend workshops, or participate in community events. In response, the library introduced a new layout. The first floor became a collaborative zone where conversation was allowed, while the upper floors remained designated for silent study.
+// Instead of using the library only to borrow books, many visitors wanted spaces where they could work together on school assignments, attend workshops, or participate in community events. In response, the library introduced a new layout. The first floor became a collaborative zone where conversation was allowed, while the upper floors remained designated for silent study.
 
-Although the change was welcomed by many residents, it also received criticism. Some regular visitors argued that the library had lost its traditional atmosphere. Others complained that sounds from the collaborative area occasionally reached the quiet floors despite additional soundproofing. Nevertheless, library administrators reported that attendance increased by nearly 30% during the first year after the renovation.
+// Although the change was welcomed by many residents, it also received criticism. Some regular visitors argued that the library had lost its traditional atmosphere. Others complained that sounds from the collaborative area occasionally reached the quiet floors despite additional soundproofing. Nevertheless, library administrators reported that attendance increased by nearly 30% during the first year after the renovation.
 
-To address ongoing concerns, the library introduced several additional measures. Visitors can now reserve silent study rooms in advance, and staff members regularly monitor noise levels throughout the building. The administration also encourages visitors to provide feedback through monthly surveys so future improvements can be based on community needs rather than assumptions.
+// To address ongoing concerns, the library introduced several additional measures. Visitors can now reserve silent study rooms in advance, and staff members regularly monitor noise levels throughout the building. The administration also encourages visitors to provide feedback through monthly surveys so future improvements can be based on community needs rather than assumptions.
 
-Experts in public space management suggest that libraries are evolving because communities now expect them to serve multiple purposes. According to these experts, a successful modern library is not simply one that stores books but one that balances learning, collaboration, and accessibility. Achieving that balance, however, requires continuous adjustments instead of relying on a single solution.`,
-  questions: [
-    {
-      q: "The word 'designated' in the third sentence of the second paragraph is closest in meaning to:",
-      options: [
-        "Decorated",
-        "Reserved for a particular purpose",
-        "Frequently visited",
-        "Recently constructed"
-      ],
-      correct: 1
-    },
-    {
-      q: "What can reasonably be inferred about the library administrators?",
-      options: [
-        "They ignored complaints from regular visitors.",
-        "They believed the renovation was perfect.",
-        "They were willing to adjust the library based on feedback.",
-        "They wanted to eliminate quiet study areas."
-      ],
-      correct: 2
-    },
-    {
-      q: "In the final paragraph, what does the word 'that balance' refer to?",
-      options: [
-        "Storing more books than before",
-        "Balancing learning, collaboration, and accessibility",
-        "Reducing the number of visitors",
-        "Separating students from researchers"
-      ],
-      correct: 1
-    },
-    {
-      q: "Which statement is supported by the passage?",
-      options: [
-        "Attendance decreased after the renovation.",
-        "Every visitor approved of the new layout.",
-        "Some noise from collaborative areas could still be heard upstairs.",
-        "The library removed all silent study spaces."
-      ],
-      correct: 2
-    },
-    {
-      q: "What is the author's main purpose in writing this passage?",
-      options: [
-        "To criticize modern libraries for becoming too noisy.",
-        "To explain how one library adapted to changing community needs while facing both benefits and challenges.",
-        "To encourage people to borrow more books.",
-        "To compare libraries in different cities."
-      ],
-      correct: 1
-    }
-  ]
-},
+// Experts in public space management suggest that libraries are evolving because communities now expect them to serve multiple purposes. According to these experts, a successful modern library is not simply one that stores books but one that balances learning, collaboration, and accessibility. Achieving that balance, however, requires continuous adjustments instead of relying on a single solution.`,
+//   questions: [
+//     {
+//       q: "The word 'designated' in the third sentence of the second paragraph is closest in meaning to:",
+//       options: [
+//         "Decorated",
+//         "Reserved for a particular purpose",
+//         "Frequently visited",
+//         "Recently constructed"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What can reasonably be inferred about the library administrators?",
+//       options: [
+//         "They ignored complaints from regular visitors.",
+//         "They believed the renovation was perfect.",
+//         "They were willing to adjust the library based on feedback.",
+//         "They wanted to eliminate quiet study areas."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "In the final paragraph, what does the word 'that balance' refer to?",
+//       options: [
+//         "Storing more books than before",
+//         "Balancing learning, collaboration, and accessibility",
+//         "Reducing the number of visitors",
+//         "Separating students from researchers"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "Which statement is supported by the passage?",
+//       options: [
+//         "Attendance decreased after the renovation.",
+//         "Every visitor approved of the new layout.",
+//         "Some noise from collaborative areas could still be heard upstairs.",
+//         "The library removed all silent study spaces."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "What is the author's main purpose in writing this passage?",
+//       options: [
+//         "To criticize modern libraries for becoming too noisy.",
+//         "To explain how one library adapted to changing community needs while facing both benefits and challenges.",
+//         "To encourage people to borrow more books.",
+//         "To compare libraries in different cities."
+//       ],
+//       correct: 1
+//     }
+//   ]
+// },
   {
   id: "t3",
   title: "The Unexpected Effect of Customer Reviews",
@@ -398,6 +398,71 @@ Experts recommend choosing a shopping time that matches your priorities. If savi
         "To explain why stores should stay open later."
       ],
       correct: 0
+    }
+  ]
+},
+{
+  id: "t7",
+  title: "Why Some Meetings Are More Effective Than Others",
+  body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
+
+One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
+
+Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
+
+Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
+
+Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
+  questions: [
+    {
+      q: "According to the passage, what is one reason some meetings are ineffective?",
+      options: [
+        "They are always too short.",
+        "Participants do not know the purpose of the meeting.",
+        "Employees refuse to attend.",
+        "Managers avoid using technology."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'agenda' in the second paragraph is closest in meaning to:",
+      options: [
+        "A list of topics to be discussed",
+        "A company policy",
+        "A business report",
+        "A meeting invitation"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about smaller meetings?",
+      options: [
+        "They never include managers.",
+        "They often make decisions more efficiently.",
+        "They are only useful for online discussions.",
+        "They always last less than 30 minutes."
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the word 'This' in the final paragraph refer to?",
+      options: [
+        "Using video conferencing",
+        "Assigning more employees to meetings",
+        "Ending the meeting with a summary of decisions and tasks",
+        "Travelling to different offices"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement best summarizes the passage?",
+      options: [
+        "Long meetings usually produce better results.",
+        "Technology has replaced face-to-face meetings.",
+        "Effective meetings require preparation, focused discussion, and a clear conclusion.",
+        "Companies should reduce the number of meetings to one per week."
+      ],
+      correct: 2
     }
   ]
 },
