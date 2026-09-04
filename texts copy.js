@@ -401,69 +401,69 @@ Experts recommend choosing a shopping time that matches your priorities. If savi
     }
   ]
 },
-{
-  id: "t7",
-  title: "Why Some Meetings Are More Effective Than Others",
-  body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
+// {
+//   id: "t7",
+//   title: "Why Some Meetings Are More Effective Than Others",
+//   body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
 
-One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
+// One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
 
-Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
+// Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
 
-Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
+// Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
 
-Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
-  questions: [
-    {
-      q: "According to the passage, what is one reason some meetings are ineffective?",
-      options: [
-        "They are always too short.",
-        "Participants do not know the purpose of the meeting.",
-        "Employees refuse to attend.",
-        "Managers avoid using technology."
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'agenda' in the second paragraph is closest in meaning to:",
-      options: [
-        "A list of topics to be discussed",
-        "A company policy",
-        "A business report",
-        "A meeting invitation"
-      ],
-      correct: 0
-    },
-    {
-      q: "What can be inferred about smaller meetings?",
-      options: [
-        "They never include managers.",
-        "They often make decisions more efficiently.",
-        "They are only useful for online discussions.",
-        "They always last less than 30 minutes."
-      ],
-      correct: 1
-    },
-    {
-      q: "What does the word 'This' in the final paragraph refer to?",
-      options: [
-        "Using video conferencing",
-        "Assigning more employees to meetings",
-        "Ending the meeting with a summary of decisions and tasks",
-        "Travelling to different offices"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which statement best summarizes the passage?",
-      options: [
-        "Long meetings usually produce better results.",
-        "Technology has replaced face-to-face meetings.",
-        "Effective meetings require preparation, focused discussion, and a clear conclusion.",
-        "Companies should reduce the number of meetings to one per week."
-      ],
-      correct: 2
-    }
-  ]
-},
+// Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
+//   questions: [
+//     {
+//       q: "According to the passage, what is one reason some meetings are ineffective?",
+//       options: [
+//         "They are always too short.",
+//         "Participants do not know the purpose of the meeting.",
+//         "Employees refuse to attend.",
+//         "Managers avoid using technology."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "The word 'agenda' in the second paragraph is closest in meaning to:",
+//       options: [
+//         "A list of topics to be discussed",
+//         "A company policy",
+//         "A business report",
+//         "A meeting invitation"
+//       ],
+//       correct: 0
+//     },
+//     {
+//       q: "What can be inferred about smaller meetings?",
+//       options: [
+//         "They never include managers.",
+//         "They often make decisions more efficiently.",
+//         "They are only useful for online discussions.",
+//         "They always last less than 30 minutes."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What does the word 'This' in the final paragraph refer to?",
+//       options: [
+//         "Using video conferencing",
+//         "Assigning more employees to meetings",
+//         "Ending the meeting with a summary of decisions and tasks",
+//         "Travelling to different offices"
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Which statement best summarizes the passage?",
+//       options: [
+//         "Long meetings usually produce better results.",
+//         "Technology has replaced face-to-face meetings.",
+//         "Effective meetings require preparation, focused discussion, and a clear conclusion.",
+//         "Companies should reduce the number of meetings to one per week."
+//       ],
+//       correct: 2
+//     }
+//   ]
+// },
 ];
