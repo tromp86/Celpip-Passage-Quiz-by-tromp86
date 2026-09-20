@@ -76,7 +76,201 @@ Experts generally agree that flexible workspaces are most successful when organi
     }
   ]
 },
+//  {
+//   id: "t2",
+//   title: "The City's New Library Policy",
+//   body: `For many years, the downtown public library was known as one of the quietest places in the city. Students often spent entire afternoons preparing for exams, while researchers appreciated the peaceful environment. However, as the number of visitors increased, library staff noticed that people's expectations had begun to change.
 
+// Instead of using the library only to borrow books, many visitors wanted spaces where they could work together on school assignments, attend workshops, or participate in community events. In response, the library introduced a new layout. The first floor became a collaborative zone where conversation was allowed, while the upper floors remained designated for silent study.
+
+// Although the change was welcomed by many residents, it also received criticism. Some regular visitors argued that the library had lost its traditional atmosphere. Others complained that sounds from the collaborative area occasionally reached the quiet floors despite additional soundproofing. Nevertheless, library administrators reported that attendance increased by nearly 30% during the first year after the renovation.
+
+// To address ongoing concerns, the library introduced several additional measures. Visitors can now reserve silent study rooms in advance, and staff members regularly monitor noise levels throughout the building. The administration also encourages visitors to provide feedback through monthly surveys so future improvements can be based on community needs rather than assumptions.
+
+// Experts in public space management suggest that libraries are evolving because communities now expect them to serve multiple purposes. According to these experts, a successful modern library is not simply one that stores books but one that balances learning, collaboration, and accessibility. Achieving that balance, however, requires continuous adjustments instead of relying on a single solution.`,
+//   questions: [
+//     {
+//       q: "The word 'designated' in the third sentence of the second paragraph is closest in meaning to:",
+//       options: [
+//         "Decorated",
+//         "Reserved for a particular purpose",
+//         "Frequently visited",
+//         "Recently constructed"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What can reasonably be inferred about the library administrators?",
+//       options: [
+//         "They ignored complaints from regular visitors.",
+//         "They believed the renovation was perfect.",
+//         "They were willing to adjust the library based on feedback.",
+//         "They wanted to eliminate quiet study areas."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "In the final paragraph, what does the word 'that balance' refer to?",
+//       options: [
+//         "Storing more books than before",
+//         "Balancing learning, collaboration, and accessibility",
+//         "Reducing the number of visitors",
+//         "Separating students from researchers"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "Which statement is supported by the passage?",
+//       options: [
+//         "Attendance decreased after the renovation.",
+//         "Every visitor approved of the new layout.",
+//         "Some noise from collaborative areas could still be heard upstairs.",
+//         "The library removed all silent study spaces."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "What is the author's main purpose in writing this passage?",
+//       options: [
+//         "To criticize modern libraries for becoming too noisy.",
+//         "To explain how one library adapted to changing community needs while facing both benefits and challenges.",
+//         "To encourage people to borrow more books.",
+//         "To compare libraries in different cities."
+//       ],
+//       correct: 1
+//     }
+//   ]
+// },
+//   {
+//   id: "t3",
+//   title: "The Unexpected Effect of Customer Reviews",
+//   body: `When shopping online, many consumers assume that products with the highest ratings are automatically the best choice. As a result, some buyers spend very little time reading individual reviews and instead focus almost entirely on the average score displayed beside a product. Researchers, however, have found that this strategy can sometimes lead to disappointing purchases.
+
+// In a recent study, participants were asked to choose between several products with similar prices but different review patterns. One product had an average rating of 4.9 stars based on only twelve reviews. Another received 4.6 stars but had been reviewed by more than two thousand customers. Surprisingly, many participants selected the first product despite the much smaller sample size. Later analysis suggested that people often overestimated the reliability of extremely high ratings while underestimating the value of large amounts of consistent feedback.
+
+// The researchers also discovered that negative reviews were not always harmful. In fact, products with a small number of thoughtful criticisms were frequently considered more trustworthy than products with nothing but praise. According to the report, buyers tended to suspect that a perfect review history might not accurately represent real customer experiences. Consequently, a few well-explained complaints sometimes increased rather than decreased consumer confidence.
+
+// Although businesses often encourage satisfied customers to leave positive reviews, experts caution against attempting to remove every negative comment. Instead, they recommend responding professionally to criticism and explaining how problems have been addressed. Such responses not only demonstrate accountability but also provide future customers with additional information that numerical ratings alone cannot communicate.
+
+// Ultimately, the researchers concluded that informed shoppers evaluate both the quantity and quality of reviews instead of relying on a single number. Ironically, the highest-rated product is not always the one consumers trust the most once they examine the evidence more carefully.`,
+//   questions: [
+//     {
+//       q: "The word 'Consequently' in the third paragraph is closest in meaning to:",
+//       options: [
+//         "For example",
+//         "As a result",
+//         "At first",
+//         "In contrast"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What can reasonably be inferred about the participants in the study?",
+//       options: [
+//         "Most carefully read every review before making a decision.",
+//         "Many assumed that an extremely high rating automatically meant greater reliability.",
+//         "They preferred cheaper products regardless of ratings.",
+//         "They distrusted all online reviews."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "In the fourth paragraph, what does the word 'Such responses' refer to?",
+//       options: [
+//         "Removing negative comments from websites.",
+//         "Leaving only positive reviews.",
+//         "Responding professionally to criticism and explaining solutions.",
+//         "Giving products higher ratings."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Which statement is NOT supported by the passage?",
+//       options: [
+//         "A perfect review history may appear suspicious to some buyers.",
+//         "Large numbers of reviews can provide valuable information.",
+//         "Negative reviews always reduce customer confidence.",
+//         "Researchers recommend looking beyond the average rating."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Which statement best expresses the author's main message?",
+//       options: [
+//         "Consumers should purchase only products with the highest ratings.",
+//         "The number beside a product is often more important than the reviews themselves.",
+//         "Making a good purchasing decision requires evaluating evidence beyond the average score.",
+//         "Businesses should delete negative reviews whenever possible."
+//       ],
+//       correct: 2
+//     }
+//   ]
+// },
+// {
+//   id: "t4",
+//   title: "Why Waiting Can Improve Decisions",
+//   body: `People often believe that making decisions quickly is a sign of confidence and competence. In fast-moving workplaces, employees who respond immediately are frequently viewed as decisive leaders, while those who hesitate may be perceived as uncertain. However, psychologists argue that this assumption can be misleading.
+
+// In one experiment, participants were asked to solve a series of business problems. Half of them were required to submit an answer within thirty seconds, whereas the remaining participants were instructed to spend at least three minutes considering the available information before making a decision. Although the second group completed fewer tasks, they consistently made more accurate judgments, particularly when the problems contained information that appeared relevant but was actually intended to distract them.
+
+// Researchers believe that rapid decisions rely heavily on mental shortcuts, known as heuristics. These shortcuts are useful because they reduce the effort required to process information. Nevertheless, they can also cause people to ignore evidence that contradicts their initial impressions. Once an individual forms an early opinion, there is a natural tendency to search for information that confirms it rather than information that challenges it.
+
+// Interestingly, delaying a decision does not always produce better results. The researchers observed that excessive analysis occasionally led participants to become less confident, even when they had already identified the correct solution. In these cases, additional thinking introduced unnecessary doubt instead of improving accuracy. Consequently, the relationship between decision time and decision quality proved to be more complex than the researchers had originally expected.
+
+// The researchers concluded that effective decision-makers are not simply those who think the fastest or the longest. Rather, they recognize when a situation requires immediate action and when it is worthwhile to pause, reconsider the evidence, and question their own assumptions. According to the report, this ability distinguishes experienced professionals from individuals who merely appear confident.`,
+//   questions: [
+//     {
+//       q: "The word 'heuristics' in the third paragraph is closest in meaning to:",
+//       options: [
+//         "Scientific experiments",
+//         "Mental shortcuts used to make decisions",
+//         "Business strategies",
+//         "Research errors"
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What can reasonably be inferred about the business problems used in the experiment?",
+//       options: [
+//         "They were designed so that answering quickly was always the best strategy.",
+//         "Some included misleading information that could influence participants.",
+//         "Only experienced managers were able to solve them.",
+//         "Every participant received different questions."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "In the third paragraph, what does the word 'they' refer to in the sentence 'Nevertheless, they can also cause people to ignore evidence...?'",
+//       options: [
+//         "Researchers",
+//         "Participants",
+//         "Mental shortcuts (heuristics)",
+//         "Business problems"
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Which statement is NOT supported by the passage?",
+//       options: [
+//         "Spending more time on a decision always leads to better outcomes.",
+//         "People often seek information that supports their first impression.",
+//         "Quick decisions can be influenced by mental shortcuts.",
+//         "Too much analysis can reduce confidence."
+//       ],
+//       correct: 0
+//     },
+//     {
+//       q: "Which statement best summarizes the author's main idea?",
+//       options: [
+//         "Fast decisions are always superior in professional environments.",
+//         "Successful decision-making depends on choosing the appropriate amount of reflection for each situation.",
+//         "Employees should avoid making decisions under time pressure.",
+//         "Confidence is the most important quality of an effective leader."
+//       ],
+//       correct: 1
+//     }
+//   ]
+// },
 {
   id: "t5",
   title: "The Hidden Cost of Multitasking",
@@ -207,69 +401,69 @@ Experts recommend choosing a shopping time that matches your priorities. If savi
     }
   ]
 },
-{
-  id: "t7",
-  title: "Why Some Meetings Are More Effective Than Others",
-  body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
+// {
+//   id: "t7",
+//   title: "Why Some Meetings Are More Effective Than Others",
+//   body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
 
-One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
+// One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
 
-Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
+// Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
 
-Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
+// Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
 
-Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
-  questions: [
-    {
-      q: "According to the passage, what is one reason some meetings are ineffective?",
-      options: [
-        "They are always too short.",
-        "Participants do not know the purpose of the meeting.",
-        "Employees refuse to attend.",
-        "Managers avoid using technology."
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'agenda' in the second paragraph is closest in meaning to:",
-      options: [
-        "A list of topics to be discussed",
-        "A company policy",
-        "A business report",
-        "A meeting invitation"
-      ],
-      correct: 0
-    },
-    {
-      q: "What can be inferred about smaller meetings?",
-      options: [
-        "They never include managers.",
-        "They often make decisions more efficiently.",
-        "They are only useful for online discussions.",
-        "They always last less than 30 minutes."
-      ],
-      correct: 1
-    },
-    {
-      q: "What does the word 'This' in the final paragraph refer to?",
-      options: [
-        "Using video conferencing",
-        "Assigning more employees to meetings",
-        "Ending the meeting with a summary of decisions and tasks",
-        "Travelling to different offices"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which statement best summarizes the passage?",
-      options: [
-        "Long meetings usually produce better results.",
-        "Technology has replaced face-to-face meetings.",
-        "Effective meetings require preparation, focused discussion, and a clear conclusion.",
-        "Companies should reduce the number of meetings to one per week."
-      ],
-      correct: 2
-    }
-  ]
-},
+// Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
+//   questions: [
+//     {
+//       q: "According to the passage, what is one reason some meetings are ineffective?",
+//       options: [
+//         "They are always too short.",
+//         "Participants do not know the purpose of the meeting.",
+//         "Employees refuse to attend.",
+//         "Managers avoid using technology."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "The word 'agenda' in the second paragraph is closest in meaning to:",
+//       options: [
+//         "A list of topics to be discussed",
+//         "A company policy",
+//         "A business report",
+//         "A meeting invitation"
+//       ],
+//       correct: 0
+//     },
+//     {
+//       q: "What can be inferred about smaller meetings?",
+//       options: [
+//         "They never include managers.",
+//         "They often make decisions more efficiently.",
+//         "They are only useful for online discussions.",
+//         "They always last less than 30 minutes."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What does the word 'This' in the final paragraph refer to?",
+//       options: [
+//         "Using video conferencing",
+//         "Assigning more employees to meetings",
+//         "Ending the meeting with a summary of decisions and tasks",
+//         "Travelling to different offices"
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Which statement best summarizes the passage?",
+//       options: [
+//         "Long meetings usually produce better results.",
+//         "Technology has replaced face-to-face meetings.",
+//         "Effective meetings require preparation, focused discussion, and a clear conclusion.",
+//         "Companies should reduce the number of meetings to one per week."
+//       ],
+//       correct: 2
+//     }
+//   ]
+// },
 ];
