@@ -11,71 +11,71 @@
    <p> elements.
    ========================================================= */
 const TEXTS = [
- {
-  id: "t1",
-  title: "The Rise of Flexible Workspaces",
-  body: `During the last decade, many companies have changed the way employees work. Instead of renting large office buildings, some organizations now prefer flexible workspaces, where employees can choose different locations depending on the task they are completing. These workplaces often include quiet rooms for concentration, open areas for teamwork, and small meeting spaces for private discussions.
+//  {
+//   id: "t1",
+//   title: "The Rise of Flexible Workspaces",
+//   body: `During the last decade, many companies have changed the way employees work. Instead of renting large office buildings, some organizations now prefer flexible workspaces, where employees can choose different locations depending on the task they are completing. These workplaces often include quiet rooms for concentration, open areas for teamwork, and small meeting spaces for private discussions.
 
-Supporters argue that this approach improves productivity because employees can select an environment that matches their needs. For example, a designer creating a new project may prefer a silent room, while a marketing team planning an advertising campaign might work more effectively in an open collaborative space.
+// Supporters argue that this approach improves productivity because employees can select an environment that matches their needs. For example, a designer creating a new project may prefer a silent room, while a marketing team planning an advertising campaign might work more effectively in an open collaborative space.
 
-However, not everyone agrees. Some employees report that constantly changing work locations makes it difficult to build routines. Others believe that noise from nearby conversations can reduce concentration, even in offices designed to encourage collaboration. A recent workplace survey found that although 68% of employees appreciated having more choices, only 42% believed the new system helped them accomplish tasks faster than before.
+// However, not everyone agrees. Some employees report that constantly changing work locations makes it difficult to build routines. Others believe that noise from nearby conversations can reduce concentration, even in offices designed to encourage collaboration. A recent workplace survey found that although 68% of employees appreciated having more choices, only 42% believed the new system helped them accomplish tasks faster than before.
 
-Companies also claim flexible offices reduce operating costs because fewer permanent desks are required. This can lower rent and utility expenses, especially when employees work remotely several days each week. Nevertheless, critics point out that businesses often underestimate the cost of redesigning offices and purchasing mobile technology such as laptops, wireless monitors, and reservation software.
+// Companies also claim flexible offices reduce operating costs because fewer permanent desks are required. This can lower rent and utility expenses, especially when employees work remotely several days each week. Nevertheless, critics point out that businesses often underestimate the cost of redesigning offices and purchasing mobile technology such as laptops, wireless monitors, and reservation software.
 
-Experts generally agree that flexible workspaces are most successful when organizations clearly explain how employees should use them. Without clear expectations, workers may become frustrated by the constant need to search for available desks or meeting rooms. In other words, the success of a flexible office depends less on the furniture itself than on thoughtful planning and effective communication.`,
-  questions: [
-    {
-      q: "According to the passage, why do supporters believe flexible workspaces improve productivity?",
-      options: [
-        "Employees spend less time commuting.",
-        "Workers can choose an environment that matches their task.",
-        "Everyone has a permanent desk.",
-        "Companies provide free technology."
-      ],
-      correct: 1
-    },
-    {
-      q: "What do the survey results mainly suggest?",
-      options: [
-        "Most employees dislike flexible workspaces.",
-        "Employees appreciate having choices more than they believe those choices increase efficiency.",
-        "Flexible workspaces always improve productivity.",
-        "Employees prefer traditional offices in every situation."
-      ],
-      correct: 1
-    },
-    {
-      q: "Which statement is NOT supported by the passage?",
-      options: [
-        "Flexible offices can reduce rent expenses.",
-        "Changing work locations can make routines difficult.",
-        "Flexible workspaces completely eliminate distractions.",
-        "Office redesigns may cost more than expected."
-      ],
-      correct: 2
-    },
-    {
-      q: "Why does the author mention laptops, wireless monitors, and reservation software?",
-      options: [
-        "To recommend useful office equipment.",
-        "To show examples of unexpected business expenses.",
-        "To explain why employees work faster.",
-        "To compare old and new technology."
-      ],
-      correct: 1
-    },
-    {
-      q: "What is the author's main conclusion?",
-      options: [
-        "Flexible workspaces succeed mainly because of modern furniture.",
-        "Flexible workspaces are effective only when managed and communicated well.",
-        "Traditional offices should disappear completely.",
-        "Employees should always work remotely."
-      ],
-      correct: 1
-    }
-  ]
-},
+// Experts generally agree that flexible workspaces are most successful when organizations clearly explain how employees should use them. Without clear expectations, workers may become frustrated by the constant need to search for available desks or meeting rooms. In other words, the success of a flexible office depends less on the furniture itself than on thoughtful planning and effective communication.`,
+//   questions: [
+//     {
+//       q: "According to the passage, why do supporters believe flexible workspaces improve productivity?",
+//       options: [
+//         "Employees spend less time commuting.",
+//         "Workers can choose an environment that matches their task.",
+//         "Everyone has a permanent desk.",
+//         "Companies provide free technology."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What do the survey results mainly suggest?",
+//       options: [
+//         "Most employees dislike flexible workspaces.",
+//         "Employees appreciate having choices more than they believe those choices increase efficiency.",
+//         "Flexible workspaces always improve productivity.",
+//         "Employees prefer traditional offices in every situation."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "Which statement is NOT supported by the passage?",
+//       options: [
+//         "Flexible offices can reduce rent expenses.",
+//         "Changing work locations can make routines difficult.",
+//         "Flexible workspaces completely eliminate distractions.",
+//         "Office redesigns may cost more than expected."
+//       ],
+//       correct: 2
+//     },
+//     {
+//       q: "Why does the author mention laptops, wireless monitors, and reservation software?",
+//       options: [
+//         "To recommend useful office equipment.",
+//         "To show examples of unexpected business expenses.",
+//         "To explain why employees work faster.",
+//         "To compare old and new technology."
+//       ],
+//       correct: 1
+//     },
+//     {
+//       q: "What is the author's main conclusion?",
+//       options: [
+//         "Flexible workspaces succeed mainly because of modern furniture.",
+//         "Flexible workspaces are effective only when managed and communicated well.",
+//         "Traditional offices should disappear completely.",
+//         "Employees should always work remotely."
+//       ],
+//       correct: 1
+//     }
+//   ]
+// },
 //  {
 //   id: "t2",
 //   title: "The City's New Library Policy",
@@ -466,4 +466,199 @@ Experts recommend choosing a shopping time that matches your priorities. If savi
 //     }
 //   ]
 // },
+{
+  id: "t8",
+  title: "The Return of Urban Gardens",
+  body: `In many cities, empty lots and unused pieces of land are being transformed into community gardens. These gardens allow residents to grow vegetables, herbs, and flowers in areas that might otherwise remain unused. Although urban gardening is not a new idea, its popularity has increased as cities look for ways to improve neighbourhoods and provide residents with access to fresh food.
+
+One reason community gardens have become popular is that they can bring people together. Residents who might rarely speak to one another can work side by side while planting and maintaining the garden. Some communities also organize workshops where experienced gardeners teach beginners how to grow different types of plants. As a result, the gardens can become places for both social activity and learning.
+
+However, creating a successful garden is not always simple. Finding suitable land can be difficult, particularly in crowded neighbourhoods where space is expensive. Gardens also require regular maintenance. If volunteers stop participating, plants may not receive enough water or attention. For this reason, some community organizations create schedules so that different residents are responsible for the garden on different days.
+
+Another challenge is deciding what should happen to the land in the future. A city may allow residents to use an empty lot for several years but later decide that the property is needed for housing or another public project. In such cases, gardeners may have to move their plants and equipment to another location.
+
+Despite these challenges, urban gardening programs continue to attract support. Experts say their greatest value may not be the amount of food they produce but the way they improve community connections and encourage residents to take an active role in their neighbourhoods. In other words, a successful community garden can produce benefits that extend well beyond the vegetables growing in it.`,
+  questions: [
+    {
+      q: "Why have community gardens become more popular in some cities?",
+      options: [
+        "Cities have stopped building new houses.",
+        "They can improve neighbourhoods and provide access to fresh food.",
+        "Professional gardeners are becoming less expensive.",
+        "Most residents prefer gardening to other activities."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'suitable' in the third paragraph is closest in meaning to:",
+      options: [
+        "Large enough to be profitable",
+        "Available for private ownership",
+        "Appropriate for a particular purpose",
+        "Recently developed"
+      ],
+      correct: 2
+    },
+    {
+      q: "What can be inferred about community gardens that depend entirely on volunteers?",
+      options: [
+        "They may face difficulties if residents lose interest in participating.",
+        "They usually produce more food than professional farms.",
+        "They cannot be created in crowded neighbourhoods.",
+        "They are required to move every few years."
+      ],
+      correct: 0
+    },
+    {
+      q: "What does the phrase 'In such cases' in the fourth paragraph refer to?",
+      options: [
+        "When gardeners organize educational workshops",
+        "When a city decides to use the land for another purpose",
+        "When residents have difficulty finding fresh food",
+        "When plants require additional water"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the main point of the final paragraph?",
+      options: [
+        "Urban gardens are valuable mainly because they produce large amounts of food.",
+        "Most urban gardening programs eventually fail because of land shortages.",
+        "The social and community benefits of urban gardens may be more important than their food production.",
+        "Cities should replace unused land with permanent gardens."
+      ],
+      correct: 2
+    }
+  ]
+},
+{
+  id: "t9",
+  title: "The Changing Role of Public Transit",
+  body: `Public transportation systems have traditionally been designed around a simple idea: move large numbers of people from residential areas to busy city centres. Buses and trains were often busiest during the morning and afternoon rush hours, when people were travelling to and from work. However, changes in working habits and city life are forcing transit agencies to reconsider how their services should operate.
+
+One important change is the growth of flexible work schedules. Some employees now work from home several days a week, while others begin and finish work at different times. As a result, the number of passengers travelling during traditional rush hours may be lower than it was in the past. At the same time, people still need transportation for shopping, appointments, education, and social activities throughout the day.
+
+To respond to these changes, some transit agencies are experimenting with more flexible services. Instead of operating large buses on routes that have relatively few passengers, an agency may use smaller vehicles during quieter periods. Some systems are also testing on-demand services, allowing passengers to request a vehicle through an app rather than waiting for a regular bus at a fixed time.
+
+These changes can make transportation more efficient, but they also create challenges. A service that is convenient for one group of passengers may be less useful for another. For example, reducing the number of buses on a low-demand route could save money, but it might cause problems for people who depend on that route and have no other transportation options. Transit planners therefore have to consider not only the number of passengers using a service but also how important that service is to the people who rely on it.
+
+The goal is not necessarily to make public transportation cheaper or faster in every situation. Instead, many transit agencies are trying to create systems that respond better to how people actually travel. This may mean moving away from a one-size-fits-all model and toward services that can change according to demand, time of day, and the needs of different communities.`,
+  questions: [
+    {
+      q: "What is one reason transit agencies are reconsidering traditional rush-hour services?",
+      options: [
+        "More people are moving into city centres.",
+        "Flexible work arrangements have changed when some people travel.",
+        "Buses have become more expensive to operate during winter.",
+        "Most passengers now prefer travelling by train."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'demand' in the fourth paragraph is closest in meaning to:",
+      options: [
+        "The number of people who want or need a service",
+        "The distance between two transportation stops",
+        "The cost of operating a transportation system",
+        "The amount of time a passenger spends travelling"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about reducing service on a low-demand route?",
+      options: [
+        "It will always make the transportation system more efficient.",
+        "It may negatively affect passengers who have few alternatives.",
+        "It will encourage passengers to work from home.",
+        "It is usually requested by passengers themselves."
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the phrase 'These changes' in the fourth paragraph refer to?",
+      options: [
+        "Changes in the number of people living in cities",
+        "Changes made to vehicle manufacturing",
+        "Changes toward more flexible transportation services",
+        "Changes in employees' salaries and working conditions"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which of the following is NOT mentioned as a factor that may influence future transit services?",
+      options: [
+        "The time of day",
+        "Passenger demand",
+        "The needs of different communities",
+        "The age of the transportation vehicles"
+      ],
+      correct: 3
+    }
+  ]
+},
+{
+  id: "t10",
+  title: "The Value of Repairing Old Products",
+  body: `For many years, replacing a broken product was often easier and cheaper than repairing it. A damaged appliance, piece of furniture, or electronic device could simply be thrown away and replaced with a newer model. However, this habit is beginning to change as more people become interested in reducing waste and keeping products in use for longer.
+
+One reason for this change is the growing availability of repair services. Some communities have opened repair cafés where people can bring damaged household items and receive help from volunteers. These events are not designed only to fix products. They also teach people basic repair skills, such as replacing a cable, tightening a loose part, or identifying the cause of a simple problem.
+
+Manufacturers are also becoming part of the discussion. Some companies now provide replacement parts, repair instructions, or longer warranties. Supporters of these policies argue that customers should not have to replace an entire product when only one small component has stopped working. In addition, products that are easier to repair may remain useful for many more years.
+
+However, repairing an item is not always the best option. In some cases, the cost of labour can be higher than the value of the product. Older devices may also require parts that are no longer available. There are situations where replacing an inefficient appliance with a newer, more energy-efficient model may make more sense in the long term.
+
+Despite these limitations, the repair movement has changed the way some consumers think about damaged products. Instead of immediately asking whether something should be replaced, they may first ask whether it can be repaired. This small change in attitude can reduce unnecessary waste while helping people develop practical skills and make more informed purchasing decisions.`,
+  questions: [
+    {
+      q: "What is one purpose of repair cafés?",
+      options: [
+        "To sell new household appliances",
+        "To teach people how to repair simple problems",
+        "To provide professional repairs for expensive vehicles",
+        "To help manufacturers design cheaper products"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to the passage, why might repairing an older product be difficult?",
+      options: [
+        "Older products are usually too heavy to move.",
+        "Customers are not allowed to repair them.",
+        "Replacement parts may no longer be available.",
+        "Repair cafés only accept electronic devices."
+      ],
+      correct: 2
+    },
+    {
+      q: "The word 'efficient' in the fourth paragraph is closest in meaning to:",
+      options: [
+        "Using resources effectively",
+        "Being difficult to operate",
+        "Having a modern appearance",
+        "Being inexpensive to purchase"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred from the passage about the repair movement?",
+      options: [
+        "It encourages people to consider alternatives before replacing products.",
+        "It has completely eliminated the need to buy new products.",
+        "It is mainly supported by manufacturers of electronic devices.",
+        "It makes repairing every product cheaper than replacing it."
+      ],
+      correct: 0
+    },
+    {
+      q: "Which statement best expresses the main idea of the passage?",
+      options: [
+        "Repairing products is always better than buying new ones.",
+        "Manufacturers should be responsible for repairing all damaged products.",
+        "Repairing products can reduce waste and change how consumers think about replacement.",
+        "Most people no longer replace broken household products."
+      ],
+      correct: 2
+    }
+  ]
+},
 ];
