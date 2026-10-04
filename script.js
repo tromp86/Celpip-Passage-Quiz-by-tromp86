@@ -77,6 +77,7 @@ const els = {
   resultDetails: document.getElementById("resultDetails"),
   restartBtn: document.getElementById("restartBtn"),
   textNumber: document.getElementById("textNumber"),
+  speakBtn: document.getElementById("speakBtn"),
 };
 
 // Splits a text's "body" into paragraphs and renders each as its own <p>.
@@ -114,6 +115,9 @@ function renderProgressDots() {
 // Starts a fresh run on the text at the given index in TEXTS:
 // builds a shuffled queue of all its questions and resets the score.
 function startRun(idx) {
+  // stop any speech from the previous text
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+
   currentTextIdx = idx;
   const text = TEXTS[currentTextIdx];
 
@@ -150,6 +154,39 @@ function startTextById(input) {
   // so the random order won't repeat this text right after a reshuffle
   textOrder.lastIndex = idx;
   startRun(idx);
+}
+
+// Reads the active text aloud. Click again to stop.
+function speakText() {
+  if (!("speechSynthesis" in window)) {
+    alert("Speech is not supported in this browser");
+    return;
+  }
+  const synth = window.speechSynthesis;
+
+  if (synth.speaking) {
+    synth.cancel();
+    return;
+  }
+
+  const text = TEXTS[currentTextIdx];
+  const paragraphs = Array.isArray(text.body)
+    ? text.body
+    : text.body.split(/\n\s*\n/);
+
+  const voice = synth.getVoices().find((v) => v.lang.startsWith("en"));
+
+  // each paragraph is its own utterance (long single utterances get cut off in Chrome)
+  [text.title, ...paragraphs]
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .forEach((p) => {
+      const u = new SpeechSynthesisUtterance(p);
+      u.lang = "en-US";
+      u.rate = 0.95; // 1 = normal speed
+      if (voice) u.voice = voice;
+      synth.speak(u);
+    });
 }
 
 function showQuestion() {
@@ -250,7 +287,12 @@ els.textIdInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") startTextById(els.textIdInput.value);
 });
 
+// Read the active text aloud (click again to stop).
+els.speakBtn.addEventListener("click", speakText);
+
 // After the result screen, start again with a different text.
 els.restartBtn.addEventListener("click", startNewText);
 
 startNewText();
+
+
