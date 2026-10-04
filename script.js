@@ -70,10 +70,13 @@ const els = {
   feedback: document.getElementById("feedback"),
   nextBtn: document.getElementById("nextBtn"),
   switchTextBtn: document.getElementById("switchTextBtn"),
+  textIdInput: document.getElementById("textIdInput"),
+  goToIdBtn: document.getElementById("goToIdBtn"),
   resultScreen: document.getElementById("resultScreen"),
   resultGrade: document.getElementById("resultGrade"),
   resultDetails: document.getElementById("resultDetails"),
   restartBtn: document.getElementById("restartBtn"),
+  textNumber: document.getElementById("textNumber"),
 };
 
 // Splits a text's "body" into paragraphs and renders each as its own <p>.
@@ -108,10 +111,10 @@ function renderProgressDots() {
   }
 }
 
-// Starts a fresh run: picks the next text (different from the one
-// just active) and builds a shuffled queue of all its questions.
-function startNewText() {
-  currentTextIdx = textOrder.next();
+// Starts a fresh run on the text at the given index in TEXTS:
+// builds a shuffled queue of all its questions and resets the score.
+function startRun(idx) {
+  currentTextIdx = idx;
   const text = TEXTS[currentTextIdx];
 
   totalQuestions = text.questions.length;
@@ -126,11 +129,35 @@ function startNewText() {
   showQuestion();
 }
 
+// Picks the next random text (different from the one just active).
+function startNewText() {
+  startRun(textOrder.next());
+}
+
+// Type just the number (e.g. 4) and it finds the text with id "t4".
+function startTextById(input) {
+  const num = String(input).trim().replace(/\D/g, ""); // keep digits only
+  if (!num) return;
+
+  const wanted = "t" + Number(num); // "04" -> "t4"
+  const idx = TEXTS.findIndex((t) => String(t.id).toLowerCase() === wanted);
+
+  if (idx === -1) {
+    alert(`Text ${wanted} not found`);
+    return;
+  }
+
+  // so the random order won't repeat this text right after a reshuffle
+  textOrder.lastIndex = idx;
+  startRun(idx);
+}
+
 function showQuestion() {
   const text = TEXTS[currentTextIdx];
-document.getElementById("passageCount").textContent = TEXTS.length;
+  document.getElementById("passageCount").textContent = TEXTS.length;
   els.progressCounter.textContent = `${answeredCount} / ${totalQuestions}`;
   els.textTitle.textContent = text.title;
+  els.textNumber.textContent = "text number: " + text.id.replace(/\D/g, "");
   renderParagraphs(els.textBody, text.body);
 
   currentQuestionIdx = questionQueue.shift();
@@ -216,6 +243,12 @@ els.nextBtn.addEventListener("click", () => {
 
 // Abandons the current text's run and jumps straight to a different one.
 els.switchTextBtn.addEventListener("click", startNewText);
+
+// Jump to a specific text by its number.
+els.goToIdBtn.addEventListener("click", () => startTextById(els.textIdInput.value));
+els.textIdInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") startTextById(els.textIdInput.value);
+});
 
 // After the result screen, start again with a different text.
 els.restartBtn.addEventListener("click", startNewText);
