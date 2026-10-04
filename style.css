@@ -412,7 +412,7 @@ body{
 /* new */
 
 .goto-input{
-  margin-top: 10px;
+  margin-top: 5px;
   width: 200px;
   padding: 10px;
   border-radius: 10px;
@@ -439,7 +439,7 @@ body{
 }
 
 .goto-btn{
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 10px 14px;
   border-radius: 10px;
   border: 1px solid var(--line);
@@ -468,4 +468,25 @@ body{
 
 @media (max-width: 480px){
   .card{ padding: 22px 18px 20px; }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  .topbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px 10px;
+    padding: 8px 12px;
+  }
+
+  .topbar > * {
+    margin-top: 0; /* прибирає margin-top: 10px у кнопок і поля, щоб вирівнювалося по центру */
+  }
+
+  .goto-input {
+    width: 170px;
+  }
 }
