@@ -29,9 +29,16 @@
 
 </header>
 
-<button type="button" id="speakBtn" class="goto-btn" aria-label="" title="Read text aloud">
- Read text aloud
-</button>
+  <!-- Перемикач теми -->
+<div class="buttons-row">
+  <button type="button" id="themeToggleBtn" class="theme-toggle">
+    <span class="theme-toggle__icon">🌙</span>
+  </button>
+
+  <button type="button" id="speakBtn" class="goto-btn" aria-label="" title="Read text aloud">
+    Read text aloud
+  </button>
+</div>
 
   <main class="card">
 <span id="textNumber" class="text-number"></span>
@@ -97,7 +104,7 @@
     <span class="footer__text">Built with</span>
     <span class="footer__badge">ChatGPT</span>
     <span class="footer__divider__tromp86">by tromp86 </span>
-     <span class="footer__model">v.1.46 "Vector" 2026 <span id="passageCount"></span> passages</span>
+     <span class="footer__model">v.1.47 "Rallycross" 2026 <span id="passageCount"></span> passages</span>
     
   </div>
 </footer>

@@ -296,3 +296,34 @@ els.restartBtn.addEventListener("click", startNewText);
 startNewText();
 
 
+
+
+
+
+
+
+
+
+const themeToggleBtn = document.getElementById('themeToggleBtn');
+const root = document.documentElement;
+
+let isDark = false;
+
+function applyTheme() {
+  if (isDark) {
+    root.classList.add('theme-dark');
+    root.classList.remove('theme-light');
+    themeToggleBtn.querySelector('.theme-toggle__icon').textContent = '🌞';
+  } else {
+    root.classList.add('theme-light');
+    root.classList.remove('theme-dark');
+    themeToggleBtn.querySelector('.theme-toggle__icon').textContent = '🌙';
+  }
+}
+
+themeToggleBtn.addEventListener('click', () => {
+  isDark = !isDark;
+  applyTheme();
+});
+
+applyTheme();

@@ -661,4 +661,71 @@ Despite these limitations, the repair movement has changed the way some consumer
     }
   ]
 },
+{
+  id: "t11",
+  title: "Why Some Small Businesses Choose to Share Space",
+  body: `Running a small business can be difficult, especially when the cost of renting an office or commercial space is high. For this reason, some small business owners have started sharing workplaces with other companies. Instead of paying for an entire office, several businesses may use the same building and divide the costs.
+
+Shared workspaces can offer more than just a cheaper place to work. Many provide meeting rooms, internet access, kitchen areas, printing equipment, and other facilities that would otherwise be expensive for a small company to purchase. Business owners can therefore avoid some of the costs associated with setting up a traditional office.
+
+Another advantage is the opportunity to meet other professionals. A graphic designer, for example, might work near a marketing consultant or a software developer. Although these people may operate separate businesses, they can exchange ideas or recommend one another to clients. In some cases, these informal connections can lead to new projects.
+
+However, shared workplaces are not suitable for everyone. Some businesses handle confidential information and require private offices. Others may need specialized equipment or a quiet environment that a busy shared space cannot provide. Noise can also become a problem when several companies are working in the same area.
+
+Despite these limitations, shared workspaces continue to attract entrepreneurs who value flexibility. Instead of committing to a long-term lease and purchasing everything they need themselves, business owners can choose a workspace that matches their current situation. If their company grows, they may move into a larger private office. If their needs decrease, they can often reduce the amount of space they use.
+
+The popularity of shared workspaces suggests that small businesses are looking for ways to control expenses without giving up access to useful facilities. For some entrepreneurs, the greatest benefit may be the combination of lower costs and the chance to build professional connections with people they would otherwise never meet.`,
+  questions: [
+    {
+      q: "Why do some small businesses decide to use shared workplaces?",
+      options: [
+        "They want to eliminate contact with other companies.",
+        "They need to reduce the expense of maintaining a traditional office.",
+        "They are required to work in the same building as other businesses.",
+        "They want to avoid using meeting rooms and other facilities."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to the passage, shared workplaces can provide businesses with access to facilities that would otherwise be ______.",
+      options: [
+        "unnecessary",
+        "unavailable to clients",
+        "costly to obtain",
+        "difficult to advertise"
+      ],
+      correct: 2
+    },
+    {
+      q: "What does the phrase 'these informal connections' in the third paragraph refer to?",
+      options: [
+        "Relationships between business owners working in the same space",
+        "Agreements between landlords and tenants",
+        "Meetings between companies and their customers",
+        "Online conversations between software developers"
+      ],
+      correct: 0
+    },
+    {
+      q: "Which of the following is suggested as a possible drawback of shared workplaces?",
+      options: [
+        "They prevent businesses from finding new customers.",
+        "They require companies to purchase their own buildings.",
+        "They may not provide enough privacy for certain businesses.",
+        "They make it impossible for companies to expand."
+      ],
+      correct: 2
+    },
+    {
+      q: "What does the final paragraph imply about the appeal of shared workspaces?",
+      options: [
+        "Their main purpose is to help large companies reduce their workforce.",
+        "Their popularity is partly due to a balance between affordability and useful resources.",
+        "Most entrepreneurs prefer them because they provide completely private offices.",
+        "They are becoming popular mainly because traditional offices are disappearing."
+      ],
+      correct: 1
+    }
+  ]
+},
 ];
