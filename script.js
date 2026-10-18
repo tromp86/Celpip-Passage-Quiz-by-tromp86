@@ -193,7 +193,7 @@ function showQuestion() {
   document.getElementById("passageCount").textContent = TEXTS.length;
   els.progressCounter.textContent = `${answeredCount} / ${totalQuestions}`;
   els.textTitle.textContent = text.title;
-  // els.textNumber.textContent = "enter the text number: " + text.id.replace(/\D/g, "");
+  els.textNumber.textContent = "Current text number: " + text.id.replace(/\D/g, "");
   renderParagraphs(els.textBody, text.body);
 
   currentQuestionIdx = questionQueue.shift();
