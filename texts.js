@@ -727,5 +727,138 @@ The popularity of shared workspaces suggests that small businesses are looking f
       correct: 1
     }
   ]
+},{
+  id: "t12",
+  title: "How Weather Forecasts Influence Local Tourism",
+  body: `Weather forecasts play an important role in the tourism industry. Many travellers check expected conditions before deciding where to go, what activities to book, and how long to stay. Although weather has always influenced travel, modern forecasting tools allow visitors to make decisions with more information than was available in the past.
+
+For businesses that depend on tourism, accurate forecasts can make a significant difference. A company offering boat tours, for example, may receive fewer bookings when strong winds or heavy rain are expected. By monitoring weather reports, the company can adjust its schedule, notify customers, and avoid sending boats out in unsuitable conditions. This preparation may reduce lost income and improve passenger safety.
+
+However, forecasts do not always provide a complete picture. A prediction of rain throughout the day may discourage visitors, even if the actual rainfall lasts only a short time. As a result, some tourists may cancel their plans unnecessarily. Businesses that understand this problem sometimes provide alternative activities, such as indoor exhibitions, cooking classes, or guided visits to local historical sites.
+
+Technology has also changed how tourists respond to unexpected conditions. Mobile applications can send updates about approaching storms, temperature changes, or road closures. These notifications help travellers modify their plans while they are already on a trip. Nevertheless, depending too heavily on digital information can create difficulties when mobile coverage is limited, particularly in remote areas.
+
+Some tourism operators have therefore started promoting experiences that are less dependent on the weather. Museums, craft workshops, cultural performances, and local food tours can attract visitors throughout the year. This approach may also help destinations that traditionally receive most of their income during a short summer season.
+
+Ultimately, weather forecasts are useful planning tools, but they do not determine whether a trip will be successful. Businesses that prepare for different conditions and offer flexible alternatives may be better positioned to satisfy their customers. For travellers, a little preparation can turn an unexpected change in the weather into an opportunity to discover something they had not originally considered.`,
+  questions: [
+    {
+      q: "Why might a boat tour company change its schedule after checking a forecast?",
+      options: [
+        "To guarantee that every customer books another tour",
+        "To avoid operating in potentially unsafe conditions",
+        "To prevent tourists from visiting historical sites",
+        "To increase the number of rainy days"
+      ],
+      correct: 1
+    },
+    {
+      q: "In the third paragraph, the word 'discourage' is closest in meaning to:",
+      options: [
+        "Persuade someone not to do something",
+        "Remind someone of a previous experience",
+        "Encourage someone to spend more money",
+        "Prepare someone for a difficult task"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about tourists who rely entirely on weather forecasts?",
+      options: [
+        "They are more likely to visit remote locations.",
+        "They rarely change their travel arrangements.",
+        "They may miss enjoyable activities because forecasts can be misleading.",
+        "They usually prefer indoor attractions to outdoor activities."
+      ],
+      correct: 2
+    },
+    {
+      q: "What does the phrase 'This approach' in the fifth paragraph refer to?",
+      options: [
+        "Sending weather notifications to mobile phones",
+        "Cancelling tourism activities during the winter",
+        "Offering experiences that can attract visitors in different weather conditions",
+        "Concentrating business operations in the summer"
+      ],
+      correct: 2
+    },
+    {
+      q: "Which statement is best supported by the passage?",
+      options: [
+        "Modern forecasts have removed most risks associated with tourism.",
+        "Tourism businesses can become more resilient by preparing alternatives for poor weather.",
+        "Visitors generally prefer to cancel trips whenever rain is predicted.",
+        "Indoor attractions are profitable only during the summer season."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t13",
+  title: "The Challenge of Preserving Historic Buildings",
+  body: `Historic buildings often give a town or city its distinctive character. Old railway stations, factories, schools, and residential buildings can reveal how a community developed and how people lived in earlier times. However, preserving these structures can be complicated, particularly when they no longer meet modern standards or serve their original purpose.
+
+One major obstacle is the cost of renovation. Older buildings may have damaged foundations, outdated electrical systems, or materials that require specialist treatment. Before work begins, owners often need detailed inspections to determine which parts can be repaired and which must be replaced. These investigations can be expensive, but skipping them may result in unexpected problems later.
+
+Another difficulty is finding a suitable new use for the property. A former factory, for example, might be converted into apartments, offices, or a cultural centre. The best option depends on the building's location, condition, and architectural design. A successful conversion can attract visitors and create jobs, while an unsuitable project may leave the owner with high maintenance costs and limited income.
+
+Local governments sometimes provide financial assistance or tax incentives to encourage preservation. Such support can make renovation more affordable for property owners. However, public funding is usually limited, and communities must decide which buildings deserve priority. Some residents may favour preserving a historically important structure, while others may argue that the same money would be better spent on schools, roads, or affordable housing.
+
+There is also a balance to be found between protecting the past and meeting present-day needs. Strict preservation rules may prevent owners from making changes that would improve accessibility or energy efficiency. On the other hand, allowing unrestricted alterations could remove the very features that make a building historically valuable.
+
+For these reasons, successful preservation usually requires cooperation among property owners, architects, historians, and local authorities. Rather than treating an old building as something that must remain completely unchanged, communities increasingly look for ways to give it a useful new role while retaining its most significant features. This approach can protect local heritage without preventing neighbourhoods from evolving.`,
+  questions: [
+    {
+      q: "Why can renovating historic buildings become expensive?",
+      options: [
+        "Modern construction companies refuse to work on older properties.",
+        "Older structures may require specialist inspections and repairs.",
+        "Historic buildings must always be converted into museums.",
+        "Local governments charge owners for every visitor."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'obstacle' in the second paragraph is closest in meaning to:",
+      options: [
+        "Advantage",
+        "Requirement",
+        "Difficulty",
+        "Opportunity"
+      ],
+      correct: 2
+    },
+    {
+      q: "What can be inferred about converting an old factory into a cultural centre?",
+      options: [
+        "It is always less expensive than building new apartments.",
+        "It may succeed if the proposed use suits the building and its surroundings.",
+        "It removes the need for future maintenance.",
+        "It guarantees that the local government will provide funding."
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the phrase 'Such support' in the fourth paragraph refer to?",
+      options: [
+        "Financial assistance and tax incentives offered by local governments",
+        "Arguments against spending money on historic buildings",
+        "Inspections carried out before renovation begins",
+        "Changes that improve a building's energy efficiency"
+      ],
+      correct: 0
+    },
+    {
+      q: "According to the passage, what is a key consideration when preserving historic buildings?",
+      options: [
+        "Keeping every part of a building exactly as it was originally",
+        "Replacing all old structures with modern developments",
+        "Prioritizing tourism over the needs of local residents",
+        "Protecting important historical features while allowing practical changes"
+      ],
+      correct: 3
+    }
+  ]
 },
 ];

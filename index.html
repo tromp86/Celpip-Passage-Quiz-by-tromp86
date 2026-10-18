@@ -24,8 +24,13 @@
     <span id="progressCounter" class="topbar__value">1 / 1</span>
   </div>
 
-<input type="text" id="textIdInput" class="goto-input" placeholder="text number" inputmode="numeric">
-<button type="button" id="goToIdBtn" class="goto-btn">Go</button>
+<!-- <input type="text" id="textIdInput" class="goto-input" placeholder="enter the text number:" inputmode="numeric"> -->
+
+<div class="goto-field">
+  <input type="text" id="textIdInput" class="goto-input"
+         placeholder="input:" inputmode="numeric">
+  <span class="goto-hint">Enter the text number (digits only)</span>
+</div>
 
 </header>
 
@@ -104,7 +109,7 @@
     <span class="footer__text">Built with</span>
     <span class="footer__badge">ChatGPT</span>
     <span class="footer__divider__tromp86">by tromp86 </span>
-     <span class="footer__model">v.1.47 "Rallycross" 2026 <span id="passageCount"></span> passages</span>
+     <span class="footer__model">v.1.5 "Rallycross" 2026 <span id="passageCount"></span> passages</span>
     
   </div>
 </footer>

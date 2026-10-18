@@ -71,7 +71,6 @@ const els = {
   nextBtn: document.getElementById("nextBtn"),
   switchTextBtn: document.getElementById("switchTextBtn"),
   textIdInput: document.getElementById("textIdInput"),
-  goToIdBtn: document.getElementById("goToIdBtn"),
   resultScreen: document.getElementById("resultScreen"),
   resultGrade: document.getElementById("resultGrade"),
   resultDetails: document.getElementById("resultDetails"),
@@ -194,7 +193,7 @@ function showQuestion() {
   document.getElementById("passageCount").textContent = TEXTS.length;
   els.progressCounter.textContent = `${answeredCount} / ${totalQuestions}`;
   els.textTitle.textContent = text.title;
-  els.textNumber.textContent = "text number: " + text.id.replace(/\D/g, "");
+  // els.textNumber.textContent = "enter the text number: " + text.id.replace(/\D/g, "");
   renderParagraphs(els.textBody, text.body);
 
   currentQuestionIdx = questionQueue.shift();
@@ -282,9 +281,17 @@ els.nextBtn.addEventListener("click", () => {
 els.switchTextBtn.addEventListener("click", startNewText);
 
 // Jump to a specific text by its number.
-els.goToIdBtn.addEventListener("click", () => startTextById(els.textIdInput.value));
+let idSearchTimer = null;
+els.textIdInput.addEventListener("input", () => {
+  clearTimeout(idSearchTimer);
+  idSearchTimer = setTimeout(() => startTextById(els.textIdInput.value), 1500);
+});
+// Enter still jumps immediately
 els.textIdInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") startTextById(els.textIdInput.value);
+  if (e.key === "Enter") {
+    clearTimeout(idSearchTimer);
+    startTextById(els.textIdInput.value);
+  }
 });
 
 // Read the active text aloud (click again to stop).
@@ -327,3 +334,7 @@ themeToggleBtn.addEventListener('click', () => {
 });
 
 applyTheme();
+
+
+
+
