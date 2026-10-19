@@ -861,4 +861,129 @@ For these reasons, successful preservation usually requires cooperation among pr
     }
   ]
 },
+
+// information
+
+{
+  id: "t14",
+  title: "The Kelford Aqueduct of British Columbia",
+  body: `A. Constructed during the early decades of the twentieth century, the Kelford Aqueduct represents one of British Columbia’s most ambitious historical engineering endeavors. Designed to transport freshwater across rugged mountainous terrain, the system was built primarily to supply rapidly expanding industrial operations and agricultural communities in the region. Engineers faced immense logistical hurdles, including navigating dense rainforests, steep rock faces, and unpredictable seasonal streamflows. Despite these challenges, the completion of the conduit provided a reliable hydrologic supply line that proved instrumental in fostering long-term economic settlement throughout the surrounding valley.
+
+B. The structural design of the aqueduct relies on a sophisticated combination of elevated wooden flumes, excavated earth canals, and reinforced concrete conduits. To maintain a consistent gradient over vast distances without relying on heavy mechanical pumping, designers utilized gravity-driven hydrodynamics. Water was diverted from high-altitude glacial streams, flowing through precise slopes engineered to prevent both erosion of the channel walls and excessive silt accumulation. Maintenance crews were stationed at strategic intervals along the route to inspect timber supports, clear seasonal debris, and manage flow control gates.
+
+C. Beyond its primary civil function, the Kelford Aqueduct profoundly altered the local ecological landscape. By redirecting significant volumes of surface water from original tributaries, the infrastructure unexpectedly altered riparian habitats downstream. Certain fish populations experienced disruptions in traditional spawning routes due to reduced water depths and altered flow velocities. Conversely, the newly created artificial water channels created micro-habitats that supported secondary vegetation growth and attracted various mammal species, demonstrating the complex ecological trade-offs associated with large-scale historic water management projects.
+
+D. As regional infrastructure modernized in the post-war era, reliance on the Kelford Aqueduct gradually diminished. Advanced subterranean pipeline networks and modern municipal filtration facilities eventually superseded the open-air conduit system. By the late 1970s, primary water diversion through the aqueduct was officially halted. While portions of the wooden flume structures deteriorated over time due to weather exposure, significant sections of the concrete pathways and stone masonry support pillars remained intact across the forest canopy.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Which paragraph describes how the aqueduct changed the surrounding natural environment and wildlife?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Which paragraph explains the technical engineering principles and gravity-driven water flow used in the structure?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Which paragraph discusses the initial construction goals and the early economic impact of the project?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Which paragraph details why the aqueduct was eventually abandoned and replaced by modern infrastructure?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Which paragraph mentions the total financial cost incurred during the construction of the aqueduct?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+
+{
+  id: "t15",
+  title: "The Aurora Borealis Explained",
+  body: `A. The Aurora Borealis, commonly known as the Northern Lights, is a breathtaking atmospheric phenomenon primarily visible in high-latitude regions surrounding the Arctic. For millennia, these luminous displays of green, purple, and red light captivated indigenous populations and early explorers, inspiring numerous cultural myths and folklore. Today, modern atmospheric science has demystified the phenomenon, revealing that these vibrant nocturnal light shows are the direct result of complex energetic interactions between solar radiation and Earth’s protective magnetic field.
+
+B. The primary mechanism behind the aurora begins roughly 150 million kilometres away on the surface of the Sun. During periods of heightened solar activity, the Sun releases continuous streams of charged subatomic particles—mostly electrons and protons—known as the solar wind. As these high-speed particles stream toward Earth, the planet’s magnetosphere deflects the majority of them. However, near the magnetic poles, where the geomagnetic field lines funnel downward toward the atmosphere, some particles manage to penetrate the upper layers of Earth’s magnetosphere.
+
+C. Once inside the upper atmosphere, these energetic solar particles collide directly with gas molecules, predominantly oxygen and nitrogen, located between 80 and 300 kilometres above the surface. These collisions transfer energy to the atmospheric gas molecules, exciting their electrons to higher energy levels. As the excited electrons naturally return to their baseline ground state, they release this excess energy in the form of photons. The specific color of the light emitted depends on both the altitude of the collision and the type of gas involved; for instance, collision with oxygen at lower altitudes produces the characteristic brilliant emerald green, whereas high-altitude oxygen generates rare deep red hues.
+
+D. While auroras occur year-round, human visibility of the phenomenon varies significantly depending on several environmental factors. Geographic location within the "auroral oval"—a ring-shaped zone centered around Earth's magnetic poles—provides the highest probability of sightings, making regions in northern Canada, Alaska, and Scandinavia prime viewing locations. Additionally, optimal viewing requires clear, cloudless skies and extreme darkness, free from both artificial light pollution and bright moonlight. Solar cycles also play a crucial role, with auroral activity peaking every eleven years during periods known as the solar maximum.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Which paragraph explains how solar particles collide with atmospheric gases to produce different colors of light?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Which paragraph details the conditions and geographic locations required for optimal human observation of the lights?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Which paragraph introduces the phenomenon and its shift from historical mythology to modern scientific understanding?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Which paragraph describes the origin of charged particles on the Sun and how they enter Earth's magnetic field?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Which paragraph mentions the exact cost of commercial tours designed for viewing the Northern Lights?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t16",
+  title: "The Nassagaweya Canal",
+  body: `A. Engineered during the expansion of southern Ontario’s industrial corridors, the Nassagaweya Canal was designed to overcome significant geographical barriers to freight transport. Before its construction, local manufacturers and agricultural producers relied heavily on slow, weather-dependent overland routes to move timber, crushed limestone, and grain. The proposal to carve a navigable waterway through the rugged terrain of the Niagara Escarpment was initially met with skepticism. However, visionary regional planners argued that a controlled inland passage would dramatically reduce transit times and lower shipping overhead for growing settlements.
+
+B. The physical construction of the canal required exceptional manual labor and innovative engineering solutions for its time. Workers utilized heavy explosives, steam-powered shovels, and teams of draft horses to cut through dense rock formations and dense clay soil. A primary challenge involved managing the steep elevation drops along the route, which required the design of a series of stone-masonry locks. These lock systems allowed barges to be safely raised and lowered using controlled water displacement, ensuring smooth navigation even during dry summer months when river levels dropped.
+
+C. Beyond its immediate commercial benefits, the canal served as a catalyst for socio-economic transformation across the surrounding municipality. Small trading posts along the waterway rapidly expanded into thriving mill towns equipped with sawmills, iron foundries, and warehouses. The reliable access to raw materials attracted skilled tradespeople and immigrant laborers, accelerating urbanization in the region. Furthermore, the canal’s construction fostered early investments in supporting infrastructure, including wooden toll bridges and connecting gravel roads.
+
+D. By the early twentieth century, the strategic importance of the Nassagaweya Canal began to decline rapidly following the expansion of regional railway networks. Trains offered significantly faster year-round transport that was unaffected by winter ice freezes that regularly paralyzed canal traffic for months. As commercial barge traffic dwindled, maintenance of the locks was eventually abandoned. Today, while large sections of the original waterway have been reclaimed by local wetland vegetation, preserved masonry ruins along the historic route now form part of a protected heritage trail.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Which paragraph describes the engineering techniques and lock systems used to handle elevation changes?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Which paragraph explains how the canal stimulated urban growth and economic development in local communities?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Which paragraph outlines the initial purpose of the canal and the transport difficulties that existed prior to its construction?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Which paragraph details why the canal lost its commercial importance and what remains of it today?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Which paragraph states the exact amount of toll fees charged to barges passing through the canal locks?",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+
 ];
