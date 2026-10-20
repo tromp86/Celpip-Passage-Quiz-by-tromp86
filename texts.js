@@ -985,5 +985,84 @@ E. Not mentioned in any paragraph.`,
     }
   ]
 },
+{
+  id: "t17",
+  title: "Wild Rice in Canada",
+  body: `A. Despite its common name, wild rice (known as manoomin in Indigenous languages) is not a true rice species, but rather an aquatic grain-producing grass native to the shallow lakes and slow-moving rivers of North America. For centuries, this nutrient-dense cereal was a crucial staple food for Indigenous nations across the Canadian Shield and Great Lakes regions, including the Ojibwe and Cree. Beyond its dietary importance as a rich source of protein and complex carbohydrates, wild rice holds deep cultural and spiritual significance, often tied to traditional creation stories, community gatherings, and seasonal food sovereignty.
 
+B. The traditional harvesting of wild rice is a labor-intensive process that demands precise timing, environmental awareness, and specialized techniques. Harvesting typically takes place in late summer using canoes to navigate the dense aquatic beds without damaging the fragile plants. One person gently bends the mature stalks over the edge of the canoe with a smooth wooden stick, while using a second stick to lightly strike the seed heads, causing the ripe grains to fall into the boat. This selective hand-harvesting method ensures that unripened seeds remain intact on the stalk to mature, while a portion drops into the water bed to naturally seed the following year’s crop.
+
+C. Once gathered from the water, the raw grain must undergo several meticulous processing steps before it becomes edible and shelf-stable. First, the harvested grains are spread out in thin layers to air-dry and cure, preventing spoilage. Next, the rice is parched over a controlled fire, a crucial step that loosens the tough outer hull while imparting a distinct smoky flavor. The husks are then separated through a process known as dancing or treading, followed by winnowing, where the grains are tossed into the air so the light wind blows away the chaff, leaving behind the dark, glossy kernels.
+
+D. In modern Canada, wild rice faces growing ecological pressures from industrial development and environmental change. Fluctuating water levels caused by hydroelectric dams, shoreline development, and agricultural runoff have severely disrupted traditional growing habitats. Furthermore, commercial farming operations that utilize mechanical harvesters have altered the market dynamics of this ancestral grain. In response, Indigenous communities and conservation groups are actively working to protect natural waterways, restore historic rice beds, and secure legal recognition for traditional harvesting rights to preserve this vital ecological and cultural resource.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Techniques and tools used to collect ripe grains without damaging the plant crop.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Sequential methods required to make the harvested grain edible and shelf-stable.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "The botanical nature of wild rice and its cultural significance to Indigenous peoples.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Contemporary environmental threats to natural rice beds and restoration efforts.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Average retail prices and commercial market values of wild rice in Canadian supermarkets.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t18",
+  title: "Monarch Butterfly Migration",
+  body: `A. The annual migration of the monarch butterfly is widely regarded as one of the most extraordinary natural phenomena in the animal kingdom. Every autumn, millions of these delicate insects undertake a multi-thousand-kilometer journey from their breeding grounds in southern Canada and the northern United States toward the high-altitude oyamel fir forests of central Mexico. Unlike birds or whales that make repetitive seasonal round trips as individuals, no single butterfly completes the entire round trip. Instead, the migration is a multi-generational voyage, requiring up to four successive generations to complete the full journey back north each spring.
+
+B. The specific generation that performs the arduous southward trek in the fall is biologically distinct from its predecessors. Known as the "super-generation," these monarchs enter a state of reproductive diapause, postponing sexual maturity to conserve energy. Powered by a combination of internal magnetic cues and a solar compass, they navigate vast distances while feeding on flower nectar to store lipids. Upon reaching their overwintering sanctuaries, they cluster closely together on tree branches by the millions, creating a dense thermal microclimate that protects them from freezing alpine temperatures until spring arrives.
+
+C. In spring, the overwintered monarchs awaken, mate, and begin the first leg of the northern return journey, laying eggs on milkweed plants in the southern regions of North America before dying. Milkweed is essential to the monarch’s lifecycle, as it serves as the sole food source for emerging caterpillars. The toxins contained within the plant are absorbed by the larvae, making both the caterpillars and adult butterflies unpalatable to predators. As subsequent generations hatch, mature, and continue migrating further north, they progressively recolonize the Canadian landscape, filling meadows and gardens by mid-summer.
+
+D. Despite their evolutionary resilience, monarch populations have experienced a dramatic decline over recent decades due to human activities. Industrial agriculture has severely depleted native milkweed supplies through widespread herbicide use, while deforestation and illegal logging in Mexico have threatened their delicate wintering habitats. Additionally, climate change presents new hazards, as erratic weather patterns and extreme temperature shifts disrupt migratory timing and nectar availability. In response, international conservation initiatives and community-driven projects are focused on planting milkweed corridors and restoring natural habitats across North America.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "The unique biological adaptations of the fall generation and their survival methods during winter.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "The vital role of milkweed for caterpillars and how subsequent generations advance northward.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "The overall multi-generational nature and geographical scope of the autumn migration.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Major human-driven threats to habitats and ongoing cross-border conservation efforts.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Specific financial rewards offered to private landowners for planting milkweed corridors.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
 ];
