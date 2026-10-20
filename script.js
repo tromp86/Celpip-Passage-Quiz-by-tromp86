@@ -90,8 +90,8 @@ const els = {
 // US male:   am_michael am_adam am_eric am_liam am_echo am_onyx am_fenrir am_puck
 // UK female: bf_emma bf_isabella bf_alice bf_lily
 // UK male:   bm_george bm_fable bm_daniel bm_lewis
-const VOICE = "af_heart";
-const SPEED = 1; // 0.6 slow ... 1 normal ... 1.4 fast
+const VOICE = "am_puck";
+const SPEED = 0.6; // 0.6 slow ... 1 normal ... 1.4 fast
 // ------------------------------------
 
 let ttsWorker = null;
