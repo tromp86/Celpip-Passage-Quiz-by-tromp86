@@ -79,10 +79,197 @@ const els = {
   speakBtn: document.getElementById("speakBtn"),
 };
 
+/* =========================================================
+   TEXT-TO-SPEECH (Kokoro in a Web Worker, free, no freezing)
+   Must be declared BEFORE startNewText() is called below.
+   Needs tts-worker.js next to this file.
+   ========================================================= */
+
+// ---- SETTINGS: change these two ----
+// US female: af_heart af_bella af_nicole af_sarah af_sky af_nova af_river af_jessica af_kore af_aoede af_alloy
+// US male:   am_michael am_adam am_eric am_liam am_echo am_onyx am_fenrir am_puck
+// UK female: bf_emma bf_isabella bf_alice bf_lily
+// UK male:   bm_george bm_fable bm_daniel bm_lewis
+const VOICE = "af_heart";
+const SPEED = 1; // 0.6 slow ... 1 normal ... 1.4 fast
+// ------------------------------------
+
+let ttsWorker = null;
+let speaking = false;
+let paused = false;
+const IDLE_LABEL = els.speakBtn.textContent; // original button text
+let speakToken = 0;
+let actx = null;
+let currentSource = null;
+let currentTrack = null;
+let reqCounter = 0;
+const tracks = {};   // "textId|voice|speed" -> { reqId, key, chunks, done, error, waiters }
+const reqMap = {};   // reqId -> track
+
+function wake(track) {
+  track.waiters.splice(0).forEach((f) => f());
+}
+
+function waitFor(track) {
+  return new Promise((res) => track.waiters.push(res));
+}
+
+function onWorkerMessage(e) {
+  const m = e.data;
+  if (m.type === "device") {
+    console.log("[TTS] running on", m.device);
+    return;
+  }
+  const track = reqMap[m.id];
+  if (m.type === "chunk" && track) {
+    track.chunks.push({ audio: m.audio, rate: m.rate });
+    wake(track);
+  } else if (m.type === "done" && track) {
+    track.done = true;
+    wake(track);
+  } else if (m.type === "error") {
+    console.error("[TTS] worker error:", m.message);
+    if (track) {
+      track.error = m.message;
+      track.done = true;
+      wake(track);
+    }
+  }
+}
+
+function getWorker() {
+  if (!ttsWorker) {
+    ttsWorker = new Worker("tts-worker.js", { type: "module" });
+    ttsWorker.onmessage = onWorkerMessage;
+    ttsWorker.onerror = (e) => console.error("[TTS] worker crashed", e.message || e);
+    ttsWorker.postMessage({ type: "init" }); // start downloading the model right away
+  }
+  return ttsWorker;
+}
+
+// starts generating (once per text) and returns its track
+function requestTrack(textId, fullText) {
+  const key = `${textId}|${VOICE}|${SPEED}`;
+  if (!tracks[key]) {
+    const reqId = ++reqCounter;
+    const track = { reqId, key, chunks: [], done: false, error: null, waiters: [] };
+    tracks[key] = track;
+    reqMap[reqId] = track;
+    getWorker().postMessage({
+      type: "speak",
+      id: reqId,
+      text: fullText,
+      voice: VOICE,
+      speed: SPEED,
+    });
+  }
+  return tracks[key];
+}
+
+function playClip(clip) {
+  return new Promise((res) => {
+    const buf = actx.createBuffer(1, clip.audio.length, clip.rate);
+    buf.copyToChannel(clip.audio, 0);
+    const src = actx.createBufferSource();
+    src.buffer = buf;
+    src.connect(actx.destination);
+    src.onended = res;
+    currentSource = src;
+    src.start();
+  });
+}
+
+function stopSpeech() {
+  speakToken++;
+  speaking = false;
+  paused = false;
+  els.speakBtn.textContent = IDLE_LABEL;
+  if (actx && actx.state === "suspended") actx.resume(); // so the stopped clip can finish
+  if (currentSource) {
+    try { currentSource.stop(); } catch (e) {}
+    currentSource = null;
+  }
+  // stop generating the rest of an unfinished text
+  if (currentTrack && !currentTrack.done) {
+    if (ttsWorker) ttsWorker.postMessage({ type: "cancel", id: currentTrack.reqId });
+    delete tracks[currentTrack.key];
+    delete reqMap[currentTrack.reqId];
+    wake(currentTrack);
+  }
+  currentTrack = null;
+}
+
+// Reads the active text aloud. Click to pause, click again to resume
+// from the same spot. Switching to another text stops the reading.
+async function speakText() {
+  if (speaking) {
+    if (paused) {
+      paused = false;
+      actx.resume();
+      els.speakBtn.textContent = "⏸ Pause";
+    } else {
+      paused = true;
+      actx.suspend();
+      els.speakBtn.textContent = "▶ Resume";
+    }
+    return;
+  }
+  // must happen right on click, before any await
+  actx = actx || new AudioContext();
+  actx.resume();
+
+  speaking = true;
+  const token = ++speakToken;
+
+  const text = TEXTS[currentTextIdx];
+  const paragraphs = Array.isArray(text.body)
+    ? text.body
+    : text.body.split(/\n\s*\n/);
+  const title = text.title.trim();
+  const parts = [/[.!?]$/.test(title) ? title : title + ".", ...paragraphs]
+    .map((p) => p.trim())
+    .filter(Boolean);
+
+  const setStatus = (s) => (els.speakBtn.textContent = s);
+
+  try {
+    setStatus("⏳ Loading voice...");
+    const track = requestTrack(text.id, parts.join("\n\n"));
+    currentTrack = track;
+
+    let i = 0;
+    while (true) {
+      if (token !== speakToken) return;
+      if (i < track.chunks.length) {
+        if (!paused) setStatus("⏸ Pause");
+        await playClip(track.chunks[i++]);
+      } else if (track.done) {
+        if (track.error) throw new Error(track.error);
+        break;
+      } else {
+        await waitFor(track);
+      }
+    }
+  } catch (e) {
+    console.error("[TTS] failed", e);
+    alert("TTS error: " + e.message);
+  } finally {
+    if (token === speakToken) {
+      setStatus(IDLE_LABEL);
+      speaking = false;
+      paused = false;
+      currentSource = null;
+    }
+  }
+}
+
+/* =========================================================
+   RENDERING
+   ========================================================= */
+
 // Splits a text's "body" into paragraphs and renders each as its own <p>.
 // Accepts either a plain string (paragraphs separated by a blank line,
-// i.e. "\n\n") or an array of paragraph strings — paste your text either
-// way and it'll come out with proper paragraphs.
+// i.e. "\n\n") or an array of paragraph strings.
 function renderParagraphs(container, body) {
   container.innerHTML = "";
   const paragraphs = Array.isArray(body)
@@ -111,11 +298,15 @@ function renderProgressDots() {
   }
 }
 
+/* =========================================================
+   RUN CONTROL
+   ========================================================= */
+
 // Starts a fresh run on the text at the given index in TEXTS:
 // builds a shuffled queue of all its questions and resets the score.
 function startRun(idx) {
   // stop any speech from the previous text
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+  stopSpeech();
 
   currentTextIdx = idx;
   const text = TEXTS[currentTextIdx];
@@ -153,39 +344,6 @@ function startTextById(input) {
   // so the random order won't repeat this text right after a reshuffle
   textOrder.lastIndex = idx;
   startRun(idx);
-}
-
-// Reads the active text aloud. Click again to stop.
-function speakText() {
-  if (!("speechSynthesis" in window)) {
-    alert("Speech is not supported in this browser");
-    return;
-  }
-  const synth = window.speechSynthesis;
-
-  if (synth.speaking) {
-    synth.cancel();
-    return;
-  }
-
-  const text = TEXTS[currentTextIdx];
-  const paragraphs = Array.isArray(text.body)
-    ? text.body
-    : text.body.split(/\n\s*\n/);
-
-  const voice = synth.getVoices().find((v) => v.lang.startsWith("en"));
-
-  // each paragraph is its own utterance (long single utterances get cut off in Chrome)
-  [text.title, ...paragraphs]
-    .map((p) => p.trim())
-    .filter(Boolean)
-    .forEach((p) => {
-      const u = new SpeechSynthesisUtterance(p);
-      u.lang = "en-US";
-      u.rate = 0.95; // 1 = normal speed
-      if (voice) u.voice = voice;
-      synth.speak(u);
-    });
 }
 
 function showQuestion() {
@@ -262,12 +420,17 @@ function computeGrade() {
 }
 
 function showResult() {
+  stopSpeech();
   els.quizContent.classList.add("hidden");
   els.resultScreen.classList.remove("hidden");
   els.resultGrade.textContent = computeGrade();
   els.resultDetails.textContent =
     `Correct answers: ${correctCount} of ${totalQuestions}`;
 }
+
+/* =========================================================
+   EVENTS
+   ========================================================= */
 
 els.nextBtn.addEventListener("click", () => {
   if (answeredCount >= totalQuestions) {
@@ -280,7 +443,7 @@ els.nextBtn.addEventListener("click", () => {
 // Abandons the current text's run and jumps straight to a different one.
 els.switchTextBtn.addEventListener("click", startNewText);
 
-// Jump to a specific text by its number.
+// Jump to a specific text by its number, 1.5s after the last keystroke.
 let idSearchTimer = null;
 els.textIdInput.addEventListener("input", () => {
   clearTimeout(idSearchTimer);
@@ -300,41 +463,37 @@ els.speakBtn.addEventListener("click", speakText);
 // After the result screen, start again with a different text.
 els.restartBtn.addEventListener("click", startNewText);
 
-startNewText();
+/* =========================================================
+   THEME
+   ========================================================= */
 
-
-
-
-
-
-
-
-
-
-const themeToggleBtn = document.getElementById('themeToggleBtn');
+const themeToggleBtn = document.getElementById("themeToggleBtn");
 const root = document.documentElement;
 
 let isDark = false;
 
 function applyTheme() {
   if (isDark) {
-    root.classList.add('theme-dark');
-    root.classList.remove('theme-light');
-    themeToggleBtn.querySelector('.theme-toggle__icon').textContent = '🌞';
+    root.classList.add("theme-dark");
+    root.classList.remove("theme-light");
+    themeToggleBtn.querySelector(".theme-toggle__icon").textContent = "🌞";
   } else {
-    root.classList.add('theme-light');
-    root.classList.remove('theme-dark');
-    themeToggleBtn.querySelector('.theme-toggle__icon').textContent = '🌙';
+    root.classList.add("theme-light");
+    root.classList.remove("theme-dark");
+    themeToggleBtn.querySelector(".theme-toggle__icon").textContent = "🌙";
   }
 }
 
-themeToggleBtn.addEventListener('click', () => {
+themeToggleBtn.addEventListener("click", () => {
   isDark = !isDark;
   applyTheme();
 });
 
 applyTheme();
 
+/* =========================================================
+   START
+   ========================================================= */
 
-
-
+getWorker(); // start loading the voice model in the background
+startNewText();
