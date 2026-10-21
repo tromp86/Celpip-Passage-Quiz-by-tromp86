@@ -1065,4 +1065,84 @@ E. Not mentioned in any paragraph.`,
     }
   ]
 },
+{
+  id: "t19",
+  title: "The Klondike Gold Rush",
+  body: `A. In August 1896, local prospectors discovered rich gold deposits in Rabbit Creek, a tributary of the Klondike River near Dawson City, Yukon. When news of the strike reached major North American cities the following year, it triggered an unprecedented influx of hopeful stampeders. Driven by the promise of sudden wealth during a period of widespread economic depression, an estimated 100,000 individuals set out for the remote northern territory. However, due to the extreme hazards of arctic travel and rigorous physical demands, only about a third of those who embarked on the journey successfully reached the goldfields.
+
+B. Reaching the Klondike required navigating brutal geographic terrain and harsh subarctic conditions. Most stampeders traveled by sea to coastal Alaska before attempting steep mountain passes, such as the infamous Chilkoot Trail. To prevent mass starvation in the wilderness, Canadian authorities enforced a strict policy requiring each prospector to carry a year’s supply of food and equipment—roughly one ton of goods—over the mountains. This mandated haul forced stampeders to climb the ice-carved trails dozens of times, carrying heavy loads on their backs before constructing wooden boats to navigate the treacherous Yukon River system toward Dawson City.
+
+C. The sudden arrival of tens of thousands of prospectors permanently transformed both the local landscape and the social structure of the region. Dawson City, once a quiet Indigenous fishing site, exploded almost overnight into the largest urban center northwest of Winnipeg, complete with supply stores, hotels, and newspapers. However, the economic prosperity was unevenly distributed; the vast majority of latecomers found that all lucrative creek claims had already been staked. Furthermore, the rapid industrialization severely disrupted the traditional hunting and fishing grounds of the local Tr’ondëk Hwëch’in First Nation, forcing them to adapt to severe environmental degradation and cultural displacement.
+
+D. The Klondike Gold Rush was historically brief, reaching its peak between 1897 and 1899. By the summer of 1899, news of fresh gold discoveries in Nome, Alaska, prompted thousands of disillusioned prospectors to abandon Dawson City as quickly as they had arrived. While individual panning was rapidly replaced by large-scale corporate mining machinery, the legacy of the event endured. The gold rush accelerated the administrative development of the Canadian Northwest, directly leading to the establishment of the Yukon as an independent territory and embedding the region’s dramatic history into national folklore.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "The mandatory supply requirement imposed by Canadian officials and the arduous mountain transit.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Rapid urbanization of Dawson City alongside its negative impact on the local First Nation.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "The initial discovery of gold in 1896 and the proportion of prospectors who reached the territory.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "The quick end of the gold rush, the exodus to Alaska, and the creation of the Yukon territory.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Exact total weight in kilograms of pure gold extracted from the Klondike River basin.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t20",
+  title: "Canadian Peatlands: Formation and Ecological Role",
+  body: `A. Covering vast stretches of the Canadian boreal and subarctic landscapes, peatlands—comprising bogs and fens—represent one of the country's most significant wetland ecosystems. These unique environments began forming thousands of years ago following the retreat of glacial ice sheets. In poorly drained depressions characterized by waterlogged conditions and low oxygen levels, dead plant matter, primarily sphagnum mosses, decomposes at an exceptionally slow rate. Over millennia, layers of partially decayed organic material accumulate into dense deposits known as peat, establishing vast freshwater reservoirs and shaping regional hydrology.
+
+B. The ecological importance of Canadian peatlands extends far beyond their immediate geographic boundaries, particularly regarding global climate regulation. Although covering only a fraction of the Earth's surface, these wetlands function as immense terrestrial carbon sinks, storing substantially more carbon per hectare than tropical rainforests. By trapping atmospheric carbon dioxide within dense organic layers, peatlands prevent greenhouse gases from contributing to atmospheric warming. However, when these delicate ecosystems are drained or disturbed, the stored carbon reacts with oxygen and releases vast quantities of carbon dioxide and methane back into the atmosphere.
+
+C. In addition to carbon sequestration, peatlands provide specialized habitats for a diverse array of plant and animal species adapted to acidic and nutrient-poor conditions. Iconic wildlife, such as the woodland caribou, relies on extensive, undisturbed peatland networks for foraging and protection from predators during calving seasons. Rare flora, including carnivorous pitcher plants and specialized orchids, thrive in these nutrient-scarce aquatic soils. Furthermore, the thick moss layers act as natural water filtration systems, absorbing pollutants and regulating the downstream flow of clean freshwater into surrounding river basins.
+
+D. Despite their critical environmental functions, Canadian peatlands face increasing pressure from human activities and changing climate patterns. Commercial peat moss harvesting for horticulture, along with infrastructure development for mining, oil extraction, and forestry, has fragmented and degraded significant wetland areas. Additionally, rising global temperatures and prolonged summer droughts increase the risk of severe peat fires, which burn deep underground and are notoriously difficult to extinguish. In response, environmental organizations and governments are implementing conservation policies focused on peatland restoration and sustainable land-use management.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "The critical role of peatlands as global carbon sinks and the impact of their disturbance.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Biodiversity in peatland ecosystems, including wildlife adaptations and water filtration functions.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "The post-glacial origin, slow decomposition process, and accumulation of peat over millennia.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Anthropogenic threats, wildfire risks, and current environmental preservation initiatives.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Specific annual revenues generated by the Canadian commercial peat moss export industry.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
 ];

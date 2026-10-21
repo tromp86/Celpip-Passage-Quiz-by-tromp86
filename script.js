@@ -91,13 +91,18 @@ const els = {
 // UK female: bf_emma bf_isabella bf_alice bf_lily
 // UK male:   bm_george bm_fable bm_daniel bm_lewis
 const VOICE = "af_heart";
-const SPEED = 0.8; // 0.6 slow ... 1 normal ... 1.4 fast
+const SPEED = 1; // 0.6 slow ... 1 normal ... 1.4 fast
 // ------------------------------------
 
 let ttsWorker = null;
 let speaking = false;
 let paused = false;
 const IDLE_LABEL = els.speakBtn.textContent; // original button text
+// iPhone/iPad (new iPads report themselves as a Mac with a touch screen):
+// the Kokoro model is too heavy there, so use Apple's built-in voice instead.
+const USE_NATIVE =
+  /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 let speakToken = 0;
 let actx = null;
 let currentSource = null;
@@ -184,6 +189,10 @@ function stopSpeech() {
   speaking = false;
   paused = false;
   els.speakBtn.textContent = IDLE_LABEL;
+  if (USE_NATIVE) {
+    window.speechSynthesis.cancel();
+    return;
+  }
   if (actx && actx.state === "suspended") actx.resume(); // so the stopped clip can finish
   if (currentSource) {
     try { currentSource.stop(); } catch (e) {}
@@ -199,19 +208,74 @@ function stopSpeech() {
   currentTrack = null;
 }
 
+// ---- Apple devices: built-in voice (no model download) ----
+function pickNativeVoice() {
+  const en = window.speechSynthesis
+    .getVoices()
+    .filter((v) => v.lang.replace("_", "-").toLowerCase().startsWith("en"));
+  const us = en.filter((v) => v.lang.replace("_", "-").toLowerCase() === "en-us");
+  return (
+    en.find((v) => /premium/i.test(v.name)) ||
+    en.find((v) => /enhanced/i.test(v.name)) ||
+    us.find((v) => /samantha|ava|allison|zoe|nicky/i.test(v.name)) ||
+    us[0] ||
+    en[0]
+  );
+}
+
+function speakNative() {
+  const synth = window.speechSynthesis;
+  synth.cancel();
+
+  const text = TEXTS[currentTextIdx];
+  const paragraphs = Array.isArray(text.body)
+    ? text.body
+    : text.body.split(/\n\s*\n/);
+  const parts = [text.title, ...paragraphs].map((p) => p.trim()).filter(Boolean);
+
+  speaking = true;
+  paused = false;
+  const token = ++speakToken;
+  const voice = pickNativeVoice();
+  els.speakBtn.textContent = "⏸ Pause";
+
+  // one utterance per paragraph (long ones get cut off on iOS)
+  parts.forEach((p, i) => {
+    const u = new SpeechSynthesisUtterance(p);
+    u.lang = "en-US";
+    u.rate = SPEED;
+    if (voice) u.voice = voice;
+    if (i === parts.length - 1) {
+      u.onend = u.onerror = () => {
+        if (token !== speakToken) return;
+        speaking = false;
+        paused = false;
+        els.speakBtn.textContent = IDLE_LABEL;
+      };
+    }
+    synth.speak(u);
+  });
+}
+
 // Reads the active text aloud. Click to pause, click again to resume
 // from the same spot. Switching to another text stops the reading.
 async function speakText() {
   if (speaking) {
     if (paused) {
       paused = false;
-      actx.resume();
+      if (USE_NATIVE) window.speechSynthesis.resume();
+      else actx.resume();
       els.speakBtn.textContent = "⏸ Pause";
     } else {
       paused = true;
-      actx.suspend();
+      if (USE_NATIVE) window.speechSynthesis.pause();
+      else actx.suspend();
       els.speakBtn.textContent = "▶ Resume";
     }
+    return;
+  }
+  if (USE_NATIVE) {
+    speakNative();
     return;
   }
   // must happen right on click, before any await
@@ -495,5 +559,5 @@ applyTheme();
    START
    ========================================================= */
 
-getWorker(); // start loading the voice model in the background
+if (!USE_NATIVE) getWorker(); // start loading the voice model in the background
 startNewText();
