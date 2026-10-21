@@ -91,7 +91,7 @@ const els = {
 // UK female: bf_emma bf_isabella bf_alice bf_lily
 // UK male:   bm_george bm_fable bm_daniel bm_lewis
 const VOICE = "af_heart";
-const SPEED = 1; // 0.6 slow ... 1 normal ... 1.4 fast
+const SPEED = 0.8; // 0.6 slow ... 1 normal ... 1.4 fast
 // ------------------------------------
 
 let ttsWorker = null;
@@ -237,7 +237,7 @@ function speakNative() {
   paused = false;
   const token = ++speakToken;
   const voice = pickNativeVoice();
-  els.speakBtn.textContent = "⏸ Pause";
+  els.speakBtn.textContent = "Pause";
 
   // one utterance per paragraph (long ones get cut off on iOS)
   parts.forEach((p, i) => {
@@ -265,12 +265,12 @@ async function speakText() {
       paused = false;
       if (USE_NATIVE) window.speechSynthesis.resume();
       else actx.resume();
-      els.speakBtn.textContent = "⏸ Pause";
+      els.speakBtn.textContent = "Pause";
     } else {
       paused = true;
       if (USE_NATIVE) window.speechSynthesis.pause();
       else actx.suspend();
-      els.speakBtn.textContent = "▶ Resume";
+      els.speakBtn.textContent = "Resume";
     }
     return;
   }
@@ -297,7 +297,7 @@ async function speakText() {
   const setStatus = (s) => (els.speakBtn.textContent = s);
 
   try {
-    setStatus("⏳ Loading voice...");
+    setStatus("Loading voice...");
     const track = requestTrack(text.id, parts.join("\n\n"));
     currentTrack = track;
 
@@ -305,7 +305,7 @@ async function speakText() {
     while (true) {
       if (token !== speakToken) return;
       if (i < track.chunks.length) {
-        if (!paused) setStatus("⏸ Pause");
+        if (!paused) setStatus("Pause");
         await playClip(track.chunks[i++]);
       } else if (track.done) {
         if (track.error) throw new Error(track.error);

@@ -1145,4 +1145,44 @@ E. Not mentioned in any paragraph.`,
     }
   ]
 },
+{
+  id: "t21",
+  title: "Honey Bees in Canada: Behaviour and Ecological Role",
+  body: `A. Introduced to North America by European settlers in the seventeenth century, honey bees (Apis mellifera) have become an integral component of Canada’s agricultural infrastructure. Though not native to the continent, these highly social insects play a crucial role in supporting food security across the provinces. Commercial apiculture contributes hundreds of millions of dollars annually to the Canadian economy, both through direct honey production and, more importantly, by providing paid pollination services for major cash crops, including canola, apples, blueberries, and hybrid seed crops.
+
+B. The complex social organization of a honey bee colony enables it to survive Canada’s drastic seasonal climate shifts. A single hive operates as a superorganism comprising a single reproductive queen, thousands of female worker bees, and seasonal male drones. During the short summer months, worker bees demonstrate remarkable foraging behavior, traveling several kilometers from the hive to collect nectar and pollen. Through a series of intricate movements known as the "waggle dance," returning foragers communicate precise directions, distance, and resource quality to other colony members, ensuring efficient division of labor.
+
+C. Surviving the subzero temperatures of Canadian winters requires unique physiological and behavioral adaptations. Unlike native solitary bees that hibernate individually, honey bees remain active inside the hive throughout the winter. As outdoor temperatures drop, the colony forms a tight cluster around the queen, continuously vibrating their flight muscles to generate thermal energy. By consuming stored honey reserves accumulated during the warmer months, the bees keep the interior core of the cluster at a stable temperature of roughly 35°C, even when exterior conditions fall well below freezing.
+
+D. Despite their importance, honey bee populations in Canada face ongoing threats from complex environmental stressors. Beekeepers regularly report elevated winter colony losses caused by parasitic mites, particularly Varroa destructor, which weaken bees and transmit devastating viral infections. Furthermore, exposure to agricultural pesticides, loss of diverse floral habitats due to monoculture farming, and unpredictable weather patterns driven by climate change further compromise hive immune systems. In response, Canadian researchers and apiculturists are actively breeding cold-hardy, disease-resistant bee lineages and implementing sustainable management protocols.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Social hive structure, foraging communication through movement, and seasonal labor division.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Winter survival mechanisms, muscle-generated heat clustering, and internal hive temperature regulation.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Historical introduction to North America and economic contributions to Canadian crop pollination.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Parasitic infestations, pesticide exposure, environmental stressors, and selective breeding research.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Exact price per kilogram of organic Canadian honey sold in retail markets.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
 ];
