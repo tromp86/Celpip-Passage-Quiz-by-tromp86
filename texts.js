@@ -11,7 +11,7 @@
    <p> elements.
    ========================================================= */
 const TEXTS = [
- {
+{
   id: "t1",
   title: "The Rise of Flexible Workspaces",
   body: `During the last decade, many companies have changed the way employees work. Instead of renting large office buildings, some organizations now prefer flexible workspaces, where employees can choose different locations depending on the task they are completing. These workplaces often include quiet rooms for concentration, open areas for teamwork, and small meeting spaces for private discussions.
@@ -25,58 +25,58 @@ Companies also claim flexible offices reduce operating costs because fewer perma
 Experts generally agree that flexible workspaces are most successful when organizations clearly explain how employees should use them. Without clear expectations, workers may become frustrated by the constant need to search for available desks or meeting rooms. In other words, the success of a flexible office depends less on the furniture itself than on thoughtful planning and effective communication.`,
   questions: [
     {
-      q: "According to the passage, why do supporters believe flexible workspaces improve productivity?",
+      q: "Proponents argue that non-traditional seating arrangements boost output primarily because:",
       options: [
-        "Employees spend less time commuting.",
-        "Workers can choose an environment that matches their task.",
-        "Everyone has a permanent desk.",
-        "Companies provide free technology."
+        "Travel times to the facility are significantly minimized.",
+        "Personnel can tailor their physical setting to their immediate assignment.",
+        "Every team member receives an assigned workstation.",
+        "Employers subsidize high-tech home setups."
       ],
       correct: 1
     },
     {
-      q: "What do the survey results mainly suggest?",
+      q: "Statistical feedback regarding staff satisfaction indicates that:",
       options: [
-        "Most employees dislike flexible workspaces.",
-        "Employees appreciate having choices more than they believe those choices increase efficiency.",
-        "Flexible workspaces always improve productivity.",
-        "Employees prefer traditional offices in every situation."
+        "The majority of staff express strong opposition to desk-sharing.",
+        "Autonomy of choice is valued more than its actual impact on work pace.",
+        "Flexible setups guaranteed higher speed across all departments.",
+        "Conventional layouts remain superior in every single aspect."
       ],
       correct: 1
     },
     {
-      q: "Which statement is NOT supported by the passage?",
+      q: "Which claim contradicts the information provided in the passage?",
       options: [
-        "Flexible offices can reduce rent expenses.",
-        "Changing work locations can make routines difficult.",
-        "Flexible workspaces completely eliminate distractions.",
-        "Office redesigns may cost more than expected."
+        "Leasing overheads can be reduced through reduced square footage.",
+        "Varied seating hinders the establishment of daily work habits.",
+        "Agile layouts fully eliminate ambient noise and disruptions.",
+        "Structural modifications frequently exceed initial financial projections."
       ],
       correct: 2
     },
     {
-      q: "Why does the author mention laptops, wireless monitors, and reservation software?",
+      q: "Specific hardware and software items are listed in the text to highlight:",
       options: [
-        "To recommend useful office equipment.",
-        "To show examples of unexpected business expenses.",
-        "To explain why employees work faster.",
-        "To compare old and new technology."
+        "Recommended tools for boosting individual daily output.",
+        "Hidden financial liabilities associated with workplace transition.",
+        "The fundamental reasons behind improved processing speed.",
+        "Technological advancements between past and modern offices."
       ],
       correct: 1
     },
     {
-      q: "What is the author's main conclusion?",
+      q: "The author concludes that successful implementation depends mostly on:",
       options: [
-        "Flexible workspaces succeed mainly because of modern furniture.",
-        "Flexible workspaces are effective only when managed and communicated well.",
-        "Traditional offices should disappear completely.",
-        "Employees should always work remotely."
+        "Ergonomic furniture investments and interior design.",
+        "Strategic managerial guidance and clear operational rules.",
+        "Phasing out physical corporate headquarters entirely.",
+        "Transitioning the workforce to full-time remote arrangements."
       ],
       correct: 1
     }
   ]
 },
- {
+{
   id: "t2",
   title: "The City's New Library Policy",
   body: `For many years, the downtown public library was known as one of the quietest places in the city. Students often spent entire afternoons preparing for exams, while researchers appreciated the peaceful environment. However, as the number of visitors increased, library staff noticed that people's expectations had begun to change.
@@ -90,52 +90,52 @@ To address ongoing concerns, the library introduced several additional measures.
 Experts in public space management suggest that libraries are evolving because communities now expect them to serve multiple purposes. According to these experts, a successful modern library is not simply one that stores books but one that balances learning, collaboration, and accessibility. Achieving that balance, however, requires continuous adjustments instead of relying on a single solution.`,
   questions: [
     {
-      q: "The word 'designated' in the third sentence of the second paragraph is closest in meaning to:",
+      q: "In the context of the passage, the term 'designated' indicates that the upper levels were:",
       options: [
-        "Decorated",
-        "Reserved for a particular purpose",
-        "Frequently visited",
-        "Recently constructed"
+        "Elaborately furnished and styled",
+        "Assigned for a specific intended function",
+        "Consistently congested with patrons",
+        "Erected as part of a recent expansion"
       ],
       correct: 1
     },
     {
-      q: "What can reasonably be inferred about the library administrators?",
+      q: "Regarding the management team, it can be logically deduced that:",
       options: [
-        "They ignored complaints from regular visitors.",
-        "They believed the renovation was perfect.",
-        "They were willing to adjust the library based on feedback.",
-        "They wanted to eliminate quiet study areas."
+        "They dismissed patron dissatisfaction regarding acoustic disruptions.",
+        "They viewed the structural reorganisation as flawless.",
+        "They demonstrated flexibility by refining policies according to public input.",
+        "They aimed to eliminate quiet zones entirely."
       ],
       correct: 2
     },
     {
-      q: "In the final paragraph, what does the word 'that balance' refer to?",
+      q: "The phrase 'that balance' in the concluding paragraph pertains directly to:",
       options: [
-        "Storing more books than before",
-        "Balancing learning, collaboration, and accessibility",
-        "Reducing the number of visitors",
-        "Separating students from researchers"
+        "Expanding printed inventory collections",
+        "Harmonising educational opportunities, group work, and public access",
+        "Restricting visitor volume during peak hours",
+        "Segregating academic researchers from student groups"
       ],
       correct: 1
     },
     {
-      q: "Which statement is supported by the passage?",
+      q: "Which assertion aligns directly with the details in the text?",
       options: [
-        "Attendance decreased after the renovation.",
-        "Every visitor approved of the new layout.",
-        "Some noise from collaborative areas could still be heard upstairs.",
-        "The library removed all silent study spaces."
+        "Patron turnout experienced a sharp decline post-renovation.",
+        "The spatial restructuring met with unanimous public endorsement.",
+        "Acoustic isolation measures failed to completely prevent sound spillover.",
+        "Quiet study provisions were wholly discarded."
       ],
       correct: 2
     },
     {
-      q: "What is the author's main purpose in writing this passage?",
+      q: "The overarching intent of the author in this text is to:",
       options: [
-        "To criticize modern libraries for becoming too noisy.",
-        "To explain how one library adapted to changing community needs while facing both benefits and challenges.",
-        "To encourage people to borrow more books.",
-        "To compare libraries in different cities."
+        "Condemn contemporary municipal facilities for losing academic rigor.",
+        "Examine how a public institution navigated changing user demands, highlighting both advantages and obstacles.",
+        "Urge the public to increase traditional book borrowing.",
+        "Evaluate architectural differences between regional library networks."
       ],
       correct: 1
     }
@@ -155,52 +155,52 @@ Although businesses often encourage satisfied customers to leave positive review
 Ultimately, the researchers concluded that informed shoppers evaluate both the quantity and quality of reviews instead of relying on a single number. Ironically, the highest-rated product is not always the one consumers trust the most once they examine the evidence more carefully.`,
   questions: [
     {
-      q: "The word 'Consequently' in the third paragraph is closest in meaning to:",
+      q: "The term 'Consequently' in the third paragraph serves to signal:",
       options: [
-        "For example",
-        "As a result",
-        "At first",
-        "In contrast"
+        "A practical illustration of the claim",
+        "A logical outcome derived from the previous premise",
+        "An initial phase in a multi-step sequence",
+        "A sharp divergence from prior evidence"
       ],
       correct: 1
     },
     {
-      q: "What can reasonably be inferred about the participants in the study?",
+      q: "What inference can be drawn regarding the decision-making tendencies of trial participants?",
       options: [
-        "Most carefully read every review before making a decision.",
-        "Many assumed that an extremely high rating automatically meant greater reliability.",
-        "They preferred cheaper products regardless of ratings.",
-        "They distrusted all online reviews."
+        "They meticulously scrutinized individual text entries prior to selection.",
+        "They equated near-perfect numerical scores with superior dependability.",
+        "They prioritized lower retail pricing regardless of feedback metrics.",
+        "They exhibited widespread skepticism toward all digital testimonials."
       ],
       correct: 1
     },
     {
-      q: "In the fourth paragraph, what does the word 'Such responses' refer to?",
+      q: "The phrase 'Such responses' in paragraph four refers explicitly to:",
       options: [
-        "Removing negative comments from websites.",
-        "Leaving only positive reviews.",
-        "Responding professionally to criticism and explaining solutions.",
-        "Giving products higher ratings."
+        "Systematically suppressing unfavorable public testimonials",
+        "Soliciting exclusively favorable feedback from satisfied clients",
+        "Constructive management engagement that addresses feedback transparently",
+        "Artificially inflating overall numerical score averages"
       ],
       correct: 2
     },
     {
-      q: "Which statement is NOT supported by the passage?",
+      q: "Which proposition contradicts the findings outlined in the text?",
       options: [
-        "A perfect review history may appear suspicious to some buyers.",
-        "Large numbers of reviews can provide valuable information.",
-        "Negative reviews always reduce customer confidence.",
-        "Researchers recommend looking beyond the average rating."
+        "Flawless rating histories can trigger buyer skepticism.",
+        "Substantial sample sizes offer critical statistical reliability.",
+        "Critical feedback invariably undermines buyer trust.",
+        "Analyst consensus advises looking past surface-level aggregate metrics."
       ],
       correct: 2
     },
     {
-      q: "Which statement best expresses the author's main message?",
+      q: "Which assertion captures the overarching premise of the passage?",
       options: [
-        "Consumers should purchase only products with the highest ratings.",
-        "The number beside a product is often more important than the reviews themselves.",
-        "Making a good purchasing decision requires evaluating evidence beyond the average score.",
-        "Businesses should delete negative reviews whenever possible."
+        "Purchasing choices should be guided solely by top-tier numerical averages.",
+        "Aggregate scores provide more analytical depth than qualitative feedback.",
+        "Wise acquisition choices necessitate examining qualitative depth and data volume.",
+        "Commercial enterprises ought to eliminate critical feedback to maintain credibility."
       ],
       correct: 2
     }
@@ -220,52 +220,52 @@ Interestingly, delaying a decision does not always produce better results. The r
 The researchers concluded that effective decision-makers are not simply those who think the fastest or the longest. Rather, they recognize when a situation requires immediate action and when it is worthwhile to pause, reconsider the evidence, and question their own assumptions. According to the report, this ability distinguishes experienced professionals from individuals who merely appear confident.`,
   questions: [
     {
-      q: "The word 'heuristics' in the third paragraph is closest in meaning to:",
+      q: "In paragraph three, the technical term 'heuristics' denotes:",
       options: [
-        "Scientific experiments",
-        "Mental shortcuts used to make decisions",
-        "Business strategies",
-        "Research errors"
+        "Structured empirical test protocols",
+        "Cognitive shortcuts applied during judgment tasks",
+        "Commercial management frameworks",
+        "Analytical calculation flaws"
       ],
       correct: 1
     },
     {
-      q: "What can reasonably be inferred about the business problems used in the experiment?",
+      q: "What inference can be made regarding the scenarios presented to participants?",
       options: [
-        "They were designed so that answering quickly was always the best strategy.",
-        "Some included misleading information that could influence participants.",
-        "Only experienced managers were able to solve them.",
-        "Every participant received different questions."
+        "They favored split-second intuition over deliberate review.",
+        "They incorporated irrelevant data intended to skew immediate conclusions.",
+        "They were solvable exclusively by senior corporate executives.",
+        "They presented unique parameters for every individual subject."
       ],
       correct: 1
     },
     {
-      q: "In the third paragraph, what does the word 'they' refer to in the sentence 'Nevertheless, they can also cause people to ignore evidence...?'",
+      q: "The pronoun 'they' in the second sentence of paragraph three refers specifically to:",
       options: [
-        "Researchers",
-        "Participants",
-        "Mental shortcuts (heuristics)",
-        "Business problems"
+        "Empirical investigators",
+        "Experimental subjects",
+        "Cognitive heuristics",
+        "Task variables"
       ],
       correct: 2
     },
     {
-      q: "Which statement is NOT supported by the passage?",
+      q: "Which proposition is explicitly contradicted by the text?",
       options: [
-        "Spending more time on a decision always leads to better outcomes.",
-        "People often seek information that supports their first impression.",
-        "Quick decisions can be influenced by mental shortcuts.",
-        "Too much analysis can reduce confidence."
+        "Extending deliberation time guarantees superior accuracy in every instance.",
+        "Individuals naturally seek out data validating their initial hypotheses.",
+        "Spontaneous choices frequently stem from simplified cognitive mechanisms.",
+        "Overthinking can generate unwarranted uncertainty and undermine self-trust."
       ],
       correct: 0
     },
     {
-      q: "Which statement best summarizes the author's main idea?",
+      q: "Which statement best articulates the primary thesis of the passage?",
       options: [
-        "Fast decisions are always superior in professional environments.",
-        "Successful decision-making depends on choosing the appropriate amount of reflection for each situation.",
-        "Employees should avoid making decisions under time pressure.",
-        "Confidence is the most important quality of an effective leader."
+        "Prompt choices remain the definitive hallmark of modern leadership success.",
+        "Optimal decision-making requires adjusting cognitive deliberation to the specific context.",
+        "Personnel should systematically decline to answer under tight constraints.",
+        "Unwavering self-assurance constitutes the most critical managerial attribute."
       ],
       correct: 1
     }
@@ -285,52 +285,52 @@ Not all interruptions, however, are avoidable. Emergency situations, urgent cust
 Ultimately, the study concluded that productivity depends less on how many tasks people begin than on how consistently they finish them. Individuals who deliberately protect periods of uninterrupted focus generally accomplish more work than those who constantly divide their attention, even if the latter appear busier throughout the day.`,
   questions: [
     {
-      q: "The word 'accumulate' in the third paragraph is closest in meaning to:",
+      q: "In the context of paragraph three, the verb 'accumulate' means to:",
       options: [
-        "Disappear gradually",
-        "Increase over time",
-        "Become less important",
-        "Happen unexpectedly"
+        "Diminish progressively over time",
+        "Amass gradually into a substantial sum",
+        "Lose relevance during daily operations",
+        "Occur without prior warning or structure"
       ],
       correct: 1
     },
     {
-      q: "What can reasonably be inferred about the participants in the task-switching group?",
+      q: "What can be inferred regarding subjects in the frequent task-switching category?",
       options: [
-        "They accurately recognized how much their performance had declined.",
-        "They believed they were more productive than the evidence suggested.",
-        "They completed significantly more assignments than the first group.",
-        "They ignored most of the notifications they received."
+        "They demonstrated an accurate awareness of their reduced accuracy.",
+        "They maintained an inflated self-assessment of their output efficacy.",
+        "They finalized a higher volume of assignments than single-taskers.",
+        "They disregarded the majority of incoming digital prompts."
       ],
       correct: 1
     },
     {
-      q: "In the fourth paragraph, what does the word 'those' refer to in the phrase 'those that merely create the illusion of urgency'?",
+      q: "The demonstrative pronoun 'those' in paragraph four corresponds directly to:",
       options: [
-        "Researchers",
-        "Goals",
-        "Interruptions",
-        "Email notifications"
+        "Investigating scientists",
+        "Organizational objectives",
+        "Workplace disruptions",
+        "Electronic message alerts"
       ],
       correct: 2
     },
     {
-      q: "Which statement is best supported by the passage?",
+      q: "Which premise aligns with the perspective presented by the author?",
       options: [
-        "Checking email immediately always improves productivity.",
-        "Every interruption should be avoided whenever possible.",
-        "Some interruptions are necessary, but many can be managed more effectively.",
-        "Multitasking allows employees to complete more work in less time."
+        "Instantaneous communication management optimizes worker throughput.",
+        "Eliminating every workplace distraction is essential for organizational success.",
+        "Essential disruptions exist, yet non-critical interruptions can be strategically regulated.",
+        "Concurrent execution enables professionals to achieve superior speed."
       ],
       correct: 2
     },
     {
-      q: "Which statement best expresses the author's central message?",
+      q: "Which option encapsulates the central thesis of the text?",
       options: [
-        "People become productive by working on as many tasks as possible at once.",
-        "Productivity is improved by protecting focused work rather than constantly switching between tasks.",
-        "Modern technology is the primary reason employees perform poorly.",
-        "Notifications should be permanently disabled in every workplace."
+        "Maximal output requires engaging with numerous projects concurrently.",
+        "Efficiency improves when sustained focus is preserved over fragmented attention.",
+        "Digital tools represent the primary cause of employee underperformance.",
+        "Corporate environments should permanently ban all electronic alerts."
       ],
       correct: 1
     }
@@ -350,52 +350,52 @@ Another common mistake is shopping without a list. Researchers found that people
 Experts recommend choosing a shopping time that matches your priorities. If saving time is your main goal, visiting during quiet hours may be the best option. If you are looking for special discounts, paying attention to weekly sales is usually more effective than simply shopping late in the day.`,
   questions: [
     {
-      q: "According to the passage, why do some people prefer shopping on weekends?",
+      q: "The preference for weekend store visits among consumers stems primarily from:",
       options: [
-        "Stores always offer lower prices.",
-        "They usually have more free time.",
-        "More products are available.",
-        "Checkout lines are shorter."
+        "Consistent storewide price reductions",
+        "Greater personal schedule flexibility",
+        "Superior merchandise inventory levels",
+        "Expedited point-of-sale processing"
       ],
       correct: 1
     },
     {
-      q: "The word 'availability' in the first paragraph is closest in meaning to:",
+      q: "In paragraph one, the noun 'availability' corresponds to:",
       options: [
-        "Popularity",
-        "Quality",
-        "Whether something can be found",
-        "Price"
+        "Consumer demand metrics",
+        "Product grade or quality",
+        "Stock accessibility for purchase",
+        "Retail pricing structure"
       ],
       correct: 2
     },
     {
-      q: "Which statement is supported by the passage?",
+      q: "Which assertion is substantiated by the information in the passage?",
       options: [
-        "All products become cheaper in the evening.",
-        "Weekday mornings are often less crowded than weekends.",
-        "Electronics are discounted every evening.",
-        "Most customers enjoy waiting in long checkout lines."
+        "Price markdowns apply to all inventory near closing hours.",
+        "Early weekday slots generally exhibit lower customer density than weekends.",
+        "Consumer electronics experience daily evening price cuts.",
+        "Shoppers express satisfaction with extended line delays."
       ],
       correct: 1
     },
     {
-      q: "What does the word 'They' in the fourth paragraph refer to?",
+      q: "The pronoun 'They' in the fourth paragraph identifies:",
       options: [
-        "Researchers",
-        "Store employees",
-        "People who plan their purchases before shopping",
-        "Special discounts"
+        "Market research analysts",
+        "Supermarket staff members",
+        "Consumers who prepare shopping lists in advance",
+        "Promotional price reductions"
       ],
       correct: 2
     },
     {
-      q: "What is the main purpose of the passage?",
+      q: "The primary objective of the text is to:",
       options: [
-        "To explain how shopping at the right time and planning ahead can improve the shopping experience.",
-        "To convince readers to shop only on weekends.",
-        "To describe how supermarkets choose their prices.",
-        "To explain why stores should stay open later."
+        "Demonstrate how strategic timing and preparation optimize retail visits.",
+        "Persuade consumers to restrict retail activity to weekends.",
+        "Outline corporate pricing strategies used by retail chains.",
+        "Argue for the extension of supermarket operating hours."
       ],
       correct: 0
     }
@@ -415,52 +415,52 @@ Technology has also changed the way meetings are organized. Video conferencing a
 Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
   questions: [
     {
-      q: "According to the passage, what is one reason some meetings are ineffective?",
+      q: "A primary contributor to unproductive sessions cited in the text is:",
       options: [
-        "They are always too short.",
-        "Participants do not know the purpose of the meeting.",
-        "Employees refuse to attend.",
-        "Managers avoid using technology."
+        "An insufficient allocation of meeting time",
+        "A lack of clarity regarding the session's core objective",
+        "Widespread employee non-attendance",
+        "A managerial refusal to adopt digital tools"
       ],
       correct: 1
     },
     {
-      q: "The word 'agenda' in the second paragraph is closest in meaning to:",
+      q: "In the second paragraph, the term 'agenda' refers to:",
       options: [
-        "A list of topics to be discussed",
-        "A company policy",
-        "A business report",
-        "A meeting invitation"
+        "A structured outline of planned discussion points",
+        "An official corporate compliance policy",
+        "A formal financial performance report",
+        "An electronic calendar appointment request"
       ],
       correct: 0
     },
     {
-      q: "What can be inferred about smaller meetings?",
+      q: "What can be inferred about lower-capacity meeting gatherings?",
       options: [
-        "They never include managers.",
-        "They often make decisions more efficiently.",
-        "They are only useful for online discussions.",
-        "They always last less than 30 minutes."
+        "They exclude leadership figures entirely.",
+        "They tend to reach consensus with greater expediency.",
+        "They function effectively only via virtual platforms.",
+        "They strictly adhere to sub-thirty-minute durations."
       ],
       correct: 1
     },
     {
-      q: "What does the word 'This' in the final paragraph refer to?",
+      q: "The demonstrative pronoun 'This' in the final paragraph designates:",
       options: [
-        "Using video conferencing",
-        "Assigning more employees to meetings",
-        "Ending the meeting with a summary of decisions and tasks",
-        "Travelling to different offices"
+        "Leveraging virtual telecommunication platforms",
+        "Expanding the general attendee list",
+        "Concluding with a recap of decisions and action items",
+        "Commuting between geographical office locations"
       ],
       correct: 2
     },
     {
-      q: "Which statement best summarizes the passage?",
+      q: "Which option best encapsulates the core message of the passage?",
       options: [
-        "Long meetings usually produce better results.",
-        "Technology has replaced face-to-face meetings.",
-        "Effective meetings require preparation, focused discussion, and a clear conclusion.",
-        "Companies should reduce the number of meetings to one per week."
+        "Extended duration remains necessary for high-quality outcomes.",
+        "Virtual communication has made in-person contact obsolete.",
+        "Meeting success hinges on thorough preparation, targeted dialogue, and explicit wrap-ups.",
+        "Organizations ought to limit workplace assemblies to a single weekly event."
       ],
       correct: 2
     }
@@ -480,52 +480,52 @@ Another challenge is deciding what should happen to the land in the future. A ci
 Despite these challenges, urban gardening programs continue to attract support. Experts say their greatest value may not be the amount of food they produce but the way they improve community connections and encourage residents to take an active role in their neighbourhoods. In other words, a successful community garden can produce benefits that extend well beyond the vegetables growing in it.`,
   questions: [
     {
-      q: "Why have community gardens become more popular in some cities?",
+      q: "The surge in urban agricultural initiatives is primarily driven by municipal efforts to:",
       options: [
-        "Cities have stopped building new houses.",
-        "They can improve neighbourhoods and provide access to fresh food.",
-        "Professional gardeners are becoming less expensive.",
-        "Most residents prefer gardening to other activities."
+        "Halt all prospective residential construction projects.",
+        "Revitalize local districts while enhancing produce availability.",
+        "Reduce the hourly rates of professional horticulturists.",
+        "Shift public leisure preferences toward agricultural labor."
       ],
       correct: 1
     },
     {
-      q: "The word 'suitable' in the third paragraph is closest in meaning to:",
+      q: "In paragraph three, the adjective 'suitable' is synonymous with:",
       options: [
-        "Large enough to be profitable",
-        "Available for private ownership",
-        "Appropriate for a particular purpose",
-        "Recently developed"
+        "Financially lucrative for commercial developers",
+        "Designated exclusively for private acquisition",
+        "Appropriate and fit for a specific function",
+        "Recently cleared for civil engineering"
       ],
       correct: 2
     },
     {
-      q: "What can be inferred about community gardens that depend entirely on volunteers?",
+      q: "What can be inferred regarding community plots managed solely through volunteerism?",
       options: [
-        "They may face difficulties if residents lose interest in participating.",
-        "They usually produce more food than professional farms.",
-        "They cannot be created in crowded neighbourhoods.",
-        "They are required to move every few years."
+        "Their operational continuity is vulnerable to shifts in public engagement.",
+        "Their annual crop yields consistently surpass industrial farms.",
+        "Their establishment in high-density urban areas is strictly prohibited.",
+        "Their physical relocation is mandated by civic law every few years."
       ],
       correct: 0
     },
     {
-      q: "What does the phrase 'In such cases' in the fourth paragraph refer to?",
+      q: "The transitional phrase 'In such cases' in paragraph four pertains to scenarios where:",
       options: [
-        "When gardeners organize educational workshops",
-        "When a city decides to use the land for another purpose",
-        "When residents have difficulty finding fresh food",
-        "When plants require additional water"
+        "Horticultural experts conduct educational community seminars.",
+        "Municipal authorities reclaim property for urban development projects.",
+        "Local populations encounter systemic nutritional deficiencies.",
+        "Irrigation demands exceed existing water supply limits."
       ],
       correct: 1
     },
     {
-      q: "What is the main point of the final paragraph?",
+      q: "The central thesis expressed in the concluding paragraph highlights that:",
       options: [
-        "Urban gardens are valuable mainly because they produce large amounts of food.",
-        "Most urban gardening programs eventually fail because of land shortages.",
-        "The social and community benefits of urban gardens may be more important than their food production.",
-        "Cities should replace unused land with permanent gardens."
+        "Agricultural yield represents the primary metric of garden success.",
+        "Spatial scarcity inevitably leads to the demise of urban plots.",
+        "Civic cohesion and social capital outweigh mere dietary production.",
+        "Municipalities must permanently restrict vacant land from future development."
       ],
       correct: 2
     }
@@ -545,52 +545,52 @@ These changes can make transportation more efficient, but they also create chall
 The goal is not necessarily to make public transportation cheaper or faster in every situation. Instead, many transit agencies are trying to create systems that respond better to how people actually travel. This may mean moving away from a one-size-fits-all model and toward services that can change according to demand, time of day, and the needs of different communities.`,
   questions: [
     {
-      q: "What is one reason transit agencies are reconsidering traditional rush-hour services?",
+      q: "Transit authorities are restructuring conventional peak-hour operations primarily because:",
       options: [
-        "More people are moving into city centres.",
-        "Flexible work arrangements have changed when some people travel.",
-        "Buses have become more expensive to operate during winter.",
-        "Most passengers now prefer travelling by train."
+        "A growing proportion of the population is relocating to urban cores.",
+        "Adaptable professional schedules have shifted commuter transit patterns.",
+        "Fleet maintenance expenditures escalate drastically during winter months.",
+        "Ridership overwhelmingly favors rail transport over municipal buses."
       ],
       correct: 1
     },
     {
-      q: "The word 'demand' in the fourth paragraph is closest in meaning to:",
+      q: "In the context of the fourth paragraph, the term 'demand' denotes:",
       options: [
-        "The number of people who want or need a service",
-        "The distance between two transportation stops",
-        "The cost of operating a transportation system",
-        "The amount of time a passenger spends travelling"
+        "The volume of patrons requiring or seeking transit availability",
+        "The geographical distance separating consecutive transit stops",
+        "The operational expenditure required to maintain service networks",
+        "The total duration spent in transit by an individual patron"
       ],
       correct: 0
     },
     {
-      q: "What can be inferred about reducing service on a low-demand route?",
+      q: "What can be inferred regarding service reductions along underutilized transit corridors?",
       options: [
-        "It will always make the transportation system more efficient.",
-        "It may negatively affect passengers who have few alternatives.",
-        "It will encourage passengers to work from home.",
-        "It is usually requested by passengers themselves."
+        "They invariably optimize systemic operational efficiency.",
+        "They disproportionately impact transit-dependent populations with limited mobility choices.",
+        "They actively incentivize commuters to adopt remote work arrangements.",
+        "They stem directly from formal petitions submitted by transit riders."
       ],
       correct: 1
     },
     {
-      q: "What does the phrase 'These changes' in the fourth paragraph refer to?",
+      q: "The phrase 'These changes' at the beginning of paragraph four references:",
       options: [
-        "Changes in the number of people living in cities",
-        "Changes made to vehicle manufacturing",
-        "Changes toward more flexible transportation services",
-        "Changes in employees' salaries and working conditions"
+        "Demographic shifts in metropolitan residential density",
+        "Technological advancements in automotive manufacturing",
+        "Strategic shifts toward adaptable, dynamic transit models",
+        "Revisions to employee compensation packages and employment terms"
       ],
       correct: 2
     },
     {
-      q: "Which of the following is NOT mentioned as a factor that may influence future transit services?",
+      q: "Which element is NOT cited as a variable shaping future public transportation policy?",
       options: [
-        "The time of day",
-        "Passenger demand",
-        "The needs of different communities",
-        "The age of the transportation vehicles"
+        "Diurnal operational timing",
+        "Fluctuating patron volume",
+        "Distinct neighborhood requirements",
+        "The mechanical age of fleet vehicles"
       ],
       correct: 3
     }
@@ -610,52 +610,52 @@ However, repairing an item is not always the best option. In some cases, the cos
 Despite these limitations, the repair movement has changed the way some consumers think about damaged products. Instead of immediately asking whether something should be replaced, they may first ask whether it can be repaired. This small change in attitude can reduce unnecessary waste while helping people develop practical skills and make more informed purchasing decisions.`,
   questions: [
     {
-      q: "What is one purpose of repair cafés?",
+      q: "A primary objective of community repair initiatives mentioned in the text is to:",
       options: [
-        "To sell new household appliances",
-        "To teach people how to repair simple problems",
-        "To provide professional repairs for expensive vehicles",
-        "To help manufacturers design cheaper products"
+        "Facilitate the retail sale of modern home goods",
+        "Impart practical trouble-shooting and restoration competencies to citizens",
+        "Offer specialized maintenance for high-value automotive machinery",
+        "Assist corporations in manufacturing lower-cost goods"
       ],
       correct: 1
     },
     {
-      q: "According to the passage, why might repairing an older product be difficult?",
+      q: "According to the author, restoring older items may prove impractical due to:",
       options: [
-        "Older products are usually too heavy to move.",
-        "Customers are not allowed to repair them.",
-        "Replacement parts may no longer be available.",
-        "Repair cafés only accept electronic devices."
+        "Excessive unit weight impeding physical transport",
+        "Legal prohibitions preventing personal maintenance",
+        "The obsolescence and scarcity of necessary components",
+        "Service venue restrictions excluding non-electronic goods"
       ],
       correct: 2
     },
     {
-      q: "The word 'efficient' in the fourth paragraph is closest in meaning to:",
+      q: "In the context of the fourth paragraph, the adjective 'efficient' means:",
       options: [
-        "Using resources effectively",
-        "Being difficult to operate",
-        "Having a modern appearance",
-        "Being inexpensive to purchase"
+        "Optimizing performance while minimizing resource consumption",
+        "Presenting operational complexity to the user",
+        "Displaying contemporary aesthetic features",
+        "Carrying a low initial purchase cost"
       ],
       correct: 0
     },
     {
-      q: "What can be inferred from the passage about the repair movement?",
+      q: "What can be inferred regarding the broader impact of the right-to-repair movement?",
       options: [
-        "It encourages people to consider alternatives before replacing products.",
-        "It has completely eliminated the need to buy new products.",
-        "It is mainly supported by manufacturers of electronic devices.",
-        "It makes repairing every product cheaper than replacing it."
+        "It prompts consumers to evaluate restoration viability prior to disposal.",
+        "It has rendered the manufacturing of new consumer goods obsolete.",
+        "It receives backing exclusively from consumer electronics producers.",
+        "It guarantees that item restoration is invariably less costly than replacement."
       ],
       correct: 0
     },
     {
-      q: "Which statement best expresses the main idea of the passage?",
+      q: "Which proposition encapsulates the core thesis of the text?",
       options: [
-        "Repairing products is always better than buying new ones.",
-        "Manufacturers should be responsible for repairing all damaged products.",
-        "Repairing products can reduce waste and change how consumers think about replacement.",
-        "Most people no longer replace broken household products."
+        "Restoration remains categorically superior to acquiring replacement items.",
+        "Producers ought to bear sole financial liability for product maintenance.",
+        "Fostering a repair mindset mitigates ecological waste and shifts consumer habits.",
+        "The practice of discarding damaged home goods has been wholly abandoned."
       ],
       correct: 2
     }
@@ -999,27 +999,27 @@ D. In modern Canada, wild rice faces growing ecological pressures from industria
 E. Not mentioned in any paragraph.`,
   questions: [
     {
-      q: "Techniques and tools used to collect ripe grains without damaging the plant crop.",
+      q: "Navigational practices, physical tools, and non-destructive gathering routines designed to sustain future aquatic crop cycles.",
       options: ["A", "B", "C", "D", "E"],
       correct: 1
     },
     {
-      q: "Sequential methods required to make the harvested grain edible and shelf-stable.",
+      q: "Multi-stage post-harvest preparation techniques involving thermal treatment, hull separation, and airflow residue removal.",
       options: ["A", "B", "C", "D", "E"],
       correct: 2
     },
     {
-      q: "The botanical nature of wild rice and its cultural significance to Indigenous peoples.",
+      q: "The biological classification of the native plant alongside its nutritional and ceremonial roles among First Nations populations.",
       options: ["A", "B", "C", "D", "E"],
       correct: 0
     },
     {
-      q: "Contemporary environmental threats to natural rice beds and restoration efforts.",
+      q: "Modern industrial disruptions to freshwater ecosystems, commercial market shifts, and community-led preservation movements.",
       options: ["A", "B", "C", "D", "E"],
       correct: 3
     },
     {
-      q: "Average retail prices and commercial market values of wild rice in Canadian supermarkets.",
+      q: "Specific per-kilogram retail markups and grocery distribution costs for wild rice across Canadian provinces.",
       options: ["A", "B", "C", "D", "E"],
       correct: 4
     }
@@ -1039,27 +1039,27 @@ D. Despite their evolutionary resilience, monarch populations have experienced a
 E. Not mentioned in any paragraph.`,
   questions: [
     {
-      q: "The unique biological adaptations of the fall generation and their survival methods during winter.",
+      q: "Physiological dormancy mechanisms, internal navigation tools, and defensive clustering strategies used to withstand extreme cold.",
       options: ["A", "B", "C", "D", "E"],
       correct: 1
     },
     {
-      q: "The vital role of milkweed for caterpillars and how subsequent generations advance northward.",
+      q: "The necessity of a host plant for larval nourishment and defense, followed by the sequential push toward northern territories.",
       options: ["A", "B", "C", "D", "E"],
       correct: 2
     },
     {
-      q: "The overall multi-generational nature and geographical scope of the autumn migration.",
+      q: "The vast spatial scale of the autumnal passage and its reliance on sequential successional lifespans rather than individual return trips.",
       options: ["A", "B", "C", "D", "E"],
       correct: 0
     },
     {
-      q: "Major human-driven threats to habitats and ongoing cross-border conservation efforts.",
+      q: "Anthropogenic degradation of essential habitats and multi-national ecological restoration projects.",
       options: ["A", "B", "C", "D", "E"],
       correct: 3
     },
     {
-      q: "Specific financial rewards offered to private landowners for planting milkweed corridors.",
+      q: "Government monetary subsidies provided to agricultural landowners who construct protected floral reserves.",
       options: ["A", "B", "C", "D", "E"],
       correct: 4
     }
@@ -1079,27 +1079,27 @@ D. The Klondike Gold Rush was historically brief, reaching its peak between 1897
 E. Not mentioned in any paragraph.`,
   questions: [
     {
-      q: "The mandatory supply requirement imposed by Canadian officials and the arduous mountain transit.",
+      q: "Government-enforced provisions for travelers and the grueling physical effort needed to transport cargo across alpine passes.",
       options: ["A", "B", "C", "D", "E"],
       correct: 1
     },
     {
-      q: "Rapid urbanization of Dawson City alongside its negative impact on the local First Nation.",
+      q: "The swift growth of a settlement into a commercial hub and the subsequent upheaval experienced by Indigenous communities.",
       options: ["A", "B", "C", "D", "E"],
       correct: 2
     },
     {
-      q: "The initial discovery of gold in 1896 and the proportion of prospectors who reached the territory.",
+      q: "The initial mineral finding in the northern wilderness and the low completion rate among traveling fortune seekers.",
       options: ["A", "B", "C", "D", "E"],
       correct: 0
     },
     {
-      q: "The quick end of the gold rush, the exodus to Alaska, and the creation of the Yukon territory.",
+      q: "The sudden decline of the migration, the shift toward industrial extraction, and the resulting administrative boundary changes.",
       options: ["A", "B", "C", "D", "E"],
       correct: 3
     },
     {
-      q: "Exact total weight in kilograms of pure gold extracted from the Klondike River basin.",
+      q: "The precise metric tonnage of refined precious metal harvested from Yukon deposits throughout the decade.",
       options: ["A", "B", "C", "D", "E"],
       correct: 4
     }
@@ -1119,27 +1119,27 @@ D. Despite their critical environmental functions, Canadian peatlands face incre
 E. Not mentioned in any paragraph.`,
   questions: [
     {
-      q: "The critical role of peatlands as global carbon sinks and the impact of their disturbance.",
+      q: "The capacity of wetlands to capture greenhouse emissions worldwide and the atmospheric risks associated with habitat disruption.",
       options: ["A", "B", "C", "D", "E"],
       correct: 1
     },
     {
-      q: "Biodiversity in peatland ecosystems, including wildlife adaptations and water filtration functions.",
+      q: "The unique flora and fauna that thrive in low-nutrient environments, as well as the natural purification services these ecosystems provide.",
       options: ["A", "B", "C", "D", "E"],
       correct: 2
     },
     {
-      q: "The post-glacial origin, slow decomposition process, and accumulation of peat over millennia.",
+      q: "The ancient geological origins of wetlands and the gradual, low-oxygen process of organic mass buildup.",
       options: ["A", "B", "C", "D", "E"],
       correct: 0
     },
     {
-      q: "Anthropogenic threats, wildfire risks, and current environmental preservation initiatives.",
+      q: "Industrial hazards, subterranean fire dangers, and regulatory steps taken to protect vulnerable wetland terrains.",
       options: ["A", "B", "C", "D", "E"],
       correct: 3
     },
     {
-      q: "Specific annual revenues generated by the Canadian commercial peat moss export industry.",
+      q: "The exact financial profits earned by Canadian horticultural companies exporting peat products overseas.",
       options: ["A", "B", "C", "D", "E"],
       correct: 4
     }
@@ -1159,29 +1159,989 @@ D. Despite their importance, honey bee populations in Canada face ongoing threat
 E. Not mentioned in any paragraph.`,
   questions: [
     {
-      q: "Social hive structure, foraging communication through movement, and seasonal labor division.",
+      q: "How the internal organization of a hive functions alongside physical signaling to optimize gatherer efficiency during warmer months.",
       options: ["A", "B", "C", "D", "E"],
       correct: 1
     },
     {
-      q: "Winter survival mechanisms, muscle-generated heat clustering, and internal hive temperature regulation.",
+      q: "The physical strategies and energy-generating behaviors utilized by colonies to maintain a constant internal climate during severe freezing conditions.",
       options: ["A", "B", "C", "D", "E"],
       correct: 2
     },
     {
-      q: "Historical introduction to North America and economic contributions to Canadian crop pollination.",
+      q: "The non-indigenous origins of the species and its significant financial impact on agricultural yields across the nation.",
       options: ["A", "B", "C", "D", "E"],
       correct: 0
     },
     {
-      q: "Parasitic infestations, pesticide exposure, environmental stressors, and selective breeding research.",
+      q: "Biological hazards and modern agricultural practices that harm hives, as well as ongoing efforts to cultivate stronger stocks.",
       options: ["A", "B", "C", "D", "E"],
       correct: 3
     },
     {
-      q: "Exact price per kilogram of organic Canadian honey sold in retail markets.",
+      q: "The specific commercial valuation and consumer pricing structure of organic honey sold across Canadian grocery chains.",
       options: ["A", "B", "C", "D", "E"],
       correct: 4
+    }
+  ]
+},
+{
+  id: "t22",
+  title: "Churchill, Manitoba: Polar Bear Capital of the World",
+  body: `A. Situated on the rugged western shore of Hudson Bay, the small northern town of Churchill, Manitoba, is globally recognized as the "Polar Bear Capital of the World." Every autumn, hundreds of polar bears (Ursus maritimus) migrate toward the coast, congregating near the town while awaiting the annual freezing of the bay. For centuries, this area served as a crucial hunting ground for Indigenous peoples and later as a remote fur-trading post. Today, however, Churchill’s international reputation stems primarily from its unique position as one of the few human settlements where people can safely observe these massive Arctic predators in their natural habitat.
+
+B. The seasonal concentration of polar bears around Churchill is directly tied to the unique oceanographic conditions of Hudson Bay. As autumn temperatures drop, freshwater rivers emptying into the bay lower the salinity of the coastal water, causing sea ice to form earlier here than in surrounding regions. This early ice formation provides the bears with an essential platform to begin their winter hunting season, where they rely heavily on preying upon ringed seals to rebuild vital fat reserves. Before the ice solidifies completely, the bears wait along the coastline in a state of walking hibernation, conserving energy after months of summer fasting.
+
+C. Living in such close proximity to apex predators presents significant safety challenges for local residents, prompting the community to develop specialized wildlife management strategies. The local government operates a comprehensive "Polar Bear Alert Program," which includes a 24-hour hotline, town patrols, and designated holding facilities—often referred to as the polar bear jail. Bears that wander too close to residential areas are safely captured using non-lethal deterrents or live traps, held temporarily until ice forms on the bay, and then transported via helicopter deep into the wilderness to prevent dangerous human-bear conflicts.
+
+D. In recent decades, Churchill’s seasonal bear population has faced growing threats from environmental changes. Climate change has caused Hudson Bay’s sea ice to freeze significantly later in the autumn and melt earlier in the spring, shortening the crucial hunting season for the bears by several weeks. This reduced ice coverage forces bears to spend longer periods on land, leading to declining body mass and lower reproductive rates. Consequently, local conservation organizations and scientists use Churchill as a vital research hub to monitor populations and study the long-term impacts of Arctic warming on marine ecosystems.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Specific oceanographic factors causing early ice formation and seal hunting habits.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Local safety protocols, patrol systems, and relocation procedures for wandering predators.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Geographic setting, historical context, and modern status as a polar bear viewing destination.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Warming trends shortening hunting seasons and scientific research monitoring health decline.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Annual revenue figures generated by local hotel operators during the peak tourist season.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t23",
+  title: "Permafrost in Canada: Thawing Impacts",
+  body: `A. Permafrost—ground that remains continuously frozen for two or more consecutive years—underlies nearly half of Canada’s landmass, primarily across the northern territories and subarctic regions. Consisting of a mixture of soil, gravel, and organic matter bound together by ice, this frozen foundation has maintained structural stability across the Arctic landscape for thousands of years. However, rapidly rising global temperatures are causing permafrost to thaw at an unprecedented rate, transforming what was once considered permanently solid ground into an unstable and shifting environment.
+
+B. The degradation of permafrost poses an immediate and severe threat to Northern infrastructure and human settlements. Buildings, roads, airport runways, and industrial pipelines constructed on top of frozen soil rely on its load-bearing capacity. As the underground ice melts, the supporting earth slumps and collapses—a process known as thermokarst subsidence. This shift causes building foundations to crack, highway surfaces to buckle, and critical transport routes to become impassable, resulting in astronomical maintenance costs for northern municipalities and remote Indigenous communities.
+
+C. Beyond local structural damage, the thawing of Canadian permafrost carries profound global climate implications. Deep within the frozen soil lie vast quantities of ancient, un-decayed organic material from dead plants and animals. When the ground warms, soil microbes awaken and decompose this organic matter, releasing massive volumes of greenhouse gases—specifically carbon dioxide and methane—into the atmosphere. This release creates a dangerous positive feedback loop: emitted gases accelerate atmospheric warming, which in turn speeds up further permafrost thaw.
+
+D. Adapting to these environmental transformations requires innovative engineering solutions and proactive policy changes. Researchers and civil engineers across Canada are developing specialized techniques, such as installing thermosyphon tubes that extract heat from the ground to keep underlying soils frozen beneath critical structures. Concurrently, environmental scientists are using satellite monitoring and remote sensing technology to map vulnerable zones. These efforts aim to help planners mitigate infrastructure damage and prepare for long-term ecological shifts in Canada’s North.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Structural hazards, ground slumping, and financial burdens on northern communities.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Decomposition of ancient organic matter releasing gases into a feedback loop.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Geographic extent, composition of frozen soil, and recent climate-driven instability.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Technical cooling adaptations, satellite mapping, and planning strategies.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Exact monetary compensation packages provided to residents relocated due to ground collapse.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t24",
+  title: "Tidal Energy in the Bay of Fundy",
+  body: `A. Located between the provinces of Nova Scotia and New Brunswick, the Bay of Fundy is globally renowned for experiencing the highest tidal range on Earth. Driven by gravitational forces from the moon and sun combined with the bay’s unique funnel-like shape, more than 160 billion tonnes of seawater flow in and out of the basin twice daily. This colossal movement of water creates powerful currents that hold immense potential for clean, renewable power generation. For decades, green energy advocates and engineers have viewed the region as an extraordinary natural laboratory for harnessing marine hydrokinetic energy.
+
+B. Extracting electricity from such aggressive aquatic movements requires specialized turbine technology capable of withstanding extreme environmental forces. Unlike conventional hydroelectric dams that block river flows, modern in-stream tidal turbines are installed directly on the seabed. As the tide shifts, the rushing currents spin massive submerged rotor blades, turning generators that transmit electricity to the mainland grid via underwater cables. Because tides are governed by celestial mechanics, tidal energy offers an unprecedented advantage over solar and wind power: complete, long-term predictability in power output.
+
+C. Despite its tremendous promises, deploying heavy technology in the Bay of Fundy presents unprecedented engineering and maintenance obstacles. The dynamic marine environment features crushing water pressures, heavy silt sediment, and severe winter ice floes that can damage delicate rotor mechanisms. Early prototype turbines deployed in the passage suffered severe structural degradation, with multi-tonne blades snapping under the force of the surging current. These failures underscored the necessity for ultra-durable materials, advanced biofouling coatings, and modular designs that allow for easier submerged servicing.
+
+D. Beyond technical viability, environmental researchers are carefully evaluating the potential impact of underwater turbines on local marine ecosystems. The Bay of Fundy serves as a critical habitat for migrating fish populations, marine mammals, and endangered North Atlantic right whales. Concerns focus on acoustic disturbance from turbine rotation and the risk of marine life colliding with moving blades. In response, acoustic monitoring arrays and environmental tracking sensors are continuously deployed alongside test turbines to ensure that commercial-scale energy production does not compromise regional biodiversity.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Seabed turbine mechanics, underwater electricity transmission, and predictable power output advantages.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Extreme marine hazards, prototype structural failures, and required material durability improvements.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Geographic setting, extreme tidal volume, and potential for marine hydrokinetic power generation.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Ecological impacts on marine species and continuous monitoring sensors deployed alongside test turbines.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Exact wholesale price per kilowatt-hour of tidal electricity sold to provincial utility companies.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t25",
+  title: "The Discovery of Insulin in Canada",
+  body: `A. Before the early 1920s, a diagnosis of Type 1 diabetes was effectively a terminal sentence. Patients suffering from the metabolic disorder were unable to process blood glucose, leading to rapid physical wasting, severe diabetic ketoacidosis, and inevitable early death. The only existing treatment was a strict starvation diet, which merely prolonged life by a few grueling months. Scientists worldwide had long suspected that a hormone produced by the pancreas regulated sugar metabolism, but isolating this delicate substance without it being destroyed by the digestive enzymes of the organ remained an elusive medical challenge.
+
+B. In 1921, Dr. Frederick Banting, a young Canadian physician, formulated a novel surgical method to isolate the internal pancreatic secretions. He presented his theory to Professor John Macleod at the University of Toronto, who provided laboratory space, equipment, and a skilled assistant, graduate student Charles Best. Working through the hot summer months, Banting and Best successfully tied off the pancreatic ducts of experimental canines, causing the digestive tissues to atrophy while keeping the hormone-producing Islets of Langerhans intact. They then extracted a crude fluid, initially named "isletin," which dramatically lowered blood sugar levels in diabetic dogs.
+
+C. Recognizing the profound potential of the discovery, Macleod expanded the research team by recruiting biochemist James Collip to refine and purify the extract for safe human administration. In January 1922, fourteen-year-old Leonard Thompson, who lay dying of severe diabetes in a Toronto hospital, became the first human patient to receive an injection of purified bovine insulin. The results were miraculous: the boy’s critical blood glucose levels dropped rapidly, his symptoms stabilized, and his strength returned. News of the successful clinical trial spread globally, transforming diabetes overnight from a fatal disease into a manageable chronic condition.
+
+D. In recognition of their historic breakthrough, Banting and Macleod were awarded the Nobel Prize in Physiology or Medicine in 1923. Demonstrating remarkable scientific altruism, Banting immediately shared his prize money with Best, while Macleod shared his with Collip. Furthermore, the discovery team made the conscious decision to sell the original patent for insulin to the University of Toronto for just one dollar, believing that a life-saving medication should belong to the world rather than be exploited for commercial profit. This monumental Canadian achievement remains one of the most significant triumphs in the history of modern medicine.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Early isolation experiments, surgical techniques on pancreatic duct tissues, and initial canine trials.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Purification of the extract, successful human trials on a pediatric patient, and global medical impact.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "The fatal nature of diabetes prior to 1920, early treatment limits, and pancreatic enzyme difficulties.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Nobel Prize recognition, sharing of award funds, and selling the patent for symbolic value.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Specific manufacturing protocols and modern synthetic production costs for synthetic insulin variants.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t26",
+  title: "Niagara Escarpment: Formation and Ecosystem",
+  body: `A. Extending over 1,000 kilometers from New York State through southern Ontario to the Upper Peninsula of Michigan, the Niagara Escarpment is one of Eastern North America’s most prominent geological landforms. This continuous, cliff-like ridge is best known for creating the precipitous ledge over which Niagara Falls plunges. Beyond its famous waterfalls, the escarpment forms a massive natural wall that dictates local topography, hydrological flow patterns, and regional biodiversity. In recognition of its unique environmental importance, UNESCO designated the Canadian portion of the Niagara Escarpment as a Biosphere Reserve in 1990.
+
+B. The origin of the escarpment dates back over 400 million years to the Silurian Period, when a vast, shallow inland sea covered the region. Over millions of years, layers of marine sediments—including mud, sand, and calcium-rich shell deposits—accumulated and compacted into distinct strata of sedimentary rock. The defining structural feature of the escarpment is its hard upper caprock of durable dolostone (dolomitic limestone), which rests atop softer underlying layers of shale and sandstone. Differential erosion caused by ancient glaciers, water currents, and weathering gradually wore away the softer bottom rocks, causing the hard caprock to periodically break off in vertical cliffs.
+
+C. The steep, varied topography of the escarpment creates a wide diversity of microclimates and habitats within a highly urbanized and agricultural region. The cliff faces, ancient talus slopes, and deciduous forests provide critical refuge for hundreds of native species, including rare ferns, orchids, and wildlife such as the Jefferson salamander. Notably, the cliff edges support some of the oldest living trees in eastern North America, with gnarled eastern white cedars clinging to the bare rock faces, some exceeding 1,000 years in age. These ancient, slow-growing trees provide invaluable paleoclimate data for scientists studying historic weather patterns.
+
+D. Modern preservation of the Niagara Escarpment requires a delicate balance between environmental conservation and economic activity. The landform’s rich limestone deposits make it a primary target for commercial aggregate quarrying, while rapid urban expansion in southern Ontario threatens to fragment its ecological corridors. To safeguard the corridor, the Ontario government established the Niagara Escarpment Plan, a land-use policy designed to control development while promoting public access. Today, the Bruce Trail—Canada’s oldest and longest marked footpath—runs along the entire length of the escarpment, allowing millions of hikers to experience its natural beauty annually.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Sedimentary rock layering, hard caprock composition, and differential erosion mechanisms.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Microclimates, refuge habitats for rare species, and thousand-year-old cedar trees on cliff edges.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Geographic span, relation to Niagara Falls, and international UNESCO designation.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Commercial quarrying threats, regional land-use planning, and the Bruce Trail footpath.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Annual maintenance costs and permit fees for operating commercial quarries along the ridge.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t27",
+  title: "Prairie Wheat: Canada's Grain Empire",
+  body: `A. The vast expanses of the Canadian Prairies—comprising Manitoba, Saskatchewan, and Alberta—form one of the world’s most productive agricultural regions. In the late nineteenth and early twentieth centuries, the settlement of western Canada was largely driven by the promise of fertile topsoil and agricultural expansion. Transforming millions of hectares of native grassland into cultivated farmland, early homesteaders established wheat as the dominant staple crop. Today, Canada ranks among the top global exporters of high-quality wheat, supplying international markets with essential grain products and maintaining a reputation for exceptional milling quality.
+
+B. The successful cultivation of wheat in western Canada was made possible through groundbreaking agricultural innovation and crop breeding. The region’s harsh subarctic climate, characterized by short growing seasons and cold, dry conditions, initially posed a major threat to traditional European grain varieties. In the early 1900s, Canadian scientists developed "Marquis" wheat, an early-maturing, rust-resistant strain that could consistently ripen before the onset of early autumn frosts. This scientific breakthrough revolutionized prairie agriculture, allowing farmers to push the northern boundaries of crop production and dramatically increasing annual yields.
+
+C. Beyond its agricultural importance, the wheat industry served as the primary engine for western Canada’s infrastructural and economic development. The necessity of moving millions of tonnes of harvested grain from landlocked prairie farms to ocean ports spurred the rapid construction of transcontinental railway lines and extensive networks of grain elevators. These iconic wooden structures, often called "prairie skyscrapers," lined railway tracks every few kilometers, functioning as local commercial hubs. The grain trade supported entire rural economies, giving rise to equipment manufacturers, financial institutions, and bustling transportation corridors.
+
+D. In the modern era, Canadian prairie grain farming continues to evolve in response to shifting global demands and climate pressures. Farmers increasingly adopt precision agriculture technologies, such as GPS-guided machinery, soil moisture sensors, and direct-seeding methods to conserve topsoil and reduce fuel consumption. Modern wheat varieties are continuously bred to resist emerging plant diseases and endure extreme climate conditions, such as prolonged droughts. As a core component of Canada’s national GDP, the prairie wheat sector remains vital for both domestic food security and global agricultural trade.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Breeding early-maturing crop strains to overcome harsh subarctic weather and short growing seasons.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Transport networks, railway construction, and grain elevators fueling regional economic growth.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Historical transformation of prairie grassland into farmland and Canada's role as a major global grain exporter.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Adoption of precision farming tools, GPS technology, and drought-resistant crop breeding for future resilience.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Government-subsidized freight shipping tariffs per metric tonne for wheat transport along major rail routes.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t28",
+  title: "Lacrosse: Canada's Ancient Sport",
+  body: `A. Long before European settlers arrived in North America, the game of lacrosse was played by Indigenous nations across the continent, particularly among the First Nations of the eastern woodlands and Great Lakes regions. Known by various traditional names, such as Tewaaraton in the Mohawk language, the sport held deep spiritual, social, and cultural significance. It was far more than a simple athletic competition; games were played to give thanks to the Creator, settle diplomatic disputes between nations, heal the sick, and prepare young warriors for the physical demands of hunting and combat.
+
+B. Traditional Indigenous lacrosse was vast in scale and dramatically different from the modern structured sport. Contests could involve hundreds or even thousands of players on a single field that stretched for several kilometers without formal boundaries. Matches often lasted from sunrise to sunset over multiple days. Players utilized wooden sticks crafted from hickory with raw-hide netting to cradle and pass a small ball made of wood, deerskin, or solid rock. The game demanded extraordinary endurance, physical toughness, and strategic teamwork under highly intense conditions.
+
+C. In the mid-nineteenth century, European Canadians in Montreal adopted the game and began formalizing its rules for urban competition. Dr. George Beers, a Montreal dentist, standardized the regulations in the 1860s by establishing set team sizes, defining field dimensions, and introducing a rubber ball. This modernization rapidly transformed lacrosse into a structured commercial sport across the country. In 1994, the Parliament of Canada officially recognized lacrosse's profound cultural heritage by declaring it Canada’s official national summer sport, alongside ice hockey as the national winter sport.
+
+D. Today, lacrosse continues to thrive in both indoor arenas ("box lacrosse") and open fields ("field lacrosse") across Canada and internationally. While modern equipment features synthetic materials, titanium shafts, and protective padding, the core athleticism and strategic spirit of the game remain unchanged. Crucially, Indigenous teams, such as the Haudenosaunee Nationals, compete as independent sovereign nations in international world championships. This unique representation honors the ancestral roots of lacrosse, bridging ancient traditions with contemporary global sports culture.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Traditional equipment crafting, multi-day game durations, and vast field sizes.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Standardization of rules in the 1860s and official federal recognition as a national sport.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Spiritual ceremonial origins, diplomatic dispute resolution, and traditional names among First Nations.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Contemporary variations, modern gear, and sovereign Indigenous team participation in global tournaments.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Specific manufacturing costs and sales revenues for professional titanium lacrosse sticks.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t29",
+  title: "Sourdough Bread: History, Science, and Craft",
+  body: `A. Sourdough is one of the oldest forms of grain leavening in human history, dating back thousands of years to ancient Egypt and the Fertile Crescent. Long before the isolation of commercial baker's yeast in the nineteenth century, traditional breadmaking relied entirely on wild fermentation. As European settlers, fur traders, and prospectors traveled across North America, wild yeast starters became a vital staple for survival. During the Klondike Gold Rush in northern Canada, miners famously carried sourdough starters close to their bodies to prevent the delicate microbial cultures from freezing in subzero Arctic temperatures.
+
+B. The fundamental engine of sourdough bread is the starter culture, a symbiotic community of wild yeasts and lactic acid bacteria (LAB) living in a fermented flour and water mixture. Unlike commercial baker's yeast, which consists of a single isolated strain (Saccharomyces cerevisiae), a wild sourdough culture hosts complex ecosystems dominated by species like Lactobacillus sanfranciscensis. The wild yeasts metabolize starches to produce carbon dioxide gas and ethanol, creating the atmospheric bubbles that expand the dough structure, while the bacteria ferment simple sugars into lactic and acetic acids, giving the bread its signature tangy flavor profile.
+
+C. Beyond flavor, the biological process of sourdough fermentation alters the physical and chemical properties of the dough in profound ways. The organic acids generated by lactic acid bacteria lower the pH of the mixture, creating an acidic environment that activates internal enzymes within the flour. This process breaks down complex proteins and partially degrades phytic acid, a compound found in whole grains that typically hinders nutrient absorption in human digestion. Consequently, long-fermented sourdough bread enhances the bioavailability of essential minerals like iron, zinc, and magnesium, while simultaneously softening the gluten structure.
+
+D. In contemporary baking, sourdough has experienced a major resurgence as consumers seek natural, minimally processed alternatives to industrial factory loaves. Modern artisan bakers blend ancient fermentation traditions with precise temperature control, hydration ratios, and flour selection to tailor crumb structure and crust blister. The natural acidity of sourdough also acts as a natural preservative, inhibiting mold growth and extending shelf life without synthetic additives. Today, sourdough bread stands at the intersection of culinary heritage, biochemical complexity, and functional nutrition.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "Microbial interactions between wild yeast strains and acid-producing bacteria during fermentation.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "Enzymatic protein breakdown, phytic acid reduction, and enhanced mineral absorption benefits.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "Ancient origin of wild leavening and historical reliance on starter cultures during Arctic gold exploration.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Modern artisanal breadmaking trends, natural acidity preservation, and consumer preference shifts.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "Specific retail price comparisons between industrial factory loaves and sourdough breads in grocery stores.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    }
+  ]
+},
+{
+  id: "t30",
+  title: "Birchbark Canoe: Craft and Heritage",
+  body: `A. For thousands of years, the birchbark canoe served as the principal mode of transportation for Indigenous peoples across the vast boreal forests and waterways of North America. Perfectly adapted to the Canadian landscape, these lightweight, resilient watercraft enabled First Nations—including the Algonquin, Ojibwe, and Haudenosaunee—to navigate interconnected river networks, lakes, and coastal areas. The design was so exceptionally practical that early European fur traders and explorers quickly adopted it as the primary vehicle for expanding trade routes across the continent.
+
+B. The construction of a traditional birchbark canoe is a masterpiece of indigenous engineering, relying entirely on natural materials harvested sustainably from the surrounding forest. The outer hull is constructed from the flexible bark of the paper birch (Betula papyrifera), harvested in large sheets during early summer when sap flow allows easy peeling without killing the tree. The structural framework—comprising ribs, gunwales, and thwarts—is crafted from split white cedar, chosen for its lightweight durability and bending flexibility. Rather than using metal fasteners, artisans stitch the bark panels together using pliable roots of the white spruce tree.
+
+C. Waterproofing and sealing the vessel requires sophisticated natural chemistry. Craftsmen melt and combine pine or spruce resin with animal fat and finely powdered charcoal. The resin acts as a durable adhesive, the fat provides flexibility to prevent cracking in cold waters, and the charcoal hardens the compound while offering protection against degradation from solar radiation. This sealant is carefully applied over all stitched seams and root lashings. The resulting craft possesses a remarkably high weight-to-payload ratio, capable of carrying hundreds of kilograms of cargo while remaining light enough to be carried by a single person across overland portages.
+
+D. Beyond its historical utility, the craft of building birchbark canoes represents a profound living cultural heritage. The intricate knowledge of timber selection, seasonal harvesting, and hand-shaping techniques was traditionally passed down orally through generations of master builders. Although modern synthetic materials like aluminum and fiberglass replaced birchbark canoes in commercial transport during the twentieth century, Indigenous artisans and cultural historians actively preserve this traditional craft today. Through community workshops and educational programs, the birchbark canoe remains a enduring symbol of ecological harmony and cultural resilience.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "An example of foreign traders using native boat designs to expand commercial networks.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A description of specific plant materials used to assemble the hull and frame.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A reason why charcoal is mixed into the natural waterproof sealant compound.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A method used by modern cultural historians to preserve ancient building traditions.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A policy establishing protected forest reserves specifically for harvesting birch trees.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why was early summer the best time to collect paper birch bark?",
+      options: [
+        "The flowing sap made it simple to remove without damaging the tree.",
+        "Warmer forest temperatures allowed the bark to dry out much faster.",
+        "Tree roots were pliable enough to be pulled easily from the soil.",
+        "Traders required fresh bark sheets before autumn navigation began."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph C, what benefit does animal fat add to the sealant mixture?",
+      options: [
+        "It hardens the compound to protect against strong solar radiation.",
+        "It acts as a sticky glue to hold heavy wooden ribs together.",
+        "It keeps the mixture pliable so it does not split in cold water.",
+        "It reduces the overall weight of heavy cargo carried on portages."
+      ],
+      correct: 2
+    },
+    {
+      q: "What made the birchbark canoe ideal for travelling across overland portages?",
+      options: [
+        "Its flexible spruce roots prevented structural damage on rocky ground.",
+        "It could carry immense weight while being light enough for one person.",
+        "Its cedar frame could be taken apart quickly before walking on land.",
+        "It was built using synthetic coatings that resisted ground scratching."
+      ],
+      correct: 1
+    },
+    {
+      q: "How was traditional canoe-building knowledge preserved across generations?",
+      options: [
+        "Master builders recorded detailed instructions in historical trade journals.",
+        "Community elders established formal apprentice schools in urban centers.",
+        "Crafting secrets were shared orally through spoken instruction over time.",
+        "Museum curators published step-by-step guides for modern workshops."
+      ],
+      correct: 2
+    }
+  ]
+},
+{
+  id: "t31",
+  title: "Flax in Canada: Fibre, Food, and Industry",
+  body: `A. Flax (Linum usitatissimum) is one of the oldest cultivated crops in human history, valued for thousands of years for both its strong plant fibers and oil-rich seeds. Introduced to North America by early European settlers, flax found ideal growing conditions in the fertile soil and cool climate of the Canadian Prairies. Today, Canada stands as a dominant global producer and exporter of flaxseed, with major cultivation concentrated in Saskatchewan, Manitoba, and Alberta. The crop plays a vital role in diversified agricultural crop rotations, offering farmers an effective alternative to traditional cereal grains and oilseeds.
+
+B. Historically, the long, durable bast fibers extracted from the outer stem of the flax plant were primary raw materials for the textile industry. Through processes known as retting, scutching, and hackling, these natural fibers were separated and spun into high-quality linen fabric, thread, and marine cordage. In modern industrial applications, flax fiber continues to gain traction as an eco-friendly composite material. Automobile manufacturers increasingly utilize compressed flax fibers to reinforce interior door panels, dashboards, and structural insulation, replacing heavy synthetic plastics with lightweight, biodegradable alternatives.
+
+C. Beyond industrial fiber applications, flaxseed has earned widespread recognition as a nutritional powerhouse in the human diet and health food sector. The small, glossy seeds are exceptionally rich in alpha-linolenic acid (ALA)—an essential plant-based omega-3 fatty acid—as well as dietary fiber and lignans, which act as potent antioxidants. Whole and ground flaxseeds are widely incorporated into artisanal breads, cereals, and health supplements to support cardiovascular health and digestion. Additionally, cold-pressed flaxseed oil is a popular dietary supplement valued for its concentrated nutritional properties.
+
+D. The chemical profile of flaxseed oil—traditionally referred to as linseed oil—also makes it an indispensable component in non-food commercial industries. Because linseed oil is a drying oil that reacts with oxygen to form a tough, flexible film, it has long served as a primary binder in traditional oil paints, wood finishes, and protective exterior varnishes. Furthermore, linseed oil combined with wood flour and ground cork forms the core raw material for linoleum flooring, a durable, all-natural floor covering. As global demand grows for sustainable, bio-based alternatives to petroleum products, Canadian flax continues to hold high economic and industrial value.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A benefit of using plant fibers as lightweight substitutes for synthetic auto parts.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An example of a plant-based fatty acid in seeds that promotes heart health.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A comparison of prairie climate conditions with major European crop growing regions.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "A reason why linseed oil forms a flexible coating in wood finishes.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "An example of an alternative crop used by farmers during grain rotations.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "Why do car manufacturers use compressed flax fibers in vehicle interiors?",
+      options: [
+        "They offer a biodegradable alternative that replaces heavier synthetic plastics.",
+        "They lower the overall manufacturing costs of luxury vehicle dashboards.",
+        "They absorb high levels of solar radiation to prevent interior heat damage.",
+        "They eliminate the need for chemical adhesives during factory assembly."
+      ],
+      correct: 0
+    },
+    {
+      q: "What characteristic makes linseed oil useful in linoleum flooring and varnishes?",
+      options: [
+        "It acts as a potent antioxidant that prevents fungal degradation.",
+        "It hardens into a durable, protective film when exposed to oxygen.",
+        "It binds easily with synthetic petroleum solvents to speed up drying.",
+        "It repels water while maintaining a soft, highly flexible surface."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph A, what role does flax play in prairie agriculture?",
+      options: [
+        "It restores depleted nitrogen levels in soil after cereal harvests.",
+        "It serves as a alternative crop to diversify traditional grain rotations.",
+        "It protects surrounding wheat fields from insect pest infestations.",
+        "It requires significantly less water than traditional oilseed crops."
+      ],
+      correct: 1
+    },
+    {
+      q: "How does incorporating ground flaxseed into foods benefit human health?",
+      options: [
+        "It reduces the risk of food allergies caused by gluten proteins.",
+        "It supplies essential omega-3 fatty acids and antioxidants for digestion.",
+        "It lowers the calorie content of artisanal breads and cereals.",
+        "It speeds up the body's natural absorption of synthetic vitamins."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t32",
+  title: "Glassblowing: Technique, History, and Artistry",
+  body: `A. Glassblowing is an ancient material art form that revolutionized the production of everyday vessels and artistic objects. Before its discovery around the first century BCE in the Syro-Palestinian region of the Roman Empire, glass objects were crafted through laborious core-forming or casting techniques, making them rare luxury items. The invention of the blowpipe allowed artisans to shape molten glass rapidly and in far larger quantities. This technological breakthrough democratized glass usage across the ancient world, transforming it from an exclusive status symbol into a practical material for utilitarian containers, window panes, and decorative glassware.
+
+B. The technical process of traditional off-hand glassblowing requires exceptional physical coordination, speed, and precise thermal control. Working around a specialized furnace heated to temperatures exceeding 1,100°C, the glassblower gathers a mass of molten silica-based batch onto the tip of a hollow steel blowpipe. By inflating short bursts of air into the pipe while continuously rotating it, the artist creates an expanding hollow glass bulb known as a parison. Using specialized wooden blocks, wet jacks, and iron shears, the glassblower shapes, trims, and opens the viscous material before it cools and loses its malleability.
+
+C. Throughout history, specific geographic regions became world-renowned centers for glassblowing innovation and artistic mastery. During the Renaissance, the island of Murano in Venice held a global monopoly on luxury glassware, famous for inventing cristallo—a remarkably clear, colorless glass—and developing intricate filigree techniques using embedded enamel threads. In the twentieth century, the Studio Glass Movement shifted the craft away from commercial industrial factories and into individual artist studios, encouraging experimental forms, bold color palettes, and sculptural expression across North America and Europe.
+
+D. Today, contemporary glassblowing blends traditional craftsmanship with modern scientific technology and material design. Electric furnaces, precise digital pyrometers, and specialized annealing ovens—which slowly cool finished glass over many hours to relieve internal structural stress—have made the medium far more accessible to independent artists. Furthermore, the incorporation of specialized chemical colorants, such as metallic oxides, enables creators to achieve complex visual effects and gradients. Despite these technical advancements, the core fundamentals of the craft remain anchored in human dexterity, timing, and an intimate understanding of molten glass physics.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A change caused by the blowpipe invention that made glass accessible to everyday users.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A description of physical tools and blowing methods used to shape molten glass.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An example of a specialized glass type invented on the island of Murano.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A benefit of using digital pyrometers and annealing ovens to cool completed objects.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A policy regulating safety standards and ventilation requirements in commercial glass factories.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "How did the introduction of the blowpipe affect the glass market in ancient times?",
+      options: [
+        "It reduced the physical temperature required to melt silica batch.",
+        "It transformed rare status items into widespread practical goods.",
+        "It replaced traditional clay moulds with automated iron machinery.",
+        "It restricted glass production exclusively to Venetian island workshops."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, why must a glassblower work quickly while shaping the parison?",
+      options: [
+        "To prevent air bubbles from forming inside the hollow blowpipe.",
+        "To stop the silica mixture from sticking to the wet wooden blocks.",
+        "To mold the viscous material before it cools and hardens.",
+        "To keep the furnace temperature from dropping below 1,100°C."
+      ],
+      correct: 2
+    },
+    {
+      q: "What shift occurred in the glass industry during the Studio Glass Movement?",
+      options: [
+        "Production moved from industrial factories into individual artist studios.",
+        "Artisans stopped using metallic oxides to color decorative glassware.",
+        "European workshops gained an exclusive global monopoly over clear glass.",
+        "Glassblowers abandoned hand tools in favor of electric molding machinery."
+      ],
+      correct: 0
+    },
+    {
+      q: "What is the primary function of an annealing oven in modern glassblowing?",
+      options: [
+        "It rapidly heats metallic oxides to produce vibrant color gradients.",
+        "It inflates steady bursts of air to maintain an even hollow bulb shape.",
+        "It slowly cools finished glass to relieve internal structural tension.",
+        "It melts raw silica batch into viscous liquid before blowing begins."
+      ],
+      correct: 2
+    }
+  ]
+},
+{
+  id: "t33",
+  title: "The Kelford Aqueduct of British Columbia",
+  body: `A. Constructed during the early decades of the twentieth century, the Kelford Aqueduct represents one of British Columbia’s most ambitious historical engineering endeavors. Designed to transport freshwater across rugged mountainous terrain, the system was built primarily to supply rapidly expanding industrial operations and agricultural communities in the region. Engineers faced immense logistical hurdles, including navigating dense rainforests, steep rock faces, and unpredictable seasonal streamflows. Despite these challenges, the completion of the conduit provided a reliable hydrologic supply line that proved instrumental in fostering long-term economic settlement throughout the surrounding valley.
+
+B. The structural design of the aqueduct relies on a sophisticated combination of elevated wooden flumes, excavated earth canals, and reinforced concrete conduits. To maintain a consistent gradient over vast distances without relying on heavy mechanical pumping, designers utilized gravity-driven hydrodynamics. Water was diverted from high-altitude glacial streams, flowing through precise slopes engineered to prevent both erosion of the channel walls and excessive silt accumulation. Maintenance crews were stationed at strategic intervals along the route to inspect timber supports, clear seasonal debris, and manage flow control gates.
+
+C. Beyond its primary civil function, the Kelford Aqueduct profoundly altered the local ecological landscape. By redirecting significant volumes of surface water from original tributaries, the infrastructure unexpectedly altered riparian habitats downstream. Certain fish populations experienced disruptions in traditional spawning routes due to reduced water depths and altered flow velocities. Conversely, the newly created artificial water channels created micro-habitats that supported secondary vegetation growth and attracted various mammal species, demonstrating the complex ecological trade-offs associated with large-scale historic water management projects.
+
+D. As regional infrastructure modernized in the post-war era, reliance on the Kelford Aqueduct gradually diminished. Advanced subterranean pipeline networks and modern municipal filtration facilities eventually superseded the open-air conduit system. By the late 1970s, primary water diversion through the aqueduct was officially halted. While portions of the wooden flume structures deteriorated over time due to weather exposure, significant sections of the concrete pathways and stone masonry support pillars remained intact across the forest canopy.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A benefit of using precise slopes to control water movement without mechanical pumps.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An example of environmental consequences affecting downstream fish populations and local wildlife.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A reason why the water conduit was built across mountainous terrain in the early 1900s.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A change caused by post-war infrastructure modernization that led to the aqueduct closing.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A policy offering provincial tax relief to private companies restoring historic stone masonry.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why was the Kelford Aqueduct originally built in British Columbia?",
+      options: [
+        "To generate hydroelectric power for growing urban municipalities.",
+        "To supply freshwater to expanding local industries and farms.",
+        "To prevent severe seasonal flooding in low-lying river valleys.",
+        "To transport harvested timber logs down steep mountain slopes."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, how did engineers keep water moving over long distances?",
+      options: [
+        "By installing large mechanical pumps at high-altitude stream sites.",
+        "By constructing underground pressurized steel pipes through mountains.",
+        "By using gravity and carefully planned slopes to guide the water flow.",
+        "By clearing natural riverbeds of all silt and seasonal forest debris."
+      ],
+      correct: 2
+    },
+    {
+      q: "How did the redirection of river water affect downstream ecosystems?",
+      options: [
+        "It completely destroyed secondary forest growth along artificial canals.",
+        "It disrupted historical fish spawning paths by altering water levels.",
+        "It caused major soil erosion along the main concrete support pillars.",
+        "It forced local mammal species to migrate out of the mountain region."
+      ],
+      correct: 1
+    },
+    {
+      q: "What eventually caused the closure of the open-air aqueduct system in the late 1970s?",
+      options: [
+        "Severe weather destroyed the concrete support pillars across the canopy.",
+        "Local forestry agencies declared the wooden structures unsafe for water.",
+        "New subterranean pipelines and filtration systems replaced its function.",
+        "Glacial streams dried up due to long-term changing climate patterns."
+      ],
+      correct: 2
+    }
+  ]
+},
+{
+  id: "t34",
+  title: "The Nassagaweya Canal",
+  body: `A. Engineered during the expansion of southern Ontario’s industrial corridors, the Nassagaweya Canal was designed to overcome significant geographical barriers to freight transport. Before its construction, local manufacturers and agricultural producers relied heavily on slow, weather-dependent overland routes to move timber, crushed limestone, and grain. The proposal to carve a navigable waterway through the rugged terrain of the Niagara Escarpment was initially met with skepticism. However, visionary regional planners argued that a controlled inland passage would dramatically reduce transit times and lower shipping overhead for growing settlements.
+
+B. The physical construction of the canal required exceptional manual labor and innovative engineering solutions for its time. Workers utilized heavy explosives, steam-powered shovels, and teams of draft horses to cut through dense rock formations and dense clay soil. A primary challenge involved managing the steep elevation drops along the route, which required the design of a series of stone-masonry locks. These lock systems allowed barges to be safely raised and lowered using controlled water displacement, ensuring smooth navigation even during dry summer months when river levels dropped.
+
+C. Beyond its immediate commercial benefits, the canal served as a catalyst for socio-economic transformation across the surrounding municipality. Small trading posts along the waterway rapidly expanded into thriving mill towns equipped with sawmills, iron foundries, and warehouses. The reliable access to raw materials attracted skilled tradespeople and immigrant laborers, accelerating urbanization in the region. Furthermore, the canal’s construction fostered early investments in supporting infrastructure, including wooden toll bridges and connecting gravel roads.
+
+D. By the early twentieth century, the strategic importance of the Nassagaweya Canal began to decline rapidly following the expansion of regional railway networks. Trains offered significantly faster year-round transport that was unaffected by winter ice freezes that regularly paralyzed canal traffic for months. As commercial barge traffic dwindled, maintenance of the locks was eventually abandoned. Today, while large sections of the original waterway have been reclaimed by local wetland vegetation, preserved masonry ruins along the historic route now form part of a protected heritage trail.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A reason why planners proposed an inland waterway through difficult rock terrain.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A description of stone lock systems designed to manage steep elevation changes.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An example of small posts expanding into busy mill towns with sawmills and foundries.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A change caused by expanding railway lines that made year-round transport faster.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A government grant offered to local property owners for maintaining heritage trails.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why was the Nassagaweya Canal originally built in southern Ontario?",
+      options: [
+        "To replace unreliable overland routes for transporting goods and timber.",
+        "To generate hydroelectric energy for newly established iron foundries.",
+        "To prevent seasonal flooding in low-lying agricultural communities.",
+        "To create a direct naval defense passage across the Niagara Escarpment."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph B, how did lock systems help barges navigate the canal?",
+      options: [
+        "They used steam-powered winches to tow heavy boats up steep clay banks.",
+        "They controlled water displacement to raise and lower vessels safely.",
+        "They cleared winter ice freezes to maintain continuous summer depth.",
+        "They stored excess river water in underground masonry reservoirs."
+      ],
+      correct: 1
+    },
+    {
+      q: "How did the canal influence urbanization in surrounding areas?",
+      options: [
+        "It funded the construction of iron bridges across all regional rivers.",
+        "It attracted skilled workers and turned small outposts into thriving mill towns.",
+        "It forced local agricultural producers to relocate near main railway lines.",
+        "It reduced shipping tolls for foreign cargo vessels entering the region."
+      ],
+      correct: 1
+    },
+    {
+      q: "What advantage did railways have over the Nassagaweya Canal?",
+      options: [
+        "Railways required much less manual labor and stone maintenance to operate.",
+        "Trains provided faster travel and were not shut down by winter ice.",
+        "Rail networks were cheaper to construct through dense forest terrain.",
+        "Rail transport eliminated the need for toll bridges and gravel roads."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t35",
+  title: "AI Alignment and Risk",
+  body: `A. AI alignment is the field of research concerned with ensuring that advanced artificial intelligence systems pursue goals consistent with human intentions and values. The challenge begins with the difficulty of describing precisely what people want. A system trained to maximize a simple, measurable objective may discover unexpected shortcuts that satisfy the metric while defeating the purpose of the task, a problem often called specification gaming. For example, a cleaning robot rewarded for hiding visible dirt might simply cover it rather than remove it.
+
+B. As models become more capable, researchers face growing technical obstacles in understanding and controlling them. Interpretability research attempts to map the internal computations of neural networks so that engineers can detect hidden flaws. Another difficulty is that human evaluators cannot always judge outputs on tasks that exceed their expertise. To address this, scalable oversight techniques use AI assistants to help people examine the work of other AI systems, allowing reliable feedback even when a task is too complex for unaided review.
+
+C. The risks associated with advanced AI range from immediate to long-term. Present-day concerns include biased automated decisions, the spread of misinformation, and the misuse of powerful tools for cyberattacks. Looking further ahead, some experts warn that highly autonomous systems could pursue objectives that conflict with human interests, or that control over the most capable technology could become concentrated in a small number of organizations. Many researchers emphasize that addressing short-term harms and long-term dangers need not be competing priorities.
+
+D. Governments and research laboratories have responded with a growing set of safeguards. Safety evaluations and red-teaming exercises, in which specialists deliberately try to provoke harmful behavior, are now common before powerful models are released. Some countries have also proposed incident-reporting requirements and international agreements on shared standards. Supporters argue that testing before deployment is essential to prevent avoidable harm, while critics worry that regulation may lag behind the technology or slow beneficial innovation. The debate remains unresolved.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A description of how a system can meet a numerical target while ignoring the real purpose of the task.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A method in which AI assistants help people evaluate work that is too complex for them to judge alone.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A list of present-day dangers together with a worry about power being held by few organizations.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An example of testing practices used before powerful models are released to the public.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A claim that one particular AI system has been proven to be completely free of alignment problems.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "What is the main goal of AI alignment research?",
+      options: [
+        "To ensure advanced AI systems pursue goals consistent with human intentions and values.",
+        "To make AI systems run faster on less expensive hardware.",
+        "To replace human evaluators with fully automated review systems.",
+        "To prevent companies from developing any form of advanced AI."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph B, why are scalable oversight techniques needed?",
+      options: [
+        "Because neural networks cannot be trained on complex tasks.",
+        "Because humans cannot always judge outputs on tasks beyond their expertise.",
+        "Because interpretability research has already solved all hidden flaws.",
+        "Because AI assistants are cheaper than human evaluators."
+      ],
+      correct: 1
+    },
+    {
+      q: "What view do many researchers hold about short-term and long-term AI risks?",
+      options: [
+        "Only long-term risks deserve serious attention.",
+        "Short-term harms have already been completely eliminated.",
+        "Both can be addressed without being treated as competing priorities.",
+        "Long-term risks are impossible to study scientifically."
+      ],
+      correct: 2
+    },
+    {
+      q: "Why do supporters of pre-deployment testing favor it?",
+      options: [
+        "It guarantees that regulation will never lag behind technology.",
+        "It helps prevent avoidable harm before models are released.",
+        "It removes the need for international agreements.",
+        "It makes powerful models cheaper to build."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t36",
+  title: "Flax in Canada: Fibre, Food, and Farming",
+  body: `A. Flax (Linum usitatissimum) has played a pivotal role in Canada’s agricultural history, originating as a multi-purpose crop cultivated for both its stem fibres and oil-rich seeds. Historically, the plant’s strong, flexible fibres were essential for manufacturing linen textiles, ropes, and coarse canvas. While early European settlers relied on localized flax production for domestic textile supply, the commercial expansion of the crop in North America shifted progressively toward seed cultivation. Today, Canada stands among the world's leading exporters of flaxseed, with the vast majority of commercial acreage situated across the fertile soils of the Prairie provinces, particularly Saskatchewan and Manitoba.
+
+B. From a nutritional perspective, flaxseed has experienced a significant resurgence due to its rich concentration of dietary compounds. High in alpha-linolenic acid (ALA)—an essential omega-3 fatty acid—flaxseed is widely recognized for supporting cardiovascular health and reducing systemic inflammation. Additionally, the seed contains exceptional levels of soluble and insoluble fibre, alongside lignans, which are phytoestrogenic antioxidants linked to hormonal balance and cellular protection. As consumer demand for functional foods rises, commercial food processors routinely incorporate whole, milled, or cold-pressed flaxseed oil into breads, cereals, and dietary supplements.
+
+C. Agronomically, flax presents both distinct advantages and specific management challenges for modern farmers. As a broadleaf crop integrated into cereal-dominated crop rotations, flax helps break disease and pest cycles in the soil. However, its shallow root structure makes it relatively sensitive to early-season drought and weed competition, requiring precise field preparation and weed control strategies. Furthermore, harvesting flax can be mechanically demanding; the tough, slow-decaying straw frequently entangles threshing equipment, forcing growers to either burn the residual stems, chop them finely, or process the bi-product for industrial applications, such as specialized paper or insulation materials.
+
+D. Looking to the future, Canadian agricultural researchers are focused on expanding the high-value utilization of both seed and fibre components. Plant breeders continue to develop cold-tolerant and disease-resistant cultivars tailored to withstand unpredictable climate patterns. Simultaneously, clean-technology innovators are pioneering methods to extract high-grade natural fibres from post-harvest flax straw. These extracted fibres serve as eco-friendly reinforcements in composite plastics for the automotive and construction sectors, turning a traditional crop waste material into a sustainable biological resource for modern manufacturing.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A shift from early textile harvesting to large-scale global seed export.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "An example of a plant-based omega-3 fatty acid promoting heart health.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A difficulty in harvesting caused by tough plant stems tangling machinery.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An example of post-harvest crop waste converted into eco-friendly auto materials.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A federal subsidy granted to prairie growers for purchasing specialized harvesting machinery.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Where is the majority of commercial flaxseed grown in Canada today?",
+      options: [
+        "Across the fertile soils of the Prairie provinces.",
+        "In coastal greenhouse facilities near the eastern border.",
+        "Along northern forest belts affected by cold climates.",
+        "In small experimental plots owned by food processors."
+      ],
+      correct: 0
+    },
+    {
+      q: "Why do food manufacturers commonly add flaxseed to healthy food products?",
+      options: [
+        "To extend the shelf life of breads without synthetic additives.",
+        "To meet growing consumer demand for omega-3s and antioxidants.",
+        "To lower the production costs of commercial cereal brands.",
+        "To replace synthetic food dye with natural seed oil pigments."
+      ],
+      correct: 1
+    },
+    {
+      q: "What agronomic benefit does flax provide when planted in crop rotations?",
+      options: [
+        "It protects shallow topsoil from heavy early-season flooding.",
+        "It helps interrupt soil-borne disease and pest cycles.",
+        "It eliminates the need for field preparation before planting.",
+        "It prevents weed growth without requiring weed control strategies."
+      ],
+      correct: 1
+    },
+    {
+      q: "How are clean-technology innovators utilizing post-harvest flax straw?",
+      options: [
+        "By burning it to generate renewable thermal energy for farms.",
+        "By turning it into organic fertilizer for cereal crop rotations.",
+        "By extracting fibres to reinforce composite plastics in manufacturing.",
+        "By grinding it into powder for human dietary supplements."
+      ],
+      correct: 2
+    }
+  ]
+},
+{
+  id: "t37",
+  title: "Glassblowing: Technique, Chemistry, and Canadian Heritage",
+  body: `A. Glassblowing is an ancient artisanal craft that transforms raw silica sand into complex, functional, and decorative objects through controlled heating and physical manipulation. The fundamental process begins in a high-temperature furnace, where silica is fused with fluxing agents, such as soda ash and limestone, to reduce its melting threshold. Artisans gather the molten material onto the end of a hollow blowpipe, introduced air to expand a hollow core, and continuously shape the dynamic medium using specialized wooden block tools, shears, and graphite paddles before transferring the piece to an annealing oven for gradual cooling.
+
+B. At its core, glass manufacturing relies heavily on precise chemical dynamics to govern structural stability, thermal resistance, and coloration. Pure silica creates durable glass but demands extreme temperatures to liquefy, making additives structurally necessary. Sodium oxide lowers the requisite melting temperature, while calcium oxide restores chemical durability to prevent water solubility. To achieve vibrant hues, craftspeople introduce minor quantities of metal oxides into the molten batch—cobalt yields deep blues, chromium produces vivid greens, and gold chloride creates rich ruby reds—requiring exact thermal management to stabilize the desired shade.
+
+C. In Canada, glassblowing evolved from early industrial utility into a celebrated facet of national artistic heritage. During the nineteenth century, Canadian glass factories primarily produced practical items, such as container glass, kerosene lamp chimneys, and window panes, to support a growing population. Over time, independent studios emerged across the country, particularly in Ontario and Quebec, shifting the focus from mass-produced utilitarian goods toward studio glass movement art. Canadian artisans gained international acclaim for integrating natural landscape motifs and innovative techniques into contemporary sculptural designs.
+
+D. Modern Canadian glass studios face ongoing challenges regarding energy consumption and material sustainability. Operating high-temperature furnaces requires substantial natural gas or electrical resources, prompting institutions to explore energy-efficient kiln designs and heat-recovery infrastructure. Additionally, contemporary artists increasingly incorporate recycled cullet—crushed discarded glass—into their raw formulations to lessen environmental impact. Through these technical adaptations and educational apprenticeships, Canadian glassblowing preserves its historical traditions while aligning with modern ecological standards.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A description of basic tools and furnaces used to shape molten silica sand.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "An example of metal oxides mixed into batch materials to create specific colors.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A shift in Canadian glassmaking from 19th-century utility items to studio artwork.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An example of using crushed recycled material to reduce environmental impacts in studios.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A tax rebate offered by provincial governments to studios upgrading their heating systems.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why are soda ash and limestone added to pure silica sand during melting?",
+      options: [
+        "To lower the temperature required to melt the silica material.",
+        "To prevent air bubbles from forming inside the hollow blowpipe.",
+        "To color the batch with deep blue and green hues.",
+        "To speed up the cooling process inside the annealing oven."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph B, why is calcium oxide necessary in glass formulations?",
+      options: [
+        "It acts as a primary flux to lower extreme melting points.",
+        "It restores chemical durability to stop glass from dissolving in water.",
+        "It creates rich ruby red shades when combined with gold chloride.",
+        "It stabilizes the furnace temperature during thermal management."
+      ],
+      correct: 1
+    },
+    {
+      q: "What did Canadian glass factories primarily manufacture during the 19th century?",
+      options: [
+        "Intricate landscape sculptures for international art displays.",
+        "Specialized graphite paddles and wooden block hand tools.",
+        "Practical household items like lamp chimneys and window panes.",
+        "Energy-efficient kilns and heat-recovery infrastructure systems."
+      ],
+      correct: 2
+    },
+    {
+      q: "How are modern Canadian studios addressing high energy requirements?",
+      options: [
+        "By replacing natural gas with low-temperature chemical fluxes.",
+        "By exporting raw silica sand processing to overseas facilities.",
+        "By exploring energy-efficient kiln designs and heat-recovery systems.",
+        "By limiting furnace operations to short seasonal production schedules."
+      ],
+      correct: 2
     }
   ]
 },

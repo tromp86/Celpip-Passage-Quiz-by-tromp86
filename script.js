@@ -511,13 +511,19 @@ els.switchTextBtn.addEventListener("click", startNewText);
 let idSearchTimer = null;
 els.textIdInput.addEventListener("input", () => {
   clearTimeout(idSearchTimer);
-  idSearchTimer = setTimeout(() => startTextById(els.textIdInput.value), 1500);
+  idSearchTimer = setTimeout(() => {
+    startTextById(els.textIdInput.value);
+    els.textIdInput.blur(); // ховаємо клавіатуру після автопереходу
+  }, 1500);
 });
+
 // Enter still jumps immediately
 els.textIdInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
+    e.preventDefault();
     clearTimeout(idSearchTimer);
     startTextById(els.textIdInput.value);
+    els.textIdInput.blur(); // ховаємо клавіатуру при Enter
   }
 });
 
