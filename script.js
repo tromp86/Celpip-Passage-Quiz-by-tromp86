@@ -454,16 +454,15 @@ function handleAnswer(selectedIdx, btn, question) {
 
   answeredCount++;
 
+
   if (selectedIdx === question.correct) {
     correctCount++;
-    // btn.classList.add("correct");
-    els.feedback.textContent = "Correct!";
-    // els.feedback.classList.add("ok");
+    btn.classList.add("correct");
+    // els.feedback.textContent = "Correct!";
   } else {
-    // btn.classList.add("wrong");
+    btn.classList.add("wrong");
     // buttons[question.correct].classList.add("correct");
-    els.feedback.textContent = "Incorrect.";
-    // els.feedback.classList.add("err");
+    // els.feedback.textContent = "Incorrect.";
   }
 
   renderProgressDots();

@@ -13,851 +13,1054 @@
 const TEXTS = [
 {
   id: "t1",
-  title: "The Rise of Flexible Workspaces",
-  body: `During the last decade, many companies have changed the way employees work. Instead of renting large office buildings, some organizations now prefer flexible workspaces, where employees can choose different locations depending on the task they are completing. These workplaces often include quiet rooms for concentration, open areas for teamwork, and small meeting spaces for private discussions.
+  title: "Why Drivers Switch to Winter Tires",
+  body: `As temperatures begin to fall, drivers in colder regions face an annual decision: whether to install winter tires. These tires are made with rubber compounds that remain flexible in low temperatures. This flexibility helps them maintain contact with the road, while the rubber in many all-season tires becomes harder as the weather gets colder. The difference can be especially important on icy roads and packed snow.
 
-Supporters argue that this approach improves productivity because employees can select an environment that matches their needs. For example, a designer creating a new project may prefer a silent room, while a marketing team planning an advertising campaign might work more effectively in an open collaborative space.
+Research comparing tire performance has found that winter tires can help vehicles stop in shorter distances under suitable winter conditions. Some insurance companies therefore offer discounts to drivers who use them. However, the size and availability of these discounts vary, and they should not be the only reason someone chooses a particular type of tire.
 
-However, not everyone agrees. Some employees report that constantly changing work locations makes it difficult to build routines. Others believe that noise from nearby conversations can reduce concentration, even in offices designed to encourage collaboration. A recent workplace survey found that although 68% of employees appreciated having more choices, only 42% believed the new system helped them accomplish tasks faster than before.
+The decision also involves practical costs. Drivers need to purchase a second set of tires and pay for seasonal installation unless they can change them themselves. They must also find a suitable place to store the unused set. For people living in areas where roads are cleared quickly and winter conditions are mild, these expenses may seem difficult to justify. In places with frequent snow and ice, the additional cost may be easier to accept.
 
-Companies also claim flexible offices reduce operating costs because fewer permanent desks are required. This can lower rent and utility expenses, especially when employees work remotely several days each week. Nevertheless, critics point out that businesses often underestimate the cost of redesigning offices and purchasing mobile technology such as laptops, wireless monitors, and reservation software.
+Timing matters too. Winter tires are designed for cold conditions, not for year-round use. When temperatures remain warm, their softer rubber can wear more quickly. Leaving them on throughout the summer may shorten their useful life and reduce their value. For this reason, drivers are generally advised to use seasonal conditions, rather than a single date on the calendar, when deciding when to change tires.
 
-Experts generally agree that flexible workspaces are most successful when organizations clearly explain how employees should use them. Without clear expectations, workers may become frustrated by the constant need to search for available desks or meeting rooms. In other words, the success of a flexible office depends less on the furniture itself than on thoughtful planning and effective communication.`,
+Even the best tires cannot remove every winter driving risk. Speed, following distance, visibility, and road conditions still affect how safely a vehicle can travel. A driver may have suitable tires and still need to slow down or postpone a trip during severe weather. Winter tires are best understood as one part of a broader safety plan, not as a guarantee of protection.`,
   questions: [
     {
-      q: "Proponents argue that non-traditional seating arrangements boost output primarily because:",
+      q: "According to the passage, why can winter tires perform better in low temperatures?",
       options: [
-        "Travel times to the facility are significantly minimized.",
-        "Personnel can tailor their physical setting to their immediate assignment.",
-        "Every team member receives an assigned workstation.",
-        "Employers subsidize high-tech home setups."
+        "Their rubber remains flexible and can maintain better contact with the road.",
+        "Their deeper colour absorbs heat from the road.",
+        "They are always wider than all-season tires.",
+        "They prevent ice from forming beneath a vehicle."
+      ],
+      correct: 0
+    },
+    {
+      q: "Why does the author mention insurance discounts in paragraph two?",
+      options: [
+        "To suggest that insurance companies require winter tires everywhere",
+        "To give one example of a possible financial benefit of using winter tires",
+        "To explain why winter tires are less expensive to manufacture",
+        "To argue that discounts are more important than road safety"
       ],
       correct: 1
     },
     {
-      q: "Statistical feedback regarding staff satisfaction indicates that:",
+      q: "The word 'justify' in paragraph three is closest in meaning to:",
       options: [
-        "The majority of staff express strong opposition to desk-sharing.",
-        "Autonomy of choice is valued more than its actual impact on work pace.",
-        "Flexible setups guaranteed higher speed across all departments.",
-        "Conventional layouts remain superior in every single aspect."
+        "Measure",
+        "Explain or show that something is worthwhile",
+        "Replace",
+        "Reduce"
       ],
       correct: 1
     },
     {
-      q: "Which claim contradicts the information provided in the passage?",
+      q: "What can be inferred about drivers who experience frequent icy conditions?",
       options: [
-        "Leasing overheads can be reduced through reduced square footage.",
-        "Varied seating hinders the establishment of daily work habits.",
-        "Agile layouts fully eliminate ambient noise and disruptions.",
-        "Structural modifications frequently exceed initial financial projections."
+        "They are less likely to need seasonal tire changes.",
+        "They may consider the cost of winter tires more worthwhile.",
+        "They can rely on insurance discounts to cover all expenses.",
+        "They do not need to adjust their driving habits."
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the main purpose of the final paragraph?",
+      options: [
+        "To explain why winter tires should be used in every season",
+        "To compare the cost of different tire brands",
+        "To remind readers that tires are only one factor in safe winter driving",
+        "To recommend avoiding all travel during winter"
       ],
       correct: 2
     },
     {
-      q: "Specific hardware and software items are listed in the text to highlight:",
+      q: "Which statement best reflects the author's overall position?",
       options: [
-        "Recommended tools for boosting individual daily output.",
-        "Hidden financial liabilities associated with workplace transition.",
-        "The fundamental reasons behind improved processing speed.",
-        "Technological advancements between past and modern offices."
+        "Winter tires are useful, but drivers should consider local conditions and other safety measures.",
+        "Winter tires are unnecessary because roads are usually cleared quickly.",
+        "The financial benefits of winter tires are always greater than their costs.",
+        "All-season tires should never be used in cold regions."
       ],
-      correct: 1
-    },
-    {
-      q: "The author concludes that successful implementation depends mostly on:",
-      options: [
-        "Ergonomic furniture investments and interior design.",
-        "Strategic managerial guidance and clear operational rules.",
-        "Phasing out physical corporate headquarters entirely.",
-        "Transitioning the workforce to full-time remote arrangements."
-      ],
-      correct: 1
+      correct: 0
     }
   ]
 },
 {
   id: "t2",
-  title: "The City's New Library Policy",
-  body: `For many years, the downtown public library was known as one of the quietest places in the city. Students often spent entire afternoons preparing for exams, while researchers appreciated the peaceful environment. However, as the number of visitors increased, library staff noticed that people's expectations had begun to change.
+  title: "Learning a New Language as an Adult",
+  body: `It is often assumed that children are naturally better at learning languages than adults. Young learners may develop pronunciation more easily, partly because they are exposed to new sounds while their speech habits are still developing. They may also feel less embarrassed when they make mistakes. These observations can lead adults to believe that becoming fluent in another language is unrealistic once they have reached a certain age.
 
-Instead of using the library only to borrow books, many visitors wanted spaces where they could work together on school assignments, attend workshops, or participate in community events. In response, the library introduced a new layout. The first floor became a collaborative zone where conversation was allowed, while the upper floors remained designated for silent study.
+However, age is only one part of the learning process. Adults often bring useful skills to the task. They have experience organizing information, setting priorities, and connecting new ideas with what they already know. Someone who understands how grammar works in their first language may recognize similar patterns in a second one. Adults can also identify specific reasons for studying, such as communicating at work, helping their children at school, or preparing for travel. Clear goals can make practice feel more purposeful.
 
-Although the change was welcomed by many residents, it also received criticism. Some regular visitors argued that the library had lost its traditional atmosphere. Others complained that sounds from the collaborative area occasionally reached the quiet floors despite additional soundproofing. Nevertheless, library administrators reported that attendance increased by nearly 30% during the first year after the renovation.
+Time is often a greater obstacle than ability. Many adults balance employment, family responsibilities, and other commitments. A long study session may be difficult to arrange, and missing one can make a learner feel that progress has stopped. Language instructors therefore often recommend shorter, regular periods of practice. Fifteen or twenty minutes on most days may be easier to maintain than several hours on one weekend. The key is consistency, not simply the number of hours spent studying at once.
 
-To address ongoing concerns, the library introduced several additional measures. Visitors can now reserve silent study rooms in advance, and staff members regularly monitor noise levels throughout the building. The administration also encourages visitors to provide feedback through monthly surveys so future improvements can be based on community needs rather than assumptions.
+Speaking can create a different challenge. Adults may understand written material but hesitate to use the language because they are worried about sounding incorrect. A supportive conversation group can reduce this pressure, especially when members have similar levels of experience. Mistakes become less intimidating when everyone is learning together.
 
-Experts in public space management suggest that libraries are evolving because communities now expect them to serve multiple purposes. According to these experts, a successful modern library is not simply one that stores books but one that balances learning, collaboration, and accessibility. Achieving that balance, however, requires continuous adjustments instead of relying on a single solution.`,
+Digital tools have made it easier to practise almost anywhere. Apps and podcasts can help learners review vocabulary, while online tutors provide structured feedback. Nevertheless, these tools cannot fully replace real conversations. Speaking with another person requires learners to listen, interpret meaning, and respond without having unlimited time to prepare. A balanced routine that combines independent study with regular conversation is likely to be more useful than relying on only one method.`,
   questions: [
     {
-      q: "In the context of the passage, the term 'designated' indicates that the upper levels were:",
+      q: "Which advantage of adult learners is emphasized in paragraph two?",
       options: [
-        "Elaborately furnished and styled",
-        "Assigned for a specific intended function",
-        "Consistently congested with patrons",
-        "Erected as part of a recent expansion"
+        "They usually have more free time than younger learners.",
+        "They can connect new information with knowledge they already have.",
+        "They do not need to practise pronunciation.",
+        "They learn new vocabulary without repetition."
       ],
       correct: 1
     },
     {
-      q: "Regarding the management team, it can be logically deduced that:",
+      q: "Why does the author recommend shorter, regular study sessions?",
       options: [
-        "They dismissed patron dissatisfaction regarding acoustic disruptions.",
-        "They viewed the structural reorganisation as flawless.",
-        "They demonstrated flexibility by refining policies according to public input.",
-        "They aimed to eliminate quiet zones entirely."
+        "They remove the need for formal lessons.",
+        "They are easier to fit into busy schedules and maintain over time.",
+        "They guarantee fluency within a few months.",
+        "They are useful only for learning grammar."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'hesitate' in paragraph four is closest in meaning to:",
+      options: [
+        "Pause because of uncertainty",
+        "Speak with confidence",
+        "Forget completely",
+        "Improve rapidly"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about a learner who uses only language apps?",
+      options: [
+        "They will automatically become confident in conversations.",
+        "They may have fewer opportunities to practise responding spontaneously.",
+        "They are likely to learn grammar incorrectly.",
+        "They cannot improve their vocabulary."
+      ],
+      correct: 1
+    },
+    {
+      q: "Why does the author describe conversation groups as supportive?",
+      options: [
+        "They allow learners to avoid making mistakes.",
+        "They make all participants study at an advanced level.",
+        "They can make speaking less intimidating by bringing together people with similar experience.",
+        "They replace the need to study independently."
       ],
       correct: 2
     },
     {
-      q: "The phrase 'that balance' in the concluding paragraph pertains directly to:",
+      q: "Which title best captures the central idea of the passage?",
       options: [
-        "Expanding printed inventory collections",
-        "Harmonising educational opportunities, group work, and public access",
-        "Restricting visitor volume during peak hours",
-        "Segregating academic researchers from student groups"
-      ],
-      correct: 1
-    },
-    {
-      q: "Which assertion aligns directly with the details in the text?",
-      options: [
-        "Patron turnout experienced a sharp decline post-renovation.",
-        "The spatial restructuring met with unanimous public endorsement.",
-        "Acoustic isolation measures failed to completely prevent sound spillover.",
-        "Quiet study provisions were wholly discarded."
+        "Why Children Should Teach Adults New Languages",
+        "The Most Effective Language Apps on the Market",
+        "How Adults Can Build a Practical and Consistent Language-Learning Routine",
+        "Why Grammar Is the Only Important Part of Language Learning"
       ],
       correct: 2
-    },
-    {
-      q: "The overarching intent of the author in this text is to:",
-      options: [
-        "Condemn contemporary municipal facilities for losing academic rigor.",
-        "Examine how a public institution navigated changing user demands, highlighting both advantages and obstacles.",
-        "Urge the public to increase traditional book borrowing.",
-        "Evaluate architectural differences between regional library networks."
-      ],
-      correct: 1
     }
   ]
 },
-  {
+{
   id: "t3",
-  title: "The Unexpected Effect of Customer Reviews",
-  body: `When shopping online, many consumers assume that products with the highest ratings are automatically the best choice. As a result, some buyers spend very little time reading individual reviews and instead focus almost entirely on the average score displayed beside a product. Researchers, however, have found that this strategy can sometimes lead to disappointing purchases.
+  title: "The Popularity of Farmers' Markets",
+  body: `Farmers' markets have become a familiar feature of many towns and cities. On certain days, local growers and small food producers gather in public spaces to sell vegetables, fruit, baked goods, cheese, and other products. Customers are often attracted by the opportunity to buy seasonal food and speak directly with the people who produce it. For some visitors, the market is also a pleasant alternative to doing their weekly shopping in a large store.
 
-In a recent study, participants were asked to choose between several products with similar prices but different review patterns. One product had an average rating of 4.9 stars based on only twelve reviews. Another received 4.6 stars but had been reviewed by more than two thousand customers. Surprisingly, many participants selected the first product despite the much smaller sample size. Later analysis suggested that people often overestimated the reliability of extremely high ratings while underestimating the value of large amounts of consistent feedback.
+Selling directly can benefit farmers financially. When products pass through distributors and supermarket chains, the original producer may receive only a portion of the price paid by the customer. At a market, farmers have more control over pricing and may keep a larger share of each sale. Conversations with shoppers can also provide useful feedback. If customers repeatedly ask for a particular product, a farmer may consider growing or making more of it in the next season.
 
-The researchers also discovered that negative reviews were not always harmful. In fact, products with a small number of thoughtful criticisms were frequently considered more trustworthy than products with nothing but praise. According to the report, buyers tended to suspect that a perfect review history might not accurately represent real customer experiences. Consequently, a few well-explained complaints sometimes increased rather than decreased consumer confidence.
+However, farmers' markets are not automatically the cheapest place to shop. Small producers often work on a limited scale and may have higher costs per item than large agricultural businesses. As a result, some products can be more expensive than similar goods in supermarkets. Customers managing a tight budget may choose only a few items, rather than buying everything they need at the market.
 
-Although businesses often encourage satisfied customers to leave positive reviews, experts caution against attempting to remove every negative comment. Instead, they recommend responding professionally to criticism and explaining how problems have been addressed. Such responses not only demonstrate accountability but also provide future customers with additional information that numerical ratings alone cannot communicate.
+Weather creates another difficulty. Heavy rain, strong winds, or unusually hot conditions can reduce attendance. This is especially challenging for sellers who depend on one market day to earn a significant part of their weekly income. Some have responded by accepting online orders before the market opens. Customers can then collect their purchases at an agreed time, giving sellers another way to reach people even when attendance is low.
 
-Ultimately, the researchers concluded that informed shoppers evaluate both the quantity and quality of reviews instead of relying on a single number. Ironically, the highest-rated product is not always the one consumers trust the most once they examine the evidence more carefully.`,
+The value of these markets is not limited to business. They can bring neighbours together, create opportunities for local musicians and artists, and help residents learn more about where their food comes from. Their success depends on practical factors such as location, prices, and weather, but their role in a community can extend well beyond the exchange of money for goods.`,
   questions: [
     {
-      q: "The term 'Consequently' in the third paragraph serves to signal:",
+      q: "Why might farmers receive more money from selling directly to customers?",
       options: [
-        "A practical illustration of the claim",
-        "A logical outcome derived from the previous premise",
-        "An initial phase in a multi-step sequence",
-        "A sharp divergence from prior evidence"
+        "They can avoid some of the intermediaries involved in supermarket sales.",
+        "They are not required to pay for growing or transporting food.",
+        "Customers always pay higher prices at outdoor markets.",
+        "Local governments set a higher price for their products."
+      ],
+      correct: 0
+    },
+    {
+      q: "What does the phrase 'on a limited scale' in paragraph three suggest?",
+      options: [
+        "The farms produce relatively small quantities.",
+        "The farms sell products in several countries.",
+        "The farms use only digital payment methods.",
+        "The farms operate throughout the entire year."
+      ],
+      correct: 0
+    },
+    {
+      q: "What is the main reason some sellers accept online orders?",
+      options: [
+        "To stop participating in public markets",
+        "To reduce their dependence on the number of people who visit the market",
+        "To make customers pay before choosing products",
+        "To avoid receiving feedback from shoppers"
       ],
       correct: 1
     },
     {
-      q: "What inference can be drawn regarding the decision-making tendencies of trial participants?",
+      q: "What can be inferred about customers with limited budgets?",
       options: [
-        "They meticulously scrutinized individual text entries prior to selection.",
-        "They equated near-perfect numerical scores with superior dependability.",
-        "They prioritized lower retail pricing regardless of feedback metrics.",
-        "They exhibited widespread skepticism toward all digital testimonials."
+        "They are unlikely to visit farmers' markets at all.",
+        "They may select particular products instead of doing all their shopping there.",
+        "They usually prefer imported food to local products.",
+        "They expect farmers to sell everything at supermarket prices."
       ],
       correct: 1
     },
     {
-      q: "The phrase 'Such responses' in paragraph four refers explicitly to:",
+      q: "Which statement is best supported by the final paragraph?",
       options: [
-        "Systematically suppressing unfavorable public testimonials",
-        "Soliciting exclusively favorable feedback from satisfied clients",
-        "Constructive management engagement that addresses feedback transparently",
-        "Artificially inflating overall numerical score averages"
+        "Markets are successful only when they attract musicians.",
+        "The social role of a farmers' market can be as important as its commercial role.",
+        "Most residents visit markets mainly to attend performances.",
+        "Markets have replaced traditional grocery stores in many communities."
       ],
-      correct: 2
+      correct: 1
     },
     {
-      q: "Which proposition contradicts the findings outlined in the text?",
+      q: "What is the author's main purpose?",
       options: [
-        "Flawless rating histories can trigger buyer skepticism.",
-        "Substantial sample sizes offer critical statistical reliability.",
-        "Critical feedback invariably undermines buyer trust.",
-        "Analyst consensus advises looking past surface-level aggregate metrics."
+        "To persuade readers to stop shopping at supermarkets",
+        "To explain both the benefits and challenges of farmers' markets",
+        "To provide instructions for starting a farming business",
+        "To argue that online shopping is always more convenient"
       ],
-      correct: 2
-    },
-    {
-      q: "Which assertion captures the overarching premise of the passage?",
-      options: [
-        "Purchasing choices should be guided solely by top-tier numerical averages.",
-        "Aggregate scores provide more analytical depth than qualitative feedback.",
-        "Wise acquisition choices necessitate examining qualitative depth and data volume.",
-        "Commercial enterprises ought to eliminate critical feedback to maintain credibility."
-      ],
-      correct: 2
+      correct: 1
     }
   ]
 },
 {
   id: "t4",
-  title: "Why Waiting Can Improve Decisions",
-  body: `People often believe that making decisions quickly is a sign of confidence and competence. In fast-moving workplaces, employees who respond immediately are frequently viewed as decisive leaders, while those who hesitate may be perceived as uncertain. However, psychologists argue that this assumption can be misleading.
+  title: "Should School Start Later in the Morning?",
+  body: `In many communities, the school day begins before eight in the morning. Although this schedule may suit some families, it can be difficult for teenagers. During adolescence, changes in the body's internal clock can make young people feel alert later in the evening and sleepy earlier in the morning. As a result, a student who goes to bed at a reasonable hour may still find it difficult to feel fully awake when the first lesson begins.
 
-In one experiment, participants were asked to solve a series of business problems. Half of them were required to submit an answer within thirty seconds, whereas the remaining participants were instructed to spend at least three minutes considering the available information before making a decision. Although the second group completed fewer tasks, they consistently made more accurate judgments, particularly when the problems contained information that appeared relevant but was actually intended to distract them.
+Some school districts have tested later starting times. In several cases, students reported getting more sleep, and schools recorded fewer late arrivals. A few districts also noticed modest improvements in academic results. However, these findings do not prove that changing the timetable will improve performance everywhere. Researchers point out that schools differ in their students' needs, teaching conditions, and surrounding communities.
 
-Researchers believe that rapid decisions rely heavily on mental shortcuts, known as heuristics. These shortcuts are useful because they reduce the effort required to process information. Nevertheless, they can also cause people to ignore evidence that contradicts their initial impressions. Once an individual forms an early opinion, there is a natural tendency to search for information that confirms it rather than information that challenges it.
+Changing the schedule can affect more than students. Parents may arrange their working hours around the time their children leave and return from school. If the school day ends later, some parents may struggle to provide supervision in the afternoon. Sports practices, clubs, and part-time jobs may also need to be reorganized. In regions with limited daylight during winter, later dismissal could leave less time for outdoor activities.
 
-Interestingly, delaying a decision does not always produce better results. The researchers observed that excessive analysis occasionally led participants to become less confident, even when they had already identified the correct solution. In these cases, additional thinking introduced unnecessary doubt instead of improving accuracy. Consequently, the relationship between decision time and decision quality proved to be more complex than the researchers had originally expected.
+Transportation presents another challenge. School buses sometimes complete several routes in the morning, collecting students from different schools. Changing the start time at one school may affect the entire schedule. A district might need additional buses or drivers, which could increase costs. For communities already working with tight budgets, this expense may be difficult to manage.
 
-The researchers concluded that effective decision-makers are not simply those who think the fastest or the longest. Rather, they recognize when a situation requires immediate action and when it is worthwhile to pause, reconsider the evidence, and question their own assumptions. According to the report, this ability distinguishes experienced professionals from individuals who merely appear confident.`,
+Supporters of later start times argue that better planning can reduce these difficulties and that student well-being deserves serious attention. Critics agree that sleep matters but question whether one timetable can work for every community. Some districts have chosen to introduce small trials before making permanent changes. These trials allow administrators to collect information about attendance, transport, and family routines instead of relying only on assumptions.
+
+The debate is therefore not simply about choosing an earlier or later hour. It is about weighing possible benefits against practical consequences and deciding whether a change suits the needs of a particular community.`,
   questions: [
     {
-      q: "In paragraph three, the technical term 'heuristics' denotes:",
+      q: "According to paragraph one, why can teenagers find early school mornings difficult?",
       options: [
-        "Structured empirical test protocols",
-        "Cognitive shortcuts applied during judgment tasks",
-        "Commercial management frameworks",
-        "Analytical calculation flaws"
-      ],
-      correct: 1
-    },
-    {
-      q: "What inference can be made regarding the scenarios presented to participants?",
-      options: [
-        "They favored split-second intuition over deliberate review.",
-        "They incorporated irrelevant data intended to skew immediate conclusions.",
-        "They were solvable exclusively by senior corporate executives.",
-        "They presented unique parameters for every individual subject."
-      ],
-      correct: 1
-    },
-    {
-      q: "The pronoun 'they' in the second sentence of paragraph three refers specifically to:",
-      options: [
-        "Empirical investigators",
-        "Experimental subjects",
-        "Cognitive heuristics",
-        "Task variables"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which proposition is explicitly contradicted by the text?",
-      options: [
-        "Extending deliberation time guarantees superior accuracy in every instance.",
-        "Individuals naturally seek out data validating their initial hypotheses.",
-        "Spontaneous choices frequently stem from simplified cognitive mechanisms.",
-        "Overthinking can generate unwarranted uncertainty and undermine self-trust."
+        "Their internal body clock may make them feel alert later in the evening.",
+        "They are required to complete all homework before sunrise.",
+        "Their schools usually provide fewer morning classes.",
+        "They have less need for sleep than younger children."
       ],
       correct: 0
     },
     {
-      q: "Which statement best articulates the primary thesis of the passage?",
+      q: "Why does the author mention that some districts recorded better academic results?",
       options: [
-        "Prompt choices remain the definitive hallmark of modern leadership success.",
-        "Optimal decision-making requires adjusting cognitive deliberation to the specific context.",
-        "Personnel should systematically decline to answer under tight constraints.",
-        "Unwavering self-assurance constitutes the most critical managerial attribute."
+        "To prove that later start times always improve grades",
+        "To provide an example of a possible benefit while noting that the evidence is not conclusive",
+        "To suggest that attendance has no connection to school schedules",
+        "To explain why researchers oppose further trials"
       ],
       correct: 1
+    },
+    {
+      q: "The word 'supervision' in paragraph three is closest in meaning to:",
+      options: [
+        "Entertainment",
+        "Care or monitoring",
+        "Transportation",
+        "Instruction"
+      ],
+      correct: 1
+    },
+    {
+      q: "What can be inferred about changing the start time at only one school?",
+      options: [
+        "It may affect transportation arrangements involving other schools.",
+        "It will always reduce the district's transportation costs.",
+        "It will have no effect on families' daily routines.",
+        "It will allow every student to participate in after-school sports."
+      ],
+      correct: 0
+    },
+    {
+      q: "Why might some districts introduce small trials before making a permanent change?",
+      options: [
+        "They want to avoid collecting information from families.",
+        "They need to check how the change works in practice before committing to it.",
+        "They believe later start times are unsuitable for all students.",
+        "They want to remove sports and clubs from the school schedule."
+      ],
+      correct: 1
+    },
+    {
+      q: "Which best describes the author's attitude toward later school start times?",
+      options: [
+        "The author supports them in every situation.",
+        "The author rejects them because they are too expensive.",
+        "The author presents potential benefits and practical concerns without taking an extreme position.",
+        "The author considers the issue unimportant."
+      ],
+      correct: 2
     }
   ]
 },
 {
   id: "t5",
-  title: "The Hidden Cost of Multitasking",
-  body: `Many employees pride themselves on their ability to multitask. Answering emails while attending virtual meetings, replying to text messages during presentations, and switching between several projects in a single hour are often viewed as signs of efficiency. However, cognitive scientists argue that what people commonly describe as multitasking is usually rapid task-switching rather than performing multiple complex activities simultaneously.
+  title: "The Growing Use of Electric Bikes",
+  body: `Electric bikes, commonly known as e-bikes, are becoming more visible in cities and smaller communities. They resemble ordinary bicycles but include a motor that provides assistance while the rider pedals. This support can make hills easier to climb and longer journeys less tiring. For people who would otherwise avoid cycling because of distance or physical effort, an e-bike may offer a practical alternative.
 
-To investigate this idea, researchers recruited office workers and assigned them two sets of tasks. The first group completed one assignment before moving to the next. The second group was instructed to switch tasks whenever they received a notification. Although both groups spent the same amount of time working, the task-switching group made nearly 40% more errors and required considerably more time to correct them. Surprisingly, many participants believed they had been equally productive despite objective evidence to the contrary.
+Cost is one reason for their growing popularity. Compared with owning and operating a car, an e-bike generally requires less money for energy and parking. Riders can also avoid some traffic delays, particularly on routes with suitable cycling infrastructure. These savings do not mean that e-bikes are inexpensive for everyone, however. A reliable model can require a significant initial payment, and battery replacement may add to the cost after several years of use.
 
-The researchers explained that each interruption carries a hidden cost. Before resuming a task, the brain must reconstruct information that was temporarily pushed aside. This process may take only a few seconds, but when interruptions occur dozens of times throughout the day, those seconds accumulate into a significant loss of productive time. Consequently, workers often underestimate how much their concentration has been disrupted.
+E-bikes may also change how people think about commuting. Someone who lives several kilometres from work might avoid cycling because they do not want to arrive exhausted or need to change clothes. Motor assistance can make the journey more manageable. This may encourage some commuters to leave their cars at home, although the effect depends on factors such as weather, distance, and the availability of safe routes.
 
-Not all interruptions, however, are avoidable. Emergency situations, urgent customer requests, and technical failures require immediate attention. The researchers therefore emphasized that the goal is not to eliminate interruptions entirely but to distinguish between those that are genuinely important and those that merely create the illusion of urgency. They also suggested scheduling specific times to check email instead of reacting to every notification as soon as it appears.
+Their increasing use has raised questions about shared spaces. In some places, cyclists and pedestrians use the same paths. Pedestrians may feel uncomfortable when faster e-bikes pass close to them, while riders may be uncertain about which paths they are allowed to use. Local authorities are responding in different ways, including reviewing speed rules, improving signs, and separating walking and cycling areas where space permits.
 
-Ultimately, the study concluded that productivity depends less on how many tasks people begin than on how consistently they finish them. Individuals who deliberately protect periods of uninterrupted focus generally accomplish more work than those who constantly divide their attention, even if the latter appear busier throughout the day.`,
+Safety depends on more than regulations. Riders need to understand how their particular e-bike operates, remain aware of other path users, and follow local requirements. Cities also have a role to play by designing routes that are clear and suitable for different types of travel. If these responsibilities are addressed together, e-bikes could become a useful part of a wider transportation system rather than simply a replacement for cars.
+
+Their future popularity will likely depend not only on the technology itself but also on whether communities can adapt streets and rules to accommodate it.`,
   questions: [
     {
-      q: "In the context of paragraph three, the verb 'accumulate' means to:",
+      q: "What makes an e-bike different from an ordinary bicycle?",
       options: [
-        "Diminish progressively over time",
-        "Amass gradually into a substantial sum",
-        "Lose relevance during daily operations",
-        "Occur without prior warning or structure"
+        "It provides motor assistance while the rider pedals.",
+        "It can travel without wheels on rough roads.",
+        "It does not require the rider to steer.",
+        "It is designed only for short journeys."
+      ],
+      correct: 0
+    },
+    {
+      q: "Why does the author mention battery replacement in paragraph two?",
+      options: [
+        "To show that e-bikes have no long-term operating costs",
+        "To explain that the purchase price is not the only expense buyers may face",
+        "To suggest that batteries must be replaced every month",
+        "To compare battery prices with parking fees"
       ],
       correct: 1
     },
     {
-      q: "What can be inferred regarding subjects in the frequent task-switching category?",
+      q: "The phrase 'the effect' in paragraph three refers to:",
       options: [
-        "They demonstrated an accurate awareness of their reduced accuracy.",
-        "They maintained an inflated self-assessment of their output efficacy.",
-        "They finalized a higher volume of assignments than single-taskers.",
-        "They disregarded the majority of incoming digital prompts."
+        "The possibility that e-bikes encourage some commuters to stop using cars",
+        "The cost of changing clothes after cycling",
+        "The impact of bad weather on car engines",
+        "The difficulty of finding a job near home"
       ],
-      correct: 1
+      correct: 0
     },
     {
-      q: "The demonstrative pronoun 'those' in paragraph four corresponds directly to:",
+      q: "What can be inferred about shared walking and cycling paths?",
       options: [
-        "Investigating scientists",
-        "Organizational objectives",
-        "Workplace disruptions",
-        "Electronic message alerts"
+        "They can create disagreements when users travel at different speeds.",
+        "They are always safer than separate paths.",
+        "Pedestrians generally prefer paths with no signs.",
+        "E-bike riders are not allowed to use them in any city."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to the passage, what is necessary for e-bikes to become a successful transportation option?",
+      options: [
+        "Replacing all public transportation with e-bikes",
+        "Making every e-bike free for residents",
+        "Combining responsible riding with suitable rules and infrastructure",
+        "Allowing e-bikes to travel at the same speed as cars"
       ],
       correct: 2
     },
     {
-      q: "Which premise aligns with the perspective presented by the author?",
+      q: "Which statement best expresses the central idea of the passage?",
       options: [
-        "Instantaneous communication management optimizes worker throughput.",
-        "Eliminating every workplace distraction is essential for organizational success.",
-        "Essential disruptions exist, yet non-critical interruptions can be strategically regulated.",
-        "Concurrent execution enables professionals to achieve superior speed."
-      ],
-      correct: 2
-    },
-    {
-      q: "Which option encapsulates the central thesis of the text?",
-      options: [
-        "Maximal output requires engaging with numerous projects concurrently.",
-        "Efficiency improves when sustained focus is preserved over fragmented attention.",
-        "Digital tools represent the primary cause of employee underperformance.",
-        "Corporate environments should permanently ban all electronic alerts."
-      ],
-      correct: 1
-    }
-  ]
-},
-{
-  id: "t6",
-  title: "Choosing the Best Time to Shop",
-  body: `Many people believe that shopping on weekends is the most convenient option because they have more free time. However, convenience does not always mean a better shopping experience. Retail experts say that the time and day people choose to shop can affect prices, product availability, and the amount of time they spend in stores.
-
-Large supermarkets are usually busiest on Saturday afternoons and Sunday mornings. During these periods, customers may need to wait longer at checkout lines, and popular products are more likely to sell out. In contrast, weekday mornings are often quieter, making it easier to compare products and receive assistance from store employees.
-
-Some shoppers also believe that stores lower their prices at the end of each day. While this may be true for certain fresh foods, such as bakery items or prepared meals, it does not apply to most products. Electronics, clothing, and household items are typically discounted according to planned sales rather than the time of day. As a result, customers who wait until the evening may not save as much money as they expect.
-
-Another common mistake is shopping without a list. Researchers found that people who plan their purchases before arriving at the store spend less money and finish shopping more quickly. They are also less likely to buy products they did not originally intend to purchase.
-
-Experts recommend choosing a shopping time that matches your priorities. If saving time is your main goal, visiting during quiet hours may be the best option. If you are looking for special discounts, paying attention to weekly sales is usually more effective than simply shopping late in the day.`,
-  questions: [
-    {
-      q: "The preference for weekend store visits among consumers stems primarily from:",
-      options: [
-        "Consistent storewide price reductions",
-        "Greater personal schedule flexibility",
-        "Superior merchandise inventory levels",
-        "Expedited point-of-sale processing"
-      ],
-      correct: 1
-    },
-    {
-      q: "In paragraph one, the noun 'availability' corresponds to:",
-      options: [
-        "Consumer demand metrics",
-        "Product grade or quality",
-        "Stock accessibility for purchase",
-        "Retail pricing structure"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which assertion is substantiated by the information in the passage?",
-      options: [
-        "Price markdowns apply to all inventory near closing hours.",
-        "Early weekday slots generally exhibit lower customer density than weekends.",
-        "Consumer electronics experience daily evening price cuts.",
-        "Shoppers express satisfaction with extended line delays."
-      ],
-      correct: 1
-    },
-    {
-      q: "The pronoun 'They' in the fourth paragraph identifies:",
-      options: [
-        "Market research analysts",
-        "Supermarket staff members",
-        "Consumers who prepare shopping lists in advance",
-        "Promotional price reductions"
-      ],
-      correct: 2
-    },
-    {
-      q: "The primary objective of the text is to:",
-      options: [
-        "Demonstrate how strategic timing and preparation optimize retail visits.",
-        "Persuade consumers to restrict retail activity to weekends.",
-        "Outline corporate pricing strategies used by retail chains.",
-        "Argue for the extension of supermarket operating hours."
+        "E-bikes offer potential benefits, but their wider use requires communities to address cost and safety concerns.",
+        "E-bikes are too expensive to be useful for ordinary commuters.",
+        "The main purpose of e-bikes is to provide recreation outside cities.",
+        "Local authorities should prevent e-bikes from using public paths."
       ],
       correct: 0
     }
   ]
 },
-{
-  id: "t7",
-  title: "Why Some Meetings Are More Effective Than Others",
-  body: `Meetings are an important part of many workplaces, but not all of them are productive. Some employees leave a meeting with a clear understanding of what needs to be done, while others feel that their time has been wasted. According to management experts, the difference often depends on preparation rather than the length of the meeting.
 
-One common problem is that participants arrive without knowing the purpose of the discussion. As a result, conversations may move from one topic to another without reaching a decision. In contrast, meetings with a written agenda usually stay focused because everyone understands which subjects will be discussed and how much time has been set aside for each one.
+  {
+    id: "t6",
+    title: "The Benefits of Volunteering",
+    body: `Every year, millions of people give their time to help others without receiving payment. Volunteers work in food banks, hospitals, animal shelters, and youth programs. Although their efforts are usually described as a gift to the community, research suggests that volunteers also gain a great deal themselves.
 
-Another factor is the number of people attending. Some managers believe that inviting more employees leads to better decisions because more opinions are shared. However, research suggests that larger meetings often require more time and make it harder for everyone to contribute. Smaller groups are generally able to make decisions more quickly, especially when participants have different responsibilities.
+One benefit is the opportunity to develop new skills. A person who helps organize a charity event, for example, may learn how to manage a schedule, communicate with strangers, and solve unexpected problems. Many employers value these abilities, and some job seekers include volunteer work on their résumés to show initiative.
 
-Technology has also changed the way meetings are organized. Video conferencing allows employees in different cities to work together without travelling. Although this saves both time and money, technical problems or poor internet connections can interrupt discussions and reduce efficiency.
+Volunteering can also improve a person's sense of well-being. Surveys show that people who help others regularly often report feeling more connected to their neighbourhood. For those who have recently moved to a new city, volunteering can be an easy way to meet people who share similar interests.
 
-Experts recommend ending every meeting with a short summary of the decisions that were made and the tasks assigned to each participant. This simple step helps prevent misunderstandings and ensures that everyone leaves with the same expectations. In many cases, a clear conclusion is just as important as the discussion itself.`,
-  questions: [
+However, volunteering is not always easy. Some organizations expect a regular commitment, which can be difficult for people with busy schedules. Others do not provide enough training, leaving new volunteers unsure about what to do. As a result, some people stop participating after only a few weeks.
+
+Experts suggest that anyone interested in volunteering should start small. Choosing a cause that feels personally meaningful and asking about the time required can prevent disappointment. Even a few hours each month can make a difference, both to the organization and to the volunteer.`,
+    questions: [
+      {
+        q: "Engaging in unpaid community service serves as a practical platform for participants primarily because:",
+        options: [
+          "It yields direct monetary incentives for career advancement.",
+          "It cultivates transferable competencies sought after by hiring managers.",
+          "It grants guaranteed employment contracts within non-profit sectors.",
+          "It replaces the need for formal academic or professional credentials."
+        ],
+        correct: 1
+      },
+      {
+        q: "Regarding individuals relocating to unfamiliar urban areas, civic engagement functions as:",
+        options: [
+          "An effective channel for fostering localized social integration with like-minded peers.",
+          "A compulsory civic duty required for permanent residential settlement.",
+          "A strategy designed primarily to lower personal living expenditures.",
+          "An alternative method to secure affordable permanent housing."
+        ],
+        correct: 0
+      },
+      {
+        q: "In paragraph four, the noun 'commitment' denotes:",
+        options: [
+          "A binding obligation to dedicate time consistently",
+          "A formal performance evaluation conducted by supervisors",
+          "A temporary departure from routine responsibilities",
+          "A financial contribution pledge toward organizational goals"
+        ],
+        correct: 0
+      },
+      {
+        q: "Premature withdrawal among novice volunteers is largely attributed to:",
+        options: [
+          "Inadequate initial orientation alongside strict scheduling expectations.",
+          "Sudden geographical relocation mandated by host organizations.",
+          "Excessive financial burdens associated with unpaid labor.",
+          "Strict regulatory bans prohibiting long-term volunteer involvement."
+        ],
+        correct: 0
+      },
+      {
+        q: "Which proposition reflects the strategy advocated by specialists for prospective volunteers?",
+        options: [
+          "Gradually initiating participation aligned with personal values to avoid burnout.",
+          "Exclusively committing to large-scale international non-governmental agencies.",
+          "Committing to daily operational shifts to maximize personal well-being.",
+          "Refraining from requesting details regarding time requirements."
+        ],
+        correct: 0
+      },
+      {
+        q: "What can be inferred about employers' perceptions of candidates with volunteer experience?",
+        options: [
+          "They interpret it as evidence of proactivity and adaptable problem-solving capability.",
+          "They assume such candidates lack competitive professional drive.",
+          "They prioritize unpaid work experience over all technical qualifications.",
+          "They view community service as a distraction from core job duties."
+        ],
+        correct: 0
+      }
+    ]
+  },
+  {
+    id: "t7",
+    title: "The Convenience of Grocery Delivery",
+    body: `Online grocery delivery has changed the way many people shop for food. Instead of driving to a store, customers can choose products on a website or app, and the order arrives at their door within a few hours. This service is especially helpful for people who are busy, have limited mobility, or do not own a car.
+
+Many customers also say that online shopping helps them stay within their budget. When they shop in a store, they often notice extra items near the checkout and add them to the cart. At home, they can review their list calmly and remove anything they do not need.
+
+Nevertheless, there are some disadvantages. Delivery fees can quickly add up, particularly for small orders. Some customers also complain that they cannot inspect fresh products themselves. A shopper may prefer to choose ripe fruit or check the date on a carton of milk, but with a delivery service, a store employee makes those decisions.
+
+Substitutions can cause frustration as well. If an item is out of stock, the store may send a similar product instead. Sometimes the replacement is acceptable, but at other times it is not what the customer wanted. Most services now allow shoppers to refuse substitutions, which helps to reduce this problem.
+
+Overall, grocery delivery has become a practical option rather than a luxury. Many people use it only occasionally, for example when the weather is bad or when they are unwell, and continue to visit stores for fresh items. This combination allows them to enjoy the convenience of delivery while still keeping control over the products they value most.`,
+    questions: [
     {
-      q: "A primary contributor to unproductive sessions cited in the text is:",
+      q: "E-grocery platforms primarily offer enhanced utility to consumers who:",
       options: [
-        "An insufficient allocation of meeting time",
-        "A lack of clarity regarding the session's core objective",
-        "Widespread employee non-attendance",
-        "A managerial refusal to adopt digital tools"
-      ],
-      correct: 1
-    },
-    {
-      q: "In the second paragraph, the term 'agenda' refers to:",
-      options: [
-        "A structured outline of planned discussion points",
-        "An official corporate compliance policy",
-        "A formal financial performance report",
-        "An electronic calendar appointment request"
+        "Face physical constraints or severe time limitations regarding store visits.",
+        "Seek exclusive access to imported artisanal food products.",
+        "Intend to eliminate all personal contact with retail staff.",
+        "Wish to secure wholesale commercial volume discounts."
       ],
       correct: 0
     },
     {
-      q: "What can be inferred about lower-capacity meeting gatherings?",
+      q: "Digital order curation supports fiscal discipline mainly by:",
       options: [
-        "They exclude leadership figures entirely.",
-        "They tend to reach consensus with greater expediency.",
-        "They function effectively only via virtual platforms.",
-        "They strictly adhere to sub-thirty-minute durations."
+        "Mitigating exposure to point-of-sale impulse merchandise.",
+        "Guaranteeing lower base prices than brick-and-mortar outlets.",
+        "Waiving service charges on low-volume transactions.",
+        "Providing automatic government food subsidy credits."
       ],
-      correct: 1
+      correct: 0
     },
     {
-      q: "The demonstrative pronoun 'This' in the final paragraph designates:",
+      q: "A notable operational drawback of doorstep fulfillment cited in the passage is:",
       options: [
-        "Leveraging virtual telecommunication platforms",
-        "Expanding the general attendee list",
-        "Concluding with a recap of decisions and action items",
-        "Commuting between geographical office locations"
+        "The delegation of perishable item quality assessment to store personnel.",
+        "The total prohibition of digital payment methods across platforms.",
+        "An inherent delay requiring several business days for order dispatch.",
+        "Frequent structural errors in electronic billing records."
       ],
-      correct: 2
+      correct: 0
     },
     {
-      q: "Which option best encapsulates the core message of the passage?",
+      q: "In the context of the fourth paragraph, the term 'substitutions' pertains to:",
       options: [
-        "Extended duration remains necessary for high-quality outcomes.",
-        "Virtual communication has made in-person contact obsolete.",
-        "Meeting success hinges on thorough preparation, targeted dialogue, and explicit wrap-ups.",
-        "Organizations ought to limit workplace assemblies to a single weekly event."
+        "Alternative items fulfilled when original stock is depleted",
+        "Promotional price reductions applied to recurring purchases",
+        "Coupled delivery personnel assigned to heavy orders",
+        "Adjustments made to store operating hours during peak periods"
       ],
-      correct: 2
+      correct: 0
+    },
+    {
+      q: "The concluding paragraph indicates that the prevalent pattern among modern consumers is to:",
+      options: [
+        "Adopt a hybrid approach, combining digital delivery with selective in-person buying.",
+        "Transition entirely to automated digital fulfillment for all dietary needs.",
+        "Restrict e-commerce purchases strictly to non-perishable household items.",
+        "Utilize fulfillment services exclusively during severe winter weather events."
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about the evolution of user controls in grocery delivery apps?",
+      options: [
+        "Platforms have adapted to customer feedback by offering options to decline unwanted item replacements.",
+        "Companies have removed substitution policies to cut operational costs.",
+        "Delivery platforms now compel users to accept any available alternative.",
+        "Retailers have standardized product selection to eliminate out-of-stock occurrences."
+      ],
+      correct: 0
     }
   ]
 },
 {
   id: "t8",
-  title: "The Return of Urban Gardens",
-  body: `In many cities, empty lots and unused pieces of land are being transformed into community gardens. These gardens allow residents to grow vegetables, herbs, and flowers in areas that might otherwise remain unused. Although urban gardening is not a new idea, its popularity has increased as cities look for ways to improve neighbourhoods and provide residents with access to fresh food.
+  title: "Starting a Home Compost",
+  body: `Composting is the process of turning food scraps and garden waste into rich soil. Instead of sending banana peels, coffee grounds, and leaves to a landfill, people collect them in a bin and allow them to break down naturally. The finished compost can then be used to improve the soil in a garden or in flower pots.
 
-One reason community gardens have become popular is that they can bring people together. Residents who might rarely speak to one another can work side by side while planting and maintaining the garden. Some communities also organize workshops where experienced gardeners teach beginners how to grow different types of plants. As a result, the gardens can become places for both social activity and learning.
+Starting a compost bin is not complicated, but it does require some attention. Experts recommend mixing two types of material. "Green" materials, such as vegetable scraps and fresh grass, provide moisture and nutrients. "Brown" materials, such as dry leaves and paper, add structure and help air move through the pile. When these two types are balanced, the compost decomposes more quickly.
 
-However, creating a successful garden is not always simple. Finding suitable land can be difficult, particularly in crowded neighbourhoods where space is expensive. Gardens also require regular maintenance. If volunteers stop participating, plants may not receive enough water or attention. For this reason, some community organizations create schedules so that different residents are responsible for the garden on different days.
+There are also items that should be avoided. Meat, dairy products, and oily foods can create unpleasant smells and attract animals such as rats or raccoons. For this reason, many beginners are advised to compost only plant-based waste at first.
 
-Another challenge is deciding what should happen to the land in the future. A city may allow residents to use an empty lot for several years but later decide that the property is needed for housing or another public project. In such cases, gardeners may have to move their plants and equipment to another location.
+Some people hesitate to begin because they live in apartments without gardens. Fortunately, small indoor containers are available, and some cities offer collection programs that take compost away for processing. Others share a bin with neighbours or bring their scraps to a community garden.
 
-Despite these challenges, urban gardening programs continue to attract support. Experts say their greatest value may not be the amount of food they produce but the way they improve community connections and encourage residents to take an active role in their neighbourhoods. In other words, a successful community garden can produce benefits that extend well beyond the vegetables growing in it.`,
+Although composting takes a little effort, many people find it rewarding. It reduces the amount of garbage they throw away, and it provides free fertilizer for their plants. Over time, it can also change the way people think about waste, encouraging them to see leftovers as a resource instead of a problem.`,
   questions: [
     {
-      q: "The surge in urban agricultural initiatives is primarily driven by municipal efforts to:",
+      q: "The ultimate agricultural utility of organic waste processing lies in its ability to:",
       options: [
-        "Halt all prospective residential construction projects.",
-        "Revitalize local districts while enhancing produce availability.",
-        "Reduce the hourly rates of professional horticulturists.",
-        "Shift public leisure preferences toward agricultural labor."
-      ],
-      correct: 1
-    },
-    {
-      q: "In paragraph three, the adjective 'suitable' is synonymous with:",
-      options: [
-        "Financially lucrative for commercial developers",
-        "Designated exclusively for private acquisition",
-        "Appropriate and fit for a specific function",
-        "Recently cleared for civil engineering"
-      ],
-      correct: 2
-    },
-    {
-      q: "What can be inferred regarding community plots managed solely through volunteerism?",
-      options: [
-        "Their operational continuity is vulnerable to shifts in public engagement.",
-        "Their annual crop yields consistently surpass industrial farms.",
-        "Their establishment in high-density urban areas is strictly prohibited.",
-        "Their physical relocation is mandated by civic law every few years."
+        "Enhance soil fertility and structural quality for cultivation.",
+        "Sterilize indoor living environments against pests.",
+        "Produce fuel for domestic heating systems.",
+        "Manufacture durable outdoor garden furniture."
       ],
       correct: 0
     },
     {
-      q: "The transitional phrase 'In such cases' in paragraph four pertains to scenarios where:",
+      q: "Carbon-rich 'brown' inputs play a critical operational role in a compost pile by:",
       options: [
-        "Horticultural experts conduct educational community seminars.",
-        "Municipal authorities reclaim property for urban development projects.",
-        "Local populations encounter systemic nutritional deficiencies.",
-        "Irrigation demands exceed existing water supply limits."
+        "Facilitating structural aeration necessary for efficient breakdown.",
+        "Increasing moisture levels to accelerate bacterial growth.",
+        "Neutralizing all acidic compounds within organic refuse.",
+        "Deterring scavengers through strong chemical odor suppression."
       ],
-      correct: 1
+      correct: 0
     },
     {
-      q: "The central thesis expressed in the concluding paragraph highlights that:",
+      q: "The exclusion of animal-derived products from early-stage composting is recommended primarily to prevent:",
       options: [
-        "Agricultural yield represents the primary metric of garden success.",
-        "Spatial scarcity inevitably leads to the demise of urban plots.",
-        "Civic cohesion and social capital outweigh mere dietary production.",
-        "Municipalities must permanently restrict vacant land from future development."
+        "Noxious odorous emissions and pest infestation.",
+        "Excessive soil dehydration within plant beds.",
+        "The complete halt of organic decomposition.",
+        "Severe chemical corrosion of plastic containment units."
       ],
-      correct: 2
+      correct: 0
+    },
+    {
+      q: "In paragraph four, the verb 'hesitate' indicates that prospective participants:",
+      options: [
+        "Show reluctance or uncertainty prior to initiating the practice",
+        "Act with excessive speed without prior planning",
+        "Refuse on principle to participate in environmental schemes",
+        "Demonstrate immediate confidence in managing organic waste"
+      ],
+      correct: 0
+    },
+    {
+      q: "Apartment dwellers lacking personal green spaces can overcome logistical barriers by:",
+      options: [
+        "Utilizing compact indoor vessels or municipal collection services.",
+        "Incinerating organic waste within residential spaces.",
+        "Relying exclusively on commercial synthetic fertilizers.",
+        "Transporting all domestic waste directly to regional landfills."
+      ],
+      correct: 0
+    },
+    {
+      q: "What broader psychological shift does the author associate with sustained composting?",
+      options: [
+        "A transition from viewing discarded matter as trash to recognizing its value as a renewable resource.",
+        "A complete decline in personal grocery expenditure over time.",
+        "A growing distrust in municipal waste collection frameworks.",
+        "An inclination to avoid consuming fresh produce."
+      ],
+      correct: 0
     }
   ]
 },
 {
   id: "t9",
-  title: "The Changing Role of Public Transit",
-  body: `Public transportation systems have traditionally been designed around a simple idea: move large numbers of people from residential areas to busy city centres. Buses and trains were often busiest during the morning and afternoon rush hours, when people were travelling to and from work. However, changes in working habits and city life are forcing transit agencies to reconsider how their services should operate.
+  title: "Overcoming the Fear of Public Speaking",
+  body: `For many people, speaking in front of a group is one of the most stressful experiences imaginable. Their hearts beat faster, their hands shake, and their minds seem to go blank. Surveys often show that people fear public speaking more than many situations that are objectively more dangerous.
 
-One important change is the growth of flexible work schedules. Some employees now work from home several days a week, while others begin and finish work at different times. As a result, the number of passengers travelling during traditional rush hours may be lower than it was in the past. At the same time, people still need transportation for shopping, appointments, education, and social activities throughout the day.
+Psychologists explain that this reaction is connected to a natural worry about being judged. When we stand in front of an audience, we may assume that everyone is watching for mistakes. In reality, most listeners are focused on the message and are far less critical than the speaker imagines.
 
-To respond to these changes, some transit agencies are experimenting with more flexible services. Instead of operating large buses on routes that have relatively few passengers, an agency may use smaller vehicles during quieter periods. Some systems are also testing on-demand services, allowing passengers to request a vehicle through an app rather than waiting for a regular bus at a fixed time.
+Preparation is one of the best ways to reduce anxiety. Speakers who practise their presentation several times usually feel more confident. Some experts advise rehearsing in front of a friend or recording yourself, so that you can notice habits such as speaking too quickly or looking at the floor.
 
-These changes can make transportation more efficient, but they also create challenges. A service that is convenient for one group of passengers may be less useful for another. For example, reducing the number of buses on a low-demand route could save money, but it might cause problems for people who depend on that route and have no other transportation options. Transit planners therefore have to consider not only the number of passengers using a service but also how important that service is to the people who rely on it.
+Breathing techniques can also help. Taking slow, deep breaths before speaking lowers the heart rate and calms the body. Another useful strategy is to begin with a short personal story or a question for the audience, which can make the speaker feel more connected to the listeners.
 
-The goal is not necessarily to make public transportation cheaper or faster in every situation. Instead, many transit agencies are trying to create systems that respond better to how people actually travel. This may mean moving away from a one-size-fits-all model and toward services that can change according to demand, time of day, and the needs of different communities.`,
+Finally, it is important to remember that confidence usually grows with experience. A first speech may feel uncomfortable, but each additional one becomes easier. Many professional speakers admit that they still feel nervous before a presentation. The difference is that they have learned to use that energy to keep the talk lively instead of allowing it to stop them.`,
   questions: [
     {
-      q: "Transit authorities are restructuring conventional peak-hour operations primarily because:",
+      q: "According to psychological analysis, glossophobia primarily stems from:",
       options: [
-        "A growing proportion of the population is relocating to urban cores.",
-        "Adaptable professional schedules have shifted commuter transit patterns.",
-        "Fleet maintenance expenditures escalate drastically during winter months.",
-        "Ridership overwhelmingly favors rail transport over municipal buses."
-      ],
-      correct: 1
-    },
-    {
-      q: "In the context of the fourth paragraph, the term 'demand' denotes:",
-      options: [
-        "The volume of patrons requiring or seeking transit availability",
-        "The geographical distance separating consecutive transit stops",
-        "The operational expenditure required to maintain service networks",
-        "The total duration spent in transit by an individual patron"
+        "An exaggerated apprehension of negative peer evaluation.",
+        "A fundamental lack of subject matter comprehension.",
+        "A physiological inability to regulate speech cadence.",
+        "An inherent aversion to large physical venues."
       ],
       correct: 0
     },
     {
-      q: "What can be inferred regarding service reductions along underutilized transit corridors?",
+      q: "In contrast to a speaker's self-conscious perceptions, most audience members are:",
       options: [
-        "They invariably optimize systemic operational efficiency.",
-        "They disproportionately impact transit-dependent populations with limited mobility choices.",
-        "They actively incentivize commuters to adopt remote work arrangements.",
-        "They stem directly from formal petitions submitted by transit riders."
+        "Predominantly attentive to the core substance of the presentation.",
+        "Actively searching for minor verbal and non-verbal errors.",
+        "Indifferent to the speaker's overall communicative goal.",
+        "Primarily focused on assessing the speaker's visual presence."
       ],
-      correct: 1
+      correct: 0
     },
     {
-      q: "The phrase 'These changes' at the beginning of paragraph four references:",
+      q: "Self-recording during trial runs serves as an effective diagnostic tool because it:",
       options: [
-        "Demographic shifts in metropolitan residential density",
-        "Technological advancements in automotive manufacturing",
-        "Strategic shifts toward adaptable, dynamic transit models",
-        "Revisions to employee compensation packages and employment terms"
+        "Exposes unconscious behavioral mannerisms requiring correction.",
+        "Eliminates the necessity for advance content preparation.",
+        "Guarantees absolute immunity from physiological anxiety.",
+        "Ensures total audience agreement with the presentation thesis."
       ],
-      correct: 2
+      correct: 0
     },
     {
-      q: "Which element is NOT cited as a variable shaping future public transportation policy?",
+      q: "In paragraph three, the term 'rehearsing' is synonymous with:",
       options: [
-        "Diurnal operational timing",
-        "Fluctuating patron volume",
-        "Distinct neighborhood requirements",
-        "The mechanical age of fleet vehicles"
+        "Systematically practicing prior to the actual delivery",
+        "Memorizing a text verbatim without understanding",
+        "Spontaneously improvising key arguments on stage",
+        "Critiquing another speaker's performance"
       ],
-      correct: 3
+      correct: 0
+    },
+    {
+      q: "Seasoned public speakers differ from inexperienced ones primarily in their ability to:",
+      options: [
+        "Channel nervous arousal productively to enhance delivery dynamism.",
+        "Eradicate all traces of autonomic anxiety before speaking.",
+        "Deliver complex lectures without prior preparation.",
+        "Avoid engaging directly with audience members."
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about the role of audience interaction techniques, such as opening questions?",
+      options: [
+        "They serve to reduce psychological distance between the speaker and the audience.",
+        "They are designed to test the audience's baseline knowledge.",
+        "They function as a tactic to prolong presentation length.",
+        "They force listeners to take over the speaking responsibility."
+      ],
+      correct: 0
     }
   ]
 },
 {
   id: "t10",
-  title: "The Value of Repairing Old Products",
-  body: `For many years, replacing a broken product was often easier and cheaper than repairing it. A damaged appliance, piece of furniture, or electronic device could simply be thrown away and replaced with a newer model. However, this habit is beginning to change as more people become interested in reducing waste and keeping products in use for longer.
+  title: "The Debate Over the Four-Day Work Week",
+  body: `The traditional five-day work week has been standard in many countries for decades. Recently, however, a number of companies have tested a shorter schedule in which employees work four days a week while receiving the same pay. Supporters believe this model could improve both productivity and employee happiness.
 
-One reason for this change is the growing availability of repair services. Some communities have opened repair cafés where people can bring damaged household items and receive help from volunteers. These events are not designed only to fix products. They also teach people basic repair skills, such as replacing a cable, tightening a loose part, or identifying the cause of a simple problem.
+In several trials, workers reported feeling less stressed and more satisfied with their lives. They said that the extra day off gave them time for appointments, family activities, and rest. Some managers also noticed that employees seemed more focused during working hours, perhaps because they wanted to finish their tasks on time.
 
-Manufacturers are also becoming part of the discussion. Some companies now provide replacement parts, repair instructions, or longer warranties. Supporters of these policies argue that customers should not have to replace an entire product when only one small component has stopped working. In addition, products that are easier to repair may remain useful for many more years.
+Despite these positive reports, the idea is not suitable for every business. A hospital or a restaurant, for example, must stay open every day, so scheduling shorter weeks can be complicated. In some jobs, customers expect service at all times, and fewer working days may require hiring additional staff.
 
-However, repairing an item is not always the best option. In some cases, the cost of labour can be higher than the value of the product. Older devices may also require parts that are no longer available. There are situations where replacing an inefficient appliance with a newer, more energy-efficient model may make more sense in the long term.
+Critics also worry that employees might feel pressure to complete five days of work in four. If workers are expected to do the same amount of work in less time, the benefits of the shorter week could disappear. Some employees may end up working longer hours on the remaining days, which can be tiring.
 
-Despite these limitations, the repair movement has changed the way some consumers think about damaged products. Instead of immediately asking whether something should be replaced, they may first ask whether it can be repaired. This small change in attitude can reduce unnecessary waste while helping people develop practical skills and make more informed purchasing decisions.`,
+For this reason, experts suggest that companies test the idea carefully. A trial period allows managers to see what works and to listen to employee feedback. If the experiment is well planned, it may help organizations decide whether a four-day week is a realistic choice for their particular workplace.`,
   questions: [
     {
-      q: "A primary objective of community repair initiatives mentioned in the text is to:",
+      q: "The fundamental premise of the modern four-day work framework involves:",
       options: [
-        "Facilitate the retail sale of modern home goods",
-        "Impart practical trouble-shooting and restoration competencies to citizens",
-        "Offer specialized maintenance for high-value automotive machinery",
-        "Assist corporations in manufacturing lower-cost goods"
-      ],
-      correct: 1
-    },
-    {
-      q: "According to the author, restoring older items may prove impractical due to:",
-      options: [
-        "Excessive unit weight impeding physical transport",
-        "Legal prohibitions preventing personal maintenance",
-        "The obsolescence and scarcity of necessary components",
-        "Service venue restrictions excluding non-electronic goods"
-      ],
-      correct: 2
-    },
-    {
-      q: "In the context of the fourth paragraph, the adjective 'efficient' means:",
-      options: [
-        "Optimizing performance while minimizing resource consumption",
-        "Presenting operational complexity to the user",
-        "Displaying contemporary aesthetic features",
-        "Carrying a low initial purchase cost"
+        "Compressing operational days without reducing employee compensation.",
+        "Proportionately reducing salary in exchange for fewer working hours.",
+        "Mandating extended ten-hour daily shifts across all sectors.",
+        "Restricting all professional duties exclusively to weekend shifts."
       ],
       correct: 0
     },
     {
-      q: "What can be inferred regarding the broader impact of the right-to-repair movement?",
+      q: "Empirical trial results indicate that condensed work schedules led to:",
       options: [
-        "It prompts consumers to evaluate restoration viability prior to disposal.",
-        "It has rendered the manufacturing of new consumer goods obsolete.",
-        "It receives backing exclusively from consumer electronics producers.",
-        "It guarantees that item restoration is invariably less costly than replacement."
+        "Heightened job satisfaction combined with enhanced operational focus.",
+        "A universal surge in employee turnover across participating firms.",
+        "A preference among staff for longer daily workplace commutes.",
+        "A decline in overall output due to widespread procrastination."
       ],
       correct: 0
     },
     {
-      q: "Which proposition encapsulates the core thesis of the text?",
+      q: "Continuous-service industries struggle with four-day schedules primarily because:",
       options: [
-        "Restoration remains categorically superior to acquiring replacement items.",
-        "Producers ought to bear sole financial liability for product maintenance.",
-        "Fostering a repair mindset mitigates ecological waste and shifts consumer habits.",
-        "The practice of discarding damaged home goods has been wholly abandoned."
+        "Uninterrupted operational requirements complicate staffing coverage.",
+        "Employees in service sectors express opposition to additional time off.",
+        "Administrative regulations forbid flexible scheduling in healthcare.",
+        "Customer traffic disappears during non-traditional business hours."
       ],
-      correct: 2
+      correct: 0
+    },
+    {
+      q: "In paragraph four, the phrase 'the benefits' refers to:",
+      options: [
+        "The positive health and productivity gains linked to reduced work days",
+        "Overtime compensation earned by working extended hours",
+        "Financial savings accrued from downsizing corporate staff",
+        "Tax incentives granted to businesses adopting compressed schedules"
+      ],
+      correct: 0
+    },
+    {
+      q: "Organizational consultants advise that firms considering compressed work schedules should:",
+      options: [
+        "Execute controlled pilot testing accompanied by structured feedback mechanisms.",
+        "Implement immediate, permanent schedule shifts without preliminary trials.",
+        "Restrict compressed scheduling options strictly to executive leadership.",
+        "Reject compressed work models owing to potential implementation risks."
+      ],
+      correct: 0
+    },
+    {
+      q: "What potential vulnerability of the four-day model is highlighted by critics?",
+      options: [
+        "The risk of work intensification leading to exhaustion on active workdays.",
+        "The complete loss of client communication during off days.",
+        "The inevitable drop in overall product manufacturing quality.",
+        "The inability of management to track employee attendance."
+      ],
+      correct: 0
     }
   ]
 },
 {
   id: "t11",
-  title: "Why Some Small Businesses Choose to Share Space",
-  body: `Running a small business can be difficult, especially when the cost of renting an office or commercial space is high. For this reason, some small business owners have started sharing workplaces with other companies. Instead of paying for an entire office, several businesses may use the same building and divide the costs.
+  title: "Why Fewer People Carry Cash",
+  body: `Not long ago, most people carried cash in their wallets. Today, many pay for everything with a card or a phone, from a cup of coffee to a monthly rent. Mobile payment systems allow customers to tap their device on a terminal, and the purchase is completed in seconds.
 
-Shared workspaces can offer more than just a cheaper place to work. Many provide meeting rooms, internet access, kitchen areas, printing equipment, and other facilities that would otherwise be expensive for a small company to purchase. Business owners can therefore avoid some of the costs associated with setting up a traditional office.
+The main reason for this shift is convenience. Cards and phones are quick to use, and customers do not need to count coins or wait for change. Many apps also keep a record of each purchase, which helps users track their spending and prepare for tax season.
 
-Another advantage is the opportunity to meet other professionals. A graphic designer, for example, might work near a marketing consultant or a software developer. Although these people may operate separate businesses, they can exchange ideas or recommend one another to clients. In some cases, these informal connections can lead to new projects.
+Businesses have found advantages as well. Handling cash takes time, and employees must count it at the end of each day. There is also a risk of theft or counting mistakes. Electronic payments reduce these problems, although merchants usually pay a small fee for each transaction.
 
-However, shared workplaces are not suitable for everyone. Some businesses handle confidential information and require private offices. Others may need specialized equipment or a quiet environment that a busy shared space cannot provide. Noise can also become a problem when several companies are working in the same area.
+However, not everyone benefits equally from the change. Some older customers feel uncomfortable with new technology, and some people do not have bank accounts at all. In addition, a power failure or a network problem can make it impossible to pay with a card. For these reasons, certain governments have required stores to continue accepting cash.
 
-Despite these limitations, shared workspaces continue to attract entrepreneurs who value flexibility. Instead of committing to a long-term lease and purchasing everything they need themselves, business owners can choose a workspace that matches their current situation. If their company grows, they may move into a larger private office. If their needs decrease, they can often reduce the amount of space they use.
-
-The popularity of shared workspaces suggests that small businesses are looking for ways to control expenses without giving up access to useful facilities. For some entrepreneurs, the greatest benefit may be the combination of lower costs and the chance to build professional connections with people they would otherwise never meet.`,
+Financial experts suggest that carrying a small amount of money is still a sensible idea. Cash works without electricity, does not depend on a connection, and can be useful in emergencies. As payment methods continue to change, a balanced approach may be the most reliable choice.`,
   questions: [
     {
-      q: "Why do some small businesses decide to use shared workplaces?",
+      q: "The societal transition away from physical currency toward digital transactions is propelled mainly by:",
       options: [
-        "They want to eliminate contact with other companies.",
-        "They need to reduce the expense of maintaining a traditional office.",
-        "They are required to work in the same building as other businesses.",
-        "They want to avoid using meeting rooms and other facilities."
-      ],
-      correct: 1
-    },
-    {
-      q: "According to the passage, shared workplaces can provide businesses with access to facilities that would otherwise be ______.",
-      options: [
-        "unnecessary",
-        "unavailable to clients",
-        "costly to obtain",
-        "difficult to advertise"
-      ],
-      correct: 2
-    },
-    {
-      q: "What does the phrase 'these informal connections' in the third paragraph refer to?",
-      options: [
-        "Relationships between business owners working in the same space",
-        "Agreements between landlords and tenants",
-        "Meetings between companies and their customers",
-        "Online conversations between software developers"
+        "Enhanced transactional speed and operational convenience.",
+        "Government mandates prohibiting paper currency circulation.",
+        "Substantial price markdowns on digital purchases.",
+        "The complete elimination of merchant transaction fees."
       ],
       correct: 0
     },
     {
-      q: "Which of the following is suggested as a possible drawback of shared workplaces?",
+      q: "In addition to settlement speed, mobile financial software assists users by:",
       options: [
-        "They prevent businesses from finding new customers.",
-        "They require companies to purchase their own buildings.",
-        "They may not provide enough privacy for certain businesses.",
-        "They make it impossible for companies to expand."
+        "Automating expenditure logging and fiscal documentation.",
+        "Absorbing personal income tax obligations on behalf of users.",
+        "Eliminating the necessity for institutional bank accounts.",
+        "Preventing all forms of retail impulse buying."
       ],
-      correct: 2
+      correct: 0
     },
     {
-      q: "What does the final paragraph imply about the appeal of shared workspaces?",
+      q: "From a commercial perspective, adopting digital point-of-sale systems involves a trade-off between:",
       options: [
-        "Their main purpose is to help large companies reduce their workforce.",
-        "Their popularity is partly due to a balance between affordability and useful resources.",
-        "Most entrepreneurs prefer them because they provide completely private offices.",
-        "They are becoming popular mainly because traditional offices are disappearing."
+        "Reduced cash-handling risks and transaction processing costs.",
+        "Higher employee wages and lower customer volume.",
+        "Shorter store operating hours and higher inventory loss.",
+        "Increased physical security needs and slower checkout lines."
       ],
-      correct: 1
+      correct: 0
+    },
+    {
+      q: "Legislative interventions mandating physical cash acceptance aim to protect:",
+      options: [
+        "Demographics vulnerable to technological exclusion or network outages.",
+        "Banking institutions seeking to expand paper note production.",
+        "Large retail conglomerates seeking to avoid card interchange fees.",
+        "Technology firms marketing mobile payment infrastructure."
+      ],
+      correct: 0
+    },
+    {
+      q: "Financial advisors advocate maintaining a modest physical cash reserve because:",
+      options: [
+        "It provides non-contingent utility during technological grid failures.",
+        "It yields higher interest rates than digital accounts.",
+        "It guarantees immunity from retail price inflation.",
+        "It remains legally required for all minor transactions."
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about the author's ultimate stance on payment methods?",
+      options: [
+        "Prudence lies in maintaining a dual approach rather than relying exclusively on digital systems.",
+        "Complete reliance on mobile applications represents the safest long-term strategy.",
+        "Physical currency should be phased out entirely within urban centers.",
+        "Digital payments pose unacceptable security risks for average consumers."
+      ],
+      correct: 0
     }
   ]
-},{
+},
+{
   id: "t12",
-  title: "How Weather Forecasts Influence Local Tourism",
-  body: `Weather forecasts play an important role in the tourism industry. Many travellers check expected conditions before deciding where to go, what activities to book, and how long to stay. Although weather has always influenced travel, modern forecasting tools allow visitors to make decisions with more information than was available in the past.
+  title: "The Rising Cost of Youth Sports",
+  body: `Playing sports has long been seen as a healthy and affordable activity for young people. Today, however, many parents say that the cost of children's sports has increased sharply. Registration fees, uniforms, equipment, and travel to tournaments can add up to thousands of dollars each year.
 
-For businesses that depend on tourism, accurate forecasts can make a significant difference. A company offering boat tours, for example, may receive fewer bookings when strong winds or heavy rain are expected. By monitoring weather reports, the company can adjust its schedule, notify customers, and avoid sending boats out in unsuitable conditions. This preparation may reduce lost income and improve passenger safety.
+One reason for the increase is the growing number of competitive leagues. Some teams now hold practices several times a week and travel to other cities for games. Coaches with professional training are often hired, and these services are usually paid for by the families.
 
-However, forecasts do not always provide a complete picture. A prediction of rain throughout the day may discourage visitors, even if the actual rainfall lasts only a short time. As a result, some tourists may cancel their plans unnecessarily. Businesses that understand this problem sometimes provide alternative activities, such as indoor exhibitions, cooking classes, or guided visits to local historical sites.
+This trend can create problems. Children from families with lower incomes may be unable to join teams that require expensive equipment or long trips. As a result, talented players sometimes leave sports simply because their families cannot afford to continue.
 
-Technology has also changed how tourists respond to unexpected conditions. Mobile applications can send updates about approaching storms, temperature changes, or road closures. These notifications help travellers modify their plans while they are already on a trip. Nevertheless, depending too heavily on digital information can create difficulties when mobile coverage is limited, particularly in remote areas.
+Some communities are trying to address the issue. Local clubs have started equipment exchanges, where families can donate or borrow used skates, shoes, and helmets. Certain cities also provide grants that reduce fees for families who need help. In addition, some schools offer after-school programs where students can play for free.
 
-Some tourism operators have therefore started promoting experiences that are less dependent on the weather. Museums, craft workshops, cultural performances, and local food tours can attract visitors throughout the year. This approach may also help destinations that traditionally receive most of their income during a short summer season.
-
-Ultimately, weather forecasts are useful planning tools, but they do not determine whether a trip will be successful. Businesses that prepare for different conditions and offer flexible alternatives may be better positioned to satisfy their customers. For travellers, a little preparation can turn an unexpected change in the weather into an opportunity to discover something they had not originally considered.`,
+Experts remind parents that the main goal of youth sports should be enjoyment and healthy habits, not constant competition. A child can gain confidence, teamwork skills, and friendships in a simple neighbourhood league just as easily as in an expensive travelling team. By focusing on participation rather than prestige, communities may keep sports accessible to more children.`,
   questions: [
     {
-      q: "Why might a boat tour company change its schedule after checking a forecast?",
+      q: "Financial inflation in youth athletics is primarily driven by:",
       options: [
-        "To guarantee that every customer books another tour",
-        "To avoid operating in potentially unsafe conditions",
-        "To prevent tourists from visiting historical sites",
-        "To increase the number of rainy days"
-      ],
-      correct: 1
-    },
-    {
-      q: "In the third paragraph, the word 'discourage' is closest in meaning to:",
-      options: [
-        "Persuade someone not to do something",
-        "Remind someone of a previous experience",
-        "Encourage someone to spend more money",
-        "Prepare someone for a difficult task"
+        "The professionalization of coaching and elite travel league structures.",
+        "Mandatory state taxation on amateur recreational activities.",
+        "A decline in overall youth participation across regional leagues.",
+        "The rising cost of basic public facility rentals."
       ],
       correct: 0
     },
     {
-      q: "What can be inferred about tourists who rely entirely on weather forecasts?",
+      q: "The escalation of participation costs poses an equity challenge because:",
       options: [
-        "They are more likely to visit remote locations.",
-        "They rarely change their travel arrangements.",
-        "They may miss enjoyable activities because forecasts can be misleading.",
-        "They usually prefer indoor attractions to outdoor activities."
+        "Socioeconomic barriers force underfunded youth out of athletic programs.",
+        "Municipalities are legally forced to close recreational facilities.",
+        "Professional coaches refuse to train non-elite athletes.",
+        "School districts are eliminating physical education classes."
       ],
-      correct: 2
+      correct: 0
     },
     {
-      q: "What does the phrase 'This approach' in the fifth paragraph refer to?",
+      q: "Equipment recycled-gear drives function within communities to:",
       options: [
-        "Sending weather notifications to mobile phones",
-        "Cancelling tourism activities during the winter",
-        "Offering experiences that can attract visitors in different weather conditions",
-        "Concentrating business operations in the summer"
+        "Alleviate financial burdens by providing shared athletic gear.",
+        "Generate revenue for elite competitive travel teams.",
+        "Standardize equipment models across all regional clubs.",
+        "Replace municipal recreation subsidies entirely."
       ],
-      correct: 2
+      correct: 0
     },
     {
-      q: "Which statement is best supported by the passage?",
+      q: "In paragraph five, the word 'accessible' is closest in meaning to:",
       options: [
-        "Modern forecasts have removed most risks associated with tourism.",
-        "Tourism businesses can become more resilient by preparing alternatives for poor weather.",
-        "Visitors generally prefer to cancel trips whenever rain is predicted.",
-        "Indoor attractions are profitable only during the summer season."
+        "Attainable for participation regardless of socioeconomic background",
+        "Exclusively reserved for high-performing athletic prospects",
+        "Geographically restricted to central urban locations",
+        "Technically simple for beginner athletes to comprehend"
       ],
-      correct: 1
+      correct: 0
+    },
+    {
+      q: "Pediatric and athletic experts advocate that community sports frameworks should prioritize:",
+      options: [
+        "Holistic development and active engagement over status-driven competition.",
+        "Early athletic specialization to secure professional opportunities.",
+        "Maximized travel schedules to foster resilience under pressure.",
+        "Strict skill-based screening to eliminate non-elite players."
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about the comparative developmental value of local versus traveling leagues?",
+      options: [
+        "Community-based leagues foster social and health benefits comparable to elite teams at a fraction of the cost.",
+        "Travel leagues offer vastly superior psychological benefits to developing youth.",
+        "Local leagues fail to teach fundamental teamwork and discipline.",
+        "Expensive travel programs are necessary for building true self-confidence."
+      ],
+      correct: 0
     }
   ]
 },
 {
   id: "t13",
-  title: "The Challenge of Preserving Historic Buildings",
-  body: `Historic buildings often give a town or city its distinctive character. Old railway stations, factories, schools, and residential buildings can reveal how a community developed and how people lived in earlier times. However, preserving these structures can be complicated, particularly when they no longer meet modern standards or serve their original purpose.
+  title: "Noise in the Modern City",
+  body: `City life is rarely quiet. Traffic, construction work, sirens, and crowds create a constant background of sound. Many residents become so used to this noise that they hardly notice it, yet researchers say that it can affect health and daily life.
 
-One major obstacle is the cost of renovation. Older buildings may have damaged foundations, outdated electrical systems, or materials that require specialist treatment. Before work begins, owners often need detailed inspections to determine which parts can be repaired and which must be replaced. These investigations can be expensive, but skipping them may result in unexpected problems later.
+Studies have linked long-term exposure to loud sounds with sleep problems, stress, and difficulty concentrating. Children who attend schools near busy roads or airports may find it harder to focus on their lessons. Even when the noise does not seem very loud, it can interrupt rest and slowly reduce a person's well-being.
 
-Another difficulty is finding a suitable new use for the property. A former factory, for example, might be converted into apartments, offices, or a cultural centre. The best option depends on the building's location, condition, and architectural design. A successful conversion can attract visitors and create jobs, while an unsuitable project may leave the owner with high maintenance costs and limited income.
+To reduce these effects, some cities have introduced new rules. Construction work may be limited to certain hours, and delivery trucks may be directed to quieter routes at night. Other cities plant trees and build barriers along highways, which can absorb some of the sound. Quieter pavement materials are also being tested on major roads.
 
-Local governments sometimes provide financial assistance or tax incentives to encourage preservation. Such support can make renovation more affordable for property owners. However, public funding is usually limited, and communities must decide which buildings deserve priority. Some residents may favour preserving a historically important structure, while others may argue that the same money would be better spent on schools, roads, or affordable housing.
+Residents can take steps as well. Thick curtains, double-glazed windows, and rugs help block sound inside the home. Some people use white noise machines to cover sudden sounds that might wake them. Choosing a bedroom at the back of the building, away from the street, can also make a noticeable difference.
 
-There is also a balance to be found between protecting the past and meeting present-day needs. Strict preservation rules may prevent owners from making changes that would improve accessibility or energy efficiency. On the other hand, allowing unrestricted alterations could remove the very features that make a building historically valuable.
-
-For these reasons, successful preservation usually requires cooperation among property owners, architects, historians, and local authorities. Rather than treating an old building as something that must remain completely unchanged, communities increasingly look for ways to give it a useful new role while retaining its most significant features. This approach can protect local heritage without preventing neighbourhoods from evolving.`,
+However, not all noise is considered negative. Music from street performers, children playing in parks, and the sound of a lively market can make a neighbourhood feel energetic. The challenge for planners is to reduce harmful noise while preserving the sounds that give a city its character.`,
   questions: [
     {
-      q: "Why can renovating historic buildings become expensive?",
+      q: "Chronic exposure to acoustic pollution in urban environments is associated with:",
       options: [
-        "Modern construction companies refuse to work on older properties.",
-        "Older structures may require specialist inspections and repairs.",
-        "Historic buildings must always be converted into museums.",
-        "Local governments charge owners for every visitor."
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'obstacle' in the second paragraph is closest in meaning to:",
-      options: [
-        "Advantage",
-        "Requirement",
-        "Difficulty",
-        "Opportunity"
-      ],
-      correct: 2
-    },
-    {
-      q: "What can be inferred about converting an old factory into a cultural centre?",
-      options: [
-        "It is always less expensive than building new apartments.",
-        "It may succeed if the proposed use suits the building and its surroundings.",
-        "It removes the need for future maintenance.",
-        "It guarantees that the local government will provide funding."
-      ],
-      correct: 1
-    },
-    {
-      q: "What does the phrase 'Such support' in the fourth paragraph refer to?",
-      options: [
-        "Financial assistance and tax incentives offered by local governments",
-        "Arguments against spending money on historic buildings",
-        "Inspections carried out before renovation begins",
-        "Changes that improve a building's energy efficiency"
+        "Cognitive fatigue, elevated stress, and disrupted sleep architecture.",
+        "Immediate and irreversible physiological hearing loss in all citizens.",
+        "Improved psychological resilience among long-term residents.",
+        "Enhanced academic focus among students in high-traffic zones."
       ],
       correct: 0
     },
     {
-      q: "According to the passage, what is a key consideration when preserving historic buildings?",
+      q: "Municipal strategies for noise abatement include:",
       options: [
-        "Keeping every part of a building exactly as it was originally",
-        "Replacing all old structures with modern developments",
-        "Prioritizing tourism over the needs of local residents",
-        "Protecting important historical features while allowing practical changes"
+        "Structural sound barriers, traffic rerouting, and acoustic paving.",
+        "A total ban on private vehicular travel during daytime hours.",
+        "Mandatory relocation of commercial airports away from provinces.",
+        "The complete prohibition of outdoor public gatherings."
       ],
-      correct: 3
+      correct: 0
+    },
+    {
+      q: "Residential soundproofing can be achieved domestically through:",
+      options: [
+        "Deploying dense textiles, dual-pane glass, and masking acoustics.",
+        "Keeping windows open to equalize interior and exterior pressure.",
+        "Removing soft floor coverings to reflect ambient sound waves.",
+        "Positioning sleeping quarters directly adjacent to main roadways."
+      ],
+      correct: 0
+    },
+    {
+      q: "In paragraph three, the phrase 'these effects' pertains to:",
+      options: [
+        "The adverse physiological and cognitive impacts of chronic noise",
+        "The economic costs of implementing citywide infrastructure projects",
+        "The beneficial social energy produced by outdoor urban markets",
+        "The architectural guidelines governing modern building design"
+      ],
+      correct: 0
+    },
+    {
+      q: "The primary dilemma facing contemporary urban planners involves:",
+      options: [
+        "Mitigating hazardous noise while retaining vibrant cultural sounds.",
+        "Eradicating all ambient sound sources to achieve total silence.",
+        "Prioritizing industrial traffic movement over residential comfort.",
+        "Relocating public parks outside municipal residential zones."
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about human habituation to urban noise?",
+      options: [
+        "Psychological adaptation to noise does not protect individuals from its physiological harms.",
+        "Residents who claim to ignore city noise suffer no measurable health consequences.",
+        "Subconscious awareness of noise completely vanishes after a few months.",
+        "Acoustic habituation enhances a person's overall quality of sleep."
+      ],
+      correct: 0
+    }
+  ]
+},
+{
+  id: "t14",
+  title: "The Shift toward Electric Vehicles in Urban Transit",
+  body: `Across major metropolitan areas, public transit authorities are accelerating the transition from diesel-powered buses to fully electric fleets. Proponents highlight that electric buses generate zero tailpipe emissions, significantly improving urban air quality and advancing municipal climate targets. Furthermore, despite higher initial purchase prices, electric transit vehicles offer substantially lower long-term maintenance and fuel expenditures over their operational lifespan.
+
+However, the widespread deployment of electric transit networks presents complex infrastructure challenges. Transit agencies must construct high-capacity charging facilities at central depots and along route terminals to ensure uninterrupted scheduling. Additionally, grid capacity must be expanded to manage peak charging loads without overburdening municipal electricity networks. Cold winter climates also present operational hurdles, as subzero temperatures temporarily diminish battery storage capacity and increase energy consumption for cabin heating.
+
+To mitigate these constraints, municipalities are adopting hybrid strategies. Transit planners are deploying high-output rapid chargers that recharge bus batteries during brief driver rest breaks at end-of-line stations. Agencies are also integrating smart grid management software to schedule fleet charging during off-peak night hours when electricity rates and power grid demands are lowest.
+
+Urban transportation experts emphasize that electrification represents only one aspect of sustainable mobility. Achieving true environmental resilience requires expanding overall transit network capacity, improving service frequency, and encouraging public participation to reduce reliance on private automobiles.`,
+  questions: [
+    {
+      q: "According to the passage, a primary financial advantage of electric buses over diesel vehicles is:",
+      options: [
+        "Reduced operational and maintenance costs over the vehicle's lifetime.",
+        "Lower initial purchase prices from automotive manufacturers.",
+        "Immediate federal subsidies that cover all infrastructure expenditures.",
+        "The complete elimination of depot storage facility costs."
+      ],
+      correct: 0
+    },
+    {
+      q: "What infrastructure demand is necessary to support city-wide electric bus fleets?",
+      options: [
+        "Upgrading power grid capacity and building specialized charging stations.",
+        "Replacing all urban roads with high-friction pavement.",
+        "Constructing underground subways to replace surface routes.",
+        "Converting central depots into solar energy generating farms."
+      ],
+      correct: 0
+    },
+    {
+      q: "Why do subzero temperatures pose an operational challenge for electric transit buses?",
+      options: [
+        "They reduce battery efficiency and increase energy draw for heating.",
+        "They cause fast-charging terminal software to shut down completely.",
+        "They prevent driver break schedules from being maintained.",
+        "They permanently damage the structural chassis of the vehicles."
+      ],
+      correct: 0
+    },
+    {
+      q: "In paragraph three, the word 'mitigate' is closest in meaning to:",
+      options: [
+        "Lessen the severity or impact of operational limitations",
+        "Completely eliminate the need for electrical energy",
+        "Ignore underlying problems until they resolve naturally",
+        "Expand the scope of technical problems to new areas"
+      ],
+      correct: 0
+    },
+    {
+      q: "How are transit agencies addressing the high power demand of fleet charging?",
+      options: [
+        "By using automated systems to schedule charging during off-peak hours.",
+        "By operating buses exclusively during afternoon daylight hours.",
+        "By relying entirely on onboard solar panel collection systems.",
+        "By reducing the overall number of active transit routes."
+      ],
+      correct: 0
+    },
+    {
+      q: "What is the author's main conclusion regarding urban environmental resilience?",
+      options: [
+        "Fleet electrification must be paired with service expansion to reduce reliance on private cars.",
+        "Electric buses alone will solve all municipal traffic and climate issues.",
+        "Private automobiles should be completely banned from city centers.",
+        "Municipalities should delay transit electrification until grid technology improves."
+      ],
+      correct: 0
     }
   ]
 },
@@ -2142,6 +2345,593 @@ E. Not mentioned in any paragraph.`,
         "By limiting furnace operations to short seasonal production schedules."
       ],
       correct: 2
+    }
+  ]
+},
+
+// viewpoints
+{
+  id: "t38",
+  title: "Canada's Long-Term Care Funding Crisis",
+  body: `Every Monday morning, Eleanor Vance sits by the window of her mother’s small room in a suburban Ottawa long-term care facility, helping her finish breakfast before the understaffed nursing team arrives for the morning rounds. Over the past two years, Vance has watched the monthly accommodation fees for her 84-year-old mother rise by nearly 15 percent, while the number of dedicated personal care workers on duty has visibly thinned. Her mother is one of more than 200,000 elderly Canadians living in long-term care homes—a vulnerable demographic at the epicenter of a structural funding crisis that threatens to overwhelm provincial healthcare systems across the country.
+
+Vance, a middle school teacher and primary caregiver, is vocal about the growing strain on families. "We are paying significantly more each month, yet the staff are stretched so thin they barely have time to speak with the residents," she told The Globe and Mail. "The workers are doing everything they can, but the system is burnt out. It feels like we are paying premium prices for a service that is constantly operating in survival mode." Her experience reflects recent findings from the Canadian Institute for Health Information (CIHI), which reported that 64 percent of long-term care homes across Canada face persistent staffing shortages, leading to increased rates of burnout and family dissatisfaction.
+
+Yet the financial pressure on families is only one side of the equation, argues Dr. David Kensington, a health economics researcher at the University of Toronto who has studied senior care infrastructure for over fifteen years. "The current funding model was designed for a demographic profile that no longer exists," he said. "Our data shows that over the next decade, the population of Canadians aged 85 and older will increase by more than 50 percent. Without a fundamental restructuring of how long-term care is financed, provinces will either face catastrophic budget deficits or be forced to ration essential care services." His 2023 study published in the Canadian Journal of Public Health estimated that closing the national care gap will require an additional $12 billion in annual public investment by 2030.
+
+For Sarah Lin, policy director at the senior advocacy organization CareAge Canada, the solution requires a national standard supported by federal transfers. "What we currently have is a patchwork system where the quality and affordability of care depend entirely on which province—or even municipality—you live in," she said. A 2024 Nanos Research poll cited by CareAge found that 78 percent of Canadians support integrating long-term care directly into the Canada Health Act to ensure universal standards and funding. Lin argues that Ottawa must tie federal health transfers to mandatory nurse-to-resident ratios and standardized facility benchmarks.
+
+Arthur Pendelton, a senior fellow at the Fraser Institute, pushes back strongly against expanding federal oversight and public spending. "Imposing rigid federal mandates on provincial healthcare budgets will only create bureaucratic red tape without addressing the core inefficiency," he said. "Long-term care delivery benefits from competition, innovation, and private-sector involvement. Rather than increasing government spending, policy makers should focus on expanding tax credits for home care and encouraging private insurance models that allow seniors to age in their own communities."
+
+With provincial governments from Ontario to British Columbia currently reviewing their long-term care budgets, the debate over how to fund the country's aging population remains deeply contested. For caregivers like Vance, the resolution cannot come soon enough: "This isn't just a political debate about budgets; it's about whether we, as a society, are willing to provide dignity to the people who built this country."`,
+  questions: [
+    {
+      q: "According to the passage, what dual problem has Eleanor Vance observed over the past two years?",
+      options: [
+        "Higher accommodation fees alongside fewer personal care workers",
+        "Poorer food quality and reduced visiting hours",
+        "Fewer medical supplies and increased facility privatization",
+        "Higher insurance premiums and longer waiting lists for admission"
+      ],
+      correct: 0
+    },
+    {
+      q: "What statistic from the Canadian Institute for Health Information (CIHI) supports Eleanor Vance's experience?",
+      options: [
+        "15 percent of staff leave long-term care homes annually",
+        "64 percent of care homes experience persistent staffing shortages",
+        "50 percent of care facilities rely on private funding models",
+        "78 percent of family caregivers report high levels of exhaustion"
+      ],
+      correct: 1
+    },
+    {
+      q: "Why does Dr. David Kensington believe the current funding model for senior care is obsolete?",
+      options: [
+        "It focuses exclusively on private insurance models",
+        "It was created for a demographic profile that has changed significantly",
+        "It relies entirely on municipal government taxes",
+        "It prioritizes home care over long-term facility funding"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to Dr. Kensington's 2023 study, how much additional annual public investment will be required by 2030 to close the care gap?",
+      options: [
+        "15 percent of total provincial health budgets",
+        "$200,000 per facility",
+        "$12 billion",
+        "50 percent more than current federal transfers"
+      ],
+      correct: 2
+    },
+    {
+      q: "What main problem with the current long-term care system does Sarah Lin point out?",
+      options: [
+        "It lacks competition among private service providers",
+        "It forces all seniors into facility care rather than home care",
+        "It is a patchwork system where quality depends on location",
+        "It relies too heavily on federal oversight and red tape"
+      ],
+      correct: 2
+    },
+    {
+      q: "What change does Sarah Lin suggest to improve the long-term care system?",
+      options: [
+        "Integrating long-term care into the Canada Health Act",
+        "Expanding tax credits for family caregivers",
+        "Removing federal health transfers to give provinces full control",
+        "Privatizing non-essential personal care services"
+      ],
+      correct: 0
+    },
+    {
+      q: "Why does Arthur Pendelton oppose mandatory federal standards for long-term care?",
+      options: [
+        "He believes provinces are already spending too much on tax credits",
+        "He claims federal mandates create bureaucratic red tape without fixing inefficiency",
+        "He argues that senior care should be managed exclusively by municipal authorities",
+        "He thinks the population of elderly Canadians will decline after 2030"
+      ],
+      correct: 1
+    },
+    {
+      q: "Which solution does Arthur Pendelton support instead of increasing public spending?",
+      options: [
+        "Integrating long-term care into universal healthcare",
+        "Establishing national nurse-to-resident ratios",
+        "Expanding tax credits for home care and encouraging private insurance",
+        "Raising monthly accommodation fees for private rooms"
+      ],
+      correct: 2
+    },
+    {
+      q: "In paragraph three, the word 'demographic' is closest in meaning to:",
+      options: [
+        "Economic forecast",
+        "Population group",
+        "Geographic region",
+        "Medical diagnosis"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the primary theme of the passage?",
+      options: [
+        "The political rivalry between provincial and federal governments in Canada",
+        "The contrasting approaches and urgent need to address Canada's long-term care funding crisis",
+        "The benefits of private healthcare insurance over public funding models",
+        "The daily medical routines of personal care workers in suburban Ottawa"
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t39",
+  title: "Modernising Canadian K–12 Education",
+  body: `Every Monday morning, Marcus Thorne stands at the front of his ninth-grade classroom in a suburban Calgary high school, adjusting a digital projector while his students log into their school-issued laptops. Over the past three years, Thorne has watched his school board implement sweeping digital literacy initiatives and modernized curricula designed to prepare students for a rapidly changing global economy. However, as outdated textbooks remain stacked in the corners of his classroom and funding for special education support continues to shrink, Thorne finds himself on the frontlines of a growing national debate over whether Canada’s K–12 education system is being genuinely modernized or merely rebranded.
+
+Thorne, a high school history teacher with over fifteen years of classroom experience, is vocal about the widening gap between policy goals and operational reality. "We are asking students to engage with cutting-edge digital platforms, yet our physical infrastructure and essential support services are falling apart," he told The Globe and Mail. "Technology is a wonderful tool, but it cannot replace smaller class sizes, specialized reading specialists, or basic classroom resources. In many ways, the push for modernization feels like a distraction from fundamental funding deficits." His experience reflects recent findings from a Canadian Teachers' Federation survey, which revealed that 68 percent of public school educators feel their classrooms lack the core funding and support staff necessary to meet modernized curriculum standards.
+
+Yet the shift toward updated educational frameworks is critical for the country's long-term prosperity, argues Dr. Aris Thorne, an educational policy analyst at the University of Toronto. "Canada's traditional K–12 curriculum was built for an industrial era, not a digital knowledge economy," he said. "Our longitudinal research demonstrates that students enrolled in modern, STEM-focused, and project-based learning programs score 28 percent higher in critical thinking and complex problem-solving by the time they reach secondary graduation. If Canadian provinces fail to update their learning models, our future workforce will fall behind on the global stage." His 2023 study published in the Canadian Journal of Education emphasized that modernizing education is an economic imperative that requires systemic curriculum reform across all provinces.
+
+For Sarah Jenkins, spokesperson for the parent advocacy group Education First Canada, the path forward requires a balanced approach that prioritizes foundational skills alongside new technologies. "What parents are seeing is a false dichotomy between traditional academics and modern skills," she said. A 2024 Angus Reid poll cited by the organization showed that 72 percent of parents in Canada believe public schools should focus more heavily on foundational mathematics, writing, and financial literacy before integrating complex technological platforms. Jenkins argues that provincial ministries of education must establish clear, standardized metrics for core competencies rather than rushing to adopt every new pedagogical trend.
+
+David O'Connor, a senior policy fellow at the Fraser Institute, offers a different perspective, advocating for expanded school choice and decentralized decision-making. "Top-down curriculum overhauls imposed by provincial bureaucracies often fail to account for the unique needs of local communities," he said. "Instead of funneling more capital into rigid public monopolies under the guise of modernization, governments should empower parents with educational savings accounts and funding flexibility. Market competition among schools naturally drives innovation and raises academic standards far more effectively than government mandates."
+
+As provincial ministries of education from Ontario to Alberta continue to roll out updated curricula and technology frameworks, the debate over how to properly educate Canada's youth shows no sign of cooling down. For teachers like Thorne, the core objective remains unchanged: "At the end of the day, modernization shouldn't just be about fancy gadgets in the classroom—it has to be about giving every child the tools and support they need to succeed in life."`,
+  questions: [
+    {
+      q: "What concern does Marcus Thorne raise regarding the modernization initiatives in his school?",
+      options: [
+        "Students refuse to use the new school-issued laptops",
+        "Digital tools are being introduced while basic infrastructure and support services are underfunded",
+        "The new curriculum focuses exclusively on history and social studies",
+        "School boards are reducing the overall number of digital literacy programs"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to the Canadian Teachers' Federation survey, what percentage of educators feel their classrooms lack necessary core funding and staff?",
+      options: [
+        "28 percent",
+        "50 percent",
+        "68 percent",
+        "72 percent"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why does Dr. Aris Thorne advocate for updating Canada's K–12 curriculum?",
+      options: [
+        "Traditional curricula were designed for an industrial era rather than a digital economy",
+        "Digital learning platforms are less expensive than physical textbooks",
+        "Teachers strongly prefer technology over traditional classroom instruction",
+        "Provincial ministries have already eliminated all industrial training programs"
+      ],
+      correct: 0
+    },
+    {
+      q: "According to Dr. Aris Thorne's research, how do students in STEM-focused and project-based learning programs perform?",
+      options: [
+        "They graduate two years earlier than other students",
+        "They score 28 percent higher in critical thinking and complex problem-solving",
+        "They require 68 percent less special education support",
+        "They perform equally well regardless of technology adoption"
+      ],
+      correct: 1
+    },
+    {
+      q: "What does Sarah Jenkins suggest provincial ministries of education should prioritize?",
+      options: [
+        "Replacing teachers with automated digital platforms",
+        "Focusing heavily on foundational skills like math, writing, and financial literacy",
+        "Eliminating standardized tests in favor of project-based learning",
+        "Transferring curriculum design directly to private technology firms"
+      ],
+      correct: 1
+    },
+    {
+      q: "What statistic from the 2024 Angus Reid poll is mentioned to support parent advocacy?",
+      options: [
+        "68 percent of parents favor removing laptops from schools",
+        "72 percent of parents believe schools should focus more on foundational skills before adding complex tech platforms",
+        "28 percent of parents support government educational mandates",
+        "15 percent of parents prefer private schools over public education"
+      ],
+      correct: 1
+    },
+    {
+      q: "What alternative model does David O'Connor advocate for to drive innovation in education?",
+      options: [
+        "Centralizing all curriculum planning within provincial bureaucracies",
+        "Market competition, expanded school choice, and educational savings accounts for parents",
+        "Increasing direct government grants to public school monopolies",
+        "Banning modern technology in elementary classrooms"
+      ],
+      correct: 1
+    },
+    {
+      q: "Why does David O'Connor criticize top-down curriculum overhauls?",
+      options: [
+        "They require too many standardized digital platforms",
+        "They fail to account for the unique needs of local communities",
+        "They focus too much on financial literacy and mathematics",
+        "They give parents too much control over school funding"
+      ],
+      correct: 1
+    },
+    {
+      q: "In paragraph two, the word 'deficits' is closest in meaning to:",
+      options: [
+        "Shortages",
+        "Surpluses",
+        "Improvements",
+        "Regulations"
+      ],
+      correct: 0
+    },
+    {
+      q: "What is the main subject discussed throughout the passage?",
+      options: [
+        "The rising popularity of online high school courses in Calgary",
+        "The ongoing debate and differing views on modernizing Canada's K–12 education system",
+        "The financial benefits of school choice for private institutions",
+        "The history of traditional teaching methods in Canadian public schools"
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t40",
+  title: "Urban Greening Versus City Infrastructure Spending",
+  body: `Every Monday morning, Julian Mercier steps onto the balcony of his third-floor apartment in downtown Montreal, looking out over a bustling intersection where heavy construction equipment is breaking up asphalt. Over the past three years, Mercier has watched his municipality allocate millions of dollars toward urban greening projects, transforming former parking spots into rain gardens and planting thousands of new trees along transit corridors. Yet, as water main breaks continue to flood nearby basements and aging road surfaces damage vehicles across his neighborhood, Mercier finds himself questioning whether his city’s financial priorities have become dangerously misaligned.
+
+Mercier, an urban planner with a private civil engineering firm, is vocal about the trade-offs involved in municipal budgeting. "Adding green canopies and bioswales to our urban landscape is undoubtedly valuable for heat reduction and aesthetics," he told The Globe and Mail. "However, when a city allocates substantial capital to new green infrastructure while core subterranean pipes and basic road networks are critically deteriorating, we are postponing a inevitable collapse. Trees are wonderful, but they cannot stop an eighty-year-old water main from bursting." His concerns align with a recent Canadian Federation of Services report indicating that 58 percent of municipal infrastructure managers believe deferred maintenance on core utilities poses an immediate risk to local economies.
+
+Yet the investment in natural infrastructure is far more than cosmetic, argues Dr. Maya Lin, an environmental scientist at McGill University who specializes in urban climate adaptation. "Urban greening is not an optional luxury; it is a critical component of modern climate resilience," she said. "Our research demonstrates that dense tree canopies and permeable surfaces reduce urban heat island effects by up to 4 degrees Celsius and absorb up to 40 percent of heavy storm runoff. Investing in natural green infrastructure actually reduces long-term stress on traditional stormwater systems, preventing far costlier disaster repairs down the road." Her 2023 paper, published in the Canadian Journal of Urban Research, highlighted that Canadian cities lose billions annually in indirect health and infrastructure costs due to extreme weather events that green spaces help mitigate.
+
+For Carlos Ramirez, director of the advocacy group Cities for Tomorrow, the debate represents a false choice fueled by short-term fiscal planning. "What we need is an integrated infrastructure approach rather than competing silos," he said. A 2024 Angus Reid poll cited by the group showed that 65 percent of urban Canadians support increased federal funding specifically earmarked for dual-purpose infrastructure—such as flood-retention parks and green roofs on municipal buildings. Ramirez argues that provincial and federal grants should mandate that traditional road and utility upgrades automatically incorporate green elements, ensuring both systems are modernized simultaneously.
+
+Elena Rostova, a senior policy analyst at the Canadian Taxpayers Federation, strongly opposes using green initiatives to justify expanding municipal budgets. "Cities have a fundamental obligation to deliver core services—clean water, functional roads, and emergency access—before taking on broad environmental mandates," she said. "When local governments raise property taxes to finance high-profile green projects while basic roads remain in disrepair, they place an unsustainable financial burden on residents. Municipalities must prioritize essential infrastructure maintenance and leave non-core spending for when budgets are truly balanced."
+
+As municipal councils from Vancouver to Halifax finalize their upcoming capital budgets, the debate over how to balance green climate targets with essential civil infrastructure remains deeply contentious. For residents like Mercier, the answer lies in striking a practical equilibrium: "We all want greener, healthier cities, but those cities first need to function reliably under the surface."`,
+  questions: [
+    {
+      q: "What visual contrast leads Julian Mercier to question his city's financial priorities?",
+      options: [
+        "New green projects being created while subterranean pipes and roads deteriorate",
+        "High-tech transit corridors replacing traditional bus lines",
+        "Private construction firms building parking structures instead of parks",
+        "Public parks closing early due to a lack of municipal funding"
+      ],
+      correct: 0
+    },
+    {
+      q: "According to the Canadian Federation of Services report, what percentage of infrastructure managers view deferred maintenance as an immediate economic risk?",
+      options: [
+        "40 percent",
+        "58 percent",
+        "65 percent",
+        "80 percent"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to Dr. Maya Lin's research, how do tree canopies and permeable surfaces help cities during severe weather?",
+      options: [
+        "They completely eliminate the need for underground water mains",
+        "They reduce heat island effects by up to 4°C and absorb up to 40 percent of storm runoff",
+        "They reduce property tax rates by preventing basement flooding",
+        "They lower the cost of asphalt road maintenance by half"
+      ],
+      correct: 1
+    },
+    {
+      q: "What central point does Dr. Maya Lin make in defense of urban greening?",
+      options: [
+        "It is cheaper to implement than replacing basic road networks",
+        "It is a critical component of climate resilience that reduces long-term stress on traditional systems",
+        "It generates immediate tax revenue for municipal governments",
+        "It primarily serves aesthetic purposes for downtown residents"
+      ],
+      correct: 1
+    },
+    {
+      q: "What solution does Carlos Ramirez propose to resolve the tension between green targets and traditional infrastructure?",
+      options: [
+        "Privatizing stormwater management systems",
+        "An integrated infrastructure approach that combines dual-purpose green elements with traditional upgrades",
+        "Canceling all federal health and environmental grants to municipalities",
+        "Prioritizing road repairs exclusively over natural green spaces"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to the 2024 Angus Reid poll cited by Carlos Ramirez, what percentage of urban Canadians support federal funding for dual-purpose infrastructure?",
+      options: [
+        "40 percent",
+        "58 percent",
+        "65 percent",
+        "78 percent"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why does Elena Rostova criticize high-profile municipal green projects?",
+      options: [
+        "She believes trees worsen storm runoff problems",
+        "She argues cities should prioritize core services like clean water and roads before environmental mandates",
+        "She claims green projects cause property values to decline significantly",
+        "She feels provincial governments should manage all city parks"
+      ],
+      correct: 1
+    },
+    {
+      q: "What financial burden does Elena Rostova warn against placing on residents?",
+      options: [
+        "Paying high toll rates on suburban highways",
+        "Raising property taxes to fund green projects while basic infrastructure is neglected",
+        "Funding private civil engineering firms directly through income taxes",
+        "Covering disaster repair costs without municipal assistance"
+      ],
+      correct: 1
+    },
+    {
+      q: "In paragraph two, the word 'deteriorating' is closest in meaning to:",
+      options: [
+        "Expanding",
+        "Decaying",
+        "Modernizing",
+        "Surfacing"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the primary objective of the passage?",
+      options: [
+        "To argue that urban greening initiatives should be completely abolished in Canada",
+        "To explore the debate on balancing municipal budgets between urban greening and core infrastructure",
+        "To detail the engineering techniques used to replace 80-year-old water mains",
+        "To compare property tax rates across major Canadian cities"
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t41",
+  title: "The Crisis in Indigenous Mental Health Services",
+  body: `Every Monday morning, Elijah Harper logs into a telehealth portal from a remote community center in Northern Ontario, waiting for a connection that frequently drops. For the past three years, Harper, a community health coordinator, has been trying to secure consistent psychological support for local youth facing unprecedented levels of trauma and distress. Yet, with flying-in specialists remaining scarce and federal funding streams trapped in bureaucratic delays, Harper is forced to manage a escalating mental health crisis with virtually no professional resources on the ground. His community is one of hundreds across Canada struggling with a severe shortage of culturally appropriate, long-term mental health services.
+
+Harper is vocal about the human cost of these systemic shortfalls. "We are constantly operating in emergency response mode, dealing with crises after they happen rather than preventing them," he told The Globe and Mail. "When a young person reaches out for help, waiting six months for a visiting therapist is simply not an option. The lack of sustained, culturally grounded care is costing lives." His experience reflects broader national data showing that Indigenous populations in remote areas face suicide rates significantly higher than the national average, compounded by historical trauma and severe service deficits.
+
+The fundamental issue lies in how federal and provincial funding models are structured, argues Dr. Niigaan Sinclair, an Indigenous health researcher and policy analyst. "Mental health funding for Indigenous communities has historically been short-term, proposal-based, and heavily centralized," he explained. "This creates a patchwork system where programs disappear just as they start building trust within a community. Effective care requires predictable, long-term investments in community-led initiatives that integrate traditional healing practices with modern clinical care." His research emphasizes that self-determined healthcare frameworks yield substantially better long-term wellness outcomes.
+
+For Evelyn Bellerose, an advocate with the First Nations Health Council, the solution requires a full transfer of administrative authority and funding directly to local nations. "Ottawa and the provinces continue to debate jurisdictional boundaries while our people suffer," she said. A recent national survey cited by the council indicated that over 75 percent of Indigenous respondents felt that existing healthcare programs failed to incorporate traditional wellness approaches effectively. Bellerose argues that true reconciliation in healthcare means granting full autonomy to communities to design and staff their own mental health infrastructure.
+
+On the other hand, Gordon Hayes, a public policy analyst specializing in northern administration, cautions against rapid institutional restructuring without established oversight. "Ensuring clinical standards, accountability, and equitable distribution of funds across hundreds of isolated communities presents immense logistical challenges," he noted. "Direct transfers must be paired with robust administrative frameworks and training pipelines to ensure long-term operational sustainability and consistent quality of care."
+
+As government leaders meet to review federal-provincial health accords, the debate over how to reform Indigenous mental health services remains urgent. For leaders like Harper, the priority is clear: "We don't need more studies or temporary grants; we need a permanent, community-led system that treats our people with the care and dignity they deserve."`,
+  questions: [
+    {
+      q: "What main obstacle does Elijah Harper face when trying to secure psychological support for local youth?",
+      options: [
+        "Unreliable telehealth connections and a lack of on-the-ground professional specialists",
+        "A refusal from local youth to participate in community mental health programs",
+        "High subscription fees for private remote therapy platforms",
+        "Strict provincial laws banning visiting therapists from entering remote regions"
+      ],
+      correct: 0
+    },
+    {
+      q: "According to Elijah Harper, how does the current system handle mental health issues in remote communities?",
+      options: [
+        "It focuses primarily on long-term preventative community care",
+        "It relies on automated digital portals instead of human therapists",
+        "It operates constantly in emergency response mode after crises occur",
+        "It provides full administrative control to local community health coordinators"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why does Dr. Niigaan Sinclair criticize historical funding models for Indigenous mental health?",
+      options: [
+        "They spend too much money on long-term infrastructure",
+        "They are short-term, proposal-based, and heavily centralized",
+        "They rely exclusively on traditional healing practices without clinical oversight",
+        "They require communities to manage millions in federal block grants"
+      ],
+      correct: 1
+    },
+    {
+      q: "What approach does Dr. Niigaan Sinclair recommend for long-term wellness outcomes?",
+      options: [
+        "Replacing traditional practices with standardized modern clinical care",
+        "Centralizing all mental health administration within Ottawa",
+        "Self-determined healthcare frameworks integrating traditional healing with modern clinical care",
+        "Increasing short-term grants for visiting urban therapists"
+      ],
+      correct: 2
+    },
+    {
+      q: "According to the national survey cited by Evelyn Bellerose, what percentage of Indigenous respondents felt healthcare programs failed to incorporate traditional wellness effectively?",
+      options: [
+        "Over 75 percent",
+        "68 percent",
+        "58 percent",
+        "50 percent"
+      ],
+      correct: 0
+    },
+    {
+      q: "What solution does Evelyn Bellerose propose for healthcare reconciliation?",
+      options: [
+        "Merging provincial and federal health oversight into a single committee",
+        "Transferring full administrative authority and funding autonomy directly to local nations",
+        "Establishing temporary pilot projects in remote communities",
+        "Expanding privatized mental health insurance across northern regions"
+      ],
+      correct: 1
+    },
+    {
+      q: "What concern does Gordon Hayes express regarding direct funding transfers to isolated communities?",
+      options: [
+        "He fears remote communities will reject modern medical technology",
+        "He cautions that rapid restructuring without robust oversight creates logistical and clinical challenges",
+        "He believes provincial governments will lose all interest in northern administration",
+        "He argues that local training pipelines are too expensive to maintain"
+      ],
+      correct: 1
+    },
+    {
+      q: "What condition does Gordon Hayes believe must accompany direct financial transfers?",
+      options: [
+        "A mandate requiring all specialists to relocate permanently",
+        "Robust administrative frameworks, accountability, and training pipelines",
+        "The complete removal of federal clinical standards",
+        "Short-term annual review boards for all community initiatives"
+      ],
+      correct: 1
+    },
+    {
+      q: "In paragraph three, the word 'patchwork' refers to a system that is:",
+      options: [
+        "Highly unified and efficient",
+        "Disorganized and composed of inconsistent parts",
+        "Strictly regulated by local law",
+        "Financed entirely by private donations"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the central focus of the passage?",
+      options: [
+        "The technical difficulties of setting up internet access in Northern Ontario",
+        "The systemic shortfalls and debate surrounding Indigenous mental health services funding and delivery",
+        "The statistical comparison of suicide rates across major Canadian cities",
+        "The logistical requirements for flying medical specialists across isolated regions"
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t42",
+  title: "Solving Canada's Urban Affordable Housing Crisis",
+  body: `Every Monday morning, Marcus Vance scans the latest residential real estate listings in downtown Vancouver, watching average rental prices push further out of reach for middle-income workers. Over the past three years, Vance, a secondary school teacher, has seen a growing number of his colleagues leave the city entirely due to astronomical housing costs. As municipal permit delays, rising interest rates, and soaring construction costs slow new developments to a crawl, Vance finds himself at the center of an escalating national debate over how Canada can restore housing affordability in its major urban centers.
+
+Vance is straightforward about how the crisis impacts daily life and public services. "When teachers, nurses, and transit workers can no longer afford to live in the cities where they work, the entire social fabric begins to fray," he told The Globe and Mail. "I spend more than half my monthly income on a modest one-bedroom apartment, leaving almost no room for savings. The current market dynamics are driving out the very people who keep this city running." His situation aligns with recent housing data showing that home price-to-income ratios in major Canadian metropolitan areas have reached historic highs over the past decade.
+
+The root of the crisis stems from a chronic supply deficit combined with restrictive municipal planning regulations, argues Dr. Aris Thorne, a housing economist at the University of British Columbia. "Canada has built fewer homes per capita over the last twenty years than almost any other G7 country," he explained. "Outdated single-family zoning laws, lengthy approval processes, and high development charges have severely choked off the supply of multi-family and non-market housing. Without aggressive zoning reform and streamlined development timelines, market supply will never keep pace with demographic growth." His recent research indicates that reducing municipal approval times by half could unlock tens of thousands of new units annually.
+
+For Catherine Roy, director of the housing advocacy coalition Homes for All, market-rate construction alone will not solve the shortage for low- and middle-income families. "Relying strictly on private developers to build luxury condos in the hope that affordability trickles down has clearly failed," she said. A recent national poll cited by the group showed that 70 percent of urban Canadians favor massive public investment in non-profit, cooperative, and social housing projects. Roy argues that federal and provincial governments must step in directly with subsidized financing and public land contributions to build housing that is permanently decoupled from speculative market forces.
+
+Conversely, Derek Miller, a senior fellow at a private economic policy institute, warns that heavy-handed government intervention and rent control measures will ultimately backfire. "Imposing strict price controls or forcing developers to include unprofitable below-market units simply discourages private investment and stifles construction," he said. "The most effective way to lower prices is to remove bureaucratic barriers, cut development taxes, and let private capital increase overall housing inventory as rapidly as possible."
+
+With municipal, provincial, and federal governments facing intense pressure from voters, the debate over urban housing policy remains a primary political battleground. For residents like Vance, the clock is ticking: "If our leaders cannot find a way to make housing accessible, our cities will become gated communities for the wealthy.`,
+  questions: [
+    {
+      q: "What impact of astronomical housing costs does Marcus Vance highlight regarding middle-income workers?",
+      options: [
+        "They are forcing essential workers like teachers and nurses to leave major cities",
+        "They are causing workers to demand remote work arrangements from employers",
+        "They are driving a surge in new high-density condominium construction",
+        "They are convincing workers to invest heavily in suburban real estate"
+      ],
+      correct: 0
+    },
+    {
+      q: "What personal financial challenge does Marcus Vance describe in the text?",
+      options: [
+        "He spends more than half his monthly income on a modest one-bedroom apartment",
+        "He is unable to secure a mortgage due to high municipal development fees",
+        "He pays excessive development taxes on his downtown rental unit",
+        "He lost his savings during recent interest rate increases"
+      ],
+      correct: 0
+    },
+    {
+      q: "According to Dr. Aris Thorne, what is a primary cause of Canada's housing crisis?",
+      options: [
+        "Excessive federal grants for non-profit cooperative housing",
+        "A chronic supply deficit combined with restrictive municipal planning regulations",
+        "A sharp decline in demographic population growth across G7 nations",
+        "The overbuilding of multi-family housing units in downtown Vancouver"
+      ],
+      correct: 1
+    },
+    {
+      q: "What outcome does Dr. Aris Thorne predict if municipal approval times are cut in half?",
+      options: [
+        "Tens of thousands of new housing units could be unlocked annually",
+        "Private developers will stop investing in urban centers",
+        "Property taxes for middle-income workers will decrease by half",
+        "Single-family zoning laws will automatically be abolished nationwide"
+      ],
+      correct: 0
+    },
+    {
+      q: "What solution does Catherine Roy advocate to address the housing shortage for low- and middle-income families?",
+      options: [
+        "Allowing private developers to focus exclusively on luxury condo projects",
+        "Direct government intervention through public investment in non-profit, cooperative, and social housing",
+        "Eliminating all subsidized financing programs for multi-family units",
+        "Reducing property taxes for private real estate investors"
+      ],
+      correct: 1
+    },
+    {
+      q: "According to the poll cited by Catherine Roy, what percentage of urban Canadians favor massive public investment in non-market housing?",
+      options: [
+        "50 percent",
+        "65 percent",
+        "70 percent",
+        "78 percent"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why does Derek Miller oppose strict price controls and mandatory below-market units?",
+      options: [
+        "He believes they increase municipal permit delays",
+        "He argues they discourage private investment and stifle construction",
+        "He claims they reduce the demand for social and cooperative housing",
+        "He thinks they force governments to increase development taxes"
+      ],
+      correct: 1
+    },
+    {
+      q: "What approach does Derek Miller propose to lower housing prices?",
+      options: [
+        "Decoupling real estate from speculative market forces using public land",
+        "Removing bureaucratic barriers, cutting development taxes, and encouraging private capital",
+        "Imposing mandatory rent control measures in all metropolitan areas",
+        "Restricting new development approvals to municipal non-profit agencies"
+      ],
+      correct: 1
+    },
+    {
+      q: "In paragraph three, the word 'streamlined' is closest in meaning to:",
+      options: [
+        "Simplified and accelerated",
+        "Delayed and complicated",
+        "Regulated and taxed",
+        "Expanded and decentralized"
+      ],
+      correct: 0
+    },
+    {
+      q: "What is the main topic of the passage?",
+      options: [
+        "The effect of interest rate hikes on private real estate investors in Vancouver",
+        "The economic and policy debate surrounding Canada's urban affordable housing crisis",
+        "The history of single-family zoning regulations across G7 countries",
+        "The step-by-step process of applying for municipal building permits"
+      ],
+      correct: 1
     }
   ]
 },

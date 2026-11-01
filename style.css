@@ -351,8 +351,8 @@ body,
 .option:disabled { cursor: default; }
 
 /* стилі підсвітки зараз вимкнені (прозорий фон) */
-.option.correct,
-.option.wrong { background: transparent; }
+/* .option.correct,
+.option.wrong { background: transparent; } */
 
 .feedback {
   margin-top: 14px;
@@ -531,6 +531,21 @@ body,
   font-size: 0.8rem;
   color: var(--accent);
 }
+
+.option.correct {
+  background-color: #e5f3e9;
+  color: #237a3b;
+  border-color: #b8dfc3;
+}
+
+.option.wrong {
+  background-color: #fbe9e9;
+  color: #c0392b;
+  border-color: #efc1c1;
+}
+
+
+
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 600px) {
