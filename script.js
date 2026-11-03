@@ -17,20 +17,16 @@ function makeQueue(length, avoidFirst = null) {
   return q;
 }
 
-// Randomizes which text comes next, without repeating the same text
-// twice in a row at a reshuffle boundary.
+// Decides which text comes next: simply the next one in order.
 class TextOrder {
   constructor(count) {
     this.count = count;
     this.lastIndex = null;
-    this.queue = makeQueue(count);
   }
 
+  // next text in order: 0, 1, 2, ... and back to the first after the last
   next() {
-    if (this.queue.length === 0) {
-      this.queue = makeQueue(this.count, this.lastIndex);
-    }
-    const idx = this.queue.shift();
+    const idx = this.lastIndex === null ? 0 : (this.lastIndex + 1) % this.count;
     this.lastIndex = idx;
     return idx;
   }
@@ -458,11 +454,11 @@ function handleAnswer(selectedIdx, btn, question) {
   if (selectedIdx === question.correct) {
     correctCount++;
     btn.classList.add("correct");
-    // els.feedback.textContent = "Correct!";
+    els.feedback.textContent = "Correct!";
   } else {
     btn.classList.add("wrong");
     // buttons[question.correct].classList.add("correct");
-    // els.feedback.textContent = "Incorrect.";
+    els.feedback.textContent = "Incorrect.";
   }
 
   renderProgressDots();
@@ -494,26 +490,37 @@ function showResult() {
 /* =========================================================
    EVENTS
    ========================================================= */
-
-els.nextBtn.addEventListener("click", () => {
-  if (answeredCount >= totalQuestions) {
-    showResult();
-    return;
-  }
-  showQuestion();
-});
-
-// Abandons the current text's run and jumps straight to a different one.
-els.switchTextBtn.addEventListener("click", startNewText);
-
-// Jump to a specific text by its number, 1.5s after the last keystroke.
 let idSearchTimer = null;
+let countdownTimer = null;
+const DELAY_MS = 2300;
+const DELAY_S = DELAY_MS / 1000;
+
 els.textIdInput.addEventListener("input", () => {
+  // Кожна нова цифра — скидаємо все і починаємо відлік заново
   clearTimeout(idSearchTimer);
+  clearInterval(countdownTimer);
+
+  const secondsEl = document.getElementById("idSearchCountdown");
+  const start = Date.now();
+
+  secondsEl.textContent = `→ in ${DELAY_S.toFixed(1)} s`;
+
+  countdownTimer = setInterval(() => {
+    const remaining = (DELAY_MS - (Date.now() - start)) / 1000;
+    if (remaining <= 0) {
+      clearInterval(countdownTimer);
+      secondsEl.textContent = "→ switching…";
+      return;
+    }
+    secondsEl.textContent = `→ in ${remaining.toFixed(1)} s`;
+  }, 100);
+
   idSearchTimer = setTimeout(() => {
+    clearInterval(countdownTimer);
+    secondsEl.textContent = "";
     startTextById(els.textIdInput.value);
-    els.textIdInput.blur(); // ховаємо клавіатуру після автопереходу
-  }, 1500);
+    els.textIdInput.blur();
+  }, DELAY_MS);
 });
 
 // Enter still jumps immediately
@@ -528,6 +535,9 @@ els.textIdInput.addEventListener("keydown", (e) => {
 
 // Read the active text aloud (click again to stop).
 els.speakBtn.addEventListener("click", speakText);
+
+// Jump straight to the next text.
+els.switchTextBtn.addEventListener("click", startNewText);
 
 // After the result screen, start again with a different text.
 els.restartBtn.addEventListener("click", startNewText);

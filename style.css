@@ -11,7 +11,8 @@
   /* --err: #e15554; */
   --line: #31343e;
   --radius: 14px;
-  --font-display: "Space Grotesk", sans-serif;
+  /* --font-display: "Space Grotesk", sans-serif; */
+  --font-display: "Fraunces", Georgia, serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 }
@@ -226,7 +227,7 @@ body,
 
 .switch-btn {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -254,12 +255,14 @@ body,
 .text-block__title {
   display: block;
   width: 100%;
-  margin: 15px 0;
+  margin: 12px 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.6rem;
   text-align: center;
   color: var(--ink);
+  letter-spacing: 0.02em; 
+  line-height: 1.1;
 }
 
 .text-block__body {

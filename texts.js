@@ -11,235 +11,211 @@
    <p> elements.
    ========================================================= */
 const TEXTS = [
+  {
+    "id": "t1",
+    "title": "The Struggle with Constant Connectivity",
+    "body": "Many people now spend large parts of their day switching between messages, notifications and short videos. While these tools make communication faster, they also create a sense that attention is always being pulled in different directions. Researchers have begun to notice that frequent interruptions can make it harder to finish complex tasks or remember details from conversations that happened only hours earlier.\n\nSome employers have responded by introducing “focus hours” during which non-urgent messages are delayed. Others encourage staff to turn off notifications for certain periods. Early results suggest that even short stretches of uninterrupted work can improve both the quality of output and how people feel at the end of the day. Yet not every workplace can adopt the same rules, and some roles still require immediate responses.\n\nOutside of work the picture is more complicated. Social platforms are designed to keep users scrolling, and many people report that they open an app without a clear reason and then lose track of time. A growing number of individuals have started setting personal rules — for example, leaving the phone in another room during meals or deleting certain apps for a month. These experiments are rarely perfect, but participants often say they notice small improvements in sleep and mood.\n\nCritics argue that the real problem is not the technology itself but the way people are expected to remain available at all hours. When colleagues or friends routinely send messages late at night, it becomes difficult for any single person to disconnect without feeling they are letting others down. Changing this culture may require more than individual willpower.\n\nDigital tools will almost certainly remain part of daily life. The more useful question is whether people can develop habits that protect their ability to concentrate and rest, rather than treating constant connection as inevitable.",
+    "questions": [
+      {
+        "q": "What does the passage suggest about the effect of frequent interruptions?",
+        "options": [
+          "They mainly improve memory for short conversations.",
+          "They can reduce a person’s ability to complete demanding work.",
+          "They are only a problem for people who work from home.",
+          "They have no measurable impact on daily performance."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Why does the author mention “focus hours” in the second paragraph?",
+        "options": [
+          "To show that every company has already solved the problem of distractions.",
+          "To illustrate one practical response some workplaces have tried.",
+          "To argue that notifications should be banned permanently.",
+          "To claim that focus hours are more effective than any other method."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "The phrase “lose track of time” in paragraph three is closest in meaning to:",
+        "options": [
+          "Become more productive than expected.",
+          "Fail to notice how long an activity continues.",
+          "Remember every detail of what was viewed.",
+          "Decide deliberately to spend more time online."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What can be inferred about people who try personal rules for phone use?",
+        "options": [
+          "They usually abandon the rules within a few days.",
+          "They often notice modest positive changes even if the rules are imperfect.",
+          "They never experience any improvement in sleep.",
+          "They are mainly motivated by pressure from employers."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "According to the passage, why might individual efforts to disconnect be limited?",
+        "options": [
+          "Because most people prefer to stay available at all times.",
+          "Because social expectations about constant availability remain strong.",
+          "Because technology companies have made it impossible to turn devices off.",
+          "Because focus hours have already solved the problem for everyone."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which statement best reflects the author’s overall view?",
+        "options": [
+          "Digital tools should be avoided completely in modern life.",
+          "People need only stronger personal discipline to manage technology.",
+          "Society must find ways to protect concentration and rest while still using digital tools.",
+          "Workplaces alone are responsible for solving problems of constant connectivity."
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "title": "Why Local Food Markets Keep Attracting Shoppers",
+    "body": "In many cities, weekly markets where farmers and small producers sell directly to the public have remained popular even as grocery prices have risen. Shoppers often say they value the chance to ask questions about how food was grown or prepared. For some, the experience feels more personal than selecting items from long supermarket shelves.\n\nProducers also see advantages. By selling face-to-face they can keep a larger share of the final price and receive immediate comments about which products customers prefer. If several people request the same vegetable or baked item, a seller may adjust plans for the following season. This direct feedback is harder to obtain when products move through large distribution networks.\n\nCost remains a real concern. Small-scale growers usually cannot match the low prices of industrial farms, so certain items at a market can be more expensive. Families watching their budgets frequently buy only selected products rather than completing an entire weekly shop. Still, many continue to return because they believe the quality or freshness justifies the extra expense for particular foods.\n\nWeather adds another layer of uncertainty. A heavy rain or unusually cold morning can sharply reduce the number of visitors. Some sellers have begun taking online orders in advance so that customers can collect purchases even if fewer people come in person. This hybrid approach helps protect income on difficult days without replacing the market itself.\n\nBeyond the exchange of goods, these markets often function as informal meeting places. Neighbours run into one another, local musicians sometimes perform, and children see where food originates. The commercial side is essential, yet the social atmosphere appears to be an important reason the markets continue to draw people year after year.",
+    "questions": [
+      {
+        "q": "What advantage do producers gain from selling directly at markets?",
+        "options": [
+          "They no longer need to grow or transport any of their products.",
+          "They can retain more of the money paid by the customer and hear preferences quickly.",
+          "They are guaranteed higher prices than any supermarket can offer.",
+          "They avoid all forms of customer feedback."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "The phrase “watching their budgets” in paragraph three most nearly means:",
+        "options": [
+          "Ignoring the cost of food completely.",
+          "Paying careful attention to how much they spend.",
+          "Expecting every product to be free.",
+          "Preferring imported goods over local ones."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What can be inferred about customers who have limited money to spend?",
+        "options": [
+          "They almost never visit farmers’ markets.",
+          "They may purchase only certain items rather than everything they need.",
+          "They demand that all prices match supermarket levels.",
+          "They prefer to buy only imported products."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Why have some sellers started accepting online orders before market day?",
+        "options": [
+          "To eliminate the need for any physical market.",
+          "To reduce the risk that bad weather will leave them with unsold goods.",
+          "To prevent customers from asking questions about products.",
+          "To force everyone to pay in advance for unknown items."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does the final paragraph suggest about the role of these markets?",
+        "options": [
+          "Their only important function is commercial.",
+          "Social interaction and community atmosphere contribute significantly to their appeal.",
+          "Most visitors come mainly to listen to musicians.",
+          "They have largely replaced traditional grocery stores."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which of the following best describes the author’s purpose?",
+        "options": [
+          "To persuade readers to stop shopping in supermarkets.",
+          "To examine both practical benefits and ongoing difficulties of farmers’ markets.",
+          "To provide a step-by-step guide for starting a market stall.",
+          "To argue that online ordering should replace all outdoor markets."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "title": "Living with More Frequent Extreme Weather",
+    "body": "Communities in many regions are noticing that severe weather events — intense heat, heavy rainfall, or strong winds — seem to occur more often than in previous decades. While no single storm can be attributed solely to long-term climate trends, the overall pattern has prompted cities and towns to rethink how they prepare.\n\nOne common response has been to improve local infrastructure. This can include expanding storm-water systems, planting more trees to reduce heat in urban areas, or reinforcing buildings against high winds. Such projects are expensive and often take years to complete, yet officials argue that the cost of doing nothing would eventually be higher.\n\nResidents also face practical decisions. Some households have invested in backup power sources or improved insulation. Others have joined neighbourhood groups that share information and resources during emergencies. These informal networks can be especially useful when official services are temporarily overwhelmed.\n\nNot every measure is equally effective everywhere. A solution that works well in a coastal city may be less relevant inland. Local knowledge therefore remains important. People who have lived in an area for a long time often notice subtle changes in weather patterns earlier than outsiders and can offer valuable observations to planners.\n\nPublic communication has become another focus. Clear, timely warnings help people decide when to stay indoors or move to safer locations. However, repeated alerts can also lead to fatigue if residents begin to feel that every message is urgent. Finding the right balance between necessary caution and unnecessary alarm is an ongoing challenge for authorities.\n\nExtreme weather will continue to test communities. The most useful preparations appear to combine physical improvements, neighbour-to-neighbour support, and realistic public information rather than relying on any single approach.",
+    "questions": [
+      {
+        "q": "What point does the author make about individual severe weather events?",
+        "options": [
+          "Each one can be directly blamed on long-term climate change.",
+          "No single event proves a long-term trend by itself, yet the overall pattern is noticeable.",
+          "They have become less common in recent decades.",
+          "They only affect coastal regions."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Why does the author mention the high cost of infrastructure projects?",
+        "options": [
+          "To argue that such projects should never be started.",
+          "To acknowledge a difficulty while noting that inaction may prove more expensive later.",
+          "To claim that only wealthy cities can protect themselves.",
+          "To suggest that residents should pay for all improvements themselves."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "The word “overwhelmed” in paragraph three is closest in meaning to:",
+        "options": [
+          "Fully prepared and efficient.",
+          "Unable to respond adequately because of too many demands.",
+          "Completely unused during an emergency.",
+          "Focused only on long-term planning."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What can be inferred about long-term local residents?",
+        "options": [
+          "They usually ignore changes in weather.",
+          "Their experience can provide useful information that outsiders may miss.",
+          "They are less affected by extreme weather than newcomers.",
+          "They prefer not to share observations with city planners."
+        ],
+        "correct": 1
+      },
+      {
+        "q": "According to the passage, what difficulty can arise from frequent public alerts?",
+        "options": [
+          "People may stop taking warnings seriously if they feel every message is presented as urgent.",
+          "Residents will always move to safer locations too early.",
+          "Officials will no longer need to issue any warnings.",
+          "Communication systems will automatically improve."
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Which statement best captures the author’s main conclusion?",
+        "options": [
+          "Only expensive infrastructure can protect communities.",
+          "Effective preparation requires a combination of physical measures, local cooperation and careful communication.",
+          "Individual households should handle all preparations without government help.",
+          "Extreme weather events are no longer a serious concern."
+        ],
+        "correct": 1
+      }
+    ]
+  },
 {
-  id: "t1",
-  title: "Why Drivers Switch to Winter Tires",
-  body: `As temperatures begin to fall, drivers in colder regions face an annual decision: whether to install winter tires. These tires are made with rubber compounds that remain flexible in low temperatures. This flexibility helps them maintain contact with the road, while the rubber in many all-season tires becomes harder as the weather gets colder. The difference can be especially important on icy roads and packed snow.
-
-Research comparing tire performance has found that winter tires can help vehicles stop in shorter distances under suitable winter conditions. Some insurance companies therefore offer discounts to drivers who use them. However, the size and availability of these discounts vary, and they should not be the only reason someone chooses a particular type of tire.
-
-The decision also involves practical costs. Drivers need to purchase a second set of tires and pay for seasonal installation unless they can change them themselves. They must also find a suitable place to store the unused set. For people living in areas where roads are cleared quickly and winter conditions are mild, these expenses may seem difficult to justify. In places with frequent snow and ice, the additional cost may be easier to accept.
-
-Timing matters too. Winter tires are designed for cold conditions, not for year-round use. When temperatures remain warm, their softer rubber can wear more quickly. Leaving them on throughout the summer may shorten their useful life and reduce their value. For this reason, drivers are generally advised to use seasonal conditions, rather than a single date on the calendar, when deciding when to change tires.
-
-Even the best tires cannot remove every winter driving risk. Speed, following distance, visibility, and road conditions still affect how safely a vehicle can travel. A driver may have suitable tires and still need to slow down or postpone a trip during severe weather. Winter tires are best understood as one part of a broader safety plan, not as a guarantee of protection.`,
-  questions: [
-    {
-      q: "According to the passage, why can winter tires perform better in low temperatures?",
-      options: [
-        "Their rubber remains flexible and can maintain better contact with the road.",
-        "Their deeper colour absorbs heat from the road.",
-        "They are always wider than all-season tires.",
-        "They prevent ice from forming beneath a vehicle."
-      ],
-      correct: 0
-    },
-    {
-      q: "Why does the author mention insurance discounts in paragraph two?",
-      options: [
-        "To suggest that insurance companies require winter tires everywhere",
-        "To give one example of a possible financial benefit of using winter tires",
-        "To explain why winter tires are less expensive to manufacture",
-        "To argue that discounts are more important than road safety"
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'justify' in paragraph three is closest in meaning to:",
-      options: [
-        "Measure",
-        "Explain or show that something is worthwhile",
-        "Replace",
-        "Reduce"
-      ],
-      correct: 1
-    },
-    {
-      q: "What can be inferred about drivers who experience frequent icy conditions?",
-      options: [
-        "They are less likely to need seasonal tire changes.",
-        "They may consider the cost of winter tires more worthwhile.",
-        "They can rely on insurance discounts to cover all expenses.",
-        "They do not need to adjust their driving habits."
-      ],
-      correct: 1
-    },
-    {
-      q: "What is the main purpose of the final paragraph?",
-      options: [
-        "To explain why winter tires should be used in every season",
-        "To compare the cost of different tire brands",
-        "To remind readers that tires are only one factor in safe winter driving",
-        "To recommend avoiding all travel during winter"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which statement best reflects the author's overall position?",
-      options: [
-        "Winter tires are useful, but drivers should consider local conditions and other safety measures.",
-        "Winter tires are unnecessary because roads are usually cleared quickly.",
-        "The financial benefits of winter tires are always greater than their costs.",
-        "All-season tires should never be used in cold regions."
-      ],
-      correct: 0
-    }
-  ]
-},
-{
-  id: "t2",
-  title: "Learning a New Language as an Adult",
-  body: `It is often assumed that children are naturally better at learning languages than adults. Young learners may develop pronunciation more easily, partly because they are exposed to new sounds while their speech habits are still developing. They may also feel less embarrassed when they make mistakes. These observations can lead adults to believe that becoming fluent in another language is unrealistic once they have reached a certain age.
-
-However, age is only one part of the learning process. Adults often bring useful skills to the task. They have experience organizing information, setting priorities, and connecting new ideas with what they already know. Someone who understands how grammar works in their first language may recognize similar patterns in a second one. Adults can also identify specific reasons for studying, such as communicating at work, helping their children at school, or preparing for travel. Clear goals can make practice feel more purposeful.
-
-Time is often a greater obstacle than ability. Many adults balance employment, family responsibilities, and other commitments. A long study session may be difficult to arrange, and missing one can make a learner feel that progress has stopped. Language instructors therefore often recommend shorter, regular periods of practice. Fifteen or twenty minutes on most days may be easier to maintain than several hours on one weekend. The key is consistency, not simply the number of hours spent studying at once.
-
-Speaking can create a different challenge. Adults may understand written material but hesitate to use the language because they are worried about sounding incorrect. A supportive conversation group can reduce this pressure, especially when members have similar levels of experience. Mistakes become less intimidating when everyone is learning together.
-
-Digital tools have made it easier to practise almost anywhere. Apps and podcasts can help learners review vocabulary, while online tutors provide structured feedback. Nevertheless, these tools cannot fully replace real conversations. Speaking with another person requires learners to listen, interpret meaning, and respond without having unlimited time to prepare. A balanced routine that combines independent study with regular conversation is likely to be more useful than relying on only one method.`,
-  questions: [
-    {
-      q: "Which advantage of adult learners is emphasized in paragraph two?",
-      options: [
-        "They usually have more free time than younger learners.",
-        "They can connect new information with knowledge they already have.",
-        "They do not need to practise pronunciation.",
-        "They learn new vocabulary without repetition."
-      ],
-      correct: 1
-    },
-    {
-      q: "Why does the author recommend shorter, regular study sessions?",
-      options: [
-        "They remove the need for formal lessons.",
-        "They are easier to fit into busy schedules and maintain over time.",
-        "They guarantee fluency within a few months.",
-        "They are useful only for learning grammar."
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'hesitate' in paragraph four is closest in meaning to:",
-      options: [
-        "Pause because of uncertainty",
-        "Speak with confidence",
-        "Forget completely",
-        "Improve rapidly"
-      ],
-      correct: 0
-    },
-    {
-      q: "What can be inferred about a learner who uses only language apps?",
-      options: [
-        "They will automatically become confident in conversations.",
-        "They may have fewer opportunities to practise responding spontaneously.",
-        "They are likely to learn grammar incorrectly.",
-        "They cannot improve their vocabulary."
-      ],
-      correct: 1
-    },
-    {
-      q: "Why does the author describe conversation groups as supportive?",
-      options: [
-        "They allow learners to avoid making mistakes.",
-        "They make all participants study at an advanced level.",
-        "They can make speaking less intimidating by bringing together people with similar experience.",
-        "They replace the need to study independently."
-      ],
-      correct: 2
-    },
-    {
-      q: "Which title best captures the central idea of the passage?",
-      options: [
-        "Why Children Should Teach Adults New Languages",
-        "The Most Effective Language Apps on the Market",
-        "How Adults Can Build a Practical and Consistent Language-Learning Routine",
-        "Why Grammar Is the Only Important Part of Language Learning"
-      ],
-      correct: 2
-    }
-  ]
-},
-{
-  id: "t3",
-  title: "The Popularity of Farmers' Markets",
-  body: `Farmers' markets have become a familiar feature of many towns and cities. On certain days, local growers and small food producers gather in public spaces to sell vegetables, fruit, baked goods, cheese, and other products. Customers are often attracted by the opportunity to buy seasonal food and speak directly with the people who produce it. For some visitors, the market is also a pleasant alternative to doing their weekly shopping in a large store.
-
-Selling directly can benefit farmers financially. When products pass through distributors and supermarket chains, the original producer may receive only a portion of the price paid by the customer. At a market, farmers have more control over pricing and may keep a larger share of each sale. Conversations with shoppers can also provide useful feedback. If customers repeatedly ask for a particular product, a farmer may consider growing or making more of it in the next season.
-
-However, farmers' markets are not automatically the cheapest place to shop. Small producers often work on a limited scale and may have higher costs per item than large agricultural businesses. As a result, some products can be more expensive than similar goods in supermarkets. Customers managing a tight budget may choose only a few items, rather than buying everything they need at the market.
-
-Weather creates another difficulty. Heavy rain, strong winds, or unusually hot conditions can reduce attendance. This is especially challenging for sellers who depend on one market day to earn a significant part of their weekly income. Some have responded by accepting online orders before the market opens. Customers can then collect their purchases at an agreed time, giving sellers another way to reach people even when attendance is low.
-
-The value of these markets is not limited to business. They can bring neighbours together, create opportunities for local musicians and artists, and help residents learn more about where their food comes from. Their success depends on practical factors such as location, prices, and weather, but their role in a community can extend well beyond the exchange of money for goods.`,
-  questions: [
-    {
-      q: "Why might farmers receive more money from selling directly to customers?",
-      options: [
-        "They can avoid some of the intermediaries involved in supermarket sales.",
-        "They are not required to pay for growing or transporting food.",
-        "Customers always pay higher prices at outdoor markets.",
-        "Local governments set a higher price for their products."
-      ],
-      correct: 0
-    },
-    {
-      q: "What does the phrase 'on a limited scale' in paragraph three suggest?",
-      options: [
-        "The farms produce relatively small quantities.",
-        "The farms sell products in several countries.",
-        "The farms use only digital payment methods.",
-        "The farms operate throughout the entire year."
-      ],
-      correct: 0
-    },
-    {
-      q: "What is the main reason some sellers accept online orders?",
-      options: [
-        "To stop participating in public markets",
-        "To reduce their dependence on the number of people who visit the market",
-        "To make customers pay before choosing products",
-        "To avoid receiving feedback from shoppers"
-      ],
-      correct: 1
-    },
-    {
-      q: "What can be inferred about customers with limited budgets?",
-      options: [
-        "They are unlikely to visit farmers' markets at all.",
-        "They may select particular products instead of doing all their shopping there.",
-        "They usually prefer imported food to local products.",
-        "They expect farmers to sell everything at supermarket prices."
-      ],
-      correct: 1
-    },
-    {
-      q: "Which statement is best supported by the final paragraph?",
-      options: [
-        "Markets are successful only when they attract musicians.",
-        "The social role of a farmers' market can be as important as its commercial role.",
-        "Most residents visit markets mainly to attend performances.",
-        "Markets have replaced traditional grocery stores in many communities."
-      ],
-      correct: 1
-    },
-    {
-      q: "What is the author's main purpose?",
-      options: [
-        "To persuade readers to stop shopping at supermarkets",
-        "To explain both the benefits and challenges of farmers' markets",
-        "To provide instructions for starting a farming business",
-        "To argue that online shopping is always more convenient"
-      ],
-      correct: 1
-    }
-  ]
-},
-{
-  id: "t4",
-  title: "Should School Start Later in the Morning?",
-  body: `In many communities, the school day begins before eight in the morning. Although this schedule may suit some families, it can be difficult for teenagers. During adolescence, changes in the body's internal clock can make young people feel alert later in the evening and sleepy earlier in the morning. As a result, a student who goes to bed at a reasonable hour may still find it difficult to feel fully awake when the first lesson begins.
+    id: "t4",
+    title: "Should School Start Later in the Morning?",
+    body: `In many communities, the school day begins before eight in the morning. Although this schedule may suit some families, it can be difficult for teenagers. During adolescence, changes in the body's internal clock can make young people feel alert later in the evening and sleepy earlier in the morning. As a result, a student who goes to bed at a reasonable hour may still find it difficult to feel fully awake when the first lesson begins.
 
 Some school districts have tested later starting times. In several cases, students reported getting more sleep, and schools recorded fewer late arrivals. A few districts also noticed modest improvements in academic results. However, these findings do not prove that changing the timetable will improve performance everywhere. Researchers point out that schools differ in their students' needs, teaching conditions, and surrounding communities.
 
@@ -250,73 +226,73 @@ Transportation presents another challenge. School buses sometimes complete sever
 Supporters of later start times argue that better planning can reduce these difficulties and that student well-being deserves serious attention. Critics agree that sleep matters but question whether one timetable can work for every community. Some districts have chosen to introduce small trials before making permanent changes. These trials allow administrators to collect information about attendance, transport, and family routines instead of relying only on assumptions.
 
 The debate is therefore not simply about choosing an earlier or later hour. It is about weighing possible benefits against practical consequences and deciding whether a change suits the needs of a particular community.`,
-  questions: [
-    {
-      q: "According to paragraph one, why can teenagers find early school mornings difficult?",
-      options: [
-        "Their internal body clock may make them feel alert later in the evening.",
-        "They are required to complete all homework before sunrise.",
-        "Their schools usually provide fewer morning classes.",
-        "They have less need for sleep than younger children."
-      ],
-      correct: 0
-    },
-    {
-      q: "Why does the author mention that some districts recorded better academic results?",
-      options: [
-        "To prove that later start times always improve grades",
-        "To provide an example of a possible benefit while noting that the evidence is not conclusive",
-        "To suggest that attendance has no connection to school schedules",
-        "To explain why researchers oppose further trials"
-      ],
-      correct: 1
-    },
-    {
-      q: "The word 'supervision' in paragraph three is closest in meaning to:",
-      options: [
-        "Entertainment",
-        "Care or monitoring",
-        "Transportation",
-        "Instruction"
-      ],
-      correct: 1
-    },
-    {
-      q: "What can be inferred about changing the start time at only one school?",
-      options: [
-        "It may affect transportation arrangements involving other schools.",
-        "It will always reduce the district's transportation costs.",
-        "It will have no effect on families' daily routines.",
-        "It will allow every student to participate in after-school sports."
-      ],
-      correct: 0
-    },
-    {
-      q: "Why might some districts introduce small trials before making a permanent change?",
-      options: [
-        "They want to avoid collecting information from families.",
-        "They need to check how the change works in practice before committing to it.",
-        "They believe later start times are unsuitable for all students.",
-        "They want to remove sports and clubs from the school schedule."
-      ],
-      correct: 1
-    },
-    {
-      q: "Which best describes the author's attitude toward later school start times?",
-      options: [
-        "The author supports them in every situation.",
-        "The author rejects them because they are too expensive.",
-        "The author presents potential benefits and practical concerns without taking an extreme position.",
-        "The author considers the issue unimportant."
-      ],
-      correct: 2
-    }
-  ]
-},
-{
-  id: "t5",
-  title: "The Growing Use of Electric Bikes",
-  body: `Electric bikes, commonly known as e-bikes, are becoming more visible in cities and smaller communities. They resemble ordinary bicycles but include a motor that provides assistance while the rider pedals. This support can make hills easier to climb and longer journeys less tiring. For people who would otherwise avoid cycling because of distance or physical effort, an e-bike may offer a practical alternative.
+    questions: [
+      {
+        q: "Why do biological shifts during adolescence complicate early morning academic engagement?",
+        options: [
+          "Teenagers naturally require significantly more hours of sleep than younger students.",
+          "Circadian changes shift natural alertness to later hours, impairing morning wakefulness.",
+          "Late-night study habits prevent students from maintaining reasonable bedtimes.",
+          "Early schedules force schools to compress core lessons into morning hours."
+        ],
+        correct: 1
+      },
+      {
+        q: "How does the passage contextualize the reported academic gains from later start times?",
+        options: [
+          "As definitive proof that delayed timetables enhance performance across all districts.",
+          "As preliminary observations that may not translate universally due to local variables.",
+          "As evidence that student attendance has a direct correlation with test results.",
+          "As findings that researchers dismissed due to flawed data collection methods."
+        ],
+        correct: 1
+      },
+      {
+        q: "In paragraph three, the term 'supervision' specifically refers to:",
+        options: [
+          "Direct parental or adult oversight of students after the delayed school day ends.",
+          "Professional coaching provided during rescheduled extracurricular activities.",
+          "Employer monitoring of high school students working part-time evening jobs.",
+          "School board evaluation of district transportation and scheduling efficiency."
+        ],
+        correct: 0
+      },
+      {
+        q: "Adjusting start times at a single institution can create district-wide financial strain because:",
+        options: [
+          "Driver union agreements mandate higher hourly wages for delayed afternoon routes.",
+          "Interconnected busing routes may demand additional vehicles and personnel to operate.",
+          "Parents are forced to request subsidized municipal transit for after-school care.",
+          "Winter daylight limitations require installing costly lighting on outdoor fields."
+        ],
+        correct: 1
+      },
+      {
+        q: "What primary rationale leads administrative boards to implement provisional pilot schedules?",
+        options: [
+          "To satisfy critic demands for a permanent return to traditional morning schedules.",
+          "To gather empirical data on local family patterns and transit logistics before deciding.",
+          "To eliminate the financial need for additional morning transportation drivers.",
+          "To guarantee immediate improvements in district-wide standardized test scores."
+        ],
+        correct: 1
+      },
+      {
+        q: "Which statement best characterizes the author's overarching perspective on the schedule debate?",
+        options: [
+          "The physiological benefits of extra sleep strictly outweigh any logistical inconvenience.",
+          "The financial burdens on municipal transit make schedule changes impractical for most.",
+          "The decision requires balancing potential wellness benefits against specific community logistics.",
+          "The policy should be universally mandated across all regions to ensure educational equity."
+        ],
+        correct: 2
+      }
+    ]
+  },
+  {
+    id: "t5",
+    title: "The Growing Use of Electric Bikes",
+    body: `Electric bikes, commonly known as e-bikes, are becoming more visible in cities and smaller communities. They resemble ordinary bicycles but include a motor that provides assistance while the rider pedals. This support can make hills easier to climb and longer journeys less tiring. For people who would otherwise avoid cycling because of distance or physical effort, an e-bike may offer a practical alternative.
 
 Cost is one reason for their growing popularity. Compared with owning and operating a car, an e-bike generally requires less money for energy and parking. Riders can also avoid some traffic delays, particularly on routes with suitable cycling infrastructure. These savings do not mean that e-bikes are inexpensive for everyone, however. A reliable model can require a significant initial payment, and battery replacement may add to the cost after several years of use.
 
@@ -327,69 +303,69 @@ Their increasing use has raised questions about shared spaces. In some places, c
 Safety depends on more than regulations. Riders need to understand how their particular e-bike operates, remain aware of other path users, and follow local requirements. Cities also have a role to play by designing routes that are clear and suitable for different types of travel. If these responsibilities are addressed together, e-bikes could become a useful part of a wider transportation system rather than simply a replacement for cars.
 
 Their future popularity will likely depend not only on the technology itself but also on whether communities can adapt streets and rules to accommodate it.`,
-  questions: [
-    {
-      q: "What makes an e-bike different from an ordinary bicycle?",
-      options: [
-        "It provides motor assistance while the rider pedals.",
-        "It can travel without wheels on rough roads.",
-        "It does not require the rider to steer.",
-        "It is designed only for short journeys."
-      ],
-      correct: 0
-    },
-    {
-      q: "Why does the author mention battery replacement in paragraph two?",
-      options: [
-        "To show that e-bikes have no long-term operating costs",
-        "To explain that the purchase price is not the only expense buyers may face",
-        "To suggest that batteries must be replaced every month",
-        "To compare battery prices with parking fees"
-      ],
-      correct: 1
-    },
-    {
-      q: "The phrase 'the effect' in paragraph three refers to:",
-      options: [
-        "The possibility that e-bikes encourage some commuters to stop using cars",
-        "The cost of changing clothes after cycling",
-        "The impact of bad weather on car engines",
-        "The difficulty of finding a job near home"
-      ],
-      correct: 0
-    },
-    {
-      q: "What can be inferred about shared walking and cycling paths?",
-      options: [
-        "They can create disagreements when users travel at different speeds.",
-        "They are always safer than separate paths.",
-        "Pedestrians generally prefer paths with no signs.",
-        "E-bike riders are not allowed to use them in any city."
-      ],
-      correct: 0
-    },
-    {
-      q: "According to the passage, what is necessary for e-bikes to become a successful transportation option?",
-      options: [
-        "Replacing all public transportation with e-bikes",
-        "Making every e-bike free for residents",
-        "Combining responsible riding with suitable rules and infrastructure",
-        "Allowing e-bikes to travel at the same speed as cars"
-      ],
-      correct: 2
-    },
-    {
-      q: "Which statement best expresses the central idea of the passage?",
-      options: [
-        "E-bikes offer potential benefits, but their wider use requires communities to address cost and safety concerns.",
-        "E-bikes are too expensive to be useful for ordinary commuters.",
-        "The main purpose of e-bikes is to provide recreation outside cities.",
-        "Local authorities should prevent e-bikes from using public paths."
-      ],
-      correct: 0
-    }
-  ]
-},
+    questions: [
+      {
+        q: "How do e-bikes primarily alter the physical demand placed on commuters?",
+        options: [
+          "They utilize fully automated propulsion, eliminating the necessity for pedaling.",
+          "They provide motorized pedal support, mitigating exhaustion on difficult terrain.",
+          "They restrict travel speeds automatically on steep inclines to maintain safety.",
+          "They allow riders to bypass municipal regulations on pedestrian walkways."
+        ],
+        correct: 1
+      },
+      {
+        q: "Why does the author cite battery replacement alongside initial purchase prices?",
+        options: [
+          "To demonstrate that long-term vehicle maintenance matches automobile expenses.",
+          "To clarify that overall affordability is qualified by ongoing capital requirements.",
+          "To argue that municipal subsidies are necessary for widespread adoption.",
+          "To prove that e-bikes deteriorate faster than traditional non-motorized cycles."
+        ],
+        correct: 1
+      },
+      {
+        q: "In paragraph three, the phrase 'the effect' specifically refers to:",
+        options: [
+          "The extent to which motor assistance motivates commuters to replace automobile trips.",
+          "The physical fatigue experienced when riding over several kilometers in bad weather.",
+          "The financial savings achieved by avoiding paid parking and fuel purchases.",
+          "The necessity for workplace facilities allowing cyclists to change clothing."
+        ],
+        correct: 0
+      },
+      {
+        q: "Friction between pedestrians and e-bike riders on shared infrastructure stems mainly from:",
+        options: [
+          "Riders exceeding mechanical speed limits established for urban roads.",
+          "Pedestrians refusing to yield right-of-way on designated cycling corridors.",
+          "Speed differentials causing discomfort and ambiguous path use regulations.",
+          "Local authorities banning motorized vehicles from all municipal parks."
+        ],
+        correct: 2
+      },
+      {
+        q: "According to the text, achieving a safe, integrated urban transit network requires:",
+        options: [
+          "Restricting e-bikes exclusively to roadways populated by passenger cars.",
+          "A combination of rider accountability, operational knowledge, and municipal planning.",
+          "Replacing all conventional bicycles and public buses with motorized alternatives.",
+          "Mandating that e-bike manufacturers cap vehicle speeds to match pedestrian movement."
+        ],
+        correct: 1
+      },
+      {
+        q: "What can be inferred regarding the long-term integration of e-bikes into urban transit?",
+        options: [
+          "Technological advancements in battery life alone will guarantee widespread adoption.",
+          "Success relies on civic willingness to update physical infrastructure and legal frameworks.",
+          "E-bikes will eventually make traditional public bus and train networks obsolete.",
+          "Most municipalities plan to restrict e-bike usage as pedestrian populations grow."
+        ],
+        correct: 1
+      }
+    ]
+  },
 
   {
     id: "t6",

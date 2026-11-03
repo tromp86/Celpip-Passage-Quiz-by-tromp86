@@ -7,7 +7,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Sacramento&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="favicon.ico">
 </head>
@@ -23,14 +26,15 @@
   <div class="topbar__meta">
     <span class="topbar__label">Question</span>
     <span id="progressCounter" class="topbar__value">1 / 1</span>
+
   </div>
 
-<!-- <input type="text" id="textIdInput" class="goto-input" placeholder="enter the text number:" inputmode="numeric"> -->
-
 <div class="goto-field">
+  
   <input type="text" id="textIdInput" class="goto-input"
          placeholder="input:" inputmode="numeric">
-  <span class="goto-hint">Enter the text number (digits only)</span>
+<span class="goto-hint">Enter the text number (digits only)</span>
+<span class="goto-hint" id="idSearchCountdown"></span>
 </div>
 
 </header>
@@ -81,7 +85,7 @@
       <p id="resultDetails" class="result-details"></p>
       <button id="restartBtn" class="next-btn">Take Again</button>
     </section>
-  <button id="switchTextBtn" class="switch-btn">↻ Switch to another text</button>
+  <button id="switchTextBtn" class="switch-btn">↻ Go to the next article</button>
   </main>
 
   <footer class="hint">
@@ -110,7 +114,7 @@
     <span class="footer__text">Built with</span>
     <span class="footer__badge">ChatGPT</span>
     <span class="footer__divider__tromp86">by tromp86 </span>
-     <span class="footer__model">v.1.81 "Turboslide" 2026 <span id="passageCount"></span> passages</span>
+     <span class="footer__model">v.1.82 "Turboslide" 2026 <span id="passageCount"></span> passages</span>
     
 
 <!-- Стиль «Швидкість та маневреність»:
