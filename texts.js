@@ -443,77 +443,69 @@ Experts suggest that anyone interested in volunteering should start small. Choos
     ]
   },
   {
-    id: "t7",
-    title: "The Convenience of Grocery Delivery",
-    body: `Online grocery delivery has changed the way many people shop for food. Instead of driving to a store, customers can choose products on a website or app, and the order arrives at their door within a few hours. This service is especially helpful for people who are busy, have limited mobility, or do not own a car.
-
-Many customers also say that online shopping helps them stay within their budget. When they shop in a store, they often notice extra items near the checkout and add them to the cart. At home, they can review their list calmly and remove anything they do not need.
-
-Nevertheless, there are some disadvantages. Delivery fees can quickly add up, particularly for small orders. Some customers also complain that they cannot inspect fresh products themselves. A shopper may prefer to choose ripe fruit or check the date on a carton of milk, but with a delivery service, a store employee makes those decisions.
-
-Substitutions can cause frustration as well. If an item is out of stock, the store may send a similar product instead. Sometimes the replacement is acceptable, but at other times it is not what the customer wanted. Most services now allow shoppers to refuse substitutions, which helps to reduce this problem.
-
-Overall, grocery delivery has become a practical option rather than a luxury. Many people use it only occasionally, for example when the weather is bad or when they are unwell, and continue to visit stores for fresh items. This combination allows them to enjoy the convenience of delivery while still keeping control over the products they value most.`,
-    questions: [
+  "id": "t7",
+  "title": "The Convenience of Grocery Delivery",
+  "body": "Online grocery delivery has changed the way many people shop for food. Instead of driving to a store, customers can choose products on a website or app, and the order arrives at their door within a few hours. This service is especially helpful for people who are busy, have limited mobility, or do not own a car.\n\nMany customers also say that online shopping helps them stay within their budget. When they shop in a store, they often notice extra items near the checkout and add them to the cart. At home, they can review their list calmly and remove anything they do not need before placing the order.\n\nNevertheless, there are some disadvantages. Delivery fees can quickly add up, particularly for small orders. Some customers also complain that they cannot inspect fresh products themselves. A shopper may prefer to choose ripe fruit or check the date on a carton of milk, but with a delivery service, a store employee makes those decisions. In response, a number of platforms now allow customers to leave specific instructions or rate the quality of the items they receive.\n\nSubstitutions can cause frustration as well. If an item is out of stock, the store may send a similar product instead. Sometimes the replacement is acceptable, but at other times it is not what the customer wanted. Most services now allow shoppers to refuse substitutions in advance, which helps to reduce this problem.\n\nOverall, grocery delivery has become a practical option rather than a luxury. Many people use it only occasionally — for example when the weather is bad or when they are unwell — and continue to visit stores for fresh items they prefer to select themselves. This combination allows them to enjoy the convenience of delivery while still keeping control over the products they value most.",
+  "questions": [
     {
-      q: "E-grocery platforms primarily offer enhanced utility to consumers who:",
-      options: [
+      "q": "E-grocery platforms primarily offer enhanced utility to consumers who:",
+      "options": [
         "Face physical constraints or severe time limitations regarding store visits.",
         "Seek exclusive access to imported artisanal food products.",
         "Intend to eliminate all personal contact with retail staff.",
         "Wish to secure wholesale commercial volume discounts."
       ],
-      correct: 0
+      "correct": 0
     },
     {
-      q: "Digital order curation supports fiscal discipline mainly by:",
-      options: [
+      "q": "Digital order curation supports fiscal discipline mainly by:",
+      "options": [
         "Mitigating exposure to point-of-sale impulse merchandise.",
         "Guaranteeing lower base prices than brick-and-mortar outlets.",
         "Waiving service charges on low-volume transactions.",
         "Providing automatic government food subsidy credits."
       ],
-      correct: 0
+      "correct": 0
     },
     {
-      q: "A notable operational drawback of doorstep fulfillment cited in the passage is:",
-      options: [
+      "q": "A notable operational drawback of doorstep fulfillment cited in the passage is:",
+      "options": [
         "The delegation of perishable item quality assessment to store personnel.",
         "The total prohibition of digital payment methods across platforms.",
         "An inherent delay requiring several business days for order dispatch.",
         "Frequent structural errors in electronic billing records."
       ],
-      correct: 0
+      "correct": 0
     },
     {
-      q: "In the context of the fourth paragraph, the term 'substitutions' pertains to:",
-      options: [
+      "q": "In the context of the fourth paragraph, the term 'substitutions' pertains to:",
+      "options": [
         "Alternative items fulfilled when original stock is depleted",
         "Promotional price reductions applied to recurring purchases",
         "Coupled delivery personnel assigned to heavy orders",
         "Adjustments made to store operating hours during peak periods"
       ],
-      correct: 0
+      "correct": 0
     },
     {
-      q: "The concluding paragraph indicates that the prevalent pattern among modern consumers is to:",
-      options: [
+      "q": "The concluding paragraph indicates that the prevalent pattern among modern consumers is to:",
+      "options": [
         "Adopt a hybrid approach, combining digital delivery with selective in-person buying.",
         "Transition entirely to automated digital fulfillment for all dietary needs.",
         "Restrict e-commerce purchases strictly to non-perishable household items.",
         "Utilize fulfillment services exclusively during severe winter weather events."
       ],
-      correct: 0
+      "correct": 0
     },
     {
-      q: "What can be inferred about the evolution of user controls in grocery delivery apps?",
-      options: [
+      "q": "What can be inferred about the evolution of user controls in grocery delivery apps?",
+      "options": [
         "Platforms have adapted to customer feedback by offering options to decline unwanted item replacements.",
         "Companies have removed substitution policies to cut operational costs.",
         "Delivery platforms now compel users to accept any available alternative.",
         "Retailers have standardized product selection to eliminate out-of-stock occurrences."
       ],
-      correct: 0
+      "correct": 0
     }
   ]
 },

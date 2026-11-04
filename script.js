@@ -536,6 +536,15 @@ els.textIdInput.addEventListener("keydown", (e) => {
 // Read the active text aloud (click again to stop).
 els.speakBtn.addEventListener("click", speakText);
 
+// Next question, or the result after the last one.
+els.nextBtn.addEventListener("click", () => {
+  if (answeredCount >= totalQuestions) {
+    showResult();
+    return;
+  }
+  showQuestion();
+});
+
 // Jump straight to the next text.
 els.switchTextBtn.addEventListener("click", startNewText);
 
@@ -576,3 +585,15 @@ applyTheme();
 
 if (!USE_NATIVE) getWorker(); // start loading the voice model in the background
 startNewText();
+
+
+        document.getElementById('copyEmail').addEventListener('click', function () {
+            const email = 'tromp1000@gmail.com'; // ← замініть на вашу реальну адресу
+            navigator.clipboard.writeText(email).then(function () {
+                const msg = document.getElementById('copyMsg');
+                msg.style.display = 'inline';
+                setTimeout(function () {
+                    msg.style.display = 'none';
+                }, 2000);
+            });
+        });
