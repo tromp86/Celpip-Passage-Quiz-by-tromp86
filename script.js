@@ -87,7 +87,7 @@ const els = {
 // UK female: bf_emma bf_isabella bf_alice bf_lily
 // UK male:   bm_george bm_fable bm_daniel bm_lewis
 const VOICE = "af_heart";
-const SPEED = 0.8; // 0.6 slow ... 1 normal ... 1.4 fast
+const SPEED = 0.88; // 0.6 slow ... 1 normal ... 1.4 fast
 // ------------------------------------
 
 let ttsWorker = null;
@@ -171,8 +171,13 @@ function playClip(clip) {
   return new Promise((res) => {
     const buf = actx.createBuffer(1, clip.audio.length, clip.rate);
     buf.copyToChannel(clip.audio, 0);
+
     const src = actx.createBufferSource();
     src.buffer = buf;
+
+    // Control playback speed
+    src.playbackRate.value = SPEED;
+
     src.connect(actx.destination);
     src.onended = res;
     currentSource = src;

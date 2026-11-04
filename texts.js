@@ -1035,46 +1035,6 @@ Urban transportation experts emphasize that electrification represents only one 
 
 // information
 
-{
-  id: "t14",
-  title: "The Kelford Aqueduct of British Columbia",
-  body: `A. Constructed during the early decades of the twentieth century, the Kelford Aqueduct represents one of British Columbia’s most ambitious historical engineering endeavors. Designed to transport freshwater across rugged mountainous terrain, the system was built primarily to supply rapidly expanding industrial operations and agricultural communities in the region. Engineers faced immense logistical hurdles, including navigating dense rainforests, steep rock faces, and unpredictable seasonal streamflows. Despite these challenges, the completion of the conduit provided a reliable hydrologic supply line that proved instrumental in fostering long-term economic settlement throughout the surrounding valley.
-
-B. The structural design of the aqueduct relies on a sophisticated combination of elevated wooden flumes, excavated earth canals, and reinforced concrete conduits. To maintain a consistent gradient over vast distances without relying on heavy mechanical pumping, designers utilized gravity-driven hydrodynamics. Water was diverted from high-altitude glacial streams, flowing through precise slopes engineered to prevent both erosion of the channel walls and excessive silt accumulation. Maintenance crews were stationed at strategic intervals along the route to inspect timber supports, clear seasonal debris, and manage flow control gates.
-
-C. Beyond its primary civil function, the Kelford Aqueduct profoundly altered the local ecological landscape. By redirecting significant volumes of surface water from original tributaries, the infrastructure unexpectedly altered riparian habitats downstream. Certain fish populations experienced disruptions in traditional spawning routes due to reduced water depths and altered flow velocities. Conversely, the newly created artificial water channels created micro-habitats that supported secondary vegetation growth and attracted various mammal species, demonstrating the complex ecological trade-offs associated with large-scale historic water management projects.
-
-D. As regional infrastructure modernized in the post-war era, reliance on the Kelford Aqueduct gradually diminished. Advanced subterranean pipeline networks and modern municipal filtration facilities eventually superseded the open-air conduit system. By the late 1970s, primary water diversion through the aqueduct was officially halted. While portions of the wooden flume structures deteriorated over time due to weather exposure, significant sections of the concrete pathways and stone masonry support pillars remained intact across the forest canopy.
-
-E. Not mentioned in any paragraph.`,
-  questions: [
-    {
-      q: "Which paragraph describes how the aqueduct changed the surrounding natural environment and wildlife?",
-      options: ["A", "B", "C", "D", "E"],
-      correct: 2
-    },
-    {
-      q: "Which paragraph explains the technical engineering principles and gravity-driven water flow used in the structure?",
-      options: ["A", "B", "C", "D", "E"],
-      correct: 1
-    },
-    {
-      q: "Which paragraph discusses the initial construction goals and the early economic impact of the project?",
-      options: ["A", "B", "C", "D", "E"],
-      correct: 0
-    },
-    {
-      q: "Which paragraph details why the aqueduct was eventually abandoned and replaced by modern infrastructure?",
-      options: ["A", "B", "C", "D", "E"],
-      correct: 3
-    },
-    {
-      q: "Which paragraph mentions the total financial cost incurred during the construction of the aqueduct?",
-      options: ["A", "B", "C", "D", "E"],
-      correct: 4
-    }
-  ]
-},
 
 {
   id: "t15",
@@ -2904,3 +2864,12 @@ With municipal, provincial, and federal governments facing intense pressure from
   ]
 },
 ];
+
+const ids = TEXTS.map(t => t.id);
+const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);
+
+if (duplicates.length) {
+  console.error("Duplicate text IDs:", [...new Set(duplicates)]);
+} else {
+  console.log("All text IDs are unique. Total passages:", TEXTS.length);
+}
