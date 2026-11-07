@@ -11,140 +11,140 @@
    <p> elements.
    ========================================================= */
 const TEXTS = [
+ {
+  "id": "t1",
+  "title": "news article - Canadian Company Unveils Medium-Lift Rocket",
+  "body": "On 20 October 2026, the Canadian aerospace company Reaction Dynamics, based in Longueuil, Québec, unveiled Borealis, a medium-lift rocket. The vehicle is designed to carry up to six tonnes of payload into low Earth orbit. Its first orbital launch is targeted for 2031.\n\nBorealis forms part of a two-vehicle development plan. The company’s smaller rocket, Aurora, is scheduled to attempt its first orbital flight from Canadian soil in the fourth quarter of 2028. Aurora is expected to deliver approximately 200 kilograms to low Earth orbit. Reaction Dynamics states that Aurora will serve as both an operational launch vehicle and a technological foundation for Borealis, advancing propulsion, avionics, flight software, manufacturing and operational systems that can later be scaled.\n\nBoth rockets will use storable liquid propulsion. The company recently completed a campaign of 50 engine tests, including 21 liquid-fueled hot-fire tests, as it transitioned from earlier hybrid propulsion technology. Orbital-scale engine hardware is now in manufacturing near Montreal, with further testing planned to begin in November 2026.\n\nReaction Dynamics currently employs 68 people and plans to expand its workforce to more than 350 by 2031. The company also intends to develop approximately 375,000 square feet of manufacturing and integration space in Québec. It has raised about 50 million dollars to date and aims to raise a further 350 million dollars by 2031 to support the development of both vehicles.\n\nThe company presents Borealis as a means of providing Canada with sovereign access to medium-lift launch capacity for commercial, civil and national security missions.",
+  "questions": [
+    {
+      "q": "According to the passage, what is the primary design capacity of Borealis?",
+      "options": [
+        "To deliver up to six tonnes of payload into low Earth orbit",
+        "To carry approximately 200 kilograms into sun-synchronous orbit",
+        "To conduct suborbital test flights from Australian territory",
+        "To replace all existing light-lift vehicles currently in operation"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What role does Aurora play in relation to Borealis, according to the text?",
+      "options": [
+        "It will serve as a technological and operational foundation that can be scaled for the larger vehicle",
+        "It is scheduled to make its first flight only after Borealis has completed several missions",
+        "It is designed exclusively for national security payloads and will not fly commercial missions",
+        "It uses a completely different propulsion system that cannot be transferred to Borealis"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which statement accurately reflects the company’s propulsion development status?",
+      "options": [
+        "It has completed 50 engine tests, including liquid-fueled hot-fire tests, as part of a transition to storable liquid propulsion",
+        "It continues to rely primarily on hybrid engines for both Aurora and Borealis",
+        "It has postponed all engine testing until after the first orbital flight of Aurora",
+        "It has already conducted orbital flights of its liquid engines from Canadian soil"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What workforce and facility plans does the passage attribute to Reaction Dynamics by 2031?",
+      "options": [
+        "An increase to more than 350 employees and approximately 375,000 square feet of manufacturing space in Québec",
+        "A reduction in staff numbers in order to focus resources on engine testing",
+        "The construction of launch facilities exclusively in Ontario and Nova Scotia",
+        "The outsourcing of all manufacturing to international partners"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "The phrase “sovereign access to medium-lift launch capacity” in the final paragraph most nearly refers to:",
+      "options": [
+        "Canada’s ability to launch medium-sized payloads using domestic vehicles rather than relying solely on foreign providers",
+        "The exclusive right of one company to operate all rockets within Canadian territory",
+        "A permanent ban on commercial satellite launches from Canadian soil",
+        "The requirement that every Canadian satellite must be launched on a foreign medium-lift rocket"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following can be verified from the information given in the passage?",
+      "options": [
+        "Aurora is targeted for a first orbital attempt from Canadian soil in late 2028, while Borealis is targeted for 2031",
+        "Borealis has already completed its first successful orbital flight",
+        "The company plans to discontinue Aurora immediately after the unveiling of Borealis",
+        "All engine testing for both vehicles has been postponed until 2030"
+      ],
+      "correct": 0
+    }
+  ]
+},
   {
-    "id": "t1",
-    "title": "The Struggle with Constant Connectivity",
-    "body": "Many people now spend large parts of their day switching between messages, notifications and short videos. While these tools make communication faster, they also create a sense that attention is always being pulled in different directions. Researchers have begun to notice that frequent interruptions can make it harder to finish complex tasks or remember details from conversations that happened only hours earlier.\n\nSome employers have responded by introducing “focus hours” during which non-urgent messages are delayed. Others encourage staff to turn off notifications for certain periods. Early results suggest that even short stretches of uninterrupted work can improve both the quality of output and how people feel at the end of the day. Yet not every workplace can adopt the same rules, and some roles still require immediate responses.\n\nOutside of work the picture is more complicated. Social platforms are designed to keep users scrolling, and many people report that they open an app without a clear reason and then lose track of time. A growing number of individuals have started setting personal rules — for example, leaving the phone in another room during meals or deleting certain apps for a month. These experiments are rarely perfect, but participants often say they notice small improvements in sleep and mood.\n\nCritics argue that the real problem is not the technology itself but the way people are expected to remain available at all hours. When colleagues or friends routinely send messages late at night, it becomes difficult for any single person to disconnect without feeling they are letting others down. Changing this culture may require more than individual willpower.\n\nDigital tools will almost certainly remain part of daily life. The more useful question is whether people can develop habits that protect their ability to concentrate and rest, rather than treating constant connection as inevitable.",
-    "questions": [
-      {
-        "q": "What does the passage suggest about the effect of frequent interruptions?",
-        "options": [
-          "They mainly improve memory for short conversations.",
-          "They can reduce a person’s ability to complete demanding work.",
-          "They are only a problem for people who work from home.",
-          "They have no measurable impact on daily performance."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "Why does the author mention “focus hours” in the second paragraph?",
-        "options": [
-          "To show that every company has already solved the problem of distractions.",
-          "To illustrate one practical response some workplaces have tried.",
-          "To argue that notifications should be banned permanently.",
-          "To claim that focus hours are more effective than any other method."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "The phrase “lose track of time” in paragraph three is closest in meaning to:",
-        "options": [
-          "Become more productive than expected.",
-          "Fail to notice how long an activity continues.",
-          "Remember every detail of what was viewed.",
-          "Decide deliberately to spend more time online."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "What can be inferred about people who try personal rules for phone use?",
-        "options": [
-          "They usually abandon the rules within a few days.",
-          "They often notice modest positive changes even if the rules are imperfect.",
-          "They never experience any improvement in sleep.",
-          "They are mainly motivated by pressure from employers."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "According to the passage, why might individual efforts to disconnect be limited?",
-        "options": [
-          "Because most people prefer to stay available at all times.",
-          "Because social expectations about constant availability remain strong.",
-          "Because technology companies have made it impossible to turn devices off.",
-          "Because focus hours have already solved the problem for everyone."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "Which statement best reflects the author’s overall view?",
-        "options": [
-          "Digital tools should be avoided completely in modern life.",
-          "People need only stronger personal discipline to manage technology.",
-          "Society must find ways to protect concentration and rest while still using digital tools.",
-          "Workplaces alone are responsible for solving problems of constant connectivity."
-        ],
-        "correct": 2
-      }
-    ]
-  },
-  {
-    "id": "t2",
-    "title": "Why Local Food Markets Keep Attracting Shoppers",
-    "body": "In many cities, weekly markets where farmers and small producers sell directly to the public have remained popular even as grocery prices have risen. Shoppers often say they value the chance to ask questions about how food was grown or prepared. For some, the experience feels more personal than selecting items from long supermarket shelves.\n\nProducers also see advantages. By selling face-to-face they can keep a larger share of the final price and receive immediate comments about which products customers prefer. If several people request the same vegetable or baked item, a seller may adjust plans for the following season. This direct feedback is harder to obtain when products move through large distribution networks.\n\nCost remains a real concern. Small-scale growers usually cannot match the low prices of industrial farms, so certain items at a market can be more expensive. Families watching their budgets frequently buy only selected products rather than completing an entire weekly shop. Still, many continue to return because they believe the quality or freshness justifies the extra expense for particular foods.\n\nWeather adds another layer of uncertainty. A heavy rain or unusually cold morning can sharply reduce the number of visitors. Some sellers have begun taking online orders in advance so that customers can collect purchases even if fewer people come in person. This hybrid approach helps protect income on difficult days without replacing the market itself.\n\nBeyond the exchange of goods, these markets often function as informal meeting places. Neighbours run into one another, local musicians sometimes perform, and children see where food originates. The commercial side is essential, yet the social atmosphere appears to be an important reason the markets continue to draw people year after year.",
-    "questions": [
-      {
-        "q": "What advantage do producers gain from selling directly at markets?",
-        "options": [
-          "They no longer need to grow or transport any of their products.",
-          "They can retain more of the money paid by the customer and hear preferences quickly.",
-          "They are guaranteed higher prices than any supermarket can offer.",
-          "They avoid all forms of customer feedback."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "The phrase “watching their budgets” in paragraph three most nearly means:",
-        "options": [
-          "Ignoring the cost of food completely.",
-          "Paying careful attention to how much they spend.",
-          "Expecting every product to be free.",
-          "Preferring imported goods over local ones."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "What can be inferred about customers who have limited money to spend?",
-        "options": [
-          "They almost never visit farmers’ markets.",
-          "They may purchase only certain items rather than everything they need.",
-          "They demand that all prices match supermarket levels.",
-          "They prefer to buy only imported products."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "Why have some sellers started accepting online orders before market day?",
-        "options": [
-          "To eliminate the need for any physical market.",
-          "To reduce the risk that bad weather will leave them with unsold goods.",
-          "To prevent customers from asking questions about products.",
-          "To force everyone to pay in advance for unknown items."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "What does the final paragraph suggest about the role of these markets?",
-        "options": [
-          "Their only important function is commercial.",
-          "Social interaction and community atmosphere contribute significantly to their appeal.",
-          "Most visitors come mainly to listen to musicians.",
-          "They have largely replaced traditional grocery stores."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "Which of the following best describes the author’s purpose?",
-        "options": [
-          "To persuade readers to stop shopping in supermarkets.",
-          "To examine both practical benefits and ongoing difficulties of farmers’ markets.",
-          "To provide a step-by-step guide for starting a market stall.",
-          "To argue that online ordering should replace all outdoor markets."
-        ],
-        "correct": 1
-      }
-    ]
-  },
+  "id": "t2",
+  "title": "news article - Proposed Changes to Rules on Supersonic Flight Over Land",
+  "body": "For more than 50 years, civilian aircraft have generally been prohibited from flying faster than Mach 1 over the United States. The restriction, introduced in 1973, was designed to protect communities on the ground from the effects of sonic booms.\n\nIn 2026 the Federal Aviation Administration (FAA) proposed a significant change. On 2 July 2026 the agency published a notice of proposed rulemaking that would replace the long-standing speed-based ban with a performance-based approach. Under the proposal, civil aircraft could be permitted to operate at speeds greater than Mach 1 over land if they meet a specific noise-related standard and receive FAA approval.\n\nThe key requirement in the proposal is that the sonic boom overpressure reaching the surface must not exceed 0.11 pounds per square foot. Operators would need to demonstrate, through measurement, modelling or other approved methods, that this limit would be met. The FAA would then make a finding before such operations could take place.\n\nThe proposed rule is described as an interim measure focused on en-route flight. Further regulatory steps, including standards for take-off and landing noise as well as full aircraft certification requirements, would still be needed before regular commercial supersonic services could begin. The FAA has indicated that it aims to finalise the related rules by mid-2027.\n\nThe change reflects advances in technology and flight techniques that can reduce or prevent disruptive sonic booms from reaching the ground. The stated objective is to allow faster civil flight while limiting noise impacts on communities below.",
+  "questions": [
+    {
+      "q": "What was the primary purpose of the 1973 restriction on civilian supersonic flight over the United States?",
+      "options": [
+        "To protect communities on the ground from the effects of sonic booms",
+        "To limit the number of international flights entering U.S. airspace",
+        "To encourage the development of military aircraft exclusively",
+        "To reduce fuel consumption by commercial airlines"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "How does the 2026 FAA proposal differ from the existing rule?",
+      "options": [
+        "It would replace a general speed-based prohibition with a performance-based noise standard",
+        "It would permanently ban all flights faster than Mach 1 over land and water",
+        "It would require every supersonic aircraft to obtain daily special authorisation",
+        "It would allow unrestricted supersonic flight without any noise limits"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "According to the proposed rule, what specific condition must be met for civil aircraft to fly supersonically over land?",
+      "options": [
+        "Sonic boom overpressure at the surface must not exceed 0.11 pounds per square foot",
+        "Aircraft must remain below an altitude of 30,000 feet at all times",
+        "Only military-derived engines may be used on the aircraft",
+        "Flights must be limited exclusively to overnight hours"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What additional requirement is placed on operators under the proposal?",
+      "options": [
+        "They must demonstrate compliance through measurement, modelling or other approved methods and receive an FAA finding",
+        "They must pay a fixed annual fee for each supersonic route flown",
+        "They must restrict all supersonic operations to designated military training areas",
+        "They must convert existing subsonic aircraft rather than build new ones"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What does the passage indicate about the current status of the proposed changes?",
+      "options": [
+        "The proposal is an interim step, and further rules on take-off, landing and certification are still required",
+        "Commercial supersonic passenger services can begin immediately under the new standard",
+        "The 1973 ban has already been fully repealed and is no longer in force",
+        "All necessary certification standards were completed before the proposal was published"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which statement best reflects the overall aim of the proposed regulatory change?",
+      "options": [
+        "To enable faster civil flight while limiting noise impacts on communities on the ground",
+        "To eliminate all forms of noise regulation for high-speed aircraft",
+        "To prioritise military aircraft development over commercial aviation",
+        "To reduce the total number of flights operating in U.S. airspace"
+      ],
+      "correct": 0
+    }
+  ]
+},
   {
     "id": "t3",
     "title": "Living with More Frequent Extreme Weather",

@@ -566,7 +566,9 @@ body,
 }
 
 @media (max-width: 480px) {
-  .card { padding: 22px 18px 20px; }
+  .card { padding: 22px 18px 20px;
+  font-size: 1.10rem;
+  }
 
   .footer__info {
     flex-direction: column;
