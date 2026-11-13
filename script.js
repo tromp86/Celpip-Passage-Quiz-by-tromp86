@@ -416,7 +416,7 @@ function showQuestion() {
   document.getElementById("passageCount").textContent = TEXTS.length;
   els.progressCounter.textContent = `${answeredCount} / ${totalQuestions}`;
   els.textTitle.textContent = text.title;
-  els.textNumber.textContent = "Current text number: " + text.id.replace(/\D/g, "");
+  els.textNumber.innerHTML = `Current text number: <span class="text-num">${text.id.replace(/\D/g, "")}</span>`;
   renderParagraphs(els.textBody, text.body);
 
   currentQuestionIdx = questionQueue.shift();
@@ -462,7 +462,9 @@ function handleAnswer(selectedIdx, btn, question) {
     els.feedback.textContent = "Correct!";
   } else {
     btn.classList.add("wrong");
-    // buttons[question.correct].classList.add("correct");
+// 
+    buttons[question.correct].classList.add("correct");
+    // 
     els.feedback.textContent = "Incorrect.";
   }
 
@@ -602,3 +604,6 @@ startNewText();
                 }, 2000);
             });
         });
+
+
+        Current

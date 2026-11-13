@@ -259,11 +259,12 @@ body,
   margin: 12px 0;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
   color: var(--ink);
   letter-spacing: 0.02em; 
   line-height: 1.1;
+  margin-top: 30px;
 }
 
 .text-block__body {
@@ -548,22 +549,51 @@ body,
   border-color: #efc1c1;
 }
 
+.text-number {
+  color : var(--line);
+}
 
+.text-num {
+padding: 2px 8px;
+  border: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--accent);
 
+}
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 600px) {
-  .topbar { padding: 8px 10px; }
-  .goto-input { width: 90px; }
-}
+  .topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+
+  .topbar {
+    width: 100%;
+  }
+
+  .goto-input {
+    width: 100%;
+    max-width: none;
+  }
 
 @media (max-width: 600px) and (orientation: portrait) {
-  .topbar {
-    gap: 4px;
-    padding: 8px 12px;
-  }
-  .goto-input { width: 70%; }
-}
+    .topbar {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 9px;
+        padding: 8px 12px;
+        align-items: center;
+    }
+
+    .topbar{
+        width: 100%;
+    }}
 
 @media (max-width: 480px) {
   .card { padding: 22px 18px 20px;
@@ -571,8 +601,11 @@ body,
   }
 
   .footer__info {
-    flex-direction: column;
-    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .footer__divider__tromp86::before,

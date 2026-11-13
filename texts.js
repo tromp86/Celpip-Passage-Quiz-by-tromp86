@@ -11,207 +11,327 @@
    <p> elements.
    ========================================================= */
 const TEXTS = [
- {
-  "id": "t1",
-  "title": "news article - Canadian Company Unveils Medium-Lift Rocket",
-  "body": "On 20 October 2026, the Canadian aerospace company Reaction Dynamics, based in Longueuil, Québec, unveiled Borealis, a medium-lift rocket. The vehicle is designed to carry up to six tonnes of payload into low Earth orbit. Its first orbital launch is targeted for 2031.\n\nBorealis forms part of a two-vehicle development plan. The company’s smaller rocket, Aurora, is scheduled to attempt its first orbital flight from Canadian soil in the fourth quarter of 2028. Aurora is expected to deliver approximately 200 kilograms to low Earth orbit. Reaction Dynamics states that Aurora will serve as both an operational launch vehicle and a technological foundation for Borealis, advancing propulsion, avionics, flight software, manufacturing and operational systems that can later be scaled.\n\nBoth rockets will use storable liquid propulsion. The company recently completed a campaign of 50 engine tests, including 21 liquid-fueled hot-fire tests, as it transitioned from earlier hybrid propulsion technology. Orbital-scale engine hardware is now in manufacturing near Montreal, with further testing planned to begin in November 2026.\n\nReaction Dynamics currently employs 68 people and plans to expand its workforce to more than 350 by 2031. The company also intends to develop approximately 375,000 square feet of manufacturing and integration space in Québec. It has raised about 50 million dollars to date and aims to raise a further 350 million dollars by 2031 to support the development of both vehicles.\n\nThe company presents Borealis as a means of providing Canada with sovereign access to medium-lift launch capacity for commercial, civil and national security missions.",
-  "questions": [
+{
+  id: "t1",
+  title: "A Request to Change a Work Schedule",
+  body: `To: Jennifer Morris
+Subject: Request for a Temporary Schedule Change
+
+Hi Jennifer,
+
+I am writing to ask whether it would be possible to adjust my work schedule for the next three weeks. My evening college course has recently changed its timetable, and I now have to attend classes every Tuesday and Thursday at 5:30 p.m.
+
+At the moment, my regular shift ends at 5:00 p.m. Although I initially thought I could manage both commitments, the journey from the office to the college takes approximately 40 minutes, making it difficult to arrive on time.
+
+I would like to suggest starting work at 7:30 a.m. instead of 8:30 a.m. and finishing at 4:00 p.m. on those two days. I would continue working my usual hours on the other weekdays, so my total weekly hours would remain unchanged.
+
+I understand that this adjustment could affect the afternoon workload, particularly when the team is preparing the weekly reports. I would be happy to complete some of those tasks earlier in the day or coordinate with Mark to ensure that nothing is delayed.
+
+I want to emphasize that this is only a temporary request. Once the course finishes on December 10, I will return to my normal schedule. Please let me know if this arrangement would be suitable or if you would prefer to discuss another solution.
+
+Thank you for considering my request.
+
+Best regards,
+Daniel`,
+  questions: [
     {
-      "q": "According to the passage, what is the primary design capacity of Borealis?",
-      "options": [
-        "To deliver up to six tonnes of payload into low Earth orbit",
-        "To carry approximately 200 kilograms into sun-synchronous orbit",
-        "To conduct suborbital test flights from Australian territory",
-        "To replace all existing light-lift vehicles currently in operation"
+      q: "Why is Daniel asking to modify his working hours?",
+      options: [
+        "He has accepted a second job in the evenings.",
+        "His college classes now begin earlier on certain days.",
+        "His current schedule conflicts with his updated class timetable.",
+        "He wants to reduce his weekly working hours."
       ],
-      "correct": 0
+      correct: 2
     },
     {
-      "q": "What role does Aurora play in relation to Borealis, according to the text?",
-      "options": [
-        "It will serve as a technological and operational foundation that can be scaled for the larger vehicle",
-        "It is scheduled to make its first flight only after Borealis has completed several missions",
-        "It is designed exclusively for national security payloads and will not fly commercial missions",
-        "It uses a completely different propulsion system that cannot be transferred to Borealis"
+      q: "The word 'adjust' in the first paragraph is closest in meaning to:",
+      options: [
+        "Change slightly",
+        "Cancel completely",
+        "Confirm officially",
+        "Extend permanently"
       ],
-      "correct": 0
+      correct: 0
     },
     {
-      "q": "Which statement accurately reflects the company’s propulsion development status?",
-      "options": [
-        "It has completed 50 engine tests, including liquid-fueled hot-fire tests, as part of a transition to storable liquid propulsion",
-        "It continues to rely primarily on hybrid engines for both Aurora and Borealis",
-        "It has postponed all engine testing until after the first orbital flight of Aurora",
-        "It has already conducted orbital flights of its liquid engines from Canadian soil"
+      q: "What does Daniel offer to do to minimize the impact on his team?",
+      options: [
+        "Work additional hours every weekend",
+        "Finish some tasks earlier or coordinate with a colleague",
+        "Ask another employee to prepare all the reports",
+        "Complete his college assignments during lunch breaks"
       ],
-      "correct": 0
+      correct: 1
     },
     {
-      "q": "What workforce and facility plans does the passage attribute to Reaction Dynamics by 2031?",
-      "options": [
-        "An increase to more than 350 employees and approximately 375,000 square feet of manufacturing space in Québec",
-        "A reduction in staff numbers in order to focus resources on engine testing",
-        "The construction of launch facilities exclusively in Ontario and Nova Scotia",
-        "The outsourcing of all manufacturing to international partners"
+      q: "What can be inferred about Daniel's attitude toward his responsibilities?",
+      options: [
+        "He considers his education more important than his job.",
+        "He expects his manager to solve the scheduling problem.",
+        "He is willing to find a solution that does not disrupt the team.",
+        "He is dissatisfied with the amount of work assigned to him."
       ],
-      "correct": 0
+      correct: 2
     },
     {
-      "q": "The phrase “sovereign access to medium-lift launch capacity” in the final paragraph most nearly refers to:",
-      "options": [
-        "Canada’s ability to launch medium-sized payloads using domestic vehicles rather than relying solely on foreign providers",
-        "The exclusive right of one company to operate all rockets within Canadian territory",
-        "A permanent ban on commercial satellite launches from Canadian soil",
-        "The requirement that every Canadian satellite must be launched on a foreign medium-lift rocket"
+      q: "What does Daniel mean when he says the request is 'only a temporary request'?",
+      options: [
+        "He wants to change his position within the company.",
+        "He expects the new arrangement to continue indefinitely.",
+        "He plans to leave the company after his course ends.",
+        "He intends to return to his regular schedule after December 10."
       ],
-      "correct": 0
+      correct: 3
     },
     {
-      "q": "Which of the following can be verified from the information given in the passage?",
-      "options": [
-        "Aurora is targeted for a first orbital attempt from Canadian soil in late 2028, while Borealis is targeted for 2031",
-        "Borealis has already completed its first successful orbital flight",
-        "The company plans to discontinue Aurora immediately after the unveiling of Borealis",
-        "All engine testing for both vehicles has been postponed until 2030"
+  q: "How long does Daniel need to travel from his workplace to college?",
+  options: [
+    "Approximately half an hour",
+    "About forty minutes",
+    "Nearly one hour",
+    "Less than twenty minutes"
+  ],
+  correct: 1
+},
+{
+  q: "The word 'commitments' in the second paragraph is closest in meaning to:",
+  options: [
+    "Personal preferences",
+    "Financial problems",
+    "Responsibilities or obligations",
+    "Unexpected opportunities"
+  ],
+  correct: 2
+},
+{
+  q: "Which statement about Daniel's proposed schedule is correct?",
+  options: [
+    "He wants to start earlier and finish earlier twice a week.",
+    "He wants to work fewer hours throughout the entire week.",
+    "He plans to change his working days from weekdays to weekends.",
+    "He wants to take two full days off every week."
+  ],
+  correct: 0
+},
+{
+  q: "Why does Daniel mention the weekly reports in his email?",
+  options: [
+    "To explain why he is unhappy with his current position",
+    "To show that his manager has assigned him too much work",
+    "To suggest that the reports should be completed by Mark",
+    "To acknowledge a possible difficulty and offer a way to address it"
+  ],
+  correct: 3
+},
+{
+  q: "What is Daniel mainly expecting from Jennifer?",
+  options: [
+    "Permission to attend college during regular working hours",
+    "Approval or discussion of his proposed temporary schedule",
+    "A permanent reduction in his weekly responsibilities",
+    "An opportunity to transfer to another department"
+  ],
+  correct: 1
+}
+  ]
+},
+{
+  id: "t2",
+  title: "A Complaint About a Delayed Furniture Delivery",
+  body: `To: Customer Service Department
+Subject: Delay and Problems with My Furniture Delivery
+
+Dear Customer Service Team,
+
+I am writing regarding an order I placed with your company on October 14. I purchased a dining table and four matching chairs from your online store after visiting your showroom earlier that week. At the time of purchase, I was informed that the furniture would be delivered within ten business days. Since I was planning to have guests visiting at the end of October, I specifically asked the sales representative whether this delivery estimate was reliable. I was assured that the items were in stock and that there should be no difficulty meeting the promised date.
+
+Unfortunately, the delivery did not take place as scheduled. On the expected delivery day, I received a text message explaining that the shipment had been delayed because of an unexpected problem at the distribution centre. Although I understand that occasional delays can happen, I was disappointed that nobody contacted me until the afternoon of the delivery date. I had arranged to take time off work, so the late notification meant that I had lost several hours of my personal time unnecessarily.
+
+After contacting your customer service department, I was told that the furniture would arrive the following week. I accepted this revised arrangement because I still wanted the original products. However, the second delivery attempt was also unsuccessful. This time, the driver arrived with the dining table but without the four chairs. According to the delivery staff, the chairs had been sent to a different warehouse by mistake and would need to be delivered separately.
+
+What made the situation more frustrating was the lack of clear information. The driver could not tell me when the remaining items would arrive, and the customer service representative I spoke with later was unable to provide a definite date. I was simply advised to wait for another notification. By that point, I had already postponed my plans with friends, and I was becoming increasingly concerned that the order would not be completed for several more weeks.
+
+I would like to point out that I have previously purchased several products from your company and have generally been satisfied with the quality and service. For this reason, I am hoping that this experience is an exception rather than a reflection of your usual standards. I am not requesting a full refund because I still intend to keep the dining set. However, I believe some form of compensation would be reasonable given the repeated inconvenience.
+
+I would appreciate it if you could arrange delivery of the missing chairs within the next five business days and confirm the exact delivery date in advance. In addition, I would like to request a partial refund of the delivery fee or a store credit that could be used toward a future purchase. I believe either option would be a fair way to recognize the inconvenience caused.
+
+Please respond by email with an update on the outstanding items and information about how you intend to resolve this matter. I would prefer to settle the issue directly with your company rather than having to submit a formal complaint through another channel.
+
+Thank you for your attention. I look forward to receiving your response.
+
+Kind regards,
+Michael Turner`,
+  questions: [
+    {
+      q: "Why did Michael specifically ask the sales representative about the delivery estimate?",
+      options: [
+        "He wanted to compare delivery prices with another retailer.",
+        "He needed the furniture before guests arrived at the end of October.",
+        "He was planning to cancel his order if delivery was not free.",
+        "He wanted to arrange a different delivery address."
       ],
-      "correct": 0
+      correct: 1
+    },
+    {
+      q: "The word 'reliable' in the first paragraph is closest in meaning to:",
+      options: [
+        "Dependable",
+        "Affordable",
+        "Flexible",
+        "Convenient"
+      ],
+      correct: 0
+    },
+    {
+      q: "What was one consequence of the first delivery delay?",
+      options: [
+        "Michael had to pay an additional warehouse fee.",
+        "The company cancelled his entire order.",
+        "Michael wasted time he had arranged to take off work.",
+        "His guests refused to visit his home."
+      ],
+      correct: 2
+    },
+    {
+      q: "Why did Michael initially agree to the revised delivery arrangement?",
+      options: [
+        "He was offered a free replacement dining set.",
+        "He still wanted to receive the furniture he had originally selected.",
+        "He was told that the chairs would be delivered immediately.",
+        "He no longer needed the furniture before the end of October."
+      ],
+      correct: 1
+    },
+    {
+      q: "The word 'unsuccessful' in the third paragraph most nearly means:",
+      options: [
+        "Unexpected",
+        "Incomplete or not properly accomplished",
+        "Expensive to arrange",
+        "Difficult to understand"
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the phrase 'By that point' in the fourth paragraph refer to?",
+      options: [
+        "When Michael first visited the showroom",
+        "When he received confirmation of his original order",
+        "After the second delivery attempt and his unsuccessful efforts to obtain a definite date",
+        "When the driver first contacted the warehouse"
+      ],
+      correct: 2
+    },
+    {
+      q: "What can be inferred about Michael's previous experience with the company?",
+      options: [
+        "He has generally had positive experiences with its products and services.",
+        "He has frequently complained about its delivery department.",
+        "He has never purchased furniture from the company before.",
+        "He prefers shopping in the showroom rather than online."
+      ],
+      correct: 0
+    },
+    {
+      q: "What does Michael mean by saying he wants to resolve the issue 'directly with your company'?",
+      options: [
+        "He wants to contact the furniture manufacturer instead.",
+        "He intends to visit the distribution centre personally.",
+        "He would prefer to reach an agreement without submitting an external formal complaint.",
+        "He wants to cancel his order through his bank."
+      ],
+      correct: 2
+    },
+    {
+      q: "Which of the following best describes the compensation Michael is requesting?",
+      options: [
+        "A complete refund and permission to keep all the furniture",
+        "A partial refund of the delivery fee or credit toward another purchase",
+        "A free replacement for the dining table and chairs",
+        "A permanent discount on all future orders"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is the main purpose of Michael's email?",
+      options: [
+        "To ask for advice about choosing furniture for his home",
+        "To inform the company that he no longer wants his order",
+        "To praise the delivery staff for handling a difficult situation",
+        "To complain about repeated delivery problems and request a reasonable resolution"
+      ],
+      correct: 3
     }
   ]
 },
-  {
-  "id": "t2",
-  "title": "news article - Proposed Changes to Rules on Supersonic Flight Over Land",
-  "body": "For more than 50 years, civilian aircraft have generally been prohibited from flying faster than Mach 1 over the United States. The restriction, introduced in 1973, was designed to protect communities on the ground from the effects of sonic booms.\n\nIn 2026 the Federal Aviation Administration (FAA) proposed a significant change. On 2 July 2026 the agency published a notice of proposed rulemaking that would replace the long-standing speed-based ban with a performance-based approach. Under the proposal, civil aircraft could be permitted to operate at speeds greater than Mach 1 over land if they meet a specific noise-related standard and receive FAA approval.\n\nThe key requirement in the proposal is that the sonic boom overpressure reaching the surface must not exceed 0.11 pounds per square foot. Operators would need to demonstrate, through measurement, modelling or other approved methods, that this limit would be met. The FAA would then make a finding before such operations could take place.\n\nThe proposed rule is described as an interim measure focused on en-route flight. Further regulatory steps, including standards for take-off and landing noise as well as full aircraft certification requirements, would still be needed before regular commercial supersonic services could begin. The FAA has indicated that it aims to finalise the related rules by mid-2027.\n\nThe change reflects advances in technology and flight techniques that can reduce or prevent disruptive sonic booms from reaching the ground. The stated objective is to allow faster civil flight while limiting noise impacts on communities below.",
-  "questions": [
-    {
-      "q": "What was the primary purpose of the 1973 restriction on civilian supersonic flight over the United States?",
-      "options": [
-        "To protect communities on the ground from the effects of sonic booms",
-        "To limit the number of international flights entering U.S. airspace",
-        "To encourage the development of military aircraft exclusively",
-        "To reduce fuel consumption by commercial airlines"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "How does the 2026 FAA proposal differ from the existing rule?",
-      "options": [
-        "It would replace a general speed-based prohibition with a performance-based noise standard",
-        "It would permanently ban all flights faster than Mach 1 over land and water",
-        "It would require every supersonic aircraft to obtain daily special authorisation",
-        "It would allow unrestricted supersonic flight without any noise limits"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "According to the proposed rule, what specific condition must be met for civil aircraft to fly supersonically over land?",
-      "options": [
-        "Sonic boom overpressure at the surface must not exceed 0.11 pounds per square foot",
-        "Aircraft must remain below an altitude of 30,000 feet at all times",
-        "Only military-derived engines may be used on the aircraft",
-        "Flights must be limited exclusively to overnight hours"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "What additional requirement is placed on operators under the proposal?",
-      "options": [
-        "They must demonstrate compliance through measurement, modelling or other approved methods and receive an FAA finding",
-        "They must pay a fixed annual fee for each supersonic route flown",
-        "They must restrict all supersonic operations to designated military training areas",
-        "They must convert existing subsonic aircraft rather than build new ones"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "What does the passage indicate about the current status of the proposed changes?",
-      "options": [
-        "The proposal is an interim step, and further rules on take-off, landing and certification are still required",
-        "Commercial supersonic passenger services can begin immediately under the new standard",
-        "The 1973 ban has already been fully repealed and is no longer in force",
-        "All necessary certification standards were completed before the proposal was published"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "Which statement best reflects the overall aim of the proposed regulatory change?",
-      "options": [
-        "To enable faster civil flight while limiting noise impacts on communities on the ground",
-        "To eliminate all forms of noise regulation for high-speed aircraft",
-        "To prioritise military aircraft development over commercial aviation",
-        "To reduce the total number of flights operating in U.S. airspace"
-      ],
-      "correct": 0
-    }
-  ]
-},
-  {
-    "id": "t3",
-    "title": "Living with More Frequent Extreme Weather",
-    "body": "Communities in many regions are noticing that severe weather events — intense heat, heavy rainfall, or strong winds — seem to occur more often than in previous decades. While no single storm can be attributed solely to long-term climate trends, the overall pattern has prompted cities and towns to rethink how they prepare.\n\nOne common response has been to improve local infrastructure. This can include expanding storm-water systems, planting more trees to reduce heat in urban areas, or reinforcing buildings against high winds. Such projects are expensive and often take years to complete, yet officials argue that the cost of doing nothing would eventually be higher.\n\nResidents also face practical decisions. Some households have invested in backup power sources or improved insulation. Others have joined neighbourhood groups that share information and resources during emergencies. These informal networks can be especially useful when official services are temporarily overwhelmed.\n\nNot every measure is equally effective everywhere. A solution that works well in a coastal city may be less relevant inland. Local knowledge therefore remains important. People who have lived in an area for a long time often notice subtle changes in weather patterns earlier than outsiders and can offer valuable observations to planners.\n\nPublic communication has become another focus. Clear, timely warnings help people decide when to stay indoors or move to safer locations. However, repeated alerts can also lead to fatigue if residents begin to feel that every message is urgent. Finding the right balance between necessary caution and unnecessary alarm is an ongoing challenge for authorities.\n\nExtreme weather will continue to test communities. The most useful preparations appear to combine physical improvements, neighbour-to-neighbour support, and realistic public information rather than relying on any single approach.",
-    "questions": [
-      {
-        "q": "What point does the author make about individual severe weather events?",
-        "options": [
-          "Each one can be directly blamed on long-term climate change.",
-          "No single event proves a long-term trend by itself, yet the overall pattern is noticeable.",
-          "They have become less common in recent decades.",
-          "They only affect coastal regions."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "Why does the author mention the high cost of infrastructure projects?",
-        "options": [
-          "To argue that such projects should never be started.",
-          "To acknowledge a difficulty while noting that inaction may prove more expensive later.",
-          "To claim that only wealthy cities can protect themselves.",
-          "To suggest that residents should pay for all improvements themselves."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "The word “overwhelmed” in paragraph three is closest in meaning to:",
-        "options": [
-          "Fully prepared and efficient.",
-          "Unable to respond adequately because of too many demands.",
-          "Completely unused during an emergency.",
-          "Focused only on long-term planning."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "What can be inferred about long-term local residents?",
-        "options": [
-          "They usually ignore changes in weather.",
-          "Their experience can provide useful information that outsiders may miss.",
-          "They are less affected by extreme weather than newcomers.",
-          "They prefer not to share observations with city planners."
-        ],
-        "correct": 1
-      },
-      {
-        "q": "According to the passage, what difficulty can arise from frequent public alerts?",
-        "options": [
-          "People may stop taking warnings seriously if they feel every message is presented as urgent.",
-          "Residents will always move to safer locations too early.",
-          "Officials will no longer need to issue any warnings.",
-          "Communication systems will automatically improve."
-        ],
-        "correct": 0
-      },
-      {
-        "q": "Which statement best captures the author’s main conclusion?",
-        "options": [
-          "Only expensive infrastructure can protect communities.",
-          "Effective preparation requires a combination of physical measures, local cooperation and careful communication.",
-          "Individual households should handle all preparations without government help.",
-          "Extreme weather events are no longer a serious concern."
-        ],
-        "correct": 1
-      }
-    ]
-  },
+//   {
+//     "id": "t3",
+//     "title": "Living with More Frequent Extreme Weather",
+//     "body": "Communities in many regions are noticing that severe weather events — intense heat, heavy rainfall, or strong winds — seem to occur more often than in previous decades. While no single storm can be attributed solely to long-term climate trends, the overall pattern has prompted cities and towns to rethink how they prepare.\n\nOne common response has been to improve local infrastructure. This can include expanding storm-water systems, planting more trees to reduce heat in urban areas, or reinforcing buildings against high winds. Such projects are expensive and often take years to complete, yet officials argue that the cost of doing nothing would eventually be higher.\n\nResidents also face practical decisions. Some households have invested in backup power sources or improved insulation. Others have joined neighbourhood groups that share information and resources during emergencies. These informal networks can be especially useful when official services are temporarily overwhelmed.\n\nNot every measure is equally effective everywhere. A solution that works well in a coastal city may be less relevant inland. Local knowledge therefore remains important. People who have lived in an area for a long time often notice subtle changes in weather patterns earlier than outsiders and can offer valuable observations to planners.\n\nPublic communication has become another focus. Clear, timely warnings help people decide when to stay indoors or move to safer locations. However, repeated alerts can also lead to fatigue if residents begin to feel that every message is urgent. Finding the right balance between necessary caution and unnecessary alarm is an ongoing challenge for authorities.\n\nExtreme weather will continue to test communities. The most useful preparations appear to combine physical improvements, neighbour-to-neighbour support, and realistic public information rather than relying on any single approach.",
+//     "questions": [
+//       {
+//         "q": "What point does the author make about individual severe weather events?",
+//         "options": [
+//           "Each one can be directly blamed on long-term climate change.",
+//           "No single event proves a long-term trend by itself, yet the overall pattern is noticeable.",
+//           "They have become less common in recent decades.",
+//           "They only affect coastal regions."
+//         ],
+//         "correct": 1
+//       },
+//       {
+//         "q": "Why does the author mention the high cost of infrastructure projects?",
+//         "options": [
+//           "To argue that such projects should never be started.",
+//           "To acknowledge a difficulty while noting that inaction may prove more expensive later.",
+//           "To claim that only wealthy cities can protect themselves.",
+//           "To suggest that residents should pay for all improvements themselves."
+//         ],
+//         "correct": 1
+//       },
+//       {
+//         "q": "The word “overwhelmed” in paragraph three is closest in meaning to:",
+//         "options": [
+//           "Fully prepared and efficient.",
+//           "Unable to respond adequately because of too many demands.",
+//           "Completely unused during an emergency.",
+//           "Focused only on long-term planning."
+//         ],
+//         "correct": 1
+//       },
+//       {
+//         "q": "What can be inferred about long-term local residents?",
+//         "options": [
+//           "They usually ignore changes in weather.",
+//           "Their experience can provide useful information that outsiders may miss.",
+//           "They are less affected by extreme weather than newcomers.",
+//           "They prefer not to share observations with city planners."
+//         ],
+//         "correct": 1
+//       },
+//       {
+//         "q": "According to the passage, what difficulty can arise from frequent public alerts?",
+//         "options": [
+//           "People may stop taking warnings seriously if they feel every message is presented as urgent.",
+//           "Residents will always move to safer locations too early.",
+//           "Officials will no longer need to issue any warnings.",
+//           "Communication systems will automatically improve."
+//         ],
+//         "correct": 0
+//       },
+//       {
+//         "q": "Which statement best captures the author’s main conclusion?",
+//         "options": [
+//           "Only expensive infrastructure can protect communities.",
+//           "Effective preparation requires a combination of physical measures, local cooperation and careful communication.",
+//           "Individual households should handle all preparations without government help.",
+//           "Extreme weather events are no longer a serious concern."
+//         ],
+//         "correct": 1
+//       }
+//     ]
+//   },
 {
     id: "t4",
     title: "Should School Start Later in the Morning?",
@@ -2858,6 +2978,646 @@ With municipal, provincial, and federal governments facing intense pressure from
         "The economic and policy debate surrounding Canada's urban affordable housing crisis",
         "The history of single-family zoning regulations across G7 countries",
         "The step-by-step process of applying for municipal building permits"
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t44",
+  title: "Salmon Farming's Threat to Wild Pacific Fish",
+  body: `A. Open-net salmon farming along British Columbia’s coastline has become a contentious environmental issue over the past three decades. In these commercial operations, hundreds of thousands of Atlantic salmon are raised in submerged mesh cages anchored in sheltered coastal inlets. Because the enclosures allow ocean currents to flow freely through them, waste, excess feed, and pathogens disperse directly into surrounding marine waters. Marine biologists warn that positioning industrial farms directly along narrow migration corridors exposes fragile wild Pacific salmon populations to unnatural biological pressures during critical life stages.
+
+B. One of the primary ecological threats associated with open-net pens is the proliferation of parasitic sea lice. While these tiny crustaceans occur naturally on adult ocean salmon in low numbers, crowded net cages act as breeding grounds that amplify parasite populations exponentially. When juvenile wild salmon migrate past coastal farms on their way to the open ocean, their small size and underdeveloped scales leave them highly vulnerable to heavy infestations. Severe sea lice attachment impairs swimming ability, increases susceptibility to secondary infections, and significantly reduces survival rates among wild young fish.
+
+C. Beyond parasitic outbreaks, viral and bacterial diseases originating inside crowded fish farms pose serious risks to native marine ecosystems. Pathogens such as piscine orthoreovirus can spread rapidly within dense captive stocks and pass through open mesh walls into wild populations. Additionally, occasional structural damage from winter storms or marine predators allows non-native Atlantic salmon to escape into Pacific waters. Conservationists express concern that escaped farmed fish may compete directly with native species for limited spawning grounds and food resources, further destabilizing already declining wild runs.
+
+D. In response to mounting scientific evidence and Indigenous advocacy, federal policymakers and industry leaders are exploring alternative production methods. Closed-containment aquaculture systems, which raise fish in land-based tanks or solid-walled floating enclosures, effectively separate farmed stock from wild ocean habitats. Although transitioning away from traditional ocean pens requires substantial capital investment and higher energy inputs, proponents argue that modernizing aquaculture infrastructure is essential to protect Pacific biodiversity while sustaining regional seafood production.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A description of how ocean currents carry waste from submerged cages into coastal waters.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A reason why young migrating fish are especially harmed by parasitic outbreaks.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An example of non-native fish escaping cages and competing for spawning habitats.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A comparison between traditional open pens and land-based tank systems.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A financial compensation package paid to commercial fishers affected by declining salmon runs.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why does the location of open-net salmon farms concern marine biologists?",
+      options: [
+        "They block commercial shipping vessels from entering sheltered inlets.",
+        "They sit directly along migration routes used by wild Pacific salmon.",
+        "They raise ocean water temperatures near coastal spawning rivers.",
+        "They prevent adult Atlantic salmon from returning to freshwater streams."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, how do crowded net cages affect sea lice populations?",
+      options: [
+        "They eliminate natural predators that normally feed on sea lice.",
+        "They cause sea lice to grow much larger than wild ocean parasites.",
+        "They dramatically multiply parasite numbers near migrating young fish.",
+        "They force sea lice to migrate deeper into colder offshore waters."
+      ],
+      correct: 2
+    },
+    {
+      q: "How do non-native Atlantic salmon typically enter Pacific waters?",
+      options: [
+        "They are intentionally released by researchers to boost local stocks.",
+        "They escape when storms or predators damage the submerged net cages.",
+        "They swim through narrow drainage pipes connected to land-based tanks.",
+        "They are accidentally transported in the ballast water of cargo ships."
+      ],
+      correct: 1
+    },
+    {
+      q: "What is a major challenge of switching to closed-containment aquaculture systems?",
+      options: [
+        "They produce significantly lower quality seafood than ocean cages.",
+        "They require major upfront funding and greater energy consumption.",
+        "They cannot prevent viral diseases from spreading among captive fish.",
+        "They are prohibited under current federal coastal protection policies."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t45",
+  title: "Canada's Declining Atlantic Groundfish Industry",
+  body: `A. For nearly five centuries, the rich marine banks off Canada’s Atlantic coast sustained one of the world’s most productive commercial fisheries. Bottom-dwelling groundfish species, particularly Atlantic cod, haddock, and pollock, formed the economic backbone of coastal communities across Newfoundland, Nova Scotia, and Prince Edward Island. Seasonal inshore and offshore fleets harvested vast quantities of fish for global export, shaping regional employment, settlement patterns, and maritime culture for generations. However, by the late twentieth century, decades of intensive extraction began pushing these historic stocks toward critical depletion.
+
+B. The dramatic collapse of the northern cod fishery in 1992 marked a turning point in Canadian resource management. Advancements in sonar fish-finding technology, massive factory freezer trawlers, and competitive international fishing fleets enabled catches far exceeding natural reproduction rates. Facing severe stock exhaustion, the federal government imposed an unprecedented moratorium on northern cod harvesting, instantly displacing over thirty thousand fish harvesters and plant workers. The closure devastated rural outport economies and forced widespread demographic outmigration across Atlantic Canada.
+
+C. Alongside chronic overfishing, shifting ocean temperatures and ecosystem imbalances have severely hindered groundfish recovery. Warming waters in the Northwest Atlantic, driven by broader climate trends, have altered ocean currents and disrupted the availability of capelin, a vital forage fish that cod rely upon for growth and reproduction. Furthermore, as large predatory groundfish vanished from the food web, populations of smaller crustaceans like snow crab and northern shrimp expanded rapidly, fundamentally reorganizing marine biodiversity and making natural stock restoration far more complex.
+
+D. Over three decades after the initial moratorium, Atlantic groundfish populations remain only a fraction of their historical abundance, prompting strict conservation and diversification strategies. Fisheries scientists now rely on continuous acoustic surveys, satellite vessel tracking, and strict seasonal catch quotas to prevent renewed overexploitation. Simultaneously, coastal economies have diversified into shellfish harvesting, marine tourism, and sustainable aquaculture, balancing cautious ecological stewardship with the ongoing survival of Atlantic maritime livelihoods.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A description of how modern fishing technology and large vessels led to severe stock depletion.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A change in marine food webs where shrimp and crab numbers grew as predator fish vanished.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An example of how bottom-dwelling fish species supported regional coastal economies for centuries.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A combination of satellite monitoring and strict catch limits used to protect remaining stocks.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A government program offering free university tuition to retrain displaced seafood plant workers.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "What immediate impact did the 1992 federal cod moratorium have on Atlantic communities?",
+      options: [
+        "It forced foreign freezer trawlers to relocate to Pacific fishing grounds.",
+        "It eliminated tens of thousands of jobs and triggered regional outmigration.",
+        "It caused a sudden spike in global export prices for Atlantic haddock.",
+        "It required inshore fleets to upgrade their vessels with sonar equipment."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph C, how have warming ocean waters affected Atlantic cod?",
+      options: [
+        "They caused cod to migrate northward into deeper Arctic waters.",
+        "They increased parasitic infections among juvenile bottom-dwelling fish.",
+        "They disrupted the supply of capelin, an essential food source for cod.",
+        "They prevented female cod from laying eggs during winter months."
+      ],
+      correct: 2
+    },
+    {
+      q: "How did the disappearance of large groundfish change the Northwest Atlantic ecosystem?",
+      options: [
+        "Populations of snow crab and northern shrimp increased dramatically.",
+        "Local currents slowed down and lowered coastal water temperatures.",
+        "Capelin populations overpopulated inshore bays and damaged habitats.",
+        "Commercial fleets abandoned all shellfish harvesting for several decades."
+      ],
+      correct: 0
+    },
+    {
+      q: "How have Atlantic coastal communities adapted economically since the cod collapse?",
+      options: [
+        "By lifting seasonal catch quotas to revive traditional offshore cod fleets.",
+        "By shifting toward shellfish harvesting, aquaculture, and marine tourism.",
+        "By exporting raw ocean minerals instead of commercial seafood products.",
+        "By converting former fish processing plants into naval shipbuilding yards."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t46",
+  title: "Canada's Mandatory Food Labelling Overhaul",
+  body: `A. In January 2026, Canada implemented a sweeping regulatory overhaul requiring front-of-package nutrition warning symbols on prepackaged foods. Introduced by Health Canada to combat rising rates of diet-related chronic illnesses—such as heart disease, type 2 diabetes, and hypertension—the new rules mandate a standardized black-and-white magnifying glass icon on products high in saturated fat, sugars, or sodium. Designed to catch a shopper's eye within seconds, the bilingual symbol must appear prominently in the upper half of the main display panel, empowering busy consumers to make quick, informed grocery decisions without deciphering complex back-of-pack charts.
+
+B. Whether a food product must display the warning symbol depends on strict Daily Value (DV) thresholds established by federal food inspection authorities. For most standard prepackaged items, meeting or exceeding fifteen percent of the recommended Daily Value for sodium, sugars, or saturated fat triggers the mandatory label. However, prepackaged main dishes—such as frozen dinners weighing at least two hundred grams—face a higher thirty percent threshold, whereas smaller snack items under thirty grams trigger the symbol at just ten percent. Certain nutrient-dense staples, including plain milk, fresh fruits and vegetables, and raw single-ingredient meats, remain exempt to avoid discouraging healthy eating habits.
+
+C. Beyond guiding consumer purchasing habits, the labelling mandate has reshaped commercial food manufacturing and retail marketing strategies across the country. Rather than display an unflattering black-and-white warning badge on their branding, many major food manufacturers invested heavily in product reformulation during the multi-year transition period, gradually reducing added salt and sugar content to stay just below regulatory limits. Furthermore, strict advertising restrictions now prohibit brands from printing positive health or nutrient claims—such as "low in trans fat"—on the front of packages if the item already triggers a high-nutrient warning symbol.
+
+D. While public health advocates praise the transparency of the new system, consumer reactions and retail impacts have sparked ongoing debate. Nutritionists note that front-of-package symbols simplify comparison shopping, particularly for families managing household budgets and dietary restrictions. Conversely, some food industry associations argue that the substantial expenses required to redesign bilingual packaging, conduct laboratory testing, and reformulate recipes have contributed to modest retail price increases. Additionally, researchers caution that warning icons alone may not guarantee healthier diets unless paired with broader nutrition education and affordable access to fresh whole foods.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A description of how the visual warning icon looks and where it appears on packaging.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A comparison of different nutrient percentage limits based on food portion sizes.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A change in company recipes aimed at avoiding mandatory front-of-package warning symbols.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An argument that packaging redesign and testing costs have pushed grocery prices higher.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A federal fine imposed on supermarkets that fail to remove outdated food labels.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "What is the primary public health goal behind Health Canada's new labelling symbol?",
+      options: [
+        "To eliminate the need for detailed ingredient lists on back panels.",
+        "To help shoppers quickly identify foods linked to chronic health risks.",
+        "To encourage consumers to purchase imported organic grocery items.",
+        "To standardize packaging sizes across different supermarket chains."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, why are plain milk and fresh vegetables exempt from the symbol?",
+      options: [
+        "Their packaging surfaces are too small to display bilingual icons.",
+        "They naturally contain zero amounts of sodium, sugar, or fat.",
+        "Authorities want to avoid discouraging people from eating nutritious staples.",
+        "They are typically sold in bulk without commercial brand labels."
+      ],
+      correct: 2
+    },
+    {
+      q: "How does carrying a high-nutrient warning symbol affect a product's marketing claims?",
+      options: [
+        "Brands must print all health claims exclusively in smaller back-panel fonts.",
+        "Manufacturers are barred from displaying certain positive nutrient claims on the front.",
+        "Companies are required to include QR codes linking to nutritional studies.",
+        "Products cannot be advertised during children's television programming."
+      ],
+      correct: 1
+    },
+    {
+      q: "What concern do researchers raise about relying solely on front-of-package labels?",
+      options: [
+        "Shoppers often confuse the magnifying glass icon with organic certifications.",
+        "Warning icons may fail to improve diets without nutrition education and affordable produce.",
+        "Black-and-white symbols blend into colorful packaging designs on store shelves.",
+        "Consumers tend to ignore labels on frozen main dishes weighing over two hundred grams."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t47",
+  title: "Canada's Volunteer Firefighter Shortage",
+  body: `A. Across rural and suburban Canada, volunteer firefighters form the backbone of emergency response, accounting for roughly seventy percent of the nation’s firefighting workforce. Unlike full-time career departments in major metropolitan centers, thousands of smaller municipalities rely entirely on paid-on-call and unpaid community volunteers to extinguish structural fires, respond to highway collisions, and assist during medical emergencies. However, national fire associations warn that local halls are struggling with a severe recruitment and retention crisis. Over the past decade, the total number of active volunteer responders has declined steadily, leaving many rural districts dangerously short-staffed during daytime hours.
+
+B. Multiple socioeconomic and regulatory factors contribute to the shrinking pool of local recruits. Modern firefighting requires far more technical certification than in previous decades, demanding hundreds of hours of unpaid evening and weekend training in hazardous materials, vehicle extrication, and emergency medical care. At the same time, shifting rural economies mean many residents commute long distances to urban centers for work, making them unavailable to respond to midday alarms. Rising living costs and demanding family schedules further discourage young adults from taking on high-stress, unpaid community duties.
+
+C. The consequences of persistent staffing shortages extend directly to public safety and municipal budgets. When local stations cannot muster a minimum crew of four trained responders within minutes, dispatchers must summon mutual-aid trucks from neighboring towns, significantly delaying critical emergency intervention. Longer response times increase the risk of total property loss and higher residential fire insurance premiums for rural homeowners. Faced with shrinking volunteer rosters, some financially strained municipalities have been forced to hire full-time career staff, triggering substantial local property tax increases.
+
+D. To reverse the downward trend, provincial governments and fire chiefs are testing innovative recruitment incentives and flexible service models. Several provinces have expanded federal and provincial income tax credits for volunteers who log at least two hundred hours of annual service, while some municipalities offer subsidized local recreation passes or free daycare during training nights. Additionally, progressive fire departments are restructuring roles to allow recruits to specialize solely in medical support or traffic control, lowering the initial training barrier and broadening community participation.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "An explanation of how long work commutes prevent residents from answering daytime emergencies.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A description of tax credits and childcare support offered to attract new recruits.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A comparison between urban career departments and rural volunteer fire stations.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "An example of how delayed emergency arrivals lead to higher homeowner insurance rates.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A federal law requiring rural employers to pay workers for missed hours during fire calls.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "What percentage of Canada's firefighting workforce consists of volunteer responders?",
+      options: [
+        "Approximately seventy percent across rural and suburban areas.",
+        "Less than half of the active responders in major cities.",
+        "Nearly ninety percent of all emergency medical personnel.",
+        "Roughly thirty percent of paid-on-call municipal employees."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph B, why has training become a barrier for potential volunteers?",
+      options: [
+        "Recruits must pay high tuition fees for provincial certification exams.",
+        "Technical standards now require hundreds of hours of unpaid personal time.",
+        "Training academies are located exclusively in distant metropolitan cities.",
+        "Volunteers must complete two years of full-time service before responding."
+      ],
+      correct: 1
+    },
+    {
+      q: "What happens when a rural station fails to assemble enough responders quickly?",
+      options: [
+        "The municipality automatically closes the local fire hall permanently.",
+        "Homeowners are fined for calling emergency services during daytime hours.",
+        "Dispatchers must request backup trucks from neighboring communities.",
+        "Full-time firefighters from major cities take over local highway patrols."
+      ],
+      correct: 2
+    },
+    {
+      q: "How are some fire departments lowering the entry barrier for new members?",
+      options: [
+        "By eliminating all safety certifications for daytime emergency drivers.",
+        "By allowing recruits to specialize in specific support duties like traffic control.",
+        "By replacing volunteer responders with automated fire suppression drones.",
+        "By reducing the minimum crew size required to enter burning structures."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t48",
+  title: "Canada's Aging Water Infrastructure Crisis",
+  body: `A. Beneath the streets of Canadian cities and towns lies a vast network of watermains, sewers, and treatment facilities, much of which was installed during the post-war construction boom of the 1950s and 1960s. Because buried pipes are largely out of public sight, routine maintenance and timely replacement have frequently been deferred by municipal councils facing competing budget priorities. Today, national infrastructure reports estimate that roughly one-third of Canada’s municipal water infrastructure is in fair, poor, or very poor condition, leaving communities increasingly vulnerable to sudden pipe ruptures, sinkholes, and costly emergency repairs.
+
+B. The consequences of deteriorating underground water systems extend well beyond temporary street closures and disrupted tap water. Aging, corroded watermains frequently leak substantial volumes of treated drinking water—sometimes exceeding twenty percent of a municipality's total supply—before it ever reaches residential taps. Meanwhile, outdated combined sewer systems in older urban neighborhoods can become overwhelmed during intense rainstorms, causing untreated wastewater to overflow into local rivers and lakes. Furthermore, cities are still working to replace legacy lead service lines that pose serious long-term health risks to households.
+
+C. Modernizing these subterranean networks presents immense financial and logistical challenges for local governments. Unlike provincial or federal authorities, municipalities collect only a small fraction of national tax revenues, yet they own and maintain the majority of public water assets. Excavating busy downtown corridors to replace century-old pipes requires tearing up roadways, rerouting transit, and disrupting local businesses for months. Consequently, municipal utility bills have climbed steadily across the country as cities introduce dedicated infrastructure levies to fund multi-billion-dollar renewal backlogs.
+
+D. To manage limited funds more effectively, Canadian water utilities are increasingly turning to smart monitoring technologies and non-invasive repair methods. Acoustic leak-detection sensors and fiber-optic cables allow engineers to pinpoint structural weaknesses inside watermains long before a catastrophic break occurs. When repairs are needed, trenchless technologies—such as cured-in-place pipe lining—enable crews to insert a resin-coated tube inside an existing damaged pipe and harden it in place, extending the asset's lifespan by decades without excavating entire city blocks.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "An explanation of why buried pipes often receive delayed maintenance from city councils.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "An example of treated water loss and storm-driven wastewater overflows in older systems.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "A reason why municipal utility bills are rising to cover costly pipe replacements.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A description of trenchless repair techniques that reinforce pipes without digging up streets.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A federal regulation banning homeowners from installing private water filtration systems.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "When was a large portion of Canada's existing underground water network originally built?",
+      options: [
+        "During the post-war construction boom of the 1950s and 1960s.",
+        "Immediately following the introduction of acoustic leak sensors.",
+        "Throughout the early nineteenth century alongside major canals.",
+        "Over the past decade using modern cured-in-place resin liners."
+      ],
+      correct: 0
+    },
+    {
+      q: "According to paragraph B, what happens to older combined sewers during heavy rainfall?",
+      options: [
+        "They automatically divert excess rainwater into underground storage tanks.",
+        "They can overflow and release untreated wastewater into local waterways.",
+        "They dissolve legacy lead service lines at a much faster rate.",
+        "They reduce residential tap water pressure across suburban neighborhoods."
+      ],
+      correct: 1
+    },
+    {
+      q: "Why do Canadian municipalities struggle financially to replace aging water assets?",
+      options: [
+        "They are legally prohibited from raising local residential utility rates.",
+        "They receive a small share of tax revenues despite owning most water systems.",
+        "They must pay heavy environmental fines whenever a watermain breaks.",
+        "They spend most of their budgets purchasing imported treatment chemicals."
+      ],
+      correct: 1
+    },
+    {
+      q: "How does cured-in-place pipe lining benefit cities during infrastructure repairs?",
+      options: [
+        "It eliminates the need for acoustic sensors and fiber-optic monitoring.",
+        "It allows crews to restore damaged pipes without excavating city streets.",
+        "It completely removes lead particles from household drinking water.",
+        "It lowers the overall energy required to pump water through downtown areas."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t49",
+  title: "Canada's Paid Sick Leave Policy Debate",
+  body: `A. Across Canada, paid sick leave entitlements vary widely depending on whether a worker falls under federal or provincial labour jurisdiction. Employees in federally regulated sectors—such as banking, telecommunications, and interprovincial transport—receive up to ten days of paid medical leave annually under the Canada Labour Code. Conversely, most Canadian workers are governed by provincial employment standards, creating a fragmented patchwork of coverage. While British Columbia guarantees five paid sick days per year and Prince Edward Island offers up to three paid days for long-term staff, provinces like Ontario and Alberta mandate only short-term unpaid leave, leaving millions of hourly workers without income protection during minor illnesses.
+
+B. Public health experts and labour unions strongly advocate expanding permanent, employer-funded paid sick days nationwide. They argue that when low-wage workers lack paid leave, financial necessity forces them to report to work while contagious—a behavior known as "presenteeism." In high-contact workplaces like retail stores, restaurants, and manufacturing plants, sick employees inadvertently spread respiratory infections to coworkers and customers. Advocates further note that guaranteeing paid recovery time lowers long-term healthcare expenses by preventing minor illnesses from escalating into severe medical emergencies requiring hospital visits.
+
+C. Conversely, small business associations and employer groups express serious concern over the financial and operational burdens of mandatory paid leave. According to a federal survey of regulated employers, many organizations struggle with unpredictable staffing shortages when workers take last-minute absences, often forcing remaining staff to shoulder heavier workloads. Business owners also point out that small enterprises operating on tight profit margins cannot easily absorb the dual cost of paying an absent employee while simultaneously hiring a temporary replacement. Some employers even report that guaranteed sick days are occasionally treated like extra vacation time rather than genuine medical protection.
+
+D. To balance worker health with business sustainability, policymakers and economists have proposed several compromise models. Several provinces have restricted employers from demanding medical sick notes for brief absences, reducing administrative friction and easing pressure on busy family clinics. Other proposals include gradual accrual systems—where employees earn paid leave hours based on time worked—or government-subsidized rebates that reimburse small businesses for short-term sick pay. As workplace norms evolve, finding an equitable standard remains a central topic in Canadian labour policy.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A comparison between federal medical leave guarantees and varying provincial employment standards.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A reason why hourly workers without income protection often come to work while sick.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An employer concern that covering unexpected absences creates extra work for remaining staff.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "An example of a compromise where workers earn leave hours gradually over time.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A federal tax penalty charged to large corporations that fail to track annual sick leave.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why do paid sick leave rules differ significantly among Canadian workers?",
+      options: [
+        "Most provinces allow individual companies to opt out of federal labour laws.",
+        "Coverage depends on whether an employee falls under federal or provincial rules.",
+        "Hourly employees are excluded from receiving medical benefits in all provinces.",
+        "Only unionized workers in banking and transport qualify for paid medical leave."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, how does paid sick leave help reduce healthcare costs?",
+      options: [
+        "It allows employees to visit medical specialists during regular working hours.",
+        "It prevents minor health issues from worsening into serious hospital emergencies.",
+        "It encourages employers to fund private health insurance for retail workers.",
+        "It eliminates the spread of contagious illnesses in public transit systems."
+      ],
+      correct: 1
+    },
+    {
+      q: "What financial challenge do small businesses face with mandatory paid sick leave?",
+      options: [
+        "They must pay higher provincial payroll taxes for every day an employee is absent.",
+        "They risk paying both the sick worker and a temporary replacement simultaneously.",
+        "They are required to reimburse workers for private medical clinic consultations.",
+        "They face automatic fines when staffing shortages delay customer orders."
+      ],
+      correct: 1
+    },
+    {
+      q: "Why have several provinces banned employers from requiring medical notes for short absences?",
+      options: [
+        "To prevent workers from using paid sick days as extra vacation time.",
+        "To lower administrative paperwork and reduce strain on local medical clinics.",
+        "To ensure small businesses qualify for government-subsidized wage rebates.",
+        "To encourage employees to return to work immediately after minor illnesses."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t50",
+  title: "Canada's Urban Wildlife Corridor Debate",
+  body: `A. As Canadian cities expand outward into surrounding forests, wetlands, and grasslands, urban planners face growing pressure to preserve natural movement routes for native wildlife. Urban wildlife corridors—strips of protected green space linking fragmented parks, ravines, and river valleys—allow animals such as deer, foxes, coyotes, and migratory birds to travel safely in search of food, shelter, and mates. Without these connected pathways, wild populations become isolated inside small municipal parks, increasing genetic inbreeding and making local species far more vulnerable to sudden environmental disturbances or disease outbreaks.
+
+B. Environmental engineers and conservation biologists point out that well-designed corridors also reduce dangerous human-wildlife collisions along busy metropolitan roadways. In cities like Calgary, Edmonton, and Ottawa, municipal projects have paired fenced greenbelts with vegetated wildlife overpasses and subterranean culverts beneath major highways. Trail camera monitoring consistently shows that animals rapidly learn to use these dedicated crossings, dramatically lowering vehicle-animal accidents while preventing motorists from suffering costly property damage and severe injuries.
+
+C. Despite clear ecological benefits, proposals to establish or expand urban wildlife corridors frequently spark heated debates among neighborhood residents and developers. Homeowners living adjacent to proposed greenways often express anxiety about increased encounters with predators like coyotes or black bears near schoolyards and residential backyards. Simultaneously, real estate developers argue that setting aside wide, continuous strips of prime suburban land restricts housing supply, drives up construction costs, and complicates municipal efforts to address ongoing urban housing shortages.
+
+D. To balance urban growth with biodiversity protection, several Canadian municipalities are adopting flexible, multi-use corridor designs. Rather than locking away vast tracts of untouched land, planners are integrating narrow native plant buffers along existing utility easements, railway lines, and stormwater retention ponds. Public education campaigns also teach residents how to secure household garbage and manage pets responsibly, proving that thoughtful urban design and community awareness can allow thriving cities and native wildlife to coexist safely.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A reason why isolated animal populations inside small city parks face genetic risks.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "An example of specialized highway structures that safely guide animals across busy roads.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An argument from builders that setting aside greenways worsens urban housing shortages.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A compromise using railway lines and utility routes to create narrow wildlife pathways.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A municipal bylaw imposing heavy fines on motorists who exceed speed limits near ravines.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "What happens when urban development leaves wild animals trapped in disconnected parks?",
+      options: [
+        "They migrate permanently into downtown commercial districts for food.",
+        "They face higher rates of inbreeding and vulnerability to local diseases.",
+        "They adapt quickly by nesting inside underground storm drainage pipes.",
+        "They force smaller bird species out of sheltered river valley habitats."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, how do highway overpasses and culverts benefit motorists?",
+      options: [
+        "They lower municipal property taxes by reducing road maintenance needs.",
+        "They shorten daily commute times across congested metropolitan valleys.",
+        "They significantly decrease vehicle collisions and costly car damage.",
+        "They eliminate the need for roadside warning signs in suburban zones."
+      ],
+      correct: 2
+    },
+    {
+      q: "Why do some suburban homeowners oppose new wildlife corridors near their neighborhoods?",
+      options: [
+        "They worry about encountering predators like coyotes near homes and schools.",
+        "They fear that dense vegetation will block sunlight from backyard gardens.",
+        "They believe trail cameras invade the personal privacy of local residents.",
+        "They object to paying higher utility fees to fund park maintenance crews."
+      ],
+      correct: 0
+    },
+    {
+      q: "How are planners creating wildlife pathways without using large areas of new land?",
+      options: [
+        "By relocating all native mammals to protected provincial wilderness parks.",
+        "By planting native buffers along existing utility corridors and rail lines.",
+        "By prohibiting residential construction within five kilometers of rivers.",
+        "By converting abandoned suburban shopping malls into enclosed forests."
+      ],
+      correct: 1
+    }
+  ]
+},
+{
+  id: "t51",
+  title: "Regulating Canada's Short-Term Rental Market",
+  body: `A. Over the past decade, the rapid growth of online vacation rental platforms has transformed residential real estate across major Canadian cities and tourist destinations. Originally promoted as a convenient way for homeowners to earn extra income by renting out spare bedrooms, short-term rentals quickly evolved into commercial enterprises where investors purchase multiple apartments or houses exclusively for tourist stays. As housing affordability worsened nationwide, municipal leaders and tenant advocacy groups increasingly blamed commercial short-term listings for removing thousands of long-term rental units from local markets and driving up monthly rents for permanent residents.
+
+B. In response to acute housing shortages, several provincial governments and municipalities introduced strict principal-residence rules. Under regulations enacted in cities like Vancouver, Toronto, and across British Columbia, hosts are permitted to list only the primary home where they actually live for the majority of the year, effectively banning investor-owned "ghost hotels." Additionally, platforms are now legally required to verify municipal business license numbers before displaying listings online and must share detailed host booking data with local tax and bylaw enforcement authorities.
+
+C. While housing advocates welcomed the crackdown, small business owners, tourism operators, and individual property hosts raised sharp objections. Many local tourism boards in seasonal resort towns argued that sudden bans on investment rentals created severe accommodation shortages during peak summer and winter festivals, hurting restaurants, shops, and tour guides. Simultaneously, individual homeowners contended that renting out secondary suites or vacation cottages helped them afford rising mortgage interest rates and property taxes, warning that overly rigid restrictions infringe upon private property rights.
+
+D. Early economic assessments suggest that strict short-term rental regulations have produced mixed results across different communities. In densely populated urban centers, enforcement actions successfully returned thousands of condominium units back to the long-term leasing market, slightly moderating rental price growth. However, in smaller rural municipalities lacking dedicated bylaw inspectors, unauthorized listings frequently resurface on alternative websites. Consequently, policymakers are exploring balanced frameworks, such as seasonal exemptions for resort areas and tiered licensing fees that funnel revenue directly into affordable housing construction.
+
+E. Not mentioned in any paragraph.`,
+  questions: [
+    {
+      q: "A shift from spare-room sharing to commercial investors buying multiple homes for tourists.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 0
+    },
+    {
+      q: "A rule requiring websites to check license numbers and share host data with officials.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 1
+    },
+    {
+      q: "An argument from resort towns that rental bans hurt local shops during peak seasons.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 2
+    },
+    {
+      q: "A difficulty enforcing rental rules in small towns that lack dedicated bylaw staff.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 3
+    },
+    {
+      q: "A federal subsidy offering low-interest loans to hotels expanding their guest room capacity.",
+      options: ["A", "B", "C", "D", "E"],
+      correct: 4
+    },
+    {
+      q: "Why did municipal leaders begin restricting commercial short-term rentals?",
+      options: [
+        "They reduced hotel property tax revenues in downtown business districts.",
+        "They removed thousands of long-term homes and pushed local rents higher.",
+        "They caused severe noise complaints in rural agricultural communities.",
+        "They violated federal safety standards for multi-unit apartment buildings."
+      ],
+      correct: 1
+    },
+    {
+      q: "According to paragraph B, what does the principal-residence rule prohibit?",
+      options: [
+        "Homeowners renting out spare bedrooms while away on summer vacation.",
+        "Investors operating short-term rentals in properties where they do not live.",
+        "Tourists booking accommodations for longer than two consecutive weeks.",
+        "Tenants subletting their apartments without written municipal approval."
+      ],
+      correct: 1
+    },
+    {
+      q: "How did some individual homeowners justify renting out secondary properties?",
+      options: [
+        "They claimed short-term guests caused less wear and tear than long-term tenants.",
+        "They used the rental income to cover rising mortgage payments and property taxes.",
+        "They argued that local hotels refused to accommodate families with young children.",
+        "They believed municipal business licenses were too expensive to obtain."
+      ],
+      correct: 1
+    },
+    {
+      q: "How are policymakers attempting to balance housing needs with tourism economies?",
+      options: [
+        "By banning all online booking platforms in provinces facing housing shortages.",
+        "By offering seasonal exemptions for resort towns and funding affordable housing.",
+        "By requiring foreign tourists to pay higher nightly accommodation taxes.",
+        "By hiring private security firms to inspect rural vacation cottages."
       ],
       correct: 1
     }
