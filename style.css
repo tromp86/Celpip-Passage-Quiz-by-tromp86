@@ -244,7 +244,7 @@ body,
   border-radius: var(--radius);
   padding: 38px 32px 34px;
   box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.55);
-  font-size: 1.04rem;
+  font-size: 1.1rem;
 }
 
 .text-number {
@@ -256,7 +256,6 @@ body,
 .text-block__title {
   display: block;
   width: 100%;
-  margin: 12px 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.6rem;
@@ -265,6 +264,7 @@ body,
   letter-spacing: 0.02em; 
   line-height: 1.1;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .text-block__body {
@@ -549,37 +549,94 @@ body,
   border-color: #efc1c1;
 }
 
-.text-number {
-  color : var(--line);
-}
-
 .text-num {
 padding: 2px 8px;
   border: 1px solid var(--line);
   font-family: var(--font-mono);
   font-weight: 600;
   font-size: 0.8rem;
-  color: var(--accent);
-
+  color : var(--accent);
 }
 
-/* ===== RESPONSIVE ===== */
-  .topbar {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-    padding: 8px 10px;
+
+/* Великі екрани (ноутбук / монітор) */
+@media (min-width: 1200px) {
+  body { padding: 48px 24px 64px; }
+
+  .app {
+    max-width: 1040px;
+    gap: 10px;
   }
 
   .topbar {
-    width: 100%;
+    padding: 14px 22px;
+    gap: 12px 20px;
+  }
+
+  .topbar__title { font-size: 2.6rem; }
+  .topbar__value { font-size: 1.05rem; }
+  .goto-input { font-size: 1.05rem; padding: 8px 16px; }
+}
+
+/* Планшети (альбомна орієнтація та менше) */
+@media (max-width: 1024px) {
+  body { padding: 24px 20px 40px; }
+
+  .app { max-width: 860px; }
+
+  .topbar { padding: 12px 16px; }
+
+  /* зручні зони дотику */
+  .theme-toggle,
+  .goto-btn,
+  .switch-btn {
+    min-height: 44px;
   }
 
   .goto-input {
-    width: 100%;
-    max-width: none;
+    min-height: 44px;
+    font-size: 1.05rem;
   }
+}
+
+/* Планшети (портретна орієнтація) */
+@media (max-width: 768px) {
+  body { padding: 16px 14px 32px; }
+
+  .app {
+    max-width: 100%;
+    gap: 8px;
+  }
+
+  .topbar {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .topbar__title { font-size: 2.25rem; letter-spacing: 2px; }
+
+  .topbar__meta { justify-content: center; }
+
+  .goto-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .buttons-row { flex-wrap: wrap; }
+  .buttons-row > * { flex: 1 1 140px; }
+}
+
+/* Дотикові пристрої: прибираємо hover-ефекти, що "залипають" */
+@media (hover: none) {
+  .topbar__title:hover { text-shadow: 0 2px 10px rgba(255, 255, 255, 0.2); }
+  .topbar__title:hover::after { width: 0; }
+}
+
+
 
 @media (max-width: 600px) and (orientation: portrait) {
     .topbar {
@@ -597,7 +654,7 @@ padding: 2px 8px;
 
 @media (max-width: 480px) {
   .card { padding: 22px 18px 20px;
-  font-size: 1.10rem;
+  font-size: 1.02rem;
   }
 
   .footer__info {
@@ -612,6 +669,3 @@ padding: 2px 8px;
   .footer__divider__tromp86::after { display: none; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; }
-}

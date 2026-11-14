@@ -13,127 +13,132 @@
 const TEXTS = [
 {
   id: "t1",
-  title: "A Request to Change a Work Schedule",
-  body: `To: Jennifer Morris
-Subject: Request for a Temporary Schedule Change
+  title: "A Request for Flexible Parking Arrangements",
+  body: `To: Building Management
+From: Sarah Mitchell
+Subject: Request for a Temporary Change to Parking Arrangements
 
-Hi Jennifer,
+Dear Mr. Collins,
 
-I am writing to ask whether it would be possible to adjust my work schedule for the next three weeks. My evening college course has recently changed its timetable, and I now have to attend classes every Tuesday and Thursday at 5:30 p.m.
+I am writing regarding the parking arrangements at Riverside Office Centre, where I have rented an office on the third floor for the past two years. Until recently, I have been satisfied with the facilities and the services provided by the building management. However, a change in my working arrangements has created a difficulty that I hope you can help me resolve.
 
-At the moment, my regular shift ends at 5:00 p.m. Although I initially thought I could manage both commitments, the journey from the office to the college takes approximately 40 minutes, making it difficult to arrive on time.
+My company recently introduced a new schedule that requires several employees to attend the office earlier than before. I now need to arrive at approximately 6:45 a.m. three days a week. Unfortunately, the underground parking area is not accessible to tenants until 7:00 a.m. Although this restriction has not caused problems for most people in the building, it means that I have to leave my vehicle in the outdoor visitor parking area and move it later in the morning.
 
-I would like to suggest starting work at 7:30 a.m. instead of 8:30 a.m. and finishing at 4:00 p.m. on those two days. I would continue working my usual hours on the other weekdays, so my total weekly hours would remain unchanged.
+I understand that the underground parking system is designed to prevent unauthorized access and that the building has security procedures that must be followed. I am not asking for the general opening hours to be changed. Instead, I would like to know whether it would be possible to receive temporary early access to my assigned parking space.
 
-I understand that this adjustment could affect the afternoon workload, particularly when the team is preparing the weekly reports. I would be happy to complete some of those tasks earlier in the day or coordinate with Mark to ensure that nothing is delayed.
+There is another reason why this arrangement would be helpful. During the winter months, leaving my vehicle outside for extended periods can create additional difficulties, particularly when temperatures are very low. I also carry equipment for client meetings, and having to transfer it between parking areas is inconvenient.
 
-I want to emphasize that this is only a temporary request. Once the course finishes on December 10, I will return to my normal schedule. Please let me know if this arrangement would be suitable or if you would prefer to discuss another solution.
+My current parking agreement expires at the end of December. I would be willing to pay a reasonable additional fee if early access requires a change to my existing agreement. Alternatively, if individual early access cannot be arranged, I would appreciate being placed on a waiting list for one of the parking spaces near the main entrance, where access is available throughout the day.
 
-Thank you for considering my request.
+I would also like to clarify whether the building plans to introduce any changes to its parking policy in the new year. If a permanent adjustment is being considered, I would prefer to discuss that option before renewing my agreement.
 
-Best regards,
-Daniel`,
+I realize that security and fairness to other tenants are important considerations. I would therefore be happy to provide my vehicle registration details or complete any additional paperwork required. I would appreciate it if you could let me know what options are available and whether a temporary arrangement could begin next month.
+
+Thank you for taking the time to consider my request. I look forward to hearing from you.
+
+Kind regards,
+Sarah Mitchell`,
   questions: [
     {
-      q: "Why is Daniel asking to modify his working hours?",
+      q: "Why is Sarah writing to the building manager?",
       options: [
-        "He has accepted a second job in the evenings.",
-        "His college classes now begin earlier on certain days.",
-        "His current schedule conflicts with his updated class timetable.",
-        "He wants to reduce his weekly working hours."
-      ],
-      correct: 2
-    },
-    {
-      q: "The word 'adjust' in the first paragraph is closest in meaning to:",
-      options: [
-        "Change slightly",
-        "Cancel completely",
-        "Confirm officially",
-        "Extend permanently"
-      ],
-      correct: 0
-    },
-    {
-      q: "What does Daniel offer to do to minimize the impact on his team?",
-      options: [
-        "Work additional hours every weekend",
-        "Finish some tasks earlier or coordinate with a colleague",
-        "Ask another employee to prepare all the reports",
-        "Complete his college assignments during lunch breaks"
+        "To report damage to the underground parking area",
+        "To request permission to access parking earlier in the morning",
+        "To complain about the monthly parking fee",
+        "To cancel her current parking agreement"
       ],
       correct: 1
     },
     {
-      q: "What can be inferred about Daniel's attitude toward his responsibilities?",
+      q: "What has recently changed in Sarah's workplace?",
       options: [
-        "He considers his education more important than his job.",
-        "He expects his manager to solve the scheduling problem.",
-        "He is willing to find a solution that does not disrupt the team.",
-        "He is dissatisfied with the amount of work assigned to him."
+        "Employees are expected to work from home more often",
+        "The company has moved to a different office building",
+        "Some employees must now arrive earlier",
+        "The company has reduced the number of working days"
       ],
       correct: 2
     },
     {
-      q: "What does Daniel mean when he says the request is 'only a temporary request'?",
+      q: "Why does Sarah currently use the outdoor visitor parking area?",
       options: [
-        "He wants to change his position within the company.",
-        "He expects the new arrangement to continue indefinitely.",
-        "He plans to leave the company after his course ends.",
-        "He intends to return to his regular schedule after December 10."
+        "Her assigned parking space is being repaired",
+        "She has not yet received a permanent parking permit",
+        "The underground parking area opens after she arrives",
+        "Visitor parking is less expensive than underground parking"
       ],
-      correct: 3
+      correct: 2
     },
     {
-  q: "How long does Daniel need to travel from his workplace to college?",
-  options: [
-    "Approximately half an hour",
-    "About forty minutes",
-    "Nearly one hour",
-    "Less than twenty minutes"
-  ],
-  correct: 1
-},
-{
-  q: "The word 'commitments' in the second paragraph is closest in meaning to:",
-  options: [
-    "Personal preferences",
-    "Financial problems",
-    "Responsibilities or obligations",
-    "Unexpected opportunities"
-  ],
-  correct: 2
-},
-{
-  q: "Which statement about Daniel's proposed schedule is correct?",
-  options: [
-    "He wants to start earlier and finish earlier twice a week.",
-    "He wants to work fewer hours throughout the entire week.",
-    "He plans to change his working days from weekdays to weekends.",
-    "He wants to take two full days off every week."
-  ],
-  correct: 0
-},
-{
-  q: "Why does Daniel mention the weekly reports in his email?",
-  options: [
-    "To explain why he is unhappy with his current position",
-    "To show that his manager has assigned him too much work",
-    "To suggest that the reports should be completed by Mark",
-    "To acknowledge a possible difficulty and offer a way to address it"
-  ],
-  correct: 3
-},
-{
-  q: "What is Daniel mainly expecting from Jennifer?",
-  options: [
-    "Permission to attend college during regular working hours",
-    "Approval or discussion of his proposed temporary schedule",
-    "A permanent reduction in his weekly responsibilities",
-    "An opportunity to transfer to another department"
-  ],
-  correct: 1
-}
+      q: "What does Sarah mean when she says she is not asking for the general opening hours to be changed?",
+      options: [
+        "She wants an individual exception rather than a building-wide policy change",
+        "She believes the parking area should close earlier",
+        "She no longer needs access to underground parking",
+        "She wants all tenants to receive different parking spaces"
+      ],
+      correct: 0
+    },
+    {
+      q: "Which of the following is an additional reason Sarah prefers underground parking?",
+      options: [
+        "She frequently needs to charge her vehicle",
+        "She wants to avoid carrying equipment between parking areas",
+        "Her vehicle is too large for outdoor spaces",
+        "She regularly transports other tenants to work"
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the phrase 'a reasonable additional fee' suggest about Sarah?",
+      options: [
+        "She expects the building to provide the service without charge",
+        "She is prepared to pay more if the request can be accommodated",
+        "She believes her current parking agreement is unfair",
+        "She wants to negotiate a lower monthly parking rate"
+      ],
+      correct: 1
+    },
+    {
+      q: "What alternative does Sarah suggest if early underground access is unavailable?",
+      options: [
+        "Using a parking space near the main entrance",
+        "Receiving a refund for her current parking agreement",
+        "Sharing another tenant's assigned parking space",
+        "Parking in a nearby shopping centre"
+      ],
+      correct: 0
+    },
+    {
+      q: "Why does Sarah mention that her parking agreement expires at the end of December?",
+      options: [
+        "To explain why she cannot continue working in the building",
+        "To indicate that she wants to discuss possible changes before renewing it",
+        "To request an immediate refund of her parking payments",
+        "To inform the manager that she has already found another parking space"
+      ],
+      correct: 1
+    },
+    {
+      q: "What can be inferred about Sarah's attitude toward building management?",
+      options: [
+        "She is strongly dissatisfied and intends to take legal action",
+        "She is generally cooperative and willing to consider different solutions",
+        "She believes management has deliberately ignored her needs",
+        "She is unwilling to follow the building's security procedures"
+      ],
+      correct: 1
+    },
+    {
+      q: "What is Sarah mainly hoping to achieve through this email?",
+      options: [
+        "To have the building's entire parking system replaced",
+        "To obtain a more convenient parking arrangement that suits her new schedule",
+        "To convince management to reduce parking fees for all tenants",
+        "To request permission to use visitor parking permanently"
+      ],
+      correct: 1
+    }
   ]
 },
 {
@@ -265,73 +270,138 @@ Michael Turner`,
     }
   ]
 },
-//   {
-//     "id": "t3",
-//     "title": "Living with More Frequent Extreme Weather",
-//     "body": "Communities in many regions are noticing that severe weather events — intense heat, heavy rainfall, or strong winds — seem to occur more often than in previous decades. While no single storm can be attributed solely to long-term climate trends, the overall pattern has prompted cities and towns to rethink how they prepare.\n\nOne common response has been to improve local infrastructure. This can include expanding storm-water systems, planting more trees to reduce heat in urban areas, or reinforcing buildings against high winds. Such projects are expensive and often take years to complete, yet officials argue that the cost of doing nothing would eventually be higher.\n\nResidents also face practical decisions. Some households have invested in backup power sources or improved insulation. Others have joined neighbourhood groups that share information and resources during emergencies. These informal networks can be especially useful when official services are temporarily overwhelmed.\n\nNot every measure is equally effective everywhere. A solution that works well in a coastal city may be less relevant inland. Local knowledge therefore remains important. People who have lived in an area for a long time often notice subtle changes in weather patterns earlier than outsiders and can offer valuable observations to planners.\n\nPublic communication has become another focus. Clear, timely warnings help people decide when to stay indoors or move to safer locations. However, repeated alerts can also lead to fatigue if residents begin to feel that every message is urgent. Finding the right balance between necessary caution and unnecessary alarm is an ongoing challenge for authorities.\n\nExtreme weather will continue to test communities. The most useful preparations appear to combine physical improvements, neighbour-to-neighbour support, and realistic public information rather than relying on any single approach.",
-//     "questions": [
-//       {
-//         "q": "What point does the author make about individual severe weather events?",
-//         "options": [
-//           "Each one can be directly blamed on long-term climate change.",
-//           "No single event proves a long-term trend by itself, yet the overall pattern is noticeable.",
-//           "They have become less common in recent decades.",
-//           "They only affect coastal regions."
-//         ],
-//         "correct": 1
-//       },
-//       {
-//         "q": "Why does the author mention the high cost of infrastructure projects?",
-//         "options": [
-//           "To argue that such projects should never be started.",
-//           "To acknowledge a difficulty while noting that inaction may prove more expensive later.",
-//           "To claim that only wealthy cities can protect themselves.",
-//           "To suggest that residents should pay for all improvements themselves."
-//         ],
-//         "correct": 1
-//       },
-//       {
-//         "q": "The word “overwhelmed” in paragraph three is closest in meaning to:",
-//         "options": [
-//           "Fully prepared and efficient.",
-//           "Unable to respond adequately because of too many demands.",
-//           "Completely unused during an emergency.",
-//           "Focused only on long-term planning."
-//         ],
-//         "correct": 1
-//       },
-//       {
-//         "q": "What can be inferred about long-term local residents?",
-//         "options": [
-//           "They usually ignore changes in weather.",
-//           "Their experience can provide useful information that outsiders may miss.",
-//           "They are less affected by extreme weather than newcomers.",
-//           "They prefer not to share observations with city planners."
-//         ],
-//         "correct": 1
-//       },
-//       {
-//         "q": "According to the passage, what difficulty can arise from frequent public alerts?",
-//         "options": [
-//           "People may stop taking warnings seriously if they feel every message is presented as urgent.",
-//           "Residents will always move to safer locations too early.",
-//           "Officials will no longer need to issue any warnings.",
-//           "Communication systems will automatically improve."
-//         ],
-//         "correct": 0
-//       },
-//       {
-//         "q": "Which statement best captures the author’s main conclusion?",
-//         "options": [
-//           "Only expensive infrastructure can protect communities.",
-//           "Effective preparation requires a combination of physical measures, local cooperation and careful communication.",
-//           "Individual households should handle all preparations without government help.",
-//           "Extreme weather events are no longer a serious concern."
-//         ],
-//         "correct": 1
-//       }
-//     ]
-//   },
+{
+  id: "t3",
+  title: "A Concern About Changes to a Community Course",
+  body: `To: Community Learning Centre
+From: Daniel Foster
+Subject: Concerns Regarding the Evening Photography Course
+
+Dear Course Coordinator,
+
+I am writing about the evening photography course that I registered for in September. When I enrolled, the course description indicated that classes would take place every Tuesday from 6:00 p.m. to 8:00 p.m. at the downtown learning centre. This schedule was one of the main reasons I chose your program, as it allowed me to attend after finishing work.
+
+Last week, I received an email informing students that the remaining classes would be moved to Thursday evenings. The message explained that the instructor had accepted another professional commitment and would no longer be available on Tuesdays. While I understand that unexpected changes can happen, the new schedule creates a serious problem for me.
+
+I work as a supervisor at a local grocery store, and Thursday is normally one of my busiest evenings. My manager has already explained that changing my shift on a regular basis would be difficult because several other employees have fixed schedules. I might be able to attend one or two Thursday classes, but I cannot guarantee that I would be available every week.
+
+I contacted the instructor to ask whether another group might be available on Tuesdays. She suggested that I speak directly with the administration office because she does not manage class registration. She also mentioned that some students had asked about receiving access to recorded lessons. However, I have not received any confirmation that recordings will actually be provided.
+
+I am particularly concerned because the course includes several practical assignments. We were originally told that students would receive individual feedback during classroom sessions, especially when working with camera settings, lighting, and composition. Watching a recording might help me understand the theory, but it would not necessarily provide the same opportunity to practise with the instructor.
+
+I would like to know whether the centre could offer one of the following arrangements. First, I would be interested in transferring to another photography group that still meets on Tuesdays, even if that means travelling to a different location. If this is not possible, I would appreciate being allowed to complete the course through a combination of recorded lessons and individual practical sessions.
+
+I would prefer not to withdraw from the program, as I have already purchased some of the recommended materials and completed the first three assignments. Nevertheless, if neither option is available, I would like to discuss whether a partial refund could be provided. I understand that the centre may have a policy regarding schedule changes, but I hope that some flexibility can be considered in this situation.
+
+Could you please let me know what alternatives are available before the next scheduled class? I would appreciate receiving a response by Monday, as I need to arrange my work schedule in advance.
+
+Thank you for your assistance.
+
+Sincerely,
+Daniel Foster`,
+  questions: [
+    {
+      q: "Why did Daniel originally choose this photography course?",
+      options: [
+        "It offered free photography equipment",
+        "Its schedule fitted around his working hours",
+        "It was taught entirely online",
+        "It included guaranteed employment after completion"
+      ],
+      correct: 1
+    },
+    {
+      q: "What caused the change in the class schedule?",
+      options: [
+        "The learning centre is renovating its classrooms",
+        "Most students requested a different evening",
+        "The instructor became unavailable on the original day",
+        "The course was combined with another program"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why would attending classes on Thursdays be difficult for Daniel?",
+      options: [
+        "He has another course at the same time",
+        "He usually has additional responsibilities at work that evening",
+        "The learning centre is too far from his workplace",
+        "He is unavailable to work during the afternoon"
+      ],
+      correct: 1
+    },
+    {
+      q: "What does the instructor's response indicate?",
+      options: [
+        "She has the authority to approve refunds",
+        "She is responsible for arranging individual student schedules",
+        "Administrative decisions about registration are handled by another department",
+        "She intends to cancel the photography course"
+      ],
+      correct: 2
+    },
+    {
+      q: "Why is Daniel uncertain about relying on recorded lessons?",
+      options: [
+        "He does not have a suitable computer",
+        "He believes recordings may not provide enough practical instruction",
+        "He has already watched all the available recordings",
+        "He prefers studying photography without an instructor"
+      ],
+      correct: 1
+    },
+    {
+      q: "Which practical topics does Daniel specifically mention?",
+      options: [
+        "Printing photographs and selling camera equipment",
+        "Editing videos and designing websites",
+        "Camera settings, lighting, and composition",
+        "Writing photography advertisements and managing clients"
+      ],
+      correct: 2
+    },
+    {
+      q: "What does Daniel mean by 'a combination of recorded lessons and individual practical sessions'?",
+      options: [
+        "He wants to replace the entire course with private tutoring",
+        "He is suggesting a mixed learning arrangement",
+        "He wants to attend two different courses simultaneously",
+        "He expects the instructor to repeat every lesson twice"
+      ],
+      correct: 1
+    },
+    {
+      q: "Why does Daniel mention the materials he has already purchased and the assignments he has completed?",
+      options: [
+        "To show that he has already invested time and money in the course",
+        "To request that the centre reimburse his equipment expenses",
+        "To demonstrate that he no longer needs classroom instruction",
+        "To explain why he wants to become the next course instructor"
+      ],
+      correct: 0
+    },
+    {
+      q: "What can be inferred about Daniel's preferred solution?",
+      options: [
+        "He would rather continue studying than immediately withdraw",
+        "He wants to cancel the course regardless of the alternatives",
+        "He expects the centre to change the instructor's professional commitments",
+        "He is mainly interested in receiving compensation"
+      ],
+      correct: 0
+    },
+    {
+      q: "Why does Daniel ask for a response by Monday?",
+      options: [
+        "He needs to submit his final photography assignment",
+        "He must decide whether to purchase another camera",
+        "He needs sufficient notice to organize his work commitments",
+        "He plans to complain to the instructor's employer"
+      ],
+      correct: 2
+    }
+  ]
+},
 {
     id: "t4",
     title: "Should School Start Later in the Morning?",
