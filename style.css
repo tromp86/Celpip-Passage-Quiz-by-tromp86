@@ -554,7 +554,7 @@ padding: 2px 8px;
   border: 1px solid var(--line);
   font-family: var(--font-mono);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color : var(--accent);
 }
 
@@ -626,6 +626,10 @@ padding: 2px 8px;
     gap: 4px;
   }
 
+  .card { padding: 22px 18px 20px;
+  font-size: 1.1rem;
+  }
+
   .buttons-row { flex-wrap: wrap; }
   .buttons-row > * { flex: 1 1 140px; }
 }
@@ -650,11 +654,15 @@ padding: 2px 8px;
 
     .topbar{
         width: 100%;
-    }}
+    }
+    .card { padding: 22px 18px 20px;
+  font-size: 1.1rem;
+  }
+  }
 
 @media (max-width: 480px) {
   .card { padding: 22px 18px 20px;
-  font-size: 1.10rem;
+  font-size: 1.1rem;
   }
 
   .footer__info {
